@@ -1,6 +1,6 @@
 import { GoToToday } from "@/components/go-to-today";
-import { Button } from "@/components/ui/button";
 import { VenueDot } from "@/components/venue-dot";
+import { WeekNavLink } from "@/components/week-nav-link";
 import type { DayEntry } from "@/data/group";
 import { formatSydneyDayHeading } from "@/domain/sydney";
 import { isDefaultVenueIds } from "@/domain/venue";
@@ -38,25 +38,38 @@ export function filmHref(slug: string, monday: string, q: WeekQuery = {}) {
 export function WeekNav({
   week,
   query,
+  pendingHref,
+  onNavigate,
 }: {
   week: Week;
   query?: WeekQuery;
+  pendingHref?: string | null;
+  onNavigate?: (href: string) => void;
 }) {
+  const prevHref = weekHref(prevMonday(week.monday), query);
+  const nextHref = weekHref(nextMonday(week.monday), query);
   return (
-    <div className="flex items-center justify-between gap-4">
-      <Button variant="ghost" size="sm" asChild>
-        <Link href={weekHref(prevMonday(week.monday), query)}>
-          Previous
-        </Link>
-      </Button>
+    <div
+      className={`flex items-center justify-between gap-4${pendingHref ? " pointer-events-none" : ""}`}
+      aria-busy={Boolean(pendingHref)}
+    >
+      <WeekNavLink
+        href={prevHref}
+        pending={pendingHref === prevHref}
+        onNavigate={onNavigate}
+      >
+        Previous
+      </WeekNavLink>
       <p className="text-sm text-muted-foreground">
         {formatSydneyDayHeading(week.monday)} – {formatSydneyDayHeading(week.sunday)}
       </p>
-      <Button variant="ghost" size="sm" asChild>
-        <Link href={weekHref(nextMonday(week.monday), query)}>
-          Next
-        </Link>
-      </Button>
+      <WeekNavLink
+        href={nextHref}
+        pending={pendingHref === nextHref}
+        onNavigate={onNavigate}
+      >
+        Next
+      </WeekNavLink>
     </div>
   );
 }

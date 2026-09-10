@@ -18,7 +18,7 @@ import { toggleVenueId, venues } from "@/domain/venue";
 import { nextMonday, type Week } from "@/domain/week";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { startTransition, useMemo, useOptimistic } from "react";
+import { startTransition, useMemo, useOptimistic, useState, useTransition } from "react";
 
 export type WeekViewQuery = {
   venueIds: string[];
@@ -53,6 +53,8 @@ export function WeekViewClient({
 }) {
   const router = useRouter();
   const [query, setQuery] = useOptimistic(initialQuery);
+  const [weekPending, startWeekTransition] = useTransition();
+  const [pendingHref, setPendingHref] = useState<string | null>(null);
   const oneLeftSet = useMemo(() => new Set(oneLeftSlugs), [oneLeftSlugs]);
 
   const shownRows = useMemo(
@@ -88,6 +90,15 @@ export function WeekViewClient({
       router.replace(weekHref(week.monday, next), { scroll: false });
     });
   }
+
+  function goWeek(href: string) {
+    setPendingHref(href);
+    startWeekTransition(() => {
+      router.push(href, { scroll: false });
+    });
+  }
+
+  const weekBusy = weekPending && pendingHref != null;
 
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 px-4 py-8">
@@ -155,34 +166,62 @@ export function WeekViewClient({
           </Toggle>
         </nav>
       </header>
-      <WeekNav week={week} query={weekQuery} />
-      {!hasAny ? (
-        <div className="rounded-lg border p-6 text-sm">
-          <p>Nothing on this week.</p>
-          {shownNext.length > 0 ? (
-            <p className="mt-2">
-              <Link
-                className="underline"
-                href={weekHref(nextMonday(week.monday), weekQuery)}
-              >
-                See {formatSydneyDayHeading(nextMonday(week.monday))} week
-              </Link>
-            </p>
-          ) : null}
-          {!todayOnPage ? (
-            <GoToToday href={todayHref} todayOnPage={false} />
-          ) : null}
-        </div>
-      ) : (
-        <WeekGrid
-          days={week.days}
-          byDay={byDay}
-          today={today}
-          todayHref={todayHref}
-          monday={week.monday}
-          query={weekQuery}
-        />
-      )}
+      <WeekNav
+        week={week}
+        query={weekQuery}
+        pendingHref={weekBusy ? pendingHref : null}
+        onNavigate={goWeek}
+      />
+      <div
+        aria-busy={weekBusy}
+        className={
+          weekBusy
+            ? "pointer-events-none opacity-50 transition-opacity"
+            : "transition-opacity"
+        }
+      >
+        {!hasAny ? (
+          <div className="rounded-lg border p-6 text-sm">
+            <p>Nothing on this week.</p>
+            {shownNext.length > 0 ? (
+              <p className="mt-2">
+                <Link
+                  className="underline"
+                  href={weekHref(nextMonday(week.monday), weekQuery)}
+                  scroll={false}
+                  onClick={(e) => {
+                    if (
+                      e.metaKey ||
+                      e.ctrlKey ||
+                      e.shiftKey ||
+                      e.altKey ||
+                      e.button !== 0
+                    ) {
+                      return;
+                    }
+                    e.preventDefault();
+                    goWeek(weekHref(nextMonday(week.monday), weekQuery));
+                  }}
+                >
+                  See {formatSydneyDayHeading(nextMonday(week.monday))} week
+                </Link>
+              </p>
+            ) : null}
+            {!todayOnPage ? (
+              <GoToToday href={todayHref} todayOnPage={false} />
+            ) : null}
+          </div>
+        ) : (
+          <WeekGrid
+            days={week.days}
+            byDay={byDay}
+            today={today}
+            todayHref={todayHref}
+            monday={week.monday}
+            query={weekQuery}
+          />
+        )}
+      </div>
     </div>
   );
 }
