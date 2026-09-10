@@ -2,6 +2,7 @@
 
 import { FilmWeekList } from "@/components/film-week-list";
 import { GoToToday } from "@/components/go-to-today";
+import { ListingsFade } from "@/components/listings-fade";
 import { ShareButton } from "@/components/share-button";
 import { UpdatedBadge } from "@/components/updated-badge";
 import { Toggle } from "@/components/ui/toggle";
@@ -26,7 +27,7 @@ import { toggleVenueId, venues } from "@/domain/venue";
 import { nextMonday, type Week } from "@/domain/week";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { startTransition, useMemo, useOptimistic, useState, useTransition } from "react";
+import { startTransition, useEffect, useMemo, useOptimistic, useRef, useState, useTransition } from "react";
 
 export type WeekViewQuery = {
   venueIds: string[];
@@ -69,6 +70,41 @@ function firstDayWithEntries(
 
 function isModifiedClick(e: React.MouseEvent) {
   return e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0;
+}
+
+function CinemaDot({ venueId, pressed }: { venueId: string; pressed: boolean }) {
+  const seen = useRef(false);
+  useEffect(() => {
+    seen.current = true;
+  }, []);
+  return (
+    <CinemaDotMark
+      key={pressed ? "on" : "off"}
+      venueId={venueId}
+      animate={seen.current && pressed}
+    />
+  );
+}
+
+function CinemaDotMark({
+  venueId,
+  animate,
+}: {
+  venueId: string;
+  animate: boolean;
+}) {
+  const [play] = useState(animate);
+  return (
+    <span
+      className={
+        play
+          ? "inline-flex motion-safe:animate-in motion-safe:zoom-in-95 motion-safe:duration-150 motion-safe:ease-out motion-safe:fill-mode-both"
+          : "inline-flex"
+      }
+    >
+      <VenueDot venueId={venueId} />
+    </span>
+  );
 }
 
 export function WeekViewClient({
@@ -181,6 +217,18 @@ export function WeekViewClient({
   }
 
   const weekBusy = weekPending && pendingHref != null;
+  const listingsKey = [
+    week.monday,
+    query.view ?? "week",
+    query.day ?? "",
+    query.venueIds.join(","),
+    query.hide9to5 ? "1" : "0",
+    query.oneLeft ? "1" : "0",
+  ].join("|");
+  const showTodayFab =
+    query.venueIds.length > 0 &&
+    !isFilm &&
+    (isDay ? selectedDay !== today : hasAny || !todayOnPage);
 
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 px-4 py-8">
@@ -219,7 +267,7 @@ export function WeekViewClient({
                   })
                 }
               >
-                <VenueDot venueId={v.id} />
+                <CinemaDot venueId={v.id} pressed={pressed} />
                 {v.name}
               </Toggle>
             );
@@ -359,76 +407,84 @@ export function WeekViewClient({
         aria-busy={weekBusy}
         className={
           weekBusy
-            ? "pointer-events-none opacity-50 transition-opacity"
-            : "transition-opacity"
+            ? "pointer-events-none opacity-50 motion-safe:transition-opacity motion-safe:duration-150"
+            : "motion-safe:transition-opacity motion-safe:duration-150"
         }
       >
-        {query.venueIds.length === 0 ? null : isDay && !hasDayAny ? (
-          <div className="w-full max-w-xl rounded-lg border p-6 text-sm">
-            <p>Nothing on this day.</p>
-            {laterDay && laterDayHref ? (
-              <p className="mt-2">
-                <Link
-                  className="underline"
-                  href={laterDayHref}
-                  scroll={false}
-                  onClick={(e) => {
-                    if (isModifiedClick(e)) return;
-                    e.preventDefault();
-                    goListings(laterDayHref);
-                  }}
-                >
-                  See {formatSydneyDayHeading(laterDay)}
-                </Link>
-              </p>
-            ) : null}
-          </div>
-        ) : !hasAny ? (
-          <div className="rounded-lg border p-6 text-sm">
-            <p>Nothing on this week.</p>
-            {shownNext.length > 0 ? (
-              <p className="mt-2">
-                <Link
-                  className="underline"
-                  href={weekHref(nextWeekMonday, weekQuery)}
-                  scroll={false}
-                  onClick={(e) => {
-                    if (isModifiedClick(e)) return;
-                    e.preventDefault();
-                    goWeek(weekHref(nextWeekMonday, weekQuery));
-                  }}
-                >
-                  See {formatSydneyDayHeading(nextWeekMonday)} week
-                </Link>
-              </p>
-            ) : null}
-            {!todayOnPage ? (
-              <GoToToday href={todayHref} todayOnPage={false} />
-            ) : null}
-          </div>
-        ) : isFilm ? (
-          <FilmWeekList
-            entries={byFilm}
-            monday={week.monday}
-            query={weekQuery}
-          />
-        ) : (
-          <WeekGrid
-            days={isDay ? [selectedDay] : week.days}
-            byDay={byDay}
-            today={today}
-            todayHref={todayHref}
-            monday={week.monday}
-            query={weekQuery}
-            showTodayFab={!isDay}
-            onNavigate={goListings}
-          />
+        {query.venueIds.length === 0 ? null : (
+          <ListingsFade
+            id={listingsKey}
+            className={
+              isDay && !hasDayAny
+                ? "w-full max-w-xl rounded-lg border p-6 text-sm"
+                : !hasAny
+                  ? "rounded-lg border p-6 text-sm"
+                  : undefined
+            }
+          >
+            {isDay && !hasDayAny ? (
+              <>
+                <p>Nothing on this day.</p>
+                {laterDay && laterDayHref ? (
+                  <p className="mt-2">
+                    <Link
+                      className="underline"
+                      href={laterDayHref}
+                      scroll={false}
+                      onClick={(e) => {
+                        if (isModifiedClick(e)) return;
+                        e.preventDefault();
+                        goListings(laterDayHref);
+                      }}
+                    >
+                      See {formatSydneyDayHeading(laterDay)}
+                    </Link>
+                  </p>
+                ) : null}
+              </>
+            ) : !hasAny ? (
+              <>
+                <p>Nothing on this week.</p>
+                {shownNext.length > 0 ? (
+                  <p className="mt-2">
+                    <Link
+                      className="underline"
+                      href={weekHref(nextWeekMonday, weekQuery)}
+                      scroll={false}
+                      onClick={(e) => {
+                        if (isModifiedClick(e)) return;
+                        e.preventDefault();
+                        goWeek(weekHref(nextWeekMonday, weekQuery));
+                      }}
+                    >
+                      See {formatSydneyDayHeading(nextWeekMonday)} week
+                    </Link>
+                  </p>
+                ) : null}
+              </>
+            ) : isFilm ? (
+              <FilmWeekList
+                entries={byFilm}
+                monday={week.monday}
+                query={weekQuery}
+              />
+            ) : (
+              <WeekGrid
+                days={isDay ? [selectedDay] : week.days}
+                byDay={byDay}
+                today={today}
+                monday={week.monday}
+                query={weekQuery}
+                onNavigate={goListings}
+              />
+            )}
+          </ListingsFade>
         )}
       </div>
-      {isDay && selectedDay !== today ? (
+      {showTodayFab ? (
         <GoToToday
           href={todayHref}
-          todayOnPage={false}
+          todayOnPage={!isDay && todayOnPage}
           onNavigate={goListings}
         />
       ) : null}

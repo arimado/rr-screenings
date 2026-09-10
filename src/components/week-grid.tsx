@@ -1,5 +1,6 @@
-import { GoToToday } from "@/components/go-to-today";
+import { StickyDayHeading } from "@/components/sticky-day-heading";
 import { VenueDot } from "@/components/venue-dot";
+import { WeekNavLabel } from "@/components/week-nav-label";
 import { WeekNavLink } from "@/components/week-nav-link";
 import type { DayEntry } from "@/data/group";
 import { addDays, formatSydneyDayHeading, formatSydneyWeekRange, mondayOf } from "@/domain/sydney";
@@ -99,21 +100,24 @@ export function WeekNav({
           pending={pendingHref === prevHref}
           onNavigate={onNavigate}
         >
-          <ChevronLeftIcon />
+          <span className="inline-flex motion-safe:transition-transform motion-safe:duration-150 motion-safe:ease-out motion-safe:group-hover/button:-translate-x-px">
+            <ChevronLeftIcon />
+          </span>
         </WeekNavLink>
-        <p
-          className="min-w-0 flex-1 px-1 text-center text-sm font-medium"
-          aria-label={ariaLabel}
-        >
-          {label}
-        </p>
+        <WeekNavLabel
+          label={label}
+          ariaLabel={ariaLabel}
+          dirKey={isDay ? day : week.monday}
+        />
         <WeekNavLink
           href={nextHref}
           label={isDay ? "Next day" : "Next week"}
           pending={pendingHref === nextHref}
           onNavigate={onNavigate}
         >
-          <ChevronRightIcon />
+          <span className="inline-flex motion-safe:transition-transform motion-safe:duration-150 motion-safe:ease-out motion-safe:group-hover/button:translate-x-px">
+            <ChevronRightIcon />
+          </span>
         </WeekNavLink>
       </div>
     </div>
@@ -144,7 +148,7 @@ function EntryCard({ entry, href }: { entry: DayEntry; href: string }) {
   );
 
   const className =
-    "block rounded-lg bg-card p-2 text-left transition-colors hover:bg-accent/50";
+    "block rounded-lg bg-card p-2 text-left motion-safe:transition-[background-color,transform] motion-safe:duration-150 motion-safe:ease-out hover:bg-accent/50 motion-safe:hover:-translate-y-px";
 
   if (outbound) {
     return (
@@ -176,83 +180,70 @@ export function WeekGrid({
   days,
   byDay,
   today,
-  todayHref,
   monday,
   query,
-  showTodayFab = true,
   onNavigate,
 }: {
   days: string[];
   byDay: Map<string, DayEntry[]>;
   today: string;
-  todayHref: string;
   monday: string;
   query: WeekQuery;
-  showTodayFab?: boolean;
   onNavigate?: (href: string) => void;
 }) {
   const dayLayout = days.length === 1;
   return (
-    <>
-      <div
-        className={
-          dayLayout
-            ? "w-full max-w-xl"
-            : "grid gap-6 md:grid-cols-7 md:gap-3"
-        }
-      >
-        {days.map((day) => {
-          const entries = byDay.get(day) ?? [];
-          const isToday = day === today;
-          const href = weekHref(monday, { ...query, view: "day", day });
-          return (
-            <section
-              key={day}
-              id={isToday ? "today" : undefined}
-              className="min-w-0 scroll-mt-3"
-            >
-              {dayLayout ? null : (
-                <h2
-                  className={`sticky top-0 mb-1.5 bg-background py-1 text-xs font-medium ${
-                    isToday ? "text-foreground" : "text-muted-foreground"
-                  }`}
+    <div
+      className={
+        dayLayout
+          ? "w-full max-w-xl"
+          : "grid gap-6 md:grid-cols-7 md:gap-3"
+      }
+    >
+      {days.map((day) => {
+        const entries = byDay.get(day) ?? [];
+        const isToday = day === today;
+        const href = weekHref(monday, { ...query, view: "day", day });
+        return (
+          <section
+            key={day}
+            id={isToday ? "today" : undefined}
+            className="min-w-0 scroll-mt-3"
+          >
+            {dayLayout ? null : (
+              <StickyDayHeading isToday={isToday}>
+                <Link
+                  href={href}
+                  scroll={false}
+                  className="hover:text-foreground hover:underline"
+                  onClick={(e) => {
+                    if (!onNavigate || isModifiedClick(e)) return;
+                    e.preventDefault();
+                    onNavigate(href);
+                  }}
                 >
-                  <Link
-                    href={href}
-                    scroll={false}
-                    className="hover:text-foreground hover:underline"
-                    onClick={(e) => {
-                      if (!onNavigate || isModifiedClick(e)) return;
-                      e.preventDefault();
-                      onNavigate(href);
-                    }}
-                  >
-                    {formatSydneyDayHeading(day)}
-                    {isToday ? " · Today" : ""}
-                  </Link>
-                </h2>
-              )}
-              {entries.length === 0 ? (
-                <p className="text-xs text-muted-foreground">—</p>
-              ) : (
-                <ul className="flex flex-col gap-1.5">
-                  {entries.map((entry) => (
-                    <li key={entry.key}>
-                      <EntryCard
-                        entry={entry}
-                        href={filmHref(entry.slug, monday, query)}
-                      />
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </section>
-          );
-        })}
-      </div>
-      {showTodayFab ? (
-        <GoToToday href={todayHref} todayOnPage={days.includes(today)} />
-      ) : null}
-    </>
+                  {formatSydneyDayHeading(day)}
+                  {isToday ? " · Today" : ""}
+                </Link>
+              </StickyDayHeading>
+            )}
+            {entries.length === 0 ? (
+              <p className="text-xs text-muted-foreground">—</p>
+            ) : (
+              <ul className="flex flex-col gap-1.5">
+                {entries.map((entry) => (
+                  <li key={entry.key}>
+                    <EntryCard
+                      entry={entry}
+                      href={filmHref(entry.slug, monday, query)}
+                    />
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+        );
+      })}
+    </div>
   );
 }

@@ -59,7 +59,7 @@ function FilmCard({
   );
 
   const className =
-    "block h-full rounded-lg bg-card p-2 text-left transition-colors hover:bg-accent/50";
+    "block h-full rounded-lg bg-card p-2 text-left motion-safe:transition-[background-color,transform] motion-safe:duration-150 motion-safe:ease-out hover:bg-accent/50 motion-safe:hover:-translate-y-px";
 
   if (outbound) {
     return (

@@ -51,7 +51,13 @@ export function ShareButton({
       onClick={onShare}
       aria-label={copied ? "Copied" : "Share"}
     >
-      {copied ? "Copied" : <Share2Icon />}
+        {copied ? (
+          <span className="motion-safe:animate-in motion-safe:fade-in-0 motion-safe:duration-150 motion-safe:ease-out motion-safe:fill-mode-both">
+            Copied
+          </span>
+        ) : (
+          <Share2Icon />
+        )}
     </Button>
   );
 }

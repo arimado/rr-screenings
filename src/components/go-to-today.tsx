@@ -19,7 +19,7 @@ export function GoToToday({
   todayOnPage: boolean;
   onNavigate?: (href: string) => void;
 }) {
-  const [hide, setHide] = useState(false);
+  const [hide, setHide] = useState(todayOnPage);
 
   useEffect(() => {
     if (window.location.hash === "#today") {
@@ -42,15 +42,26 @@ export function GoToToday({
     return () => io.disconnect();
   }, [todayOnPage]);
 
-  const className =
-    "fixed right-4 z-20 shadow-md md:hidden bottom-[max(1rem,env(safe-area-inset-bottom))]";
-
-  if (hide) return null;
+  const className = `fixed right-4 z-20 shadow-md md:hidden bottom-[max(1rem,env(safe-area-inset-bottom))] motion-safe:transition-[opacity,transform] motion-safe:duration-150 motion-safe:ease-out ${
+    hide
+      ? "pointer-events-none opacity-0 motion-safe:translate-y-1"
+      : "opacity-100"
+  }`;
 
   if (href.startsWith("#")) {
     return (
-      <Button asChild size="sm" className={className}>
-        <a href={href} onClick={scrollToTodayOnPage} aria-label="Go to today">
+      <Button
+        asChild
+        size="sm"
+        className={className}
+        aria-hidden={hide}
+      >
+        <a
+          href={href}
+          onClick={scrollToTodayOnPage}
+          aria-label="Go to today"
+          tabIndex={hide ? -1 : undefined}
+        >
           Today
         </a>
       </Button>
@@ -58,10 +69,16 @@ export function GoToToday({
   }
 
   return (
-    <Button asChild size="sm" className={className}>
+    <Button
+      asChild
+      size="sm"
+      className={className}
+      aria-hidden={hide}
+    >
       <Link
         href={href}
         aria-label="Go to today"
+        tabIndex={hide ? -1 : undefined}
         onClick={(e) => {
           if (!onNavigate || isModifiedClick(e)) return;
           e.preventDefault();
