@@ -4,7 +4,7 @@ import type { Snapshot } from "../domain/screening";
 import { sources } from "../sources";
 
 const DATA_DIR = join(process.cwd(), "data");
-const TIMEOUT_MS = 60_000;
+const TIMEOUT_MS = 120_000;
 
 async function withTimeout<T>(p: Promise<T>, ms: number, label: string): Promise<T> {
   let t: ReturnType<typeof setTimeout> | undefined;
