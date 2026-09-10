@@ -18,10 +18,9 @@ export function weekSearchParams(monday: string, q: WeekQuery = {}) {
   const params = new URLSearchParams({ week: monday });
   if (
     q.venueIds &&
-    q.venueIds.length > 0 &&
     !isDefaultVenueIds(q.venueIds)
   ) {
-    params.set("venues", q.venueIds.join(","));
+    params.set("venues", q.venueIds.length > 0 ? q.venueIds.join(",") : "none");
   }
   if (q.hide9to5) params.set("hide9to5", "1");
   if (q.oneLeft) params.set("oneLeft", "1");
@@ -110,7 +109,7 @@ function EntryCard({ entry, href }: { entry: DayEntry; href: string }) {
   );
 
   const className =
-    "block rounded-lg border bg-card p-2 text-left transition-colors hover:bg-accent/50";
+    "block rounded-lg bg-card p-2 text-left transition-colors hover:bg-accent/50";
 
   if (outbound) {
     return (

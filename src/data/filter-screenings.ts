@@ -10,11 +10,9 @@ export function applyFilters(
     oneLeftSlugs: Set<string> | null;
   },
 ): Screening[] {
-  let next = rows;
-  if (query.venueIds.length > 0) {
-    const allowed = new Set(query.venueIds);
-    next = next.filter((s) => allowed.has(s.venueId));
-  }
+  if (query.venueIds.length === 0) return [];
+  const allowed = new Set(query.venueIds);
+  let next = rows.filter((s) => allowed.has(s.venueId));
   if (query.oneLeftSlugs) {
     const slugs = query.oneLeftSlugs;
     next = next.filter((s) => slugs.has(filmSlug(s.title, s.year)));

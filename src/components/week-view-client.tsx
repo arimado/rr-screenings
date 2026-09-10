@@ -143,6 +143,11 @@ export function WeekViewClient({
             );
           })}
         </nav>
+        {query.venueIds.length === 0 ? (
+          <p className="mt-2 text-sm text-muted-foreground">
+            Select a cinema to see listings.
+          </p>
+        ) : null}
         <nav className="mt-2 flex flex-wrap gap-2" aria-label="Filters">
           <Toggle
             pressed={query.hide9to5}
@@ -181,7 +186,7 @@ export function WeekViewClient({
             : "transition-opacity"
         }
       >
-        {!hasAny ? (
+        {query.venueIds.length === 0 ? null : !hasAny ? (
           <div className="rounded-lg border p-6 text-sm">
             <p>Nothing on this week.</p>
             {shownNext.length > 0 ? (

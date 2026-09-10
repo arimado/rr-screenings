@@ -76,10 +76,10 @@ export function getVenue(id: string): Venue | undefined {
 
 export function parseVenueIds(raw?: string | string[]): string[] {
   if (raw === undefined) return defaultVenueIds();
-  const parts = (Array.isArray(raw) ? raw.join(",") : raw).split(",");
-  const wanted = new Set(parts.map((s) => s.trim()).filter(Boolean));
-  const parsed = venues.filter((v) => wanted.has(v.id)).map((v) => v.id);
-  return parsed.length > 0 ? parsed : defaultVenueIds();
+  const joined = Array.isArray(raw) ? raw.join(",") : raw;
+  if (joined.trim() === "" || joined.trim() === "none") return [];
+  const wanted = new Set(joined.split(",").map((s) => s.trim()).filter(Boolean));
+  return venues.filter((v) => wanted.has(v.id)).map((v) => v.id);
 }
 
 export function toggleVenueId(selected: string[], id: string): string[] {
