@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import { FilmBackLink } from "@/components/film-back-link";
 import { weekHref } from "@/components/week-grid";
 import {
   filmIsKnown,
@@ -12,7 +13,6 @@ import {
 } from "@/domain/sydney";
 import { getVenue, parseVenueIds } from "@/domain/venue";
 import { parseWeekParam } from "@/domain/week";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
@@ -58,9 +58,7 @@ export default async function FilmPage({
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-6 px-4 py-8">
       <p className="text-sm text-muted-foreground">
-        <Link href={backHref} className="hover:underline">
-          This week
-        </Link>
+        <FilmBackLink href={backHref} />
       </p>
       <header>
         <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
