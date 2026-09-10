@@ -1,5 +1,5 @@
 {
-  "cursor": 50,
+  "cursor": 75,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -577,10 +577,6 @@
     "behemoth": [],
     "blueprint-iconic-jazz-infused-with-the-blues": [],
     "fjord": [],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "focker-in-law": [],
     "four-weddings-and-a-funeral-1994": [
       "ritz:80998"
@@ -643,6 +639,75 @@
     "meet-me-in-st-louis-1944": [
       "ritz:77156",
       "ritz:77157"
-    ]
+    ],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ],
+    "my-fair-lady-1964": [
+      "ritz:77154",
+      "ritz:77155"
+    ],
+    "not-alone": [],
+    "nt-live-golden-boy": [
+      "ritz:90003",
+      "ritz:90004",
+      "ritz:90005"
+    ],
+    "obsession": [],
+    "practical-magic-1998": [
+      "ritz:81881"
+    ],
+    "other-mommy": [],
+    "pressure": [],
+    "psycho-1960": [
+      "ritz:77071",
+      "ritz:77072"
+    ],
+    "primetime": [],
+    "queen-budapest": [
+      "ritz:90662",
+      "ritz:90663"
+    ],
+    "saturday-night-fever-1977": [
+      "ritz:77148",
+      "ritz:77149"
+    ],
+    "school-of-rock-2003": [
+      "ritz:79439",
+      "ritz:79440"
+    ],
+    "sense-and-sensibility": [],
+    "space-jam-1996": [
+      "ritz:80319",
+      "ritz:80320"
+    ],
+    "shakespeare-in-love-1998": [
+      "ritz:81883"
+    ],
+    "spa-weekend": [],
+    "speed-racer-2008": [
+      "ritz:86014",
+      "ritz:86015"
+    ],
+    "stalker-1979": [
+      "ritz:86012",
+      "ritz:86013"
+    ],
+    "stitch-head": [],
+    "sunny-dancer": [],
+    "sweeney-todd-the-demon-barber-of-fleet-street-2007": [
+      "ritz:79441",
+      "ritz:79442"
+    ],
+    "street-fighter": [],
+    "suddenly-30": [
+      "ritz:80996"
+    ],
+    "the-addams-family-1991": [
+      "ritz:80025",
+      "ritz:80026"
+    ],
+    "the-angry-birds-3": []
   }
 }
