@@ -6,6 +6,8 @@ import { instantToSydneyYmd } from "@/domain/sydney";
 
 const DATA_DIR = join(process.cwd(), "data");
 
+let snapshotsCache: { sourceId: string; snapshot: Snapshot }[] | null = null;
+
 function readSnapshotFile(filename: string): Snapshot | null {
   try {
     const raw = readFileSync(join(DATA_DIR, filename), "utf8");
@@ -27,6 +29,7 @@ export function loadSnapshot(sourceId: string): Snapshot | null {
 }
 
 export function loadSnapshots(): { sourceId: string; snapshot: Snapshot }[] {
+  if (snapshotsCache) return snapshotsCache;
   let names: string[] = [];
   try {
     names = readdirSync(DATA_DIR);
@@ -52,6 +55,7 @@ export function loadSnapshots(): { sourceId: string; snapshot: Snapshot }[] {
     const snapshot = loadSnapshot(sourceId);
     if (snapshot) out.push({ sourceId, snapshot });
   }
+  snapshotsCache = out;
   return out;
 }
 
