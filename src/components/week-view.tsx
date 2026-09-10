@@ -9,20 +9,28 @@ import {
 } from "@/data/get-screenings";
 import { addDays, sydneyYmd } from "@/domain/sydney";
 import { parseVenueIds } from "@/domain/venue";
-import { currentWeek, nextMonday, parseWeekParam } from "@/domain/week";
+import { currentWeek, nextMonday, resolveListingsWeek } from "@/domain/week";
 
 export function WeekView({
   weekParam,
   venueIds: venueIdsRaw,
   hide9to5 = false,
   oneLeft = false,
+  view: viewRaw,
+  day: dayRaw,
 }: {
   weekParam?: string;
   venueIds?: string | string[];
   hide9to5?: boolean;
   oneLeft?: boolean;
+  view?: string;
+  day?: string;
 }) {
-  const week = parseWeekParam(weekParam);
+  const { week, view, day } = resolveListingsWeek({
+    weekParam,
+    view: viewRaw,
+    dayParam: dayRaw,
+  });
   const today = sydneyYmd();
   const snapshots = loadSnapshots();
   const stale = snapshots.some(({ snapshot }) => snapshotIsStale(snapshot));
@@ -40,7 +48,12 @@ export function WeekView({
       screenings={getScreeningsForDays(week.days)}
       nextScreenings={getScreeningsForDays(nextWeekDays)}
       oneLeftSlugs={[...slugsWithOneUpcoming()]}
-      initialQuery={{ venueIds, hide9to5, oneLeft }}
+      initialQuery={{
+        venueIds,
+        hide9to5,
+        oneLeft,
+        ...(view === "day" && day ? { view, day } : {}),
+      }}
       updatedAt={updatedAt}
       updatedLabel={updatedAt ? formatUpdatedAgo(updatedAt) : undefined}
       updatedExact={

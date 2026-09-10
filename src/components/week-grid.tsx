@@ -2,7 +2,7 @@ import { GoToToday } from "@/components/go-to-today";
 import { VenueDot } from "@/components/venue-dot";
 import { WeekNavLink } from "@/components/week-nav-link";
 import type { DayEntry } from "@/data/group";
-import { formatSydneyDayHeading, formatSydneyWeekRange } from "@/domain/sydney";
+import { addDays, formatSydneyDayHeading, formatSydneyWeekRange, mondayOf } from "@/domain/sydney";
 import { isDefaultVenueIds } from "@/domain/venue";
 import { nextMonday, prevMonday, type Week } from "@/domain/week";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
@@ -12,6 +12,8 @@ export type WeekQuery = {
   venueIds?: string[];
   hide9to5?: boolean;
   oneLeft?: boolean;
+  view?: "day";
+  day?: string;
 };
 
 export function weekSearchParams(monday: string, q: WeekQuery = {}) {
@@ -24,6 +26,10 @@ export function weekSearchParams(monday: string, q: WeekQuery = {}) {
   }
   if (q.hide9to5) params.set("hide9to5", "1");
   if (q.oneLeft) params.set("oneLeft", "1");
+  if (q.view === "day") {
+    params.set("view", "day");
+    if (q.day) params.set("day", q.day);
+  }
   return params;
 }
 
@@ -39,19 +45,45 @@ export function WeekNav({
   week,
   query,
   currentMonday,
+  today,
   pendingHref,
   onNavigate,
 }: {
   week: Week;
   query?: WeekQuery;
   currentMonday: string;
+  today: string;
   pendingHref?: string | null;
   onNavigate?: (href: string) => void;
 }) {
-  const prevHref = weekHref(prevMonday(week.monday), query);
-  const nextHref = weekHref(nextMonday(week.monday), query);
-  const isCurrent = week.monday === currentMonday;
+  const isDay = query?.view === "day";
+  const day = query?.day ?? week.monday;
+  const prevDay = addDays(day, -1);
+  const nextDay = addDays(day, 1);
+  const prevHref = isDay
+    ? weekHref(mondayOf(prevDay), { ...query, view: "day", day: prevDay })
+    : weekHref(prevMonday(week.monday), query);
+  const nextHref = isDay
+    ? weekHref(mondayOf(nextDay), { ...query, view: "day", day: nextDay })
+    : weekHref(nextMonday(week.monday), query);
   const range = formatSydneyWeekRange(week.monday, week.sunday);
+  const isCurrentWeek = week.monday === currentMonday;
+  const heading = formatSydneyDayHeading(day);
+  const isToday = day === today;
+  const label = isDay
+    ? isToday
+      ? "Today"
+      : heading
+    : isCurrentWeek
+      ? "This week"
+      : range;
+  const ariaLabel = isDay
+    ? isToday
+      ? `Today, ${heading}`
+      : heading
+    : isCurrentWeek
+      ? `This week, ${range}`
+      : range;
   return (
     <div
       className={`flex items-center${pendingHref ? " pointer-events-none" : ""}`}
@@ -60,7 +92,7 @@ export function WeekNav({
       <div className="flex w-full items-center justify-between rounded-lg border border-input bg-background">
         <WeekNavLink
           href={prevHref}
-          label="Previous week"
+          label={isDay ? "Previous day" : "Previous week"}
           pending={pendingHref === prevHref}
           onNavigate={onNavigate}
         >
@@ -68,13 +100,13 @@ export function WeekNav({
         </WeekNavLink>
         <p
           className="min-w-0 flex-1 px-1 text-center text-sm font-medium"
-          aria-label={isCurrent ? `This week, ${range}` : range}
+          aria-label={ariaLabel}
         >
-          {isCurrent ? "This week" : range}
+          {label}
         </p>
         <WeekNavLink
           href={nextHref}
-          label="Next week"
+          label={isDay ? "Next day" : "Next week"}
           pending={pendingHref === nextHref}
           onNavigate={onNavigate}
         >
@@ -131,6 +163,12 @@ function EntryCard({ entry, href }: { entry: DayEntry; href: string }) {
   );
 }
 
+function isModifiedClick(e: React.MouseEvent) {
+  return (
+    e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0
+  );
+}
+
 export function WeekGrid({
   days,
   byDay,
@@ -138,6 +176,8 @@ export function WeekGrid({
   todayHref,
   monday,
   query,
+  showTodayFab = true,
+  onNavigate,
 }: {
   days: string[];
   byDay: Map<string, DayEntry[]>;
@@ -145,27 +185,50 @@ export function WeekGrid({
   todayHref: string;
   monday: string;
   query: WeekQuery;
+  showTodayFab?: boolean;
+  onNavigate?: (href: string) => void;
 }) {
+  const dayLayout = days.length === 1;
   return (
     <>
-      <div className="grid gap-6 md:grid-cols-7 md:gap-3">
+      <div
+        className={
+          dayLayout
+            ? "w-full max-w-xl"
+            : "grid gap-6 md:grid-cols-7 md:gap-3"
+        }
+      >
         {days.map((day) => {
           const entries = byDay.get(day) ?? [];
           const isToday = day === today;
+          const href = weekHref(monday, { ...query, view: "day", day });
           return (
             <section
               key={day}
               id={isToday ? "today" : undefined}
               className="min-w-0 scroll-mt-3"
             >
-              <h2
-                className={`sticky top-0 mb-1.5 bg-background py-1 text-xs font-medium ${
-                  isToday ? "text-foreground" : "text-muted-foreground"
-                }`}
-              >
-                {formatSydneyDayHeading(day)}
-                {isToday ? " · Today" : ""}
-              </h2>
+              {dayLayout ? null : (
+                <h2
+                  className={`sticky top-0 mb-1.5 bg-background py-1 text-xs font-medium ${
+                    isToday ? "text-foreground" : "text-muted-foreground"
+                  }`}
+                >
+                  <Link
+                    href={href}
+                    scroll={false}
+                    className="hover:text-foreground hover:underline"
+                    onClick={(e) => {
+                      if (!onNavigate || isModifiedClick(e)) return;
+                      e.preventDefault();
+                      onNavigate(href);
+                    }}
+                  >
+                    {formatSydneyDayHeading(day)}
+                    {isToday ? " · Today" : ""}
+                  </Link>
+                </h2>
+              )}
               {entries.length === 0 ? (
                 <p className="text-xs text-muted-foreground">—</p>
               ) : (
@@ -184,7 +247,9 @@ export function WeekGrid({
           );
         })}
       </div>
-      <GoToToday href={todayHref} todayOnPage={days.includes(today)} />
+      {showTodayFab ? (
+        <GoToToday href={todayHref} todayOnPage={days.includes(today)} />
+      ) : null}
     </>
   );
 }

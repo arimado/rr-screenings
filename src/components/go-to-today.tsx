@@ -4,12 +4,20 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+function isModifiedClick(e: React.MouseEvent) {
+  return (
+    e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0
+  );
+}
+
 export function GoToToday({
   href,
   todayOnPage,
+  onNavigate,
 }: {
   href: string;
   todayOnPage: boolean;
+  onNavigate?: (href: string) => void;
 }) {
   const [hide, setHide] = useState(false);
 
@@ -51,7 +59,15 @@ export function GoToToday({
 
   return (
     <Button asChild size="sm" className={className}>
-      <Link href={href} aria-label="Go to today">
+      <Link
+        href={href}
+        aria-label="Go to today"
+        onClick={(e) => {
+          if (!onNavigate || isModifiedClick(e)) return;
+          e.preventDefault();
+          onNavigate(href);
+        }}
+      >
         Today
       </Link>
     </Button>

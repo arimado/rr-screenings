@@ -12,7 +12,7 @@ import {
   instantToSydneyYmd,
 } from "@/domain/sydney";
 import { getVenue, parseVenueIds } from "@/domain/venue";
-import { parseWeekParam } from "@/domain/week";
+import { resolveListingsWeek } from "@/domain/week";
 import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
@@ -27,15 +27,29 @@ export default async function FilmPage({
     hide9to5?: string;
     oneLeft?: string;
     venues?: string | string[];
+    view?: string;
+    day?: string;
   }>;
 }) {
   const { slug } = await params;
-  const { week: weekParam, hide9to5, oneLeft, venues } = await searchParams;
-  const week = parseWeekParam(weekParam);
+  const {
+    week: weekParam,
+    hide9to5,
+    oneLeft,
+    venues,
+    view,
+    day: dayParam,
+  } = await searchParams;
+  const { week, view: listingsView, day } = resolveListingsWeek({
+    weekParam,
+    view,
+    dayParam,
+  });
   const backHref = weekHref(week.monday, {
     venueIds: parseVenueIds(venues),
     hide9to5: hide9to5 === "1",
     oneLeft: oneLeft === "1",
+    ...(listingsView === "day" && day ? { view: "day" as const, day } : {}),
   });
   const screenings = getUpcomingBySlug(slug);
   const known = filmIsKnown(slug);

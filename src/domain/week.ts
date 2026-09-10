@@ -15,11 +15,49 @@ export function currentWeek(now: Date = new Date()): Week {
   return weekFromMonday(mondayOf(sydneyYmd(now)));
 }
 
+const YMD = /^\d{4}-\d{2}-\d{2}$/;
+
 export function parseWeekParam(week: string | undefined | null): Week {
-  if (week && /^\d{4}-\d{2}-\d{2}$/.test(week)) {
+  if (week && YMD.test(week)) {
     return weekFromMonday(mondayOf(week));
   }
   return currentWeek();
+}
+
+export function parseDayParam(day: string | undefined | null): string | undefined {
+  if (day && YMD.test(day)) return day;
+  return undefined;
+}
+
+/** Day view wins over `week` when they disagree. Missing/invalid day falls back. */
+export function resolveListingsWeek({
+  weekParam,
+  view,
+  dayParam,
+  today = sydneyYmd(),
+}: {
+  weekParam?: string;
+  view?: string;
+  dayParam?: string;
+  today?: string;
+}): { week: Week; view?: "day"; day?: string } {
+  if (view === "day") {
+    const parsed = parseDayParam(dayParam);
+    if (parsed) {
+      return {
+        week: weekFromMonday(mondayOf(parsed)),
+        view: "day",
+        day: parsed,
+      };
+    }
+    const week = parseWeekParam(weekParam);
+    return {
+      week,
+      view: "day",
+      day: week.days.includes(today) ? today : week.monday,
+    };
+  }
+  return { week: parseWeekParam(weekParam) };
 }
 
 export function prevMonday(monday: string): string {
