@@ -1,4 +1,6 @@
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { SITE_DESCRIPTION, SITE_NAME } from "@/domain/share";
+import { siteUrl } from "@/lib/site-url";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -14,9 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "rr-movies",
-  description:
-    "This week at the Ritz, Golden Age, Dendy Newtown, the Orpheum, AGNSW, Palace Norton St, Palace Central, and Palace Moore Park.",
+  metadataBase: siteUrl(),
+  title: {
+    default: SITE_NAME,
+    template: `%s · ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

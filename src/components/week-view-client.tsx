@@ -1,6 +1,7 @@
 "use client";
 
 import { GoToToday } from "@/components/go-to-today";
+import { ShareButton } from "@/components/share-button";
 import { UpdatedBadge } from "@/components/updated-badge";
 import { Toggle } from "@/components/ui/toggle";
 import {
@@ -18,6 +19,7 @@ import {
 import { applyFilters } from "@/data/filter-screenings";
 import { groupDayEntries, type DayEntry } from "@/data/group";
 import type { Screening } from "@/domain/screening";
+import { listingsShareTitle, siteTitle } from "@/domain/share";
 import { addDays, formatSydneyDayHeading } from "@/domain/sydney";
 import { toggleVenueId, venues } from "@/domain/venue";
 import { nextMonday, type Week } from "@/domain/week";
@@ -44,9 +46,11 @@ function toWeekQuery(q: WeekViewQuery): WeekQuery {
 
 function parseListingsHref(href: string) {
   const url = new URL(href, "https://example.invalid");
+  const day = url.searchParams.get("day");
+  const view = url.searchParams.get("view");
   return {
-    view: url.searchParams.get("view"),
-    day: url.searchParams.get("day"),
+    view: day || view === "day" ? "day" : view,
+    day,
   };
 }
 
@@ -290,14 +294,27 @@ export function WeekViewClient({
             Day
           </Toggle>
         </nav>
-        <WeekNav
-          week={week}
-          query={weekQuery}
-          currentMonday={currentMonday}
-          today={today}
-          pendingHref={weekBusy ? pendingHref : null}
-          onNavigate={goListings}
-        />
+        <div className="flex items-center gap-1">
+          <div className="min-w-0 flex-1">
+            <WeekNav
+              week={week}
+              query={weekQuery}
+              currentMonday={currentMonday}
+              today={today}
+              pendingHref={weekBusy ? pendingHref : null}
+              onNavigate={goListings}
+            />
+          </div>
+          <ShareButton
+            title={siteTitle(
+              listingsShareTitle({
+                week,
+                view: isDay ? "day" : undefined,
+                day: isDay ? selectedDay : undefined,
+              }),
+            )}
+          />
+        </div>
       </div>
       <div
         aria-busy={weekBusy}

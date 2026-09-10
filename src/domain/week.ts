@@ -29,7 +29,11 @@ export function parseDayParam(day: string | undefined | null): string | undefine
   return undefined;
 }
 
-/** Day view wins over `week` when they disagree. Missing/invalid day falls back. */
+/**
+ * A valid `day` implies day view (even without `view=day`).
+ * `view=day` without a date falls back to today or that week's Monday.
+ * Day wins over `week` when they disagree. Old `view=day&week=&day=` links still work.
+ */
 export function resolveListingsWeek({
   weekParam,
   view,
@@ -41,15 +45,15 @@ export function resolveListingsWeek({
   dayParam?: string;
   today?: string;
 }): { week: Week; view?: "day"; day?: string } {
+  const parsed = parseDayParam(dayParam);
+  if (parsed) {
+    return {
+      week: weekFromMonday(mondayOf(parsed)),
+      view: "day",
+      day: parsed,
+    };
+  }
   if (view === "day") {
-    const parsed = parseDayParam(dayParam);
-    if (parsed) {
-      return {
-        week: weekFromMonday(mondayOf(parsed)),
-        view: "day",
-        day: parsed,
-      };
-    }
     const week = parseWeekParam(weekParam);
     return {
       week,

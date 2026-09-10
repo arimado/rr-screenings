@@ -1,21 +1,32 @@
 import { WeekView } from "@/components/week-view";
 import { getVenue } from "@/domain/venue";
+import {
+  listingsMetadata,
+  type ListingsSearch,
+} from "@/lib/listings-metadata";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ venueId: string }>;
+  searchParams: Promise<ListingsSearch>;
+}): Promise<Metadata> {
+  const { venueId } = await params;
+  const { week, view, day } = await searchParams;
+  return listingsMetadata({ week, view, day, venueId });
+}
 
 export default async function VenuePage({
   params,
   searchParams,
 }: {
   params: Promise<{ venueId: string }>;
-  searchParams: Promise<{
-    week?: string;
-    hide9to5?: string;
-    oneLeft?: string;
-    view?: string;
-    day?: string;
-  }>;
+  searchParams: Promise<ListingsSearch>;
 }) {
   const { venueId } = await params;
   const { week, hide9to5, oneLeft, view, day } = await searchParams;

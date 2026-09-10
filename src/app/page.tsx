@@ -1,18 +1,25 @@
 import { WeekView } from "@/components/week-view";
+import {
+  listingsMetadata,
+  type ListingsSearch,
+} from "@/lib/listings-metadata";
+import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<ListingsSearch>;
+}): Promise<Metadata> {
+  const { week, view, day } = await searchParams;
+  return listingsMetadata({ week, view, day });
+}
 
 export default async function HomePage({
   searchParams,
 }: {
-  searchParams: Promise<{
-    week?: string;
-    hide9to5?: string;
-    oneLeft?: string;
-    venues?: string | string[];
-    view?: string;
-    day?: string;
-  }>;
+  searchParams: Promise<ListingsSearch>;
 }) {
   const {
     week: weekParam,

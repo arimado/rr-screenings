@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { FilmBackLink } from "@/components/film-back-link";
+import { ShareButton } from "@/components/share-button";
 import { weekHref } from "@/components/week-grid";
 import {
   filmIsKnown,
@@ -7,29 +8,51 @@ import {
   knownFilmMeta,
 } from "@/data/get-screenings";
 import {
+  filmCanonicalPath,
+  filmShareTitle,
+  siteTitle,
+} from "@/domain/share";
+import {
   formatSydneyDayHeading,
   formatSydneyTime,
   instantToSydneyYmd,
 } from "@/domain/sydney";
 import { getVenue, parseVenueIds } from "@/domain/venue";
 import { resolveListingsWeek } from "@/domain/week";
+import type { ListingsSearch } from "@/lib/listings-metadata";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const screenings = getUpcomingBySlug(slug);
+  const meta = knownFilmMeta(slug);
+  const name = screenings[0]?.title ?? meta?.title;
+  const year = screenings[0]?.year ?? meta?.year;
+  if (!name) return { title: { absolute: siteTitle() } };
+  const label = filmShareTitle(name, year);
+  const title = siteTitle(label);
+  const description = `Upcoming Sydney screenings of ${label}.`;
+  return {
+    title: { absolute: title },
+    description,
+    openGraph: { title, description },
+    twitter: { card: "summary", title, description },
+  };
+}
 
 export default async function FilmPage({
   params,
   searchParams,
 }: {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{
-    week?: string;
-    hide9to5?: string;
-    oneLeft?: string;
-    venues?: string | string[];
-    view?: string;
-    day?: string;
-  }>;
+  searchParams: Promise<ListingsSearch>;
 }) {
   const { slug } = await params;
   const {
@@ -59,13 +82,14 @@ export default async function FilmPage({
 
   const title = screenings[0]?.title ?? meta?.title;
   const year = screenings[0]?.year ?? meta?.year;
+  const shareLabel = title ? filmShareTitle(title, year) : undefined;
 
   const byDay = new Map<string, typeof screenings>();
   for (const s of screenings) {
-    const day = instantToSydneyYmd(s.startsAt);
-    const list = byDay.get(day) ?? [];
+    const ymd = instantToSydneyYmd(s.startsAt);
+    const list = byDay.get(ymd) ?? [];
     list.push(s);
-    byDay.set(day, list);
+    byDay.set(ymd, list);
   }
   const days = [...byDay.keys()].sort();
 
@@ -74,20 +98,30 @@ export default async function FilmPage({
       <p className="text-sm text-muted-foreground">
         <FilmBackLink href={backHref} />
       </p>
-      <header>
-        <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
-        {year != null ? (
-          <p className="text-sm text-muted-foreground">{year}</p>
+      <header className="flex items-start justify-between gap-3">
+        <div>
+          <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
+          {year != null ? (
+            <p className="text-sm text-muted-foreground">{year}</p>
+          ) : null}
+        </div>
+        {shareLabel ? (
+          <ShareButton
+            title={siteTitle(shareLabel)}
+            url={filmCanonicalPath(slug)}
+          />
         ) : null}
       </header>
       {screenings.length === 0 ? (
         <p className="text-sm text-muted-foreground">This film has finished.</p>
       ) : (
-        days.map((day) => (
-          <section key={day} className="flex flex-col gap-2">
-            <h2 className="text-sm font-medium">{formatSydneyDayHeading(day)}</h2>
+        days.map((ymd) => (
+          <section key={ymd} className="flex flex-col gap-2">
+            <h2 className="text-sm font-medium">
+              {formatSydneyDayHeading(ymd)}
+            </h2>
             <ul className="flex flex-col gap-2">
-              {(byDay.get(day) ?? [])
+              {(byDay.get(ymd) ?? [])
                 .slice()
                 .sort((a, b) => a.startsAt.localeCompare(b.startsAt))
                 .map((s) => {

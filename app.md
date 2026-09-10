@@ -22,13 +22,15 @@ Sydney calendar dates only, as in `domain.md`.
 ## Routes
 
 1. **`/` — Week**  
-   Front door. Current week, Monday–Sunday. Prev/next week, not a month jump.
+   Front door. Current week, Monday–Sunday. Prev/next week, not a month jump. After navigation the week is pinned as `?week=YYYY-MM-DD`. Bare `/` is whatever this week is.
+
+   Day view is `?day=YYYY-MM-DD` (no `week`, no `view`). A valid `day` is enough; old `view=day&week=&day=` links still open that day. Share copies the current listings URL, filters included (`venues`, `hide9to5`, `oneLeft`).
 
 2. **`/film/[slug]` — Film**  
-   Title, optional year, remaining sessions grouped by day then venue, book on each time. Slug is the derived film id (`the-odyssey-2026`). The week query (`week`, `venues`, `hide9to5`, `oneLeft`) rides on the film URL so “This week” can return to the same grid.
+   Title, optional year, remaining sessions grouped by day then venue, book on each time. Slug is the derived film id (`the-odyssey-2026`). The listings query (`week` or `day`, plus `venues`, `hide9to5`, `oneLeft`) rides on in-app film links so Back can return to the same grid. Share sends `/film/[slug]` only.
 
 3. **`/venue/[venueId]` — Venue**  
-   Same week grid, that cinema only. No separate layout language.
+   Same week grid, that cinema only. No separate layout language. Same day/week query and Share as `/`.
 
 No map, no search page, no “my list.” Query params on `/` for filters are enough (`venues`) once there is more than one cinema.
 

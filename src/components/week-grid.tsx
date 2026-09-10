@@ -17,7 +17,13 @@ export type WeekQuery = {
 };
 
 export function weekSearchParams(monday: string, q: WeekQuery = {}) {
-  const params = new URLSearchParams({ week: monday });
+  const params = new URLSearchParams();
+  if (q.view === "day" && q.day) {
+    params.set("day", q.day);
+  } else {
+    params.set("week", monday);
+    if (q.view === "day") params.set("view", "day");
+  }
   if (
     q.venueIds &&
     !isDefaultVenueIds(q.venueIds)
@@ -26,10 +32,6 @@ export function weekSearchParams(monday: string, q: WeekQuery = {}) {
   }
   if (q.hide9to5) params.set("hide9to5", "1");
   if (q.oneLeft) params.set("oneLeft", "1");
-  if (q.view === "day") {
-    params.set("view", "day");
-    if (q.day) params.set("day", q.day);
-  }
   return params;
 }
 
