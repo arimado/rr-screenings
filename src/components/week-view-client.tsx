@@ -169,6 +169,7 @@ export function WeekViewClient({
       <WeekNav
         week={week}
         query={weekQuery}
+        currentMonday={currentMonday}
         pendingHref={weekBusy ? pendingHref : null}
         onNavigate={goWeek}
       />

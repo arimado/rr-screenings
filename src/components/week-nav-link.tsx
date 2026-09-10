@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 import { Loader2Icon } from "lucide-react";
 import Link from "next/link";
 
@@ -13,20 +12,23 @@ function isModifiedClick(e: React.MouseEvent) {
 
 export function WeekNavLink({
   href,
-  children,
+  label,
   pending = false,
   onNavigate,
+  children,
 }: {
   href: string;
-  children: React.ReactNode;
+  label: string;
   pending?: boolean;
   onNavigate?: (href: string) => void;
+  children: React.ReactNode;
 }) {
   return (
-    <Button variant="ghost" size="sm" asChild>
+    <Button variant="ghost" size="icon-sm" asChild>
       <Link
         href={href}
         scroll={false}
+        aria-label={label}
         aria-busy={pending}
         onClick={(e) => {
           if (!onNavigate || isModifiedClick(e)) return;
@@ -34,15 +36,11 @@ export function WeekNavLink({
           onNavigate(href);
         }}
       >
-        {children}
-        <Loader2Icon
-          data-icon="inline-end"
-          aria-hidden
-          className={cn(
-            "size-3.5",
-            pending ? "animate-spin opacity-100" : "opacity-0",
-          )}
-        />
+        {pending ? (
+          <Loader2Icon aria-hidden className="size-3.5 animate-spin" />
+        ) : (
+          children
+        )}
       </Link>
     </Button>
   );

@@ -2,9 +2,10 @@ import { GoToToday } from "@/components/go-to-today";
 import { VenueDot } from "@/components/venue-dot";
 import { WeekNavLink } from "@/components/week-nav-link";
 import type { DayEntry } from "@/data/group";
-import { formatSydneyDayHeading } from "@/domain/sydney";
+import { formatSydneyDayHeading, formatSydneyWeekRange } from "@/domain/sydney";
 import { isDefaultVenueIds } from "@/domain/venue";
 import { nextMonday, prevMonday, type Week } from "@/domain/week";
+import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 
 export type WeekQuery = {
@@ -38,38 +39,49 @@ export function filmHref(slug: string, monday: string, q: WeekQuery = {}) {
 export function WeekNav({
   week,
   query,
+  currentMonday,
   pendingHref,
   onNavigate,
 }: {
   week: Week;
   query?: WeekQuery;
+  currentMonday: string;
   pendingHref?: string | null;
   onNavigate?: (href: string) => void;
 }) {
   const prevHref = weekHref(prevMonday(week.monday), query);
   const nextHref = weekHref(nextMonday(week.monday), query);
+  const isCurrent = week.monday === currentMonday;
+  const range = formatSydneyWeekRange(week.monday, week.sunday);
   return (
     <div
-      className={`flex items-center justify-between gap-4${pendingHref ? " pointer-events-none" : ""}`}
+      className={`sticky top-0 z-20 -mx-4 bg-background px-4 py-2 md:static md:mx-0 md:px-0 md:py-0${pendingHref ? " pointer-events-none" : ""}`}
       aria-busy={Boolean(pendingHref)}
     >
-      <WeekNavLink
-        href={prevHref}
-        pending={pendingHref === prevHref}
-        onNavigate={onNavigate}
-      >
-        Previous
-      </WeekNavLink>
-      <p className="text-sm text-muted-foreground">
-        {formatSydneyDayHeading(week.monday)} – {formatSydneyDayHeading(week.sunday)}
-      </p>
-      <WeekNavLink
-        href={nextHref}
-        pending={pendingHref === nextHref}
-        onNavigate={onNavigate}
-      >
-        Next
-      </WeekNavLink>
+      <div className="flex w-full items-center justify-between rounded-lg border border-input bg-background">
+        <WeekNavLink
+          href={prevHref}
+          label="Previous week"
+          pending={pendingHref === prevHref}
+          onNavigate={onNavigate}
+        >
+          <ChevronLeftIcon />
+        </WeekNavLink>
+        <p
+          className="min-w-0 flex-1 px-1 text-center text-sm font-medium"
+          aria-label={isCurrent ? `This week, ${range}` : range}
+        >
+          {isCurrent ? "This week" : range}
+        </p>
+        <WeekNavLink
+          href={nextHref}
+          label="Next week"
+          pending={pendingHref === nextHref}
+          onNavigate={onNavigate}
+        >
+          <ChevronRightIcon />
+        </WeekNavLink>
+      </div>
     </div>
   );
 }
@@ -145,10 +157,10 @@ export function WeekGrid({
             <section
               key={day}
               id={isToday ? "today" : undefined}
-              className="min-w-0 scroll-mt-3"
+              className="min-w-0 scroll-mt-14 md:scroll-mt-3"
             >
               <h2
-                className={`sticky top-0 mb-1.5 bg-background py-1 text-xs font-medium ${
+                className={`sticky top-12 z-10 mb-1.5 bg-background py-1 text-xs font-medium md:top-0 ${
                   isToday ? "text-foreground" : "text-muted-foreground"
                 }`}
               >

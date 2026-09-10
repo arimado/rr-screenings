@@ -32,6 +32,36 @@ export function formatSydneyDayHeading(ymd: string): string {
   }).format(utcNoon);
 }
 
+/** Compact Mon–Sun range, e.g. `7–13 Sep` or `28 Sep–4 Oct`. */
+export function formatSydneyWeekRange(monday: string, sunday: string): string {
+  const start = ymdToUtcNoon(monday);
+  const end = ymdToUtcNoon(sunday);
+  const dayMonth = new Intl.DateTimeFormat("en-AU", {
+    timeZone: SYDNEY,
+    day: "numeric",
+    month: "short",
+  });
+  const dayOnly = new Intl.DateTimeFormat("en-AU", {
+    timeZone: SYDNEY,
+    day: "numeric",
+  });
+  const sameYear = monday.slice(0, 4) === sunday.slice(0, 4);
+  const sameMonth = sameYear && monday.slice(5, 7) === sunday.slice(5, 7);
+  if (sameMonth) {
+    return `${dayOnly.format(start)}–${dayMonth.format(end)}`;
+  }
+  if (sameYear) {
+    return `${dayMonth.format(start)}–${dayMonth.format(end)}`;
+  }
+  const withYear = new Intl.DateTimeFormat("en-AU", {
+    timeZone: SYDNEY,
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+  return `${withYear.format(start)}–${withYear.format(end)}`;
+}
+
 function ymdToUtcNoon(ymd: string): Date {
   const [y, m, d] = ymd.split("-").map(Number);
   return new Date(Date.UTC(y, m - 1, d, 12, 0, 0));
