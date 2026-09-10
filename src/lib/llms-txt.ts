@@ -25,7 +25,7 @@ The cinema list is the product. Ritz, Golden Age, Dendy Newtown, the Orpheum, AG
 
 Sydney only. Days and times are Australia/Sydney. No accounts, no maps, no editorial film picks — taste is which rooms we include. Listings come from those cinemas. The only fact is a screening: this film, at this cinema, starting at this instant. The week is Monday–Sunday. Past sessions are dropped, so earlier days of the current week may be empty.
 
-Useful query params on \`/\` and \`/venue/{id}\`: \`day=YYYY-MM-DD\` (one Sydney date), \`view=film\` (group the week by title), \`venues=id,id\` (cinema filter), \`hide9to5=1\` (weekends plus weekdays from 5pm), \`oneLeft=1\` (films with one remaining session). Film pages are \`${origin}/film/{slug}\`.
+Useful query params on \`/\` and \`/venue/{id}\`: \`day=YYYY-MM-DD\` (one Sydney date), \`view=film\` (group the week by title), \`view=month&month=YYYY-MM\` (stack every Monday–Sunday week that overlaps that Sydney month), \`venues=id,id\` (cinema filter), \`hide9to5=1\` (weekends plus weekdays from 5pm), \`oneLeft=1\` (films with one remaining session). Film pages are \`${origin}/film/{slug}\`.
 
 ## Pages
 

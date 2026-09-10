@@ -9,7 +9,7 @@ import { UpdatedBadge } from "@/components/updated-badge";
 import { Empty, EmptyHeader, EmptyMedia, EmptyTitle } from "@/components/ui/empty";
 import { Toggle, toggleVariants } from "@/components/ui/toggle";
 import { VenueDot } from "@/components/venue-dot";
-import { WeekGrid, WeekNav } from "@/components/week-grid";
+import { MonthNav, WeekGrid, WeekNav } from "@/components/week-grid";
 import { applyFilters } from "@/data/filter-screenings";
 import type { VenueListingStats } from "@/data/get-screenings";
 import { groupDayEntries, groupFilmEntries, type DayEntry } from "@/data/group";
@@ -22,8 +22,16 @@ import {
   venueCanonicalPath,
 } from "@/domain/share";
 import {
+  firstMondayInMonth,
+  monthFromYyyyMm,
+  nextMonth,
+  yearMonthOf,
+  type Month,
+} from "@/domain/month";
+import {
   addDays,
   formatSydneyDayHeading,
+  formatSydneyMonth,
   formatSydneyThrough,
   mondayOf,
 } from "@/domain/sydney";
@@ -51,8 +59,9 @@ export type WeekViewQuery = {
   venueIds: string[];
   hide9to5: boolean;
   oneLeft: boolean;
-  view?: "day" | "film";
+  view?: "day" | "film" | "month";
   day?: string;
+  month?: string;
 };
 
 function toWeekQuery(q: WeekViewQuery): WeekQuery {
@@ -62,6 +71,9 @@ function toWeekQuery(q: WeekViewQuery): WeekQuery {
     oneLeft: q.oneLeft,
     ...(q.view === "day" && q.day ? { view: "day" as const, day: q.day } : {}),
     ...(q.view === "film" ? { view: "film" as const } : {}),
+    ...(q.view === "month" && q.month
+      ? { view: "month" as const, month: q.month }
+      : {}),
   };
 }
 
@@ -70,10 +82,12 @@ function parseListingsHref(href: string) {
   const day = url.searchParams.get("day");
   const view = url.searchParams.get("view");
   const weekParam = url.searchParams.get("week");
+  const month = url.searchParams.get("month");
   return {
     view: day || view === "day" ? "day" : view,
     day,
     monday: day ? mondayOf(day) : weekParam ? mondayOf(weekParam) : undefined,
+    month,
   };
 }
 
@@ -88,6 +102,15 @@ function queryFromHref(query: WeekViewQuery, href: string): WeekViewQuery {
       hide9to5: query.hide9to5,
       oneLeft: query.oneLeft,
       view: "film",
+    };
+  }
+  if (parsed.view === "month") {
+    return {
+      venueIds: query.venueIds,
+      hide9to5: query.hide9to5,
+      oneLeft: query.oneLeft,
+      view: "month",
+      month: parsed.month ?? query.month,
     };
   }
   return {
@@ -133,8 +156,32 @@ function syncListingsUrl(href: string) {
   window.history.replaceState(window.history.state, "", href);
 }
 
+function cacheKey(parsed: ReturnType<typeof parseListingsHref>) {
+  if (parsed.view === "month") {
+    return parsed.month ? `m:${parsed.month}` : undefined;
+  }
+  return parsed.monday;
+}
+
+function seedWeekSlices(
+  cache: Map<string, ListingsRow[]>,
+  rows: ListingsRow[],
+) {
+  const byMonday = new Map<string, ListingsRow[]>();
+  for (const row of rows) {
+    const monday = mondayOf(row.day);
+    const list = byMonday.get(monday) ?? [];
+    list.push(row);
+    byMonday.set(monday, list);
+  }
+  for (const [monday, list] of byMonday) {
+    cache.set(monday, list);
+  }
+}
+
 export function WeekViewClient({
   week: serverWeek,
+  month: serverMonth,
   today,
   currentMonday,
   screenings: serverScreenings,
@@ -148,6 +195,7 @@ export function WeekViewClient({
   stale,
 }: {
   week: Week;
+  month?: Month;
   today: string;
   currentMonday: string;
   screenings: ListingsRow[];
@@ -164,24 +212,28 @@ export function WeekViewClient({
   const serverListings = useMemo(
     () => ({
       week: serverWeek,
+      month: serverMonth,
       screenings: serverScreenings,
       nextScreenings: serverNextScreenings,
     }),
-    [serverWeek, serverScreenings, serverNextScreenings],
+    [serverWeek, serverMonth, serverScreenings, serverNextScreenings],
   );
+  const serverKey = serverMonth
+    ? `m:${serverMonth.yearMonth}`
+    : `w:${serverWeek.monday}`;
   const [query, setQuery] = useState(initialQuery);
   const [listings, setListings] = useState(serverListings);
-  const [appliedMonday, setAppliedMonday] = useState(serverWeek.monday);
+  const [appliedKey, setAppliedKey] = useState(serverKey);
   const [weekPending, startWeekTransition] = useTransition();
   const [pendingHref, setPendingHref] = useState<string | null>(null);
   const weekCache = useRef(new Map<string, ListingsRow[]>());
-  if (serverWeek.monday !== appliedMonday) {
-    setAppliedMonday(serverWeek.monday);
+  if (serverKey !== appliedKey) {
+    setAppliedKey(serverKey);
     setQuery(initialQuery);
     setListings(serverListings);
   }
 
-  const { week, screenings, nextScreenings } = listings;
+  const { week, month, screenings, nextScreenings } = listings;
   const oneLeftSet = useMemo(() => new Set(oneLeftSlugs), [oneLeftSlugs]);
 
   const shownRows = useMemo(
@@ -213,30 +265,60 @@ export function WeekViewClient({
 
   const isDay = query.view === "day";
   const isFilm = query.view === "film";
+  const isMonth = query.view === "month";
   const allOn = isAllVenueIds(query.venueIds);
   const selectedDay = query.day ?? week.monday;
   const hasAny = shownRows.length > 0;
   const hasDayAny = (byDay.get(selectedDay)?.length ?? 0) > 0;
-  const todayOnPage = week.days.includes(today);
+  const knownDays = month?.days ?? week.days;
+  const todayOnPage = knownDays.includes(today);
+  const currentYearMonth = yearMonthOf(today);
   const weekQuery = toWeekQuery(query);
   const todayHref = isDay
     ? weekHref(currentMonday, { ...weekQuery, view: "day", day: today })
     : isFilm
       ? weekHref(currentMonday, weekQuery)
-      : todayOnPage
-        ? "#today"
-        : `${weekHref(currentMonday, weekQuery)}#today`;
+      : isMonth
+        ? todayOnPage
+          ? "#today"
+          : `${weekHref(currentMonday, {
+              ...weekQuery,
+              view: "month",
+              month: currentYearMonth,
+            })}#today`
+        : todayOnPage
+          ? "#today"
+          : `${weekHref(currentMonday, weekQuery)}#today`;
   const laterDay =
     isDay
-      ? (firstDayWithEntries(week.days, byDay, selectedDay) ??
+      ? (firstDayWithEntries(knownDays, byDay, selectedDay) ??
         firstDayWithEntries(nextWeekDays, nextByDay))
       : undefined;
   const laterDayHref = laterDay
     ? weekHref(
-        week.days.includes(laterDay) ? week.monday : nextWeekMonday,
+        knownDays.includes(laterDay) ? mondayOf(laterDay) : nextWeekMonday,
         { ...weekQuery, view: "day", day: laterDay },
       )
     : null;
+  const nextMonthYear = month ? nextMonth(month.yearMonth) : undefined;
+
+  function weekAnchorMonday() {
+    if (isDay && query.day) return mondayOf(query.day);
+    if (isMonth && query.month) {
+      return query.month === currentYearMonth
+        ? currentMonday
+        : firstMondayInMonth(query.month);
+    }
+    return week.monday;
+  }
+
+  function filterQuery(): WeekViewQuery {
+    return {
+      venueIds: query.venueIds,
+      hide9to5: query.hide9to5,
+      oneLeft: query.oneLeft,
+    };
+  }
 
   function commit(next: WeekViewQuery) {
     syncListingsUrl(weekHref(week.monday, toWeekQuery(next)));
@@ -245,23 +327,58 @@ export function WeekViewClient({
 
   function goWeek(href: string) {
     const parsed = parseListingsHref(href);
-    const monday = parsed.monday;
-    weekCache.current.set(serverWeek.monday, serverScreenings);
-    weekCache.current.set(
-      nextMonday(serverWeek.monday),
-      serverNextScreenings,
-    );
-    weekCache.current.set(week.monday, screenings);
-    if (monday != null && weekCache.current.has(monday)) {
-      const cached = weekCache.current.get(monday)!;
+    const key = cacheKey(parsed);
+    if (serverMonth) {
+      weekCache.current.set(`m:${serverMonth.yearMonth}`, serverScreenings);
+      weekCache.current.set(
+        `m:${nextMonth(serverMonth.yearMonth)}`,
+        serverNextScreenings,
+      );
+      for (const row of serverMonth.weeks) {
+        weekCache.current.set(row.monday, []);
+      }
+      seedWeekSlices(weekCache.current, serverScreenings);
+    } else {
+      weekCache.current.set(serverWeek.monday, serverScreenings);
+      weekCache.current.set(
+        nextMonday(serverWeek.monday),
+        serverNextScreenings,
+      );
+    }
+    if (month) {
+      weekCache.current.set(`m:${month.yearMonth}`, screenings);
+      for (const row of month.weeks) {
+        weekCache.current.set(row.monday, []);
+      }
+      seedWeekSlices(weekCache.current, screenings);
+    } else {
+      weekCache.current.set(week.monday, screenings);
+    }
+    if (key != null && weekCache.current.has(key)) {
+      const cached = weekCache.current.get(key)!;
       setPendingHref(null);
-      const nextRows = weekCache.current.get(nextMonday(monday));
       setQuery(queryFromHref(query, href));
-      setListings({
-        week: weekFromMonday(monday),
-        screenings: cached,
-        nextScreenings: nextRows ?? [],
-      });
+      if (parsed.view === "month" && parsed.month) {
+        const nextKey = `m:${nextMonth(parsed.month)}`;
+        setListings({
+          week: weekFromMonday(
+            parsed.month === currentYearMonth
+              ? currentMonday
+              : firstMondayInMonth(parsed.month),
+          ),
+          month: monthFromYyyyMm(parsed.month),
+          screenings: cached,
+          nextScreenings: weekCache.current.get(nextKey) ?? [],
+        });
+      } else if (parsed.monday) {
+        setListings({
+          week: weekFromMonday(parsed.monday),
+          month: undefined,
+          screenings: cached,
+          nextScreenings:
+            weekCache.current.get(nextMonday(parsed.monday)) ?? [],
+        });
+      }
       startTransition(() => {
         router.push(href, { scroll: false });
       });
@@ -275,7 +392,7 @@ export function WeekViewClient({
 
   function goListings(href: string) {
     const { view, day } = parseListingsHref(href);
-    if (view === "day" && day && week.days.includes(day)) {
+    if (view === "day" && day && knownDays.includes(day)) {
       commit({ ...query, view: "day", day });
       return;
     }
@@ -284,7 +401,7 @@ export function WeekViewClient({
 
   const weekBusy = weekPending && pendingHref != null;
   const listingsKey = [
-    week.monday,
+    isMonth ? (query.month ?? month?.yearMonth ?? "") : week.monday,
     query.view ?? "week",
     query.day ?? "",
   ].join("|");
@@ -292,6 +409,25 @@ export function WeekViewClient({
     query.venueIds.length > 0 &&
     !isFilm &&
     (isDay ? selectedDay !== today : hasAny || !todayOnPage);
+
+  const rangeNav = isMonth && month ? (
+    <MonthNav
+      month={month}
+      query={weekQuery}
+      currentYearMonth={currentYearMonth}
+      pendingHref={weekBusy ? pendingHref : null}
+      onNavigate={goListings}
+    />
+  ) : (
+    <WeekNav
+      week={week}
+      query={weekQuery}
+      currentMonday={currentMonday}
+      today={today}
+      pendingHref={weekBusy ? pendingHref : null}
+      onNavigate={goListings}
+    />
+  );
 
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 px-4 py-8">
@@ -389,16 +525,16 @@ export function WeekViewClient({
         <nav className="flex flex-wrap gap-2" aria-label="View">
           <Hint content="Monday to Sunday in columns.">
             <Toggle
-              pressed={!isDay && !isFilm}
+              pressed={!isDay && !isFilm && !isMonth}
               variant="outline"
               size="sm"
               onPressedChange={(pressed) => {
                 if (!pressed) return;
-                commit({
-                  venueIds: query.venueIds,
-                  hide9to5: query.hide9to5,
-                  oneLeft: query.oneLeft,
-                });
+                if (month || isMonth) {
+                  goWeek(weekHref(weekAnchorMonday(), filterQuery()));
+                  return;
+                }
+                commit(filterQuery());
               }}
             >
               Week
@@ -411,10 +547,18 @@ export function WeekViewClient({
               size="sm"
               onPressedChange={(pressed) => {
                 if (!pressed) return;
+                const day =
+                  isMonth && query.month
+                    ? today.startsWith(query.month)
+                      ? today
+                      : `${query.month}-01`
+                    : week.days.includes(today)
+                      ? today
+                      : week.monday;
                 commit({
-                  ...query,
+                  ...filterQuery(),
                   view: "day",
-                  day: week.days.includes(today) ? today : week.monday,
+                  day,
                 });
               }}
             >
@@ -428,10 +572,17 @@ export function WeekViewClient({
               size="sm"
               onPressedChange={(pressed) => {
                 if (!pressed) return;
+                if (month || isMonth) {
+                  goWeek(
+                    weekHref(weekAnchorMonday(), {
+                      ...filterQuery(),
+                      view: "film",
+                    }),
+                  );
+                  return;
+                }
                 commit({
-                  venueIds: query.venueIds,
-                  hide9to5: query.hide9to5,
-                  oneLeft: query.oneLeft,
+                  ...filterQuery(),
                   view: "film",
                 });
               }}
@@ -439,24 +590,38 @@ export function WeekViewClient({
               Film
             </Toggle>
           </Hint>
+          <Hint content="Every week that overlaps this month.">
+            <Toggle
+              pressed={isMonth}
+              variant="outline"
+              size="sm"
+              onPressedChange={(pressed) => {
+                if (!pressed) return;
+                const ymd = isDay && query.day ? query.day : week.monday;
+                goWeek(
+                  weekHref(week.monday, {
+                    ...filterQuery(),
+                    view: "month",
+                    month: yearMonthOf(ymd),
+                  }),
+                );
+              }}
+            >
+              Month
+            </Toggle>
+          </Hint>
         </nav>
         <div className="flex items-center gap-1">
           <div id="week-nav" className="min-w-0 flex-1 scroll-mt-3">
-            <WeekNav
-              week={week}
-              query={weekQuery}
-              currentMonday={currentMonday}
-              today={today}
-              pendingHref={weekBusy ? pendingHref : null}
-              onNavigate={goListings}
-            />
+            {rangeNav}
           </div>
           <ShareButton
             title={siteTitle(
               listingsShareTitle({
                 week,
-                view: isDay ? "day" : undefined,
+                view: isDay ? "day" : isMonth ? "month" : undefined,
                 day: isDay ? selectedDay : undefined,
+                month: isMonth ? query.month : undefined,
               }),
             )}
           />
@@ -514,32 +679,80 @@ export function WeekViewClient({
                 ) : null}
               </>
             ) : !hasAny ? (
-              <>
-                <p>Nothing on this week.</p>
-                {shownNext.length > 0 ? (
-                  <p className="mt-2">
-                    <Link
-                      className="underline"
-                      href={weekHref(nextWeekMonday, weekQuery)}
-                      scroll={false}
-                      prefetch={false}
-                      onClick={(e) => {
-                        if (isModifiedClick(e)) return;
-                        e.preventDefault();
-                        goWeek(weekHref(nextWeekMonday, weekQuery));
-                      }}
-                    >
-                      See {formatSydneyDayHeading(nextWeekMonday)} week
-                    </Link>
-                  </p>
-                ) : null}
-              </>
+              isMonth && nextMonthYear ? (
+                <>
+                  <p>Nothing this month.</p>
+                  {shownNext.length > 0 ? (
+                    <p className="mt-2">
+                      <Link
+                        className="underline"
+                        href={weekHref(week.monday, {
+                          ...weekQuery,
+                          view: "month",
+                          month: nextMonthYear,
+                        })}
+                        scroll={false}
+                        prefetch={false}
+                        onClick={(e) => {
+                          if (isModifiedClick(e)) return;
+                          e.preventDefault();
+                          goWeek(
+                            weekHref(week.monday, {
+                              ...weekQuery,
+                              view: "month",
+                              month: nextMonthYear,
+                            }),
+                          );
+                        }}
+                      >
+                        See {formatSydneyMonth(nextMonthYear)}
+                      </Link>
+                    </p>
+                  ) : null}
+                </>
+              ) : (
+                <>
+                  <p>Nothing on this week.</p>
+                  {shownNext.length > 0 ? (
+                    <p className="mt-2">
+                      <Link
+                        className="underline"
+                        href={weekHref(nextWeekMonday, weekQuery)}
+                        scroll={false}
+                        prefetch={false}
+                        onClick={(e) => {
+                          if (isModifiedClick(e)) return;
+                          e.preventDefault();
+                          goWeek(weekHref(nextWeekMonday, weekQuery));
+                        }}
+                      >
+                        See {formatSydneyDayHeading(nextWeekMonday)} week
+                      </Link>
+                    </p>
+                  ) : null}
+                </>
+              )
             ) : isFilm ? (
               <FilmWeekList
                 entries={byFilm}
                 monday={week.monday}
                 query={weekQuery}
               />
+            ) : isMonth && month ? (
+              <div className="flex flex-col gap-8">
+                {month.weeks.map((row) => (
+                  <WeekGrid
+                    key={row.monday}
+                    days={row.days}
+                    byDay={byDay}
+                    today={today}
+                    monday={row.monday}
+                    query={weekQuery}
+                    onNavigate={goListings}
+                    yearMonth={month.yearMonth}
+                  />
+                ))}
+              </div>
             ) : (
               <WeekGrid
                 days={isDay ? [selectedDay] : week.days}
@@ -560,16 +773,7 @@ export function WeekViewClient({
           onNavigate={goListings}
         />
       ) : null}
-      <div className="mb-16 md:hidden">
-        <WeekNav
-          week={week}
-          query={weekQuery}
-          currentMonday={currentMonday}
-          today={today}
-          pendingHref={weekBusy ? pendingHref : null}
-          onNavigate={goListings}
-        />
-      </div>
+      <div className={isMonth ? "mb-16" : "mb-16 md:hidden"}>{rangeNav}</div>
       <footer className="border-t pt-4 text-sm text-muted-foreground">
         <nav aria-label="Cinema pages">
           <ul className="flex flex-wrap gap-x-3 gap-y-1">

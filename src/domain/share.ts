@@ -1,4 +1,9 @@
-import { formatSydneyDayHeading, formatSydneyWeekRange } from "./sydney";
+import {
+  formatSydneyDayHeading,
+  formatSydneyMonth,
+  formatSydneyWeekRange,
+  sydneyYmd,
+} from "./sydney";
 import type { Week } from "./week";
 
 export const SITE_NAME = "Film In Syd";
@@ -14,17 +19,23 @@ export function listingsShareTitle({
   week,
   view,
   day,
+  month,
   venueName,
 }: {
   week: Week;
-  view?: "day" | "film";
+  view?: "day" | "film" | "month";
   day?: string;
+  month?: string;
   venueName?: string;
 }) {
   const when =
     view === "day" && day
       ? formatSydneyDayHeading(day)
-      : formatSydneyWeekRange(week.monday, week.sunday);
+      : view === "month" && month
+        ? month === sydneyYmd().slice(0, 7)
+          ? "This month"
+          : formatSydneyMonth(month)
+        : formatSydneyWeekRange(week.monday, week.sunday);
   return venueName ? `${venueName} · ${when}` : when;
 }
 

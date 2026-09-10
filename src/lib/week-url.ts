@@ -4,14 +4,18 @@ export type WeekQuery = {
   venueIds?: string[];
   hide9to5?: boolean;
   oneLeft?: boolean;
-  view?: "day" | "film";
+  view?: "day" | "film" | "month";
   day?: string;
+  month?: string;
 };
 
 export function weekSearchParams(monday: string, q: WeekQuery = {}) {
   const params = new URLSearchParams();
   if (q.view === "day" && q.day) {
     params.set("day", q.day);
+  } else if (q.view === "month") {
+    params.set("view", "month");
+    if (q.month) params.set("month", q.month);
   } else {
     params.set("week", monday);
     if (q.view === "day") params.set("view", "day");

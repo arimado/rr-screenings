@@ -9,7 +9,13 @@ function isModifiedClick(e: React.MouseEvent) {
   );
 }
 
-export function FilmBackLink({ href }: { href: string }) {
+export function FilmBackLink({
+  href,
+  label = "This week",
+}: {
+  href: string;
+  label?: string;
+}) {
   const router = useRouter();
   return (
     <Link
@@ -23,7 +29,7 @@ export function FilmBackLink({ href }: { href: string }) {
       }}
     >
       <span className="md:hidden">Back</span>
-      <span className="hidden md:inline">This week</span>
+      <span className="hidden md:inline">{label}</span>
     </Link>
   );
 }

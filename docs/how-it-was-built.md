@@ -36,12 +36,12 @@ There is no database. The listings *are* the JSON in git. When a laptop should n
 ## Where the code sits
 
 ```
-src/domain/     Screening, venue registry, Sydney dates, week-as-query, film slug
+src/domain/     Screening, venue registry, Sydney dates, week-as-query, month-as-query, film slug
 src/sources/    adapters only — fetch() → Screening[]
 src/ingest/     the one write path
 src/data/       read snapshots, filter, group film+venue+day (and film-for-the-week)
 src/app/        three routes
-src/components/ week grid, day/week/film chrome, share
+src/components/ week grid, day/week/film/month chrome, share
 ```
 
 The UI must not import an adapter. A cinema is a new file in `sources/`, a venue row, and a line in the ingest list. The week grid does not know the cinema exists until rows show up.
@@ -54,7 +54,7 @@ The UI must not import an adapter. A cinema is a new file in `sources/`, a venue
 
 **Filters live on the URL and run on the client.** Cinema chips, evenings & weekends, one-screening-left. They `replace` the query so the address bar is the permalink. Share copies that URL. Film share is the exception: `/film/[slug]` only; the week query on a film link is just so Back can return.
 
-**Day view is still the same page.** `?day=YYYY-MM-DD` is enough. Film grouping is also the same page: `?week=&view=film`. No extra route, no month view.
+**Day view is still the same page.** `?day=YYYY-MM-DD` is enough. Film grouping is also the same page: `?week=&view=film`. Month view is the same page too: `?view=month&month=YYYY-MM`, stacking every overlapping week. No extra route.
 
 **Book means leave.** One remaining session on a cell goes straight to the cinema. Several sessions go to the film page, then out. This app does not sell tickets.
 
@@ -68,6 +68,7 @@ The UI must not import an adapter. A cinema is a new file in `sources/`, a venue
 4. **Day view** — the week is still the unit; a single Sydney date is easier to send a mate.
 5. **Share** — the bar was already the permalink; a control and human titles (`Film in Syd`) make that obvious.
 6. **Film grouping** — same week, titles first, then where/when. `/film/[slug]` stays the drill-down.
+7. **Month view** — same week grids stacked for every Monday–Sunday that overlaps the Sydney month. `/` stays the week front door.
 
 ## What we did not build
 

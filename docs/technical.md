@@ -21,6 +21,7 @@ Everything else is derived:
 | **Venue** | A place people go. We own the list (`src/domain/venue.ts`). Adapters may only point at an id we already have. |
 | **Source** | How we found out. Golden Age’s ticket feed is one source. Palace’s website is one source that covers three venues. |
 | **Week** | Not an object we store. A query: “screenings whose **Sydney calendar date** falls Mon–Sun.” |
+| **Month** | Also a query: every Mon–Sun week that overlaps a Sydney `YYYY-MM`. |
 | **Day entry** | UI grouping: same film + same venue + same day, with one or more times. |
 
 Venue ≠ source. Palace is **one source, three venues**. If you collapse those, you cannot turn Norton St on and Moore Park off.
@@ -29,12 +30,12 @@ Venue ≠ source. Palace is **one source, three venues**. If you collapse those,
 
 ```
 data/                 JSON snapshots ingest writes (this is the “database”)
-src/domain/           types and rules: Screening, venues, Sydney dates, week query, film slug
+src/domain/           types and rules: Screening, venues, Sydney dates, week/month query, film slug
 src/sources/          one file per cinema website; fetch() → Screening[]
 src/ingest/run.ts     the only code that writes data/
 src/data/             read snapshots, drop past sessions, filter, group into grid cells
 src/app/              three routes: /  /film/[slug]  /venue/[venueId]
-src/components/       week grid, film list, filters, share
+src/components/       week grid, month stack, film list, filters, share
 ```
 
 A rule you will break if you are not careful: **UI code must not import a source adapter.** Pages call `getScreenings()` (and friends). They never `fetch()` a cinema site. If Ritz’s HTML changes, only `src/sources/ritz.ts` should care.
@@ -131,8 +132,8 @@ src/app/page.tsx          (Server Component)
         │
         ▼
 src/components/week-view.tsx   (still server)
-  resolveListingsWeek()   → which Mon–Sun, day vs week vs film
-  getScreeningsForDays()  → rows for this week (and next, for empty-state links)
+  resolveListingsWeek()   → which Mon–Sun, day vs week vs film vs month
+  getScreeningsForDays()  → rows for this week (or overlapping month weeks) and the next range
   parseVenueIds()         → which cinema chips are on
         │
         ▼
@@ -140,7 +141,7 @@ src/components/week-view-client.tsx   ("use client")
   applyFilters()          → chips / evenings / one-left
   groupDayEntries()       → week/day cells
   groupFilmEntries()      → film cards when view=film
-  WeekGrid / FilmWeekList / WeekNav / ShareButton
+  WeekGrid / FilmWeekList / WeekNav / MonthNav / ShareButton
 ```
 
 `export const dynamic = "force-dynamic"` on the pages means we do not statically bake “this week” at build time. “Today” is Sydney today when the request runs.
@@ -184,14 +185,16 @@ Filters and view are query params, not React-only state. `weekSearchParams()` / 
 | Current week, default cinemas | `/` (after paging: `/?week=2026-09-08`) |
 | Saturday | `/?day=2026-09-12` |
 | This week, grouped by film | `/?week=2026-09-08&view=film` |
+| This month, stacked weeks | `/?view=month&month=2026-09` |
 | Evenings only | `/?week=…&hide9to5=1` |
 | Just Golden Age | `/?venues=golden-age-surry-hills` |
 | No cinemas | `/?venues=none` |
 
 Rules worth memorising:
 
-- A valid `day=` **is** day view. We omit `week` and `view` from new links. Old `?view=day&week=&day=` still works (`resolveListingsWeek`). Day wins over `view=film`.
+- A valid `day=` **is** day view. We omit `week` and `view` from new links. Old `?view=day&week=&day=` still works (`resolveListingsWeek`). Day wins over `view=film` and `view=month`.
 - Film grouping is `view=film` next to `week=`. It never writes `day`.
+- Month view is `view=month` next to `month=YYYY-MM`. It never writes `week`. Missing `month` is today’s Sydney month.
 - Missing `venues` means the **default set**: Golden Age, AGNSW, and MCA. Ritz, Dendy, Orpheum, and Palace chips are off until you turn one on. That is `defaultOn: false` on those venue rows.
 - `hide9to5=1` keeps weekends and weekday sessions from 17:00 Sydney. It drops Mon–Fri from 9:00 up to (not including) 17:00.
 - `oneLeft=1` keeps films that have exactly one remaining session **anywhere**, not just this week.
@@ -204,7 +207,7 @@ Toggles call `router.replace` (not `push`) so the back button is not a graveyard
 
 `/film/the-taste-of-tea` lists remaining sessions by day, then venue, then time. Each time with a `bookingUrl` is outbound.
 
-In-app links from the grid **keep** the week/day/`view=film`/filter query so “Back / This week” can return to the same listings. **Share** on the film page sends `/film/{slug}` only — a mate should not inherit your “evenings & weekends” filter.
+In-app links from the grid **keep** the week/day/`view=film`/`view=month`/filter query so “Back / This week” (or “This month”) can return to the same listings. **Share** on the film page sends `/film/{slug}` only — a mate should not inherit your “evenings & weekends” filter.
 
 If the film has no upcoming sessions but we still know the slug from stored listings, we do not 404; we say it has finished.
 

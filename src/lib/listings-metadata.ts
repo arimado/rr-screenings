@@ -15,25 +15,37 @@ export type ListingsSearch = {
   venues?: string | string[];
   view?: string;
   day?: string;
+  month?: string;
 };
 
 function listingsDocumentTitle({
   week,
   view,
   day,
+  month,
   venueName,
 }: {
   week: Week;
-  view?: "day" | "film";
+  view?: "day" | "film" | "month";
   day?: string;
+  month?: string;
   venueName?: string;
 }) {
-  const when = listingsShareTitle({ week, view, day });
+  const when = listingsShareTitle({ week, view, day, month });
   const isCurrentWeek = week.monday === currentWeek().monday;
   if (view === "day") {
     return venueName
       ? `${venueName} · ${when}`
       : `Sydney cinema ${when}`;
+  }
+  if (view === "month") {
+    const isCurrentMonth = when === "This month";
+    if (isCurrentMonth) {
+      return venueName
+        ? `${venueName} this month`
+        : "Sydney cinema this month";
+    }
+    return venueName ? `${venueName} · ${when}` : `Sydney cinema ${when}`;
   }
   if (isCurrentWeek) {
     return venueName ? `${venueName} this week` : "Sydney cinema this week";
@@ -45,17 +57,20 @@ export function listingsMetadata({
   week,
   view,
   day,
+  month,
   venueId,
 }: {
   week?: string;
   view?: string;
   day?: string;
+  month?: string;
   venueId?: string;
 }): Metadata {
   const resolved = resolveListingsWeek({
     weekParam: week,
     view,
     dayParam: day,
+    monthParam: month,
   });
   const venueName = venueId ? getVenue(venueId)?.name : undefined;
   const when = listingsShareTitle(resolved);

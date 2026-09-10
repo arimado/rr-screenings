@@ -72,11 +72,13 @@ export default async function FilmPage({
     venues,
     view,
     day: dayParam,
+    month: monthParam,
   } = await searchParams;
-  const { week, view: listingsView, day } = resolveListingsWeek({
+  const { week, view: listingsView, day, month } = resolveListingsWeek({
     weekParam,
     view,
     dayParam,
+    monthParam,
   });
   const backHref = weekHref(week.monday, {
     venueIds: parseVenueIds(venues),
@@ -84,6 +86,9 @@ export default async function FilmPage({
     oneLeft: oneLeft === "1",
     ...(listingsView === "day" && day ? { view: "day" as const, day } : {}),
     ...(listingsView === "film" ? { view: "film" as const } : {}),
+    ...(listingsView === "month" && month
+      ? { view: "month" as const, month }
+      : {}),
   });
   const screenings = getUpcomingBySlug(slug);
   const known = filmIsKnown(slug);
@@ -117,7 +122,10 @@ export default async function FilmPage({
         />
       ) : null}
       <p className="text-sm text-muted-foreground">
-        <FilmBackLink href={backHref} />
+        <FilmBackLink
+          href={backHref}
+          label={listingsView === "month" ? "This month" : "This week"}
+        />
       </p>
       <header className="flex items-start justify-between gap-3">
         <div>

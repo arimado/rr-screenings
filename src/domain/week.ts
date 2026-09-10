@@ -29,23 +29,42 @@ export function parseDayParam(day: string | undefined | null): string | undefine
   return undefined;
 }
 
+const YM = /^\d{4}-(0[1-9]|1[0-2])$/;
+
+function parseMonthYear(month: string | undefined | null, today: string): string {
+  if (month && YM.test(month)) return month;
+  return today.slice(0, 7);
+}
+
+function firstMondayInMonth(yearMonth: string): string {
+  const monday = mondayOf(`${yearMonth}-01`);
+  return monday.startsWith(yearMonth) ? monday : addDays(monday, 7);
+}
+
 /**
  * A valid `day` implies day view (even without `view=day`).
  * `view=day` without a date falls back to today or that week's Monday.
- * Day wins over `week` and `view=film` when they disagree.
+ * Day wins over `week`, `view=film`, and `view=month` when they disagree.
  * Old `view=day&week=&day=` links still work.
  */
 export function resolveListingsWeek({
   weekParam,
   view,
   dayParam,
+  monthParam,
   today = sydneyYmd(),
 }: {
   weekParam?: string;
   view?: string;
   dayParam?: string;
+  monthParam?: string;
   today?: string;
-}): { week: Week; view?: "day" | "film"; day?: string } {
+}): {
+  week: Week;
+  view?: "day" | "film" | "month";
+  day?: string;
+  month?: string;
+} {
   const parsed = parseDayParam(dayParam);
   if (parsed) {
     return {
@@ -64,6 +83,13 @@ export function resolveListingsWeek({
   }
   if (view === "film") {
     return { week: parseWeekParam(weekParam), view: "film" };
+  }
+  if (view === "month") {
+    const month = parseMonthYear(monthParam, today);
+    const week = today.startsWith(month)
+      ? weekFromMonday(mondayOf(today))
+      : weekFromMonday(firstMondayInMonth(month));
+    return { week, view: "month", month };
   }
   return { week: parseWeekParam(weekParam) };
 }

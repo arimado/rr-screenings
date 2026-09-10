@@ -3,7 +3,14 @@ import { VenueDot } from "@/components/venue-dot";
 import { WeekNavLabel } from "@/components/week-nav-label";
 import { WeekNavLink } from "@/components/week-nav-link";
 import type { DayEntry } from "@/data/group";
-import { addDays, formatSydneyDayHeading, formatSydneyWeekRange, mondayOf } from "@/domain/sydney";
+import { nextMonth, prevMonth, type Month } from "@/domain/month";
+import {
+  addDays,
+  formatSydneyDayHeading,
+  formatSydneyMonth,
+  formatSydneyWeekRange,
+  mondayOf,
+} from "@/domain/sydney";
 import { nextMonday, prevMonday, type Week } from "@/domain/week";
 import { filmHref, weekHref, type WeekQuery } from "@/lib/week-url";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
@@ -93,6 +100,66 @@ export function WeekNav({
   );
 }
 
+export function MonthNav({
+  month,
+  query,
+  currentYearMonth,
+  pendingHref,
+  onNavigate,
+}: {
+  month: Month;
+  query?: WeekQuery;
+  currentYearMonth: string;
+  pendingHref?: string | null;
+  onNavigate?: (href: string) => void;
+}) {
+  const monday = month.weeks[0]?.monday ?? `${month.yearMonth}-01`;
+  const prev = prevMonth(month.yearMonth);
+  const next = nextMonth(month.yearMonth);
+  const prevHref = weekHref(monday, { ...query, view: "month", month: prev });
+  const nextHref = weekHref(monday, { ...query, view: "month", month: next });
+  const range = formatSydneyMonth(month.yearMonth);
+  const isCurrent = month.yearMonth === currentYearMonth;
+  const label = isCurrent ? "This month" : range;
+  const ariaLabel = isCurrent ? `This month, ${range}` : range;
+  return (
+    <div
+      className={`flex items-center${pendingHref ? " pointer-events-none" : ""}`}
+      aria-busy={Boolean(pendingHref)}
+    >
+      <div className="flex w-full items-stretch rounded-lg border border-input bg-background">
+        <WeekNavLink
+          href={prevHref}
+          label="Previous month"
+          pending={pendingHref === prevHref}
+          onNavigate={onNavigate}
+          side="prev"
+        >
+          <span className="inline-flex motion-safe:transition-transform motion-safe:duration-150 motion-safe:ease-out motion-safe:group-hover/button:-translate-x-px">
+            <ChevronLeftIcon />
+          </span>
+        </WeekNavLink>
+        <WeekNavLabel
+          label={label}
+          ariaLabel={ariaLabel}
+          dirKey={month.yearMonth}
+        />
+        <WeekNavLink
+          href={nextHref}
+          label="Next month"
+          pending={pendingHref === nextHref}
+          onNavigate={onNavigate}
+          side="next"
+        >
+          <span className="inline-flex motion-safe:transition-transform motion-safe:duration-150 motion-safe:ease-out motion-safe:group-hover/button:translate-x-px">
+            <ChevronRightIcon />
+          </span>
+        </WeekNavLink>
+      </div>
+    </div>
+  );
+}
+
 const cardClassName =
   "block cursor-pointer rounded-lg bg-card p-2 text-left motion-safe:transition-[background-color,transform] motion-safe:duration-150 motion-safe:ease-out hover:bg-accent/50 motion-safe:hover:-translate-y-px";
 
@@ -152,6 +219,7 @@ export function WeekGrid({
   monday,
   query,
   onNavigate,
+  yearMonth,
 }: {
   days: string[];
   byDay: Map<string, DayEntry[]>;
@@ -159,6 +227,7 @@ export function WeekGrid({
   monday: string;
   query: WeekQuery;
   onNavigate?: (href: string) => void;
+  yearMonth?: string;
 }) {
   const dayLayout = days.length === 1;
   return (
@@ -172,15 +241,17 @@ export function WeekGrid({
       {days.map((day) => {
         const entries = byDay.get(day) ?? [];
         const isToday = day === today;
+        const outside = yearMonth != null && !day.startsWith(yearMonth);
         const href = weekHref(monday, { ...query, view: "day", day });
         return (
           <section
             key={day}
             id={isToday ? "today" : undefined}
             className={
-              dayLayout
+              (dayLayout
                 ? "min-w-0 scroll-mt-3"
-                : "min-w-0 scroll-mt-3 [content-visibility:auto] [contain-intrinsic-size:auto_12rem] md:[content-visibility:visible]"
+                : "min-w-0 scroll-mt-3 [content-visibility:auto] [contain-intrinsic-size:auto_12rem] md:[content-visibility:visible]") +
+              (outside ? " opacity-45" : "")
             }
           >
             {dayLayout ? null : (
@@ -189,7 +260,11 @@ export function WeekGrid({
                   href={href}
                   scroll={false}
                   prefetch={false}
-                  className="hover:text-foreground hover:underline"
+                  className={
+                    outside
+                      ? "text-muted-foreground hover:text-foreground hover:underline"
+                      : "hover:text-foreground hover:underline"
+                  }
                   onClick={(e) => {
                     if (!onNavigate || isModifiedClick(e)) return;
                     e.preventDefault();

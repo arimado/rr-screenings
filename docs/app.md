@@ -22,15 +22,15 @@ Sydney calendar dates only, as in `domain.md`.
 ## Routes
 
 1. **`/` — Week**  
-   Front door. Current week, Monday–Sunday. Prev/next week, not a month jump. After navigation the week is pinned as `?week=YYYY-MM-DD`. Bare `/` is whatever this week is.
+   Front door. Current week, Monday–Sunday. Prev/next week. After navigation the week is pinned as `?week=YYYY-MM-DD`. Bare `/` is whatever this week is.
 
-   Day view is `?day=YYYY-MM-DD` (no `week`, no `view`). A valid `day` is enough; old `view=day&week=&day=` links still open that day. Film grouping is `?week=YYYY-MM-DD&view=film` — same week, titles first, then cinema and times. It is not `/film/[slug]`. Share copies the current listings URL, filters included (`venues`, `hide9to5`, `oneLeft`).
+   Day view is `?day=YYYY-MM-DD` (no `week`, no `view`). A valid `day` is enough; old `view=day&week=&day=` links still open that day. Film grouping is `?week=YYYY-MM-DD&view=film` — same week, titles first, then cinema and times. It is not `/film/[slug]`. Month view is `?view=month` or `?view=month&month=YYYY-MM` — every Monday–Sunday week that overlaps that Sydney month, stacked as the same week grid. Share copies the current listings URL, filters included (`venues`, `hide9to5`, `oneLeft`).
 
 2. **`/film/[slug]` — Film**  
-   Title, optional year, remaining sessions grouped by day then venue, book on each time. Slug is the derived film id (`the-odyssey-2026`). The listings query (`week` or `day` or `view=film`, plus `venues`, `hide9to5`, `oneLeft`) rides on in-app film links so Back can return to the same grid. Share sends `/film/[slug]` only.
+   Title, optional year, remaining sessions grouped by day then venue, book on each time. Slug is the derived film id (`the-odyssey-2026`). The listings query (`week` or `day` or `view=film` or `view=month`, plus `venues`, `hide9to5`, `oneLeft`) rides on in-app film links so Back can return to the same grid. Share sends `/film/[slug]` only.
 
 3. **`/venue/[venueId]` — Venue**  
-   Same week grid (or day / film grouping), that cinema only. No separate layout language. Same day/week/film query and Share as `/`.
+   Same week grid (or day / film / month grouping), that cinema only. No separate layout language. Same day/week/film/month query and Share as `/`.
 
 No map, no search page, no “my list.” Query params on `/` for filters are enough (`venues`) once there is more than one cinema.
 
@@ -50,6 +50,10 @@ Same film at two cinemas the same day = two entries. Same film two times at one 
 
 Empty day: leave the column, do not hide the date.
 
+## Month view
+
+Same filters as the week, `?view=month&month=YYYY-MM`. Missing `month` is today’s Sydney month. Prev/next jumps a calendar month. Each row is a full Monday–Sunday `WeekGrid`; days that fall outside the named month stay visible and are lightly muted. A valid `day=` still wins and opens day view.
+
 ## Film grouping
 
 Same week and filters as the grid, `?view=film`. Title cards, sorted by earliest remaining session this week. Phone is one column; desktop is two then three (do not shrink like the seven-day grid). Each card is the film, then a line per cinema with compact times (`Fri 10:20 am, 8:50 pm · Sat 2:00 pm`). Prev/next still moves the week.
@@ -68,7 +72,7 @@ Filters are toggles. They narrow the grid. They do not change the week.
 
 ## Empty and broken
 
-- No rows this week: say so, point at next week if that has rows.
+- No rows this week (or this month): say so, point at next week or next month if that has rows.
 - One source missing: still show the others; small note, not a full-page error.
 - Film with no upcoming sessions: don’t 404 if we know the slug from this week; say it’s finished.
 

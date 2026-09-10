@@ -17,8 +17,8 @@ export async function generateMetadata({
   searchParams: Promise<ListingsSearch>;
 }): Promise<Metadata> {
   const { venueId } = await params;
-  const { week, view, day } = await searchParams;
-  return listingsMetadata({ week, view, day, venueId });
+  const { week, view, day, month } = await searchParams;
+  return listingsMetadata({ week, view, day, month, venueId });
 }
 
 export default async function VenuePage({
@@ -29,7 +29,7 @@ export default async function VenuePage({
   searchParams: Promise<ListingsSearch>;
 }) {
   const { venueId } = await params;
-  const { week, hide9to5, oneLeft, view, day } = await searchParams;
+  const { week, hide9to5, oneLeft, view, day, month } = await searchParams;
   if (!getVenue(venueId)) notFound();
   return (
     <WeekView
@@ -39,6 +39,7 @@ export default async function VenuePage({
       oneLeft={oneLeft === "1"}
       view={view}
       day={day}
+      month={month}
     />
   );
 }

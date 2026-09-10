@@ -32,6 +32,15 @@ export function formatSydneyDayHeading(ymd: string): string {
   }).format(utcNoon);
 }
 
+/** Calendar month, e.g. `September 2026`. */
+export function formatSydneyMonth(yearMonth: string): string {
+  return new Intl.DateTimeFormat("en-AU", {
+    timeZone: SYDNEY,
+    month: "long",
+    year: "numeric",
+  }).format(ymdToUtcNoon(`${yearMonth}-01`));
+}
+
 /** Compact end of coverage, e.g. `12 Mar` or `12 Mar 2027`. */
 export function formatSydneyThrough(ymd: string, today: string): string {
   const includeYear = ymd.slice(0, 4) !== today.slice(0, 4);
