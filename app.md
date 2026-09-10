@@ -25,7 +25,7 @@ Sydney calendar dates only, as in `domain.md`.
    Front door. Current week, Monday–Sunday. Prev/next week, not a month jump.
 
 2. **`/film/[slug]` — Film**  
-   Title, optional year, remaining sessions grouped by day then venue, book on each time. Slug is the derived film id (`the-odyssey-2026`).
+   Title, optional year, remaining sessions grouped by day then venue, book on each time. Slug is the derived film id (`the-odyssey-2026`). The week query (`week`, `venues`, `hide9to5`, `oneLeft`) rides on the film URL so “This week” can return to the same grid.
 
 3. **`/venue/[venueId]` — Venue**  
    Same week grid, that cinema only. No separate layout language.

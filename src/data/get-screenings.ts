@@ -65,6 +65,36 @@ export function snapshotIsStale(
   return now.getTime() - fetched > 24 * 60 * 60 * 1000;
 }
 
+/** Oldest `fetchedAt` among snapshots — how fresh the grid as a whole is. */
+export function oldestFetchedAt(
+  snapshots: { snapshot: Snapshot }[],
+): string | undefined {
+  const times = snapshots
+    .map(({ snapshot }) => snapshot.fetchedAt)
+    .filter((iso) => !Number.isNaN(Date.parse(iso)))
+    .sort();
+  return times[0];
+}
+
+export function formatUpdatedAgo(iso: string, now: Date = new Date()): string {
+  const then = Date.parse(iso);
+  if (Number.isNaN(then)) return "Updated unknown";
+  const deltaMs = then - now.getTime();
+  const abs = Math.abs(deltaMs);
+  const minute = 60_000;
+  const hour = 60 * minute;
+  const day = 24 * hour;
+  if (abs < minute) return "Updated just now";
+  const rtf = new Intl.RelativeTimeFormat("en", { numeric: "auto" });
+  if (abs < hour) {
+    return `Updated ${rtf.format(Math.round(deltaMs / minute), "minute")}`;
+  }
+  if (abs < day) {
+    return `Updated ${rtf.format(Math.round(deltaMs / hour), "hour")}`;
+  }
+  return `Updated ${rtf.format(Math.round(deltaMs / day), "day")}`;
+}
+
 function allScreenings(): Screening[] {
   return loadSnapshots().flatMap(({ snapshot }) => snapshot.screenings);
 }

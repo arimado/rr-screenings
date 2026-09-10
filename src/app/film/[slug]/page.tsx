@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import { weekHref } from "@/components/week-grid";
 import {
   filmIsKnown,
   getUpcomingBySlug,
@@ -9,7 +10,8 @@ import {
   formatSydneyTime,
   instantToSydneyYmd,
 } from "@/domain/sydney";
-import { getVenue } from "@/domain/venue";
+import { getVenue, parseVenueIds } from "@/domain/venue";
+import { parseWeekParam } from "@/domain/week";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -17,10 +19,24 @@ export const dynamic = "force-dynamic";
 
 export default async function FilmPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{
+    week?: string;
+    hide9to5?: string;
+    oneLeft?: string;
+    venues?: string | string[];
+  }>;
 }) {
   const { slug } = await params;
+  const { week: weekParam, hide9to5, oneLeft, venues } = await searchParams;
+  const week = parseWeekParam(weekParam);
+  const backHref = weekHref(week.monday, {
+    venueIds: parseVenueIds(venues),
+    hide9to5: hide9to5 === "1",
+    oneLeft: oneLeft === "1",
+  });
   const screenings = getUpcomingBySlug(slug);
   const known = filmIsKnown(slug);
   const meta = knownFilmMeta(slug);
@@ -42,7 +58,7 @@ export default async function FilmPage({
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-6 px-4 py-8">
       <p className="text-sm text-muted-foreground">
-        <Link href="/" className="hover:underline">
+        <Link href={backHref} className="hover:underline">
           This week
         </Link>
       </p>

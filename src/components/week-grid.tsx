@@ -13,7 +13,7 @@ export type WeekQuery = {
   oneLeft?: boolean;
 };
 
-export function weekHref(monday: string, q: WeekQuery = {}) {
+export function weekSearchParams(monday: string, q: WeekQuery = {}) {
   const params = new URLSearchParams({ week: monday });
   if (
     q.venueIds &&
@@ -24,7 +24,15 @@ export function weekHref(monday: string, q: WeekQuery = {}) {
   }
   if (q.hide9to5) params.set("hide9to5", "1");
   if (q.oneLeft) params.set("oneLeft", "1");
-  return `/?${params.toString()}`;
+  return params;
+}
+
+export function weekHref(monday: string, q: WeekQuery = {}) {
+  return `/?${weekSearchParams(monday, q).toString()}`;
+}
+
+export function filmHref(slug: string, monday: string, q: WeekQuery = {}) {
+  return `/film/${slug}?${weekSearchParams(monday, q).toString()}`;
 }
 
 export function WeekNav({
@@ -53,7 +61,7 @@ export function WeekNav({
   );
 }
 
-function EntryCard({ entry }: { entry: DayEntry }) {
+function EntryCard({ entry, href }: { entry: DayEntry; href: string }) {
   const single = entry.times.length === 1 ? entry.times[0] : null;
   const outbound = single?.bookingUrl;
 
@@ -86,7 +94,7 @@ function EntryCard({ entry }: { entry: DayEntry }) {
   }
 
   return (
-    <Link href={`/film/${entry.slug}`} className={className}>
+    <Link href={href} className={className}>
       {body}
     </Link>
   );
@@ -97,11 +105,15 @@ export function WeekGrid({
   byDay,
   today,
   todayHref,
+  monday,
+  query,
 }: {
   days: string[];
   byDay: Map<string, DayEntry[]>;
   today: string;
   todayHref: string;
+  monday: string;
+  query: WeekQuery;
 }) {
   return (
     <>
@@ -129,7 +141,10 @@ export function WeekGrid({
                 <ul className="flex flex-col gap-1.5">
                   {entries.map((entry) => (
                     <li key={entry.key}>
-                      <EntryCard entry={entry} />
+                      <EntryCard
+                        entry={entry}
+                        href={filmHref(entry.slug, monday, query)}
+                      />
                     </li>
                   ))}
                 </ul>

@@ -1,10 +1,13 @@
 import { GoToToday } from "@/components/go-to-today";
+import { UpdatedBadge } from "@/components/updated-badge";
 import { VenueDot } from "@/components/venue-dot";
 import { WeekGrid, WeekNav, weekHref } from "@/components/week-grid";
 import { Toggle } from "@/components/ui/toggle";
 import {
   getScreeningsForDays,
+  formatUpdatedAgo,
   loadSnapshots,
+  oldestFetchedAt,
   slugsWithOneUpcoming,
   snapshotIsStale,
 } from "@/data/get-screenings";
@@ -51,10 +54,7 @@ export async function WeekView({
   const todayOnPage = week.days.includes(today);
   const snapshots = loadSnapshots();
   const stale = snapshots.some(({ snapshot }) => snapshotIsStale(snapshot));
-  const staleFetchedAt = snapshots
-    .filter(({ snapshot }) => snapshotIsStale(snapshot))
-    .map(({ snapshot }) => snapshot.fetchedAt)
-    .sort()[0];
+  const updatedAt = oldestFetchedAt(snapshots);
   const venueIds = parseVenueIds(venueIdsRaw);
   const query = { venueIds, hide9to5, oneLeft };
   const todayHref = todayOnPage
@@ -109,8 +109,21 @@ export async function WeekView({
           <Link href="/" className="hover:underline">
             Films In Syd
           </Link>
+          <span className="text-muted-foreground/70"> · by Reading Room</span>
         </p>
-        <h1 className="text-2xl font-semibold tracking-tight">This week</h1>
+        <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-2">
+          <h1 className="text-2xl font-semibold tracking-tight">This week</h1>
+          {updatedAt ? (
+            <UpdatedBadge
+              dateTime={updatedAt}
+              label={formatUpdatedAgo(updatedAt)}
+              exact={new Date(updatedAt).toLocaleString("en-AU", {
+                timeZone: "Australia/Sydney",
+              })}
+              stale={stale}
+            />
+          ) : null}
+        </div>
         <p className="text-sm text-muted-foreground">
           {screeningsAtLabel(venueIds)}
         </p>
@@ -150,15 +163,6 @@ export async function WeekView({
             </Link>
           </Toggle>
         </nav>
-        {stale && staleFetchedAt ? (
-          <p className="text-sm text-amber-700 dark:text-amber-400">
-            Listings may be stale (last fetched{" "}
-            {new Date(staleFetchedAt).toLocaleString("en-AU", {
-              timeZone: "Australia/Sydney",
-            })}
-            ).
-          </p>
-        ) : null}
       </header>
       <WeekNav week={week} query={query} />
       {!hasAny ? (
@@ -184,6 +188,8 @@ export async function WeekView({
           byDay={byDay}
           today={today}
           todayHref={todayHref}
+          monday={week.monday}
+          query={query}
         />
       )}
     </div>
