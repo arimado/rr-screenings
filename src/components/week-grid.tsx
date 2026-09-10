@@ -79,14 +79,21 @@ function EntryCard({ entry, href }: { entry: DayEntry; href: string }) {
   const outbound = single?.bookingUrl;
 
   const body = (
-    <div className="flex items-start gap-1.5">
-      <VenueDot venueId={entry.venueId} name={entry.venueName} className="mt-1 size-2" />
-      <div className="min-w-0 flex-1">
-        <p className="text-xs font-medium leading-snug">{entry.title}</p>
-        <p className="text-[11px] leading-tight text-muted-foreground">
-          {entry.times.map((t) => t.label).join(", ")}
-        </p>
-      </div>
+    <div className="min-w-0">
+      <p className="flex items-center gap-1.5 text-[11px] leading-none">
+        <VenueDot
+          venueId={entry.venueId}
+          name={entry.venueName}
+          className="size-2"
+        />
+        <span className="min-w-0 truncate text-muted-foreground/55">
+          {entry.venueName}
+        </span>
+      </p>
+      <p className="pl-3.5 text-xs font-medium leading-snug">{entry.title}</p>
+      <p className="pl-3.5 text-[11px] leading-tight text-muted-foreground/80">
+        {entry.times.map((t) => t.label).join(", ")}
+      </p>
     </div>
   );
 

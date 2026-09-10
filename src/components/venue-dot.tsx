@@ -16,7 +16,7 @@ export function VenueDot({
       className={`inline-block shrink-0 rounded-full ${className}`}
       style={{ backgroundColor: venue?.color ?? "#888888" }}
       title={label}
-      aria-label={label}
+      aria-hidden
     />
   );
 }
