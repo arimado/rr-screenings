@@ -4,7 +4,7 @@ import type { Week } from "./week";
 export const SITE_NAME = "Film in Syd";
 
 export const SITE_DESCRIPTION =
-  "This week at the Ritz, Golden Age, Dendy Newtown, the Orpheum, AGNSW, Palace Norton St, Palace Central, and Palace Moore Park.";
+  "This week at the Ritz, Golden Age, Dendy, the Orpheum, AGNSW, Palace Norton St, Palace Central, and Palace Moore Park.";
 
 export function siteTitle(label?: string) {
   return label ? `${label} · ${SITE_NAME}` : SITE_NAME;

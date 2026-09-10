@@ -63,7 +63,7 @@ The UI must not import an adapter. A cinema is a new file in `sources/`, a venue
 ## How it grew
 
 1. **Ritz only** — prove the chain: adapter → snapshot → week grid → book.
-2. **Golden Age, then Dendy, Orpheum, AGNSW, Palace** — same ingest, more adapters. Palace is one source and three venues. Palace sites stay off until you turn a chip on.
+2. **Golden Age, then Dendy, Orpheum, AGNSW, Palace, MCA** — same ingest, more adapters. Palace is one source and three venues. Palace sites stay off until you turn a chip on. MCA is an institution feed, like AGNSW; empty weeks are valid.
 3. **Client filters** — chips used to wait on the server; they now update the grid immediately and keep the query in the bar.
 4. **Day view** — the week is still the unit; a single Sydney date is easier to send a mate.
 5. **Share** — the bar was already the permalink; a control and human titles (`Film in Syd`) make that obvious.

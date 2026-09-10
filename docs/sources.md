@@ -50,11 +50,12 @@ If it cannot become a `Screening` without lying (a three-month exhibition, a boo
 
 1. **Ritz** (`ritz` → `ritz-randwick`) — first live source, first ship.
 2. **Golden Age** — ticketing JSON, second adapter on the same chain.
-3. **Dendy Newtown** (`dendy` → `dendy-newtown`) — Indy GraphQL, one-venue.
+3. **Dendy** (`dendy` → `dendy-newtown`) — Indy GraphQL, one-venue.
 4. **Hayden Orpheum** (`orpheum` → `orpheum-cremorne`) — their `/api/movie/playing-now` JSON.
 5. **AGNSW** (`agnsw` → `agnsw-domain`) — Sydney Cinémathèque HTML on `/whats-on/cinema/`. Empty weeks are valid.
 6. **Palace** (`palace` → `palace-norton-street`, `palace-central-chippendale`, `palace-moore-park`) — one adapter, three venues. Session JSON from each cinema page’s `__NEXT_DATA__`. A venue with no sessions is valid. Not Chauvel (closed January 2026).
-7. **MCA** film programmes, then **manual** for festivals and one-nighters.
+7. **MCA** (`mca` → `mca-the-rocks`) — `show=films` on `/api/query-whats-on/`, then each event page’s `windowApiData.instances`. Empty weeks are valid. Film nights only, not talks or exhibitions.
+8. **Manual** for festivals and one-nighters.
 
 ## How to add a cinema
 

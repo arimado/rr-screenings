@@ -10,7 +10,7 @@ export type Venue = {
 export const venues: Venue[] = [
   {
     id: "ritz-randwick",
-    name: "Ritz Cinemas",
+    name: "Ritz",
     suburb: "Randwick",
     color: "#c45c26",
   },
@@ -22,7 +22,7 @@ export const venues: Venue[] = [
   },
   {
     id: "dendy-newtown",
-    name: "Dendy Newtown",
+    name: "Dendy",
     suburb: "Newtown",
     color: "#ed1164",
   },
@@ -37,6 +37,12 @@ export const venues: Venue[] = [
     name: "AGNSW",
     suburb: "Sydney",
     color: "#1c3d5a",
+  },
+  {
+    id: "mca-the-rocks",
+    name: "MCA",
+    suburb: "The Rocks",
+    color: "#c8102e",
   },
   {
     id: "palace-norton-street",

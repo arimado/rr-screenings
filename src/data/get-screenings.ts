@@ -29,7 +29,9 @@ export function loadSnapshot(sourceId: string): Snapshot | null {
 }
 
 export function loadSnapshots(): { sourceId: string; snapshot: Snapshot }[] {
-  if (snapshotsCache) return snapshotsCache;
+  if (snapshotsCache && process.env.NODE_ENV !== "development") {
+    return snapshotsCache;
+  }
   let names: string[] = [];
   try {
     names = readdirSync(DATA_DIR);

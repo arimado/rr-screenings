@@ -8,7 +8,7 @@ The language everything else uses. Sources emit this shape. The calendar is a vi
 
 **Film** — a grouping of screenings that are the same movie. Not scraped as its own record. Derived from title + year until that collides.
 
-**Venue** — a place you go. Golden Age Surry Hills, Dendy Newtown, Palace Moore Park.
+**Venue** — a place you go. Golden Age Surry Hills, Dendy, Palace Moore Park.
 
 **Source** — how we found out. Golden Age’s ticket feed, Palace’s chain site, a YAML file of one-offs.
 
@@ -53,7 +53,7 @@ When title+year is wrong (a season vs a film, a double bill), fix it in editoria
 ```ts
 type Venue = {
   id: string              // "dendy-newtown"
-  name: string            // "Dendy Newtown"
+  name: string            // "Dendy"
   suburb?: string
 }
 ```

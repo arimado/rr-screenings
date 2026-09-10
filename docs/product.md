@@ -36,14 +36,14 @@ Ship with a short list. Add more as sources, not as a new product.
 
 - Ritz (Randwick)
 - Golden Age (Surry Hills)
-- Dendy Newtown
+- Dendy (Newtown)
 - Hayden Orpheum (Cremorne)
 - AGNSW / Sydney Cinémathèque (Domain Theatre)
+- MCA film programmes (The Rocks)
 - Palace in Sydney (Moore Park / Norton Street / Central, not Chauvel)
 
 **Next**
 
-- MCA film programmes
 - University film societies
 - Festivals and one-off repertory nights
 

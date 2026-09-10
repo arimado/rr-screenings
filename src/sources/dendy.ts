@@ -115,7 +115,7 @@ export const dendy: SourceAdapter = {
     }
 
     if (screenings.length === 0) {
-      throw new Error("Dendy Newtown returned no screenings");
+      throw new Error("Dendy returned no screenings");
     }
     return screenings;
   },
