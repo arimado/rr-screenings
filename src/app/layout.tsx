@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "rr-movies",
-  description: "This week at the Ritz and Golden Age.",
+  description:
+    "This week at the Ritz, Golden Age, Dendy Newtown, the Orpheum, AGNSW, Palace Norton St, Palace Central, and Palace Moore Park.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

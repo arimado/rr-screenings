@@ -1,0 +1,371 @@
+{
+  "fetchedAt": "2026-09-10T10:28:03.122Z",
+  "screenings": [
+    {
+      "id": "agnsw:019fbb95-6e25-7f09-6259-9611a20ddb63:2026-09-12T04:30:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Il posto",
+      "startsAt": "2026-09-12T04:30:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbb95-6e25-7f09-6259-9611a20ddb63",
+      "format": "35mm",
+      "year": 1961,
+      "runtimeMins": 93
+    },
+    {
+      "id": "agnsw:019fbb9a-b63a-52a9-43c2-0f9c2c353d13:2026-09-19T04:30:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "The lizards (I basilischi)",
+      "startsAt": "2026-09-19T04:30:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbb9a-b63a-52a9-43c2-0f9c2c353d13",
+      "format": "35mm",
+      "year": 1963
+    },
+    {
+      "id": "agnsw:019fbb9f-3bf1-96e6-2ac2-7872fad87275:2026-09-26T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "They’re a weird mob: Restoration premiere (60th anniversary) Introduced by Concetta Caristo",
+      "startsAt": "2026-09-26T03:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbb9f-3bf1-96e6-2ac2-7872fad87275",
+      "format": "35mm",
+      "year": 1966
+    },
+    {
+      "id": "agnsw:019fbba4-2a02-6e1b-9d32-ae86410b8cac:2026-09-26T05:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Clay [35mm] Introduced by Jason Di Rosso",
+      "startsAt": "2026-09-26T05:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbba4-2a02-6e1b-9d32-ae86410b8cac",
+      "format": "35mm",
+      "year": 1965,
+      "runtimeMins": 85
+    },
+    {
+      "id": "agnsw:019fbbab-818a-cfc8-9202-e1ca7cb77b89:2026-10-10T03:30:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Blow-up [35mm]",
+      "startsAt": "2026-10-10T03:30:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbab-818a-cfc8-9202-e1ca7cb77b89",
+      "format": "35mm",
+      "year": 1966,
+      "runtimeMins": 111
+    },
+    {
+      "id": "agnsw:019fbbb2-a9c2-4b29-9d06-190d2ebfad57:2026-10-17T03:30:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Teorema",
+      "startsAt": "2026-10-17T03:30:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbb2-a9c2-4b29-9d06-190d2ebfad57",
+      "format": "35mm",
+      "year": 1968,
+      "runtimeMins": 98
+    },
+    {
+      "id": "agnsw:019fbbb8-0964-a019-7530-b1300af11d34:2026-10-24T02:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "8½",
+      "startsAt": "2026-10-24T02:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbb8-0964-a019-7530-b1300af11d34",
+      "format": "35mm",
+      "year": 1963,
+      "runtimeMins": 138
+    },
+    {
+      "id": "agnsw:019fbbc6-54b8-b262-8e30-4e2a42f41e4c:2026-10-24T04:30:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Nine [35mm] Introduced by Andrew Fraser",
+      "startsAt": "2026-10-24T04:30:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbc6-54b8-b262-8e30-4e2a42f41e4c",
+      "format": "35mm",
+      "year": 2009,
+      "runtimeMins": 118
+    },
+    {
+      "id": "agnsw:019fb647-47a5-e73e-b109-35d67cc3837d:2026-09-13T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Giant [35mm]",
+      "startsAt": "2026-09-13T03:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb647-47a5-e73e-b109-35d67cc3837d",
+      "format": "35mm",
+      "year": 1956,
+      "runtimeMins": 201
+    },
+    {
+      "id": "agnsw:019fb64b-7d6a-9afd-6364-06e1bf15c6fa:2026-09-16T04:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Araya",
+      "startsAt": "2026-09-16T04:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb64b-7d6a-9afd-6364-06e1bf15c6fa",
+      "format": "16mm",
+      "year": 1959,
+      "runtimeMins": 90
+    },
+    {
+      "id": "agnsw:019fb64b-7d6a-9afd-6364-06e1bf15c6fa:2026-09-16T09:15:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Araya",
+      "startsAt": "2026-09-16T09:15:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb64b-7d6a-9afd-6364-06e1bf15c6fa",
+      "format": "16mm",
+      "year": 1959,
+      "runtimeMins": 90
+    },
+    {
+      "id": "agnsw:019fb6b4-5300-fe67-8e97-60a502244e90:2026-09-23T04:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "The departure",
+      "startsAt": "2026-09-23T04:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb6b4-5300-fe67-8e97-60a502244e90  ",
+      "format": "35mm",
+      "year": 1967,
+      "runtimeMins": 93
+    },
+    {
+      "id": "agnsw:019fb6b4-5300-fe67-8e97-60a502244e90:2026-09-23T09:15:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "The departure",
+      "startsAt": "2026-09-23T09:15:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb6b4-5300-fe67-8e97-60a502244e90  ",
+      "format": "35mm",
+      "year": 1967,
+      "runtimeMins": 93
+    },
+    {
+      "id": "agnsw:019fb6b4-5300-fe67-8e97-60a502244e90:2026-09-27T04:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "The departure",
+      "startsAt": "2026-09-27T04:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb6b4-5300-fe67-8e97-60a502244e90  ",
+      "format": "35mm",
+      "year": 1967,
+      "runtimeMins": 93
+    },
+    {
+      "id": "agnsw:019fb6ba-1b2c-074d-6e37-aa51445c077b:2026-09-30T04:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Traffic",
+      "startsAt": "2026-09-30T04:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb6ba-1b2c-074d-6e37-aa51445c077b",
+      "format": "35mm",
+      "year": 1971,
+      "runtimeMins": 96
+    },
+    {
+      "id": "agnsw:019fb6ba-1b2c-074d-6e37-aa51445c077b:2026-09-30T09:15:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Traffic",
+      "startsAt": "2026-09-30T09:15:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb6ba-1b2c-074d-6e37-aa51445c077b",
+      "format": "35mm",
+      "year": 1971,
+      "runtimeMins": 96
+    },
+    {
+      "id": "agnsw:019fb6ba-1b2c-074d-6e37-aa51445c077b:2026-10-04T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Traffic",
+      "startsAt": "2026-10-04T03:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb6ba-1b2c-074d-6e37-aa51445c077b",
+      "format": "35mm",
+      "year": 1971,
+      "runtimeMins": 96
+    },
+    {
+      "id": "agnsw:VDInD_wESj6AU-E4OOaylA:2026-10-07T2–3.40pm:2026-10-07T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Five easy pieces",
+      "startsAt": "2026-10-07T03:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#five-easy-pieces",
+      "format": "35mm",
+      "year": 1970,
+      "runtimeMins": 98
+    },
+    {
+      "id": "agnsw:VDInD_wESj6AU-E4OOaylA:2026-10-07T7.15–8.55pm:2026-10-07T08:15:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Five easy pieces",
+      "startsAt": "2026-10-07T08:15:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#five-easy-pieces",
+      "format": "35mm",
+      "year": 1970,
+      "runtimeMins": 98
+    },
+    {
+      "id": "agnsw:MsJBwAR0T-2tg29s1BAt3Q:2026-10-07T6–6.55pm:2026-10-07T07:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Lessons of darkness",
+      "startsAt": "2026-10-07T07:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#lessons-of-darkness",
+      "format": "35mm",
+      "year": 1992,
+      "runtimeMins": 54
+    },
+    {
+      "id": "agnsw:NanmmKlDRZ6Z4G4mnMkLuQ:2026-10-11T1–2.30pm:2026-10-11T02:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Koyaanisqatsi and Powaqqatsi [35mm]",
+      "startsAt": "2026-10-11T02:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#koyaanisqatsi-powaqqatsi",
+      "format": "35mm",
+      "year": 1982,
+      "runtimeMins": 86
+    },
+    {
+      "id": "agnsw:NanmmKlDRZ6Z4G4mnMkLuQ:2026-10-11T3–4.40pm:2026-10-11T04:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Koyaanisqatsi and Powaqqatsi [35mm]",
+      "startsAt": "2026-10-11T04:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#koyaanisqatsi-powaqqatsi",
+      "format": "35mm",
+      "year": 1982,
+      "runtimeMins": 86
+    },
+    {
+      "id": "agnsw:UGHMmqf5S4-GfSvVKUq-9w:2026-10-14T2–3.35pm:2026-10-14T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "The runner [35mm]",
+      "startsAt": "2026-10-14T03:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#the-runner",
+      "format": "35mm",
+      "year": 1984,
+      "runtimeMins": 94
+    },
+    {
+      "id": "agnsw:UGHMmqf5S4-GfSvVKUq-9w:2026-10-14T7.15–8.50pm:2026-10-14T08:15:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "The runner [35mm]",
+      "startsAt": "2026-10-14T08:15:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#the-runner",
+      "format": "35mm",
+      "year": 1984,
+      "runtimeMins": 94
+    },
+    {
+      "id": "agnsw:CRLFoCNtRPqr5koPtOBHRQ:2026-10-18T2–3.50pm:2026-10-18T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "The dupes",
+      "startsAt": "2026-10-18T03:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#the-dupes",
+      "format": "35mm",
+      "year": 1972,
+      "runtimeMins": 107
+    },
+    {
+      "id": "agnsw:d3Fy3tZ9RJegi_q3HNHM2Q:2026-10-21T2–3.40pm:2026-10-21T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Crazy thunder road",
+      "startsAt": "2026-10-21T03:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#crazy-thunder-road",
+      "format": "16mm",
+      "year": 1980,
+      "runtimeMins": 98
+    },
+    {
+      "id": "agnsw:d3Fy3tZ9RJegi_q3HNHM2Q:2026-10-21T7.15–8.55pm:2026-10-21T08:15:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Crazy thunder road",
+      "startsAt": "2026-10-21T08:15:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#crazy-thunder-road",
+      "format": "16mm",
+      "year": 1980,
+      "runtimeMins": 98
+    },
+    {
+      "id": "agnsw:daymis6rSf-WxUkUK1BvQA:2026-10-25T2–4.15pm:2026-10-25T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Speed racer [35mm]",
+      "startsAt": "2026-10-25T03:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#speed-racer",
+      "format": "35mm",
+      "year": 2008,
+      "runtimeMins": 135
+    },
+    {
+      "id": "agnsw:EJeaalKUTYqTbMWeAvpPpA:2026-10-28T2–3.40pm:2026-10-28T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Mad Max 2",
+      "startsAt": "2026-10-28T03:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#mad-max-2",
+      "format": "35mm",
+      "year": 1981,
+      "runtimeMins": 96
+    },
+    {
+      "id": "agnsw:EJeaalKUTYqTbMWeAvpPpA:2026-10-28T7.15–8.55pm:2026-10-28T08:15:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Mad Max 2",
+      "startsAt": "2026-10-28T08:15:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#mad-max-2",
+      "format": "35mm",
+      "year": 1981,
+      "runtimeMins": 96
+    },
+    {
+      "id": "agnsw:GDyTndLvS2GzVk-Ne8GDuw:2026-11-01T2–4.35pm:2026-11-01T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Dry ground burning",
+      "startsAt": "2026-11-01T03:00:00.000Z",
+      "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#dry-ground-burning",
+      "year": 2022,
+      "runtimeMins": 153
+    },
+    {
+      "id": "agnsw:019fcb0e-e526-6b77-e5ba-5ab931b0962c:2026-09-20T04:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Morvern Callar Screening and book launch",
+      "startsAt": "2026-09-20T04:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fcb0e-e526-6b77-e5ba-5ab931b0962c",
+      "runtimeMins": 130
+    },
+    {
+      "id": "agnsw:01a05bce-70cb-30dd-afda-606db78ab5e3:2026-10-03T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "True history of the Kelly Gang Q&A with director Justin Kurzel",
+      "startsAt": "2026-10-03T03:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/01a05bce-70cb-30dd-afda-606db78ab5e3",
+      "format": "Q&A",
+      "runtimeMins": 144
+    },
+    {
+      "id": "agnsw:01a0844f-2007-2cee-a6ee-068cbc6a05be:2026-11-28T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Sisters with transistors Q&A with musician Suzanne Ciani",
+      "startsAt": "2026-11-28T03:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/01a0844f-2007-2cee-a6ee-068cbc6a05be",
+      "format": "Q&A"
+    }
+  ]
+}

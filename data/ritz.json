@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-10T09:04:26.612Z",
+  "fetchedAt": "2026-09-10T10:28:04.576Z",
   "screenings": [
-    {
-      "id": "ritz:90819",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-10T08:45:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90819",
-      "format": "NFT"
-    },
     {
       "id": "ritz:90823",
       "sourceId": "ritz",
@@ -28,15 +19,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90824"
     },
     {
-      "id": "ritz:89937",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Oasis: Don't Look Back In Anger",
-      "startsAt": "2026-09-10T08:45:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89937",
-      "format": "NFT"
-    },
-    {
       "id": "ritz:90827",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -44,31 +26,6 @@
       "startsAt": "2026-09-10T11:20:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90827",
       "format": "NFT, OCaptions"
-    },
-    {
-      "id": "ritz:90821",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Spider-Man: Brand New Day",
-      "startsAt": "2026-09-10T09:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90821"
-    },
-    {
-      "id": "ritz:90820",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-10T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90820"
-    },
-    {
-      "id": "ritz:89958",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Hope",
-      "startsAt": "2026-09-10T09:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89958",
-      "format": "NFT"
     },
     {
       "id": "ritz:90981",
@@ -93,16 +50,6 @@
       "title": "It Ends",
       "startsAt": "2026-09-10T11:00:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90980"
-    },
-    {
-      "id": "ritz:88154",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Dekalog 4-6",
-      "startsAt": "2026-09-10T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=88154",
-      "format": "Kieslowski, RETRO",
-      "year": 1988
     },
     {
       "id": "ritz:91010",
@@ -257,6 +204,30 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90791"
     },
     {
+      "id": "ritz:90816",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Silenced",
+      "startsAt": "2026-09-11T00:50:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90816"
+    },
+    {
+      "id": "ritz:91008",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Silenced",
+      "startsAt": "2026-09-11T03:45:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91008"
+    },
+    {
+      "id": "ritz:90784",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Silenced",
+      "startsAt": "2026-09-11T07:40:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90784"
+    },
+    {
       "id": "ritz:91129",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -287,30 +258,6 @@
       "title": "The Invite",
       "startsAt": "2026-09-11T09:00:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90787"
-    },
-    {
-      "id": "ritz:90816",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Silenced",
-      "startsAt": "2026-09-11T00:50:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90816"
-    },
-    {
-      "id": "ritz:91008",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Silenced",
-      "startsAt": "2026-09-11T03:45:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91008"
-    },
-    {
-      "id": "ritz:90784",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Silenced",
-      "startsAt": "2026-09-11T07:40:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90784"
     },
     {
       "id": "ritz:89960",
@@ -606,30 +553,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90748"
     },
     {
-      "id": "ritz:91012",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-12T03:40:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91012"
-    },
-    {
-      "id": "ritz:90763",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-12T05:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90763"
-    },
-    {
-      "id": "ritz:90746",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-12T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90746"
-    },
-    {
       "id": "ritz:90765",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -652,6 +575,30 @@
       "title": "Silenced",
       "startsAt": "2026-09-12T07:20:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90751"
+    },
+    {
+      "id": "ritz:91012",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Invite",
+      "startsAt": "2026-09-12T03:40:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91012"
+    },
+    {
+      "id": "ritz:90763",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Invite",
+      "startsAt": "2026-09-12T05:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90763"
+    },
+    {
+      "id": "ritz:90746",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Invite",
+      "startsAt": "2026-09-12T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90746"
     },
     {
       "id": "ritz:89962",
@@ -963,6 +910,22 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91022"
     },
     {
+      "id": "ritz:91041",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Silenced",
+      "startsAt": "2026-09-13T00:15:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91041"
+    },
+    {
+      "id": "ritz:91042",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Silenced",
+      "startsAt": "2026-09-13T03:50:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91042"
+    },
+    {
       "id": "ritz:91044",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -985,22 +948,6 @@
       "title": "The Invite",
       "startsAt": "2026-09-13T08:10:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91019"
-    },
-    {
-      "id": "ritz:91041",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Silenced",
-      "startsAt": "2026-09-13T00:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91041"
-    },
-    {
-      "id": "ritz:91042",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Silenced",
-      "startsAt": "2026-09-13T03:50:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91042"
     },
     {
       "id": "ritz:89965",
@@ -1283,22 +1230,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90855"
     },
     {
-      "id": "ritz:91055",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-14T03:20:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91055"
-    },
-    {
-      "id": "ritz:90949",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-14T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90949"
-    },
-    {
       "id": "ritz:90955",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -1322,6 +1253,22 @@
       "title": "Silenced",
       "startsAt": "2026-09-14T07:15:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90951"
+    },
+    {
+      "id": "ritz:91055",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Invite",
+      "startsAt": "2026-09-14T03:20:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91055"
+    },
+    {
+      "id": "ritz:90949",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Invite",
+      "startsAt": "2026-09-14T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90949"
     },
     {
       "id": "ritz:89966",
@@ -1604,22 +1551,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90869"
     },
     {
-      "id": "ritz:90884",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-15T03:40:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90884"
-    },
-    {
-      "id": "ritz:90873",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-15T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90873"
-    },
-    {
       "id": "ritz:90892",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -1634,6 +1565,22 @@
       "title": "Silenced",
       "startsAt": "2026-09-15T03:45:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90893"
+    },
+    {
+      "id": "ritz:90884",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Invite",
+      "startsAt": "2026-09-15T03:40:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90884"
+    },
+    {
+      "id": "ritz:90873",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Invite",
+      "startsAt": "2026-09-15T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90873"
     },
     {
       "id": "ritz:90895",
@@ -1956,22 +1903,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90923"
     },
     {
-      "id": "ritz:90921",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-16T03:45:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90921"
-    },
-    {
-      "id": "ritz:90927",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-16T09:10:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90927"
-    },
-    {
       "id": "ritz:90993",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -1994,6 +1925,22 @@
       "title": "Silenced",
       "startsAt": "2026-09-16T08:15:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90934"
+    },
+    {
+      "id": "ritz:90921",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Invite",
+      "startsAt": "2026-09-16T03:45:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90921"
+    },
+    {
+      "id": "ritz:90927",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Invite",
+      "startsAt": "2026-09-16T09:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90927"
     },
     {
       "id": "ritz:89970",

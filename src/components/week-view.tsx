@@ -1,54 +1,101 @@
+import { GoToToday } from "@/components/go-to-today";
 import { VenueDot } from "@/components/venue-dot";
 import { WeekGrid, WeekNav, weekHref } from "@/components/week-grid";
+import { Toggle } from "@/components/ui/toggle";
 import {
   getScreeningsForDays,
   loadSnapshots,
+  slugsWithOneUpcoming,
   snapshotIsStale,
 } from "@/data/get-screenings";
 import { groupDayEntries } from "@/data/group";
+import { filmSlug } from "@/domain/film";
+import type { Screening } from "@/domain/screening";
 import {
   addDays,
   formatSydneyDayHeading,
   isWeekdayNineToFive,
+  sydneyYmd,
 } from "@/domain/sydney";
-import { getVenue, venues } from "@/domain/venue";
-import { nextMonday, parseWeekParam } from "@/domain/week";
+import { getVenue, parseVenueIds, toggleVenueId, venues } from "@/domain/venue";
+import { currentWeek, nextMonday, parseWeekParam } from "@/domain/week";
 import Link from "next/link";
+
+function screeningsAtLabel(venueIds: string[]): string {
+  if (venueIds.length === 0) {
+    return "Screenings at the Ritz, Golden Age, Dendy Newtown, the Orpheum, AGNSW, Palace Norton St, Palace Central, and Palace Moore Park.";
+  }
+  const named = venueIds.map((id) => getVenue(id)).filter((v) => v != null);
+  if (named.length === 1) {
+    const v = named[0];
+    return `Screenings at ${v.name}${v.suburb ? `, ${v.suburb}` : ""}.`;
+  }
+  const names = named.map((v) => v.name);
+  if (names.length === 2) return `Screenings at ${names[0]} and ${names[1]}.`;
+  return `Screenings at ${names.slice(0, -1).join(", ")}, and ${names[names.length - 1]}.`;
+}
 
 export async function WeekView({
   weekParam,
-  venueId,
+  venueIds: venueIdsRaw,
   hide9to5 = false,
+  oneLeft = false,
 }: {
   weekParam?: string;
-  venueId?: string;
+  venueIds?: string | string[];
   hide9to5?: boolean;
+  oneLeft?: boolean;
 }) {
   const week = parseWeekParam(weekParam);
+  const today = sydneyYmd();
+  const todayOnPage = week.days.includes(today);
   const snapshots = loadSnapshots();
   const stale = snapshots.some(({ snapshot }) => snapshotIsStale(snapshot));
   const staleFetchedAt = snapshots
     .filter(({ snapshot }) => snapshotIsStale(snapshot))
     .map(({ snapshot }) => snapshot.fetchedAt)
     .sort()[0];
-  const venue = venueId ? getVenue(venueId) : undefined;
-  let screenings = getScreeningsForDays(week.days);
-  if (venueId) {
-    screenings = screenings.filter((s) => s.venueId === venueId);
+  const venueIds = parseVenueIds(venueIdsRaw);
+  const query = { venueIds, hide9to5, oneLeft };
+  const todayHref = todayOnPage
+    ? "#today"
+    : `${weekHref(currentWeek().monday, query)}#today`;
+  const oneLeftSlugs = oneLeft ? slugsWithOneUpcoming() : null;
+
+  function applyFilters(rows: Screening[]) {
+    let next = rows;
+    if (venueIds.length > 0) {
+      const allowed = new Set(venueIds);
+      next = next.filter((s) => allowed.has(s.venueId));
+    }
+    if (oneLeftSlugs) {
+      next = next.filter((s) =>
+        oneLeftSlugs.has(filmSlug(s.title, s.year)),
+      );
+    }
+    return next;
   }
+
+  let screenings = applyFilters(getScreeningsForDays(week.days));
   if (hide9to5) {
     screenings = screenings.filter((s) => !isWeekdayNineToFive(s.startsAt));
   }
+  const shown = screenings.length;
   const byDay = groupDayEntries(screenings);
-  const hasAny = screenings.length > 0;
+  const hasAny = shown > 0;
+  const workdayLabel =
+    hide9to5 && shown > 0
+      ? `Evenings & weekends (${shown})`
+      : "Evenings & weekends";
+  const oneLeftLabel =
+    oneLeft && shown > 0
+      ? `One screening left (${shown})`
+      : "One screening left";
 
   const nextWeekDays = Array.from({ length: 7 }, (_, i) =>
     addDays(nextMonday(week.monday), i),
   );
-  let nextScreenings = getScreeningsForDays(nextWeekDays);
-  if (venueId) {
-    nextScreenings = nextScreenings.filter((s) => s.venueId === venueId);
-  }
+  let nextScreenings = applyFilters(getScreeningsForDays(nextWeekDays));
   if (hide9to5) {
     nextScreenings = nextScreenings.filter(
       (s) => !isWeekdayNineToFive(s.startsAt),
@@ -60,50 +107,49 @@ export async function WeekView({
       <header className="flex flex-col gap-1">
         <p className="text-sm text-muted-foreground">
           <Link href="/" className="hover:underline">
-            rr-movies
+            Films In Syd
           </Link>
         </p>
         <h1 className="text-2xl font-semibold tracking-tight">This week</h1>
         <p className="text-sm text-muted-foreground">
-          {venue
-            ? `Screenings at ${venue.name}${venue.suburb ? `, ${venue.suburb}` : ""}.`
-            : "Screenings at the Ritz and Golden Age."}
+          {screeningsAtLabel(venueIds)}
         </p>
-        <nav className="flex flex-wrap items-center gap-3 text-sm" aria-label="Cinemas">
-          <Link
-            href={weekHref(week.monday, undefined, hide9to5)}
-            className={`underline-offset-4 hover:underline ${
-              venueId ? "text-muted-foreground" : "font-medium"
-            }`}
-            aria-current={!venueId ? "page" : undefined}
-          >
-            All
-          </Link>
-          {venues.map((v) => (
-            <Link
-              key={v.id}
-              href={weekHref(week.monday, v.id, hide9to5)}
-              className={`inline-flex items-center gap-1.5 underline-offset-4 hover:underline ${
-                venueId === v.id ? "font-medium" : "text-muted-foreground"
-              }`}
-              aria-current={venueId === v.id ? "page" : undefined}
-            >
-              <VenueDot venueId={v.id} />
-              {v.name}
-            </Link>
-          ))}
+        <nav className="mt-2 flex flex-wrap gap-2" aria-label="Cinemas">
+          {venues.map((v) => {
+            const pressed = venueIds.includes(v.id);
+            return (
+              <Toggle
+                key={v.id}
+                asChild
+                pressed={pressed}
+                variant="outline"
+                size="sm"
+              >
+                <Link
+                  href={weekHref(week.monday, {
+                    ...query,
+                    venueIds: toggleVenueId(venueIds, v.id),
+                  })}
+                >
+                  <VenueDot venueId={v.id} />
+                  {v.name}
+                </Link>
+              </Toggle>
+            );
+          })}
         </nav>
-        <p className="text-sm">
-          <Link
-            href={weekHref(week.monday, venueId, !hide9to5)}
-            className={`underline-offset-4 hover:underline ${
-              hide9to5 ? "font-medium" : "text-muted-foreground"
-            }`}
-            aria-pressed={hide9to5}
-          >
-            {hide9to5 ? "Showing after 5pm weekdays" : "Hide weekday 9–5"}
-          </Link>
-        </p>
+        <nav className="mt-2 flex flex-wrap gap-2" aria-label="Filters">
+          <Toggle asChild pressed={hide9to5} variant="outline" size="sm">
+            <Link href={weekHref(week.monday, { ...query, hide9to5: !hide9to5 })}>
+              {workdayLabel}
+            </Link>
+          </Toggle>
+          <Toggle asChild pressed={oneLeft} variant="outline" size="sm">
+            <Link href={weekHref(week.monday, { ...query, oneLeft: !oneLeft })}>
+              {oneLeftLabel}
+            </Link>
+          </Toggle>
+        </nav>
         {stale && staleFetchedAt ? (
           <p className="text-sm text-amber-700 dark:text-amber-400">
             Listings may be stale (last fetched{" "}
@@ -114,7 +160,7 @@ export async function WeekView({
           </p>
         ) : null}
       </header>
-      <WeekNav week={week} venueId={venueId} hide9to5={hide9to5} />
+      <WeekNav week={week} query={query} />
       {!hasAny ? (
         <div className="rounded-lg border p-6 text-sm">
           <p>Nothing on this week.</p>
@@ -122,15 +168,23 @@ export async function WeekView({
             <p className="mt-2">
               <Link
                 className="underline"
-                href={weekHref(nextMonday(week.monday), venueId, hide9to5)}
+                href={weekHref(nextMonday(week.monday), query)}
               >
                 See {formatSydneyDayHeading(nextMonday(week.monday))} week
               </Link>
             </p>
           ) : null}
+          {!todayOnPage ? (
+            <GoToToday href={todayHref} todayOnPage={false} />
+          ) : null}
         </div>
       ) : (
-        <WeekGrid days={week.days} byDay={byDay} />
+        <WeekGrid
+          days={week.days}
+          byDay={byDay}
+          today={today}
+          todayHref={todayHref}
+        />
       )}
     </div>
   );

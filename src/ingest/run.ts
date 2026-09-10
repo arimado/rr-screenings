@@ -39,8 +39,8 @@ async function main() {
         TIMEOUT_MS,
         source.id,
       );
-      if (!Array.isArray(screenings) || screenings.length === 0) {
-        throw new Error("empty result");
+      if (!Array.isArray(screenings)) {
+        throw new Error("invalid result");
       }
       writeSnapshot(source.id, {
         fetchedAt: new Date().toISOString(),

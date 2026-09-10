@@ -34,14 +34,16 @@ Ship with a short list. Add more as sources, not as a new product.
 
 **Now**
 
-- Ritz (Randwick) — first live source
-- Golden Age (Surry Hills) — second live source
+- Ritz (Randwick)
+- Golden Age (Surry Hills)
 - Dendy Newtown
-- Palace in Sydney (Moore Park / Norton Street, not Chauvel)
+- Hayden Orpheum (Cremorne)
+- AGNSW / Sydney Cinémathèque (Domain Theatre)
+- Palace in Sydney (Moore Park / Norton Street / Central, not Chauvel)
 
 **Next**
 
-- MCA and AGNSW screenings
+- MCA film programmes
 - University film societies
 - Festivals and one-off repertory nights
 

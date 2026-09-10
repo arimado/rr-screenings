@@ -99,6 +99,19 @@ export function getScreeningsForDays(
   );
 }
 
+export function slugsWithOneUpcoming(now: Date = new Date()): Set<string> {
+  const counts = new Map<string, number>();
+  for (const s of upcoming(allScreenings(), now)) {
+    const slug = filmSlug(s.title, s.year);
+    counts.set(slug, (counts.get(slug) ?? 0) + 1);
+  }
+  const slugs = new Set<string>();
+  for (const [slug, n] of counts) {
+    if (n === 1) slugs.add(slug);
+  }
+  return slugs;
+}
+
 export function getUpcomingBySlug(
   slug: string,
   now: Date = new Date(),

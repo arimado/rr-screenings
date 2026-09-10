@@ -34,7 +34,7 @@ No map, no search page, no “my list.” Query params on `/` for filters are en
 
 ## Week grid
 
-Days are columns (on a phone: a vertical stack of days, or swipe; do not shrink seven columns until they are unreadable).
+Days are columns (on a phone: a vertical stack of days, or swipe; do not shrink seven columns until they are unreadable). On a phone, a Today control jumps to the current Sydney day, or back to this week if you have paged away. Desktop already shows the whole week, so it stays off.
 
 Each day is a stack of **entries**. Default entry is a film at a venue that day:
 
@@ -52,10 +52,11 @@ Empty day: leave the column, do not hide the date.
 
 On the week, not in a settings page:
 
-- Cinema links (All / each venue) stay on the week; they are a filter, not a one-way drill-down
-- Hide weekday 9–5 (`?hide9to5=1`): drops Mon–Fri sessions from 9:00 up to but not including 17:00 Sydney. Weekend daytime stays. 5:00pm and later stay.
+- Cinemas (`?venues=id,id`): each cinema is a toggle, including the three Palace sites (Norton St, Central, Moore Park) as their own chips — not one Palace group. Missing `venues` is the default set: every cinema except Palace. Palace is off until you turn a site on. An explicit list keeps those cinemas only. `/venue/[venueId]` is still that cinema on its own.
+- Evenings & weekends (`?hide9to5=1`): keeps weekend sessions and weekday sessions from 17:00 Sydney. Drops Mon–Fri 9:00 up to but not including 17:00. When the filter is on, the label includes how many sessions it is showing this week.
+- One screening left (`?oneLeft=1`): keeps films whose upcoming listings have exactly one remaining session (title+year, all venues). When the filter is on, the label includes how many sessions it is showing this week.
 
-Filters narrow the grid. They do not change the week.
+Filters are toggles. They narrow the grid. They do not change the week.
 
 ## Empty and broken
 

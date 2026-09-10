@@ -1,34 +1,43 @@
+import { GoToToday } from "@/components/go-to-today";
 import { Button } from "@/components/ui/button";
 import { VenueDot } from "@/components/venue-dot";
 import type { DayEntry } from "@/data/group";
 import { formatSydneyDayHeading } from "@/domain/sydney";
+import { isDefaultVenueIds } from "@/domain/venue";
 import { nextMonday, prevMonday, type Week } from "@/domain/week";
 import Link from "next/link";
 
-export function weekHref(
-  monday: string,
-  venueId?: string,
-  hide9to5?: boolean,
-) {
-  const q = new URLSearchParams({ week: monday });
-  if (hide9to5) q.set("hide9to5", "1");
-  const qs = `?${q.toString()}`;
-  return venueId ? `/venue/${venueId}${qs}` : `/${qs}`;
+export type WeekQuery = {
+  venueIds?: string[];
+  hide9to5?: boolean;
+  oneLeft?: boolean;
+};
+
+export function weekHref(monday: string, q: WeekQuery = {}) {
+  const params = new URLSearchParams({ week: monday });
+  if (
+    q.venueIds &&
+    q.venueIds.length > 0 &&
+    !isDefaultVenueIds(q.venueIds)
+  ) {
+    params.set("venues", q.venueIds.join(","));
+  }
+  if (q.hide9to5) params.set("hide9to5", "1");
+  if (q.oneLeft) params.set("oneLeft", "1");
+  return `/?${params.toString()}`;
 }
 
 export function WeekNav({
   week,
-  venueId,
-  hide9to5,
+  query,
 }: {
   week: Week;
-  venueId?: string;
-  hide9to5?: boolean;
+  query?: WeekQuery;
 }) {
   return (
     <div className="flex items-center justify-between gap-4">
       <Button variant="ghost" size="sm" asChild>
-        <Link href={weekHref(prevMonday(week.monday), venueId, hide9to5)}>
+        <Link href={weekHref(prevMonday(week.monday), query)}>
           Previous
         </Link>
       </Button>
@@ -36,7 +45,7 @@ export function WeekNav({
         {formatSydneyDayHeading(week.monday)} – {formatSydneyDayHeading(week.sunday)}
       </p>
       <Button variant="ghost" size="sm" asChild>
-        <Link href={weekHref(nextMonday(week.monday), venueId, hide9to5)}>
+        <Link href={weekHref(nextMonday(week.monday), query)}>
           Next
         </Link>
       </Button>
@@ -86,33 +95,50 @@ function EntryCard({ entry }: { entry: DayEntry }) {
 export function WeekGrid({
   days,
   byDay,
+  today,
+  todayHref,
 }: {
   days: string[];
   byDay: Map<string, DayEntry[]>;
+  today: string;
+  todayHref: string;
 }) {
   return (
-    <div className="grid gap-6 md:grid-cols-7 md:gap-3">
-      {days.map((day) => {
-        const entries = byDay.get(day) ?? [];
-        return (
-          <section key={day} className="min-w-0">
-            <h2 className="sticky top-0 mb-1.5 bg-background py-1 text-xs font-medium text-muted-foreground">
-              {formatSydneyDayHeading(day)}
-            </h2>
-            {entries.length === 0 ? (
-              <p className="text-xs text-muted-foreground">—</p>
-            ) : (
-              <ul className="flex flex-col gap-1.5">
-                {entries.map((entry) => (
-                  <li key={entry.key}>
-                    <EntryCard entry={entry} />
-                  </li>
-                ))}
-              </ul>
-            )}
-          </section>
-        );
-      })}
-    </div>
+    <>
+      <div className="grid gap-6 md:grid-cols-7 md:gap-3">
+        {days.map((day) => {
+          const entries = byDay.get(day) ?? [];
+          const isToday = day === today;
+          return (
+            <section
+              key={day}
+              id={isToday ? "today" : undefined}
+              className="min-w-0 scroll-mt-3"
+            >
+              <h2
+                className={`sticky top-0 mb-1.5 bg-background py-1 text-xs font-medium ${
+                  isToday ? "text-foreground" : "text-muted-foreground"
+                }`}
+              >
+                {formatSydneyDayHeading(day)}
+                {isToday ? " · Today" : ""}
+              </h2>
+              {entries.length === 0 ? (
+                <p className="text-xs text-muted-foreground">—</p>
+              ) : (
+                <ul className="flex flex-col gap-1.5">
+                  {entries.map((entry) => (
+                    <li key={entry.key}>
+                      <EntryCard entry={entry} />
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </section>
+          );
+        })}
+      </div>
+      <GoToToday href={todayHref} todayOnPage={days.includes(today)} />
+    </>
   );
 }

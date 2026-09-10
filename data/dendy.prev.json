@@ -1,0 +1,4023 @@
+{
+  "fetchedAt": "2026-09-10T10:28:01.197Z",
+  "screenings": [
+    {
+      "id": "dendy:945777",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-10T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945777",
+      "format": "Baby Daze",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953447",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-10T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953447",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953448",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-10T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953448",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953449",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-10T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953449",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:954741",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-10T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/954741",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953445",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-10T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953445",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953446",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-10T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953446",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953450",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-10T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953450",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953451",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-10T00:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953451",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953453",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-10T00:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953453",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953454",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-10T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953454",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953455",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-10T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953455",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953457",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "By Any Means",
+      "startsAt": "2026-09-10T02:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/by-any-means/953457",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953458",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-10T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953458",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953460",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-10T02:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953460",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953456",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-10T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953456",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953461",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-10T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953461",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953462",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-10T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953462",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953459",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-10T03:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953459",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953463",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-10T03:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953463",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953464",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-10T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953464",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953465",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Silenced",
+      "startsAt": "2026-09-10T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/silenced/953465",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:953466",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-10T04:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953466",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:940891",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-10T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/940891",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953469",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-10T05:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953469",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953467",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-10T05:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953467",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953470",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-10T05:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953470",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953468",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-10T05:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953468",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953475",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-10T05:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953475",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953472",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-10T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953472",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953473",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-10T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953473",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953474",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-10T06:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953474",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953471",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-10T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953471",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953479",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-10T08:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953479",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:940892",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-10T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/940892",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:945652",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-10T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945652",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953476",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-10T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953476",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953478",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-10T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953478",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:909106",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Boyz n the Hood",
+      "startsAt": "2026-09-10T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/boyz-n-the-hood/909106",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:876475",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Silence of the Lambs",
+      "startsAt": "2026-09-10T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-silence-of-the-lamb/876475",
+      "format": "35MM",
+      "runtimeMins": 119
+    },
+    {
+      "id": "dendy:940913",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-10T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/940913",
+      "format": "SPECIAL",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:953480",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-10T09:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953480",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953477",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-10T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953477",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953481",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-10T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953481",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953484",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-10T10:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953484",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:945653",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-10T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945653",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953483",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-10T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953483",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953482",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-10T11:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953482",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:954727",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-10T11:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/954727",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953485",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-10T11:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953485",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953486",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-10T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953486",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953487",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-10T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953487",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:922822",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-11T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/922822",
+      "format": "Baby Daze",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953708",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-11T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953708",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953710",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-11T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953710",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953711",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-11T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953711",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953712",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-11T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953712",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:954742",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-11T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/954742",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953709",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-11T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953709",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953713",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-11T00:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953713",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953715",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-11T00:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953715",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953716",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Dog Stars",
+      "startsAt": "2026-09-11T00:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-dog-stars/953716",
+      "runtimeMins": 118
+    },
+    {
+      "id": "dendy:953717",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-11T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953717",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953718",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-11T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953718",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953720",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "By Any Means",
+      "startsAt": "2026-09-11T02:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/by-any-means/953720",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953726",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-11T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953726",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953722",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-11T02:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953722",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953723",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-11T02:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953723",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953721",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-11T02:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953721",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953724",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-11T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953724",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953725",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-11T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953725",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953719",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-11T03:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953719",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953727",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-11T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953727",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953728",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Silenced",
+      "startsAt": "2026-09-11T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/silenced/953728",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:953729",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-11T04:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953729",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953730",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-11T04:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953730",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:940893",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-11T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/940893",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953731",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-11T05:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953731",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953732",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-11T05:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953732",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953733",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-11T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953733",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953738",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-11T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953738",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953735",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-11T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953735",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953736",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-11T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953736",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953737",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-11T06:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953737",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953734",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-11T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953734",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953739",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-11T07:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953739",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:940894",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-11T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/940894",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:945654",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-11T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945654",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953743",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-11T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953743",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:940914",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-11T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/940914",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:953744",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-11T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953744",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:936446",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Missing Link",
+      "startsAt": "2026-09-11T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/missing-link/936446",
+      "runtimeMins": 94
+    },
+    {
+      "id": "dendy:953740",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-11T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953740",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953745",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-11T09:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953745",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953741",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-11T09:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953741",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953747",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-11T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953747",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953742",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-11T10:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953742",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:945655",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-11T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945655",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953746",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-11T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953746",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:913181",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Rocky Horror Picture Show",
+      "startsAt": "2026-09-11T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-rocky-horror-picture-show/913181",
+      "format": "SPECIAL",
+      "runtimeMins": 100
+    },
+    {
+      "id": "dendy:953749",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-11T11:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953749",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953750",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-11T11:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953750",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953748",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-11T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953748",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953751",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-11T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953751",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:953752",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-11T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953752",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:946364",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Last Whale Singer",
+      "startsAt": "2026-09-12T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-last-whale-singer/946364",
+      "format": "PREVIEW, Saver",
+      "runtimeMins": 99
+    },
+    {
+      "id": "dendy:953792",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-12T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953792",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953793",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-12T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953793",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953794",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-12T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953794",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953796",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-12T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953796",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:954743",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-12T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/954743",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953789",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-12T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953789",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953790",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-12T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953790",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953791",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-12T00:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953791",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953797",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Dog Stars",
+      "startsAt": "2026-09-12T00:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-dog-stars/953797",
+      "runtimeMins": 118
+    },
+    {
+      "id": "dendy:953798",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-12T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953798",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953800",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-12T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953800",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953809",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Silenced",
+      "startsAt": "2026-09-12T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/silenced/953809",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:953799",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-12T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953799",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953802",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-12T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953802",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953804",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-12T02:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953804",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953803",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-12T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953803",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953806",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-12T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953806",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953805",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-12T03:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953805",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953807",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-12T03:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953807",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953826",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-12T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953826",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953801",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "By Any Means",
+      "startsAt": "2026-09-12T04:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/by-any-means/953801",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953808",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-12T04:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953808",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:909108",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Boyz n the Hood",
+      "startsAt": "2026-09-12T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/boyz-n-the-hood/909108",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:940895",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-12T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/940895",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:945656",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-12T05:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945656",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953811",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-12T05:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953811",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953812",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-12T05:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953812",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:940915",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-12T05:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/940915",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:936447",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Missing Link",
+      "startsAt": "2026-09-12T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/missing-link/936447",
+      "runtimeMins": 94
+    },
+    {
+      "id": "dendy:953810",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-12T06:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953810",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953813",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-12T06:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953813",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953814",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-12T06:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953814",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953815",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-12T07:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953815",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953820",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-12T08:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953820",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:940896",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-12T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/940896",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:945657",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-12T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945657",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953816",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-12T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953816",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953819",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-12T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953819",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:940916",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-12T08:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/940916",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:953822",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Silenced",
+      "startsAt": "2026-09-12T08:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/silenced/953822",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:953821",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-12T08:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953821",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953817",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-12T09:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953817",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953823",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-12T09:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953823",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953818",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-12T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953818",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953824",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-12T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953824",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953831",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-12T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953831",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:949668",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Rocky Horror Picture Show",
+      "startsAt": "2026-09-12T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-rocky-horror-picture-show/949668",
+      "format": "SPECIAL",
+      "runtimeMins": 100
+    },
+    {
+      "id": "dendy:953825",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-12T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953825",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953827",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-12T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953827",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953828",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-12T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953828",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953829",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-12T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953829",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:953830",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-12T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953830",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:936448",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Missing Link",
+      "startsAt": "2026-09-13T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/missing-link/936448",
+      "runtimeMins": 94
+    },
+    {
+      "id": "dendy:946374",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Last Whale Singer",
+      "startsAt": "2026-09-13T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-last-whale-singer/946374",
+      "format": "PREVIEW, Saver",
+      "runtimeMins": 99
+    },
+    {
+      "id": "dendy:953844",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-13T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953844",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953846",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-13T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953846",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953845",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-13T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953845",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953851",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-13T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953851",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:954737",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-13T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/954737",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953842",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-13T00:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953842",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953848",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-13T00:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953848",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953843",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-13T00:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953843",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953849",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-13T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953849",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953850",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-13T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953850",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953852",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "By Any Means",
+      "startsAt": "2026-09-13T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/by-any-means/953852",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953853",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-13T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953853",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953855",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-13T02:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953855",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953866",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-13T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953866",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:909290",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "M",
+      "startsAt": "2026-09-13T03:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/m/909290",
+      "runtimeMins": 110
+    },
+    {
+      "id": "dendy:953854",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-13T03:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953854",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:940917",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-13T03:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/940917",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:953857",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-13T03:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953857",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953858",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-13T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953858",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953859",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Silenced",
+      "startsAt": "2026-09-13T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/silenced/953859",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:953860",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-13T04:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953860",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:940897",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-13T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/940897",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953861",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-13T05:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953861",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:945658",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-13T05:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945658",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953856",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-13T05:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953856",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953864",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-13T05:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953864",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:926983",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Invisible Injuries",
+      "startsAt": "2026-09-13T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/invisible-injuries/926983",
+      "format": "Q&A",
+      "runtimeMins": 86
+    },
+    {
+      "id": "dendy:953863",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-13T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953863",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953865",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-13T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953865",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953867",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-13T06:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953867",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953868",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-13T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953868",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953869",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-13T07:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953869",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:940898",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-13T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/940898",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953871",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-13T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953871",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953885",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-13T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953885",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:945659",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-13T08:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945659",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:940918",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-13T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/940918",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:953870",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-13T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953870",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953872",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-13T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953872",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953873",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-13T08:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953873",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953874",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-13T09:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953874",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953875",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-13T09:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953875",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953876",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-13T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953876",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953878",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-13T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953878",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953862",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-13T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953862",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953877",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-13T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953877",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953881",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-13T11:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953881",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953879",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-13T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953879",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953880",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-13T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953880",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953882",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-13T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953882",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953883",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-13T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953883",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:953884",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-13T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953884",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953887",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-14T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953887",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953889",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-14T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953889",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953890",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-14T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953890",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:953894",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-14T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953894",
+      "format": "Hospo",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:954123",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-14T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/954123",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:953886",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-14T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953886",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953891",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-14T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953891",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953892",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-14T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953892",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953888",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-14T00:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953888",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:954738",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-14T00:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/954738",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953896",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-14T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953896",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953897",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-14T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953897",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953898",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-14T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953898",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953899",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "By Any Means",
+      "startsAt": "2026-09-14T02:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/by-any-means/953899",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953900",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-14T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953900",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953904",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-14T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953904",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953902",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-14T02:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953902",
+      "format": "Hospo",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953901",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-14T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953901",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953903",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-14T03:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953903",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953905",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-14T03:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953905",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953906",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-14T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953906",
+      "format": "Hospo",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953907",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Silenced",
+      "startsAt": "2026-09-14T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/silenced/953907",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:953908",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-14T04:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953908",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953909",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-14T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953909",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953910",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-14T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953910",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953911",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-14T05:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953911",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953913",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-14T05:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953913",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953916",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-14T05:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953916",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953912",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-14T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953912",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953914",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-14T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953914",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953915",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-14T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953915",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953917",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-14T06:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953917",
+      "format": "Hospo",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953918",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-14T06:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953918",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953919",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-14T07:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953919",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:945660",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-14T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945660",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953920",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-14T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953920",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953922",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-14T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953922",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953924",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-14T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953924",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:909107",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Boyz n the Hood",
+      "startsAt": "2026-09-14T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/boyz-n-the-hood/909107",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953921",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-14T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953921",
+      "format": "Hospo",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:955888",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-14T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/955888",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:954081",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-14T08:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/954081",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:953925",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-14T09:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953925",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953926",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-14T09:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953926",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953923",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-14T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953923",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953928",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-14T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953928",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953930",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-14T10:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953930",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:945661",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-14T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945661",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953929",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-14T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953929",
+      "format": "Hospo",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953932",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-14T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953932",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953933",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-14T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953933",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953927",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-14T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953927",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953934",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-14T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/953934",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:954080",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-14T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/954080",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:951959",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-15T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/951959",
+      "format": "$13 Ticket",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:951982",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-15T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/951982",
+      "format": "$13 Ticket",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:951989",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-15T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/951989",
+      "format": "$13 Ticket",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:952005",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-15T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/952005",
+      "format": "$13 Ticket",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:954739",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-15T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/954739",
+      "format": "$13 Ticket",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:951953",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-15T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/951953",
+      "format": "$13 Ticket",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:951992",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-15T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/951992",
+      "format": "$13 Ticket",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:951965",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-15T00:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/951965",
+      "format": "$13 Ticket",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:951978",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-15T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/951978",
+      "format": "$13 Ticket",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953285",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-15T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953285",
+      "format": "$13 Ticket",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:951984",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-15T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/951984",
+      "format": "$13 Ticket",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:951976",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-15T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/951976",
+      "format": "$13 Ticket",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:951991",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-15T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/951991",
+      "format": "$13 Ticket",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:951960",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-15T02:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/951960",
+      "format": "$13 Ticket",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:952003",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "By Any Means",
+      "startsAt": "2026-09-15T02:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/by-any-means/952003",
+      "format": "$13 Ticket",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:951954",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-15T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/951954",
+      "format": "$13 Ticket",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:951966",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-15T03:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/951966",
+      "format": "$13 Ticket",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:951972",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-15T03:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/951972",
+      "format": "$13 Ticket",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:951964",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-15T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/951964",
+      "format": "$13 Ticket",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:951996",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Silenced",
+      "startsAt": "2026-09-15T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/silenced/951996",
+      "format": "$13 Ticket",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:951951",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-15T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/951951",
+      "format": "$13 Ticket",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:951981",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-15T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/951981",
+      "format": "$13 Ticket",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:952001",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-15T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/952001",
+      "format": "$13 Ticket",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:951955",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-15T05:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/951955",
+      "format": "$13 Ticket",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:951967",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-15T05:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/951967",
+      "format": "$13 Ticket",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:951971",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-15T05:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/951971",
+      "format": "$13 Ticket",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:951985",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-15T05:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/951985",
+      "format": "$13 Ticket",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:951988",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-15T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/951988",
+      "format": "$13 Ticket",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:951977",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-15T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/951977",
+      "format": "$13 Ticket",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:951961",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-15T06:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/951961",
+      "format": "$13 Ticket",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:951998",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-15T07:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/951998",
+      "format": "$13 Ticket",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:952000",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-15T07:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/952000",
+      "format": "$13 Ticket",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:945662",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-15T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945662",
+      "format": "$13 Ticket",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:951952",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-15T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/951952",
+      "format": "$13 Ticket",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:951973",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-15T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/951973",
+      "format": "$13 Ticket",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:951986",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-15T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/951986",
+      "format": "$13 Ticket",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:951993",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-15T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/951993",
+      "format": "$13 Ticket",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:951962",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-15T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/951962",
+      "format": "$13 Ticket",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:951968",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-15T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/951968",
+      "format": "$13 Ticket",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:954124",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-15T08:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/954124",
+      "format": "$13 Ticket",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:951979",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-15T09:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/951979",
+      "format": "$13 Ticket",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:951983",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-15T09:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/951983",
+      "format": "$13 Ticket",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:945663",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-15T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945663",
+      "format": "$13 Ticket",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:951975",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-15T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/951975",
+      "format": "$13 Ticket",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:951963",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-15T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/951963",
+      "format": "$13 Ticket",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:951969",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-15T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/951969",
+      "format": "$13 Ticket",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953229",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-15T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953229",
+      "format": "$13 Ticket",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:951987",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-15T11:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/951987",
+      "format": "$13 Ticket",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:951997",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-15T11:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/951997",
+      "format": "$13 Ticket",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:951974",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-15T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/951974",
+      "format": "$13 Ticket",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:951999",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Stop! That! Train!",
+      "startsAt": "2026-09-15T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/stop-that-train/951999",
+      "format": "$13 Ticket",
+      "runtimeMins": 91
+    },
+    {
+      "id": "dendy:952002",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-15T11:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/952002",
+      "format": "$13 Ticket",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953937",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-16T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953937",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953938",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-16T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953938",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953939",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-16T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953939",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953942",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-16T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953942",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953945",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Dog Stars",
+      "startsAt": "2026-09-16T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-dog-stars/953945",
+      "runtimeMins": 118
+    },
+    {
+      "id": "dendy:954740",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-16T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/954740",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953936",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-16T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953936",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953941",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-16T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953941",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:954125",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-16T00:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/954125",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:953944",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-16T00:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953944",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953947",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-16T02:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953947",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953946",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-16T02:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953946",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953949",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "By Any Means",
+      "startsAt": "2026-09-16T02:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/by-any-means/953949",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953950",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-16T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953950",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953954",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-16T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953954",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:953948",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-16T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953948",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953951",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-16T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953951",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953952",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-16T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953952",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953953",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-16T03:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953953",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953955",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-16T03:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953955",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953956",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-16T04:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953956",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953957",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Silenced",
+      "startsAt": "2026-09-16T04:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/silenced/953957",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:953958",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-16T04:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/i-want-your-sex/953958",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:953959",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-16T05:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953959",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953961",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-16T05:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953961",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953960",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-16T05:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953960",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:953962",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-16T05:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953962",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953963",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-16T05:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953963",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953966",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-16T05:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953966",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953964",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "On the Road",
+      "startsAt": "2026-09-16T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/on-the-road/953964",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:953965",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-16T06:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/953965",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:953967",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-16T06:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953967",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953968",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-16T06:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953968",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:953974",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-16T08:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953974",
+      "runtimeMins": 172
+    },
+    {
+      "id": "dendy:945664",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-16T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945664",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:909291",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Memories of Murder",
+      "startsAt": "2026-09-16T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/memories-of-murder/909291",
+      "runtimeMins": 131
+    },
+    {
+      "id": "dendy:953970",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-16T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953970",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:953971",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-16T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953971",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:953975",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-16T08:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953975",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:943346",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Weight",
+      "startsAt": "2026-09-16T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-weight/943346",
+      "format": "PREVIEW",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:951830",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-16T08:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/coyote-vs-acme/951830",
+      "format": "PREVIEW",
+      "runtimeMins": 103
+    },
+    {
+      "id": "dendy:953972",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-16T09:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953972",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953979",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-16T10:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953979",
+      "runtimeMins": 160
+    },
+    {
+      "id": "dendy:945665",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-16T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945665",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:953985",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-16T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953985",
+      "runtimeMins": 112
+    },
+    {
+      "id": "dendy:954726",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Spider-Man: Brand New Day",
+      "startsAt": "2026-09-16T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/954726",
+      "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953981",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-16T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953981",
+      "runtimeMins": 120
+    },
+    {
+      "id": "dendy:953984",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Obsession",
+      "startsAt": "2026-09-16T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/obsession/953984",
+      "runtimeMins": 108
+    },
+    {
+      "id": "dendy:954126",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-16T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/954126",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:953980",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-16T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953980",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:954725",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-16T11:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/954725",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:922825",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-17T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/922825",
+      "format": "Baby Daze",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:955993",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-17T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/forgotten-island/955993",
+      "format": "Saver",
+      "runtimeMins": 98
+    },
+    {
+      "id": "dendy:955999",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-17T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/forgotten-island/955999",
+      "format": "Saver",
+      "runtimeMins": 98
+    },
+    {
+      "id": "dendy:956010",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Invite",
+      "startsAt": "2026-09-17T04:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/956010",
+      "runtimeMins": 107
+    },
+    {
+      "id": "dendy:950282",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950282",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:956019",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "It Ends",
+      "startsAt": "2026-09-17T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/956019",
+      "runtimeMins": 89
+    },
+    {
+      "id": "dendy:909109",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Thief",
+      "startsAt": "2026-09-17T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/thief/909109",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:956024",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-17T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/956024",
+      "runtimeMins": 106
+    },
+    {
+      "id": "dendy:950283",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T08:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950283",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:956036",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-17T10:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/956036",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:922824",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-18T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/922824",
+      "format": "Baby Daze",
+      "runtimeMins": 130
+    },
+    {
+      "id": "dendy:950284",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950284",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:951649",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "9 to 5",
+      "startsAt": "2026-09-18T08:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/9-to-5/951649",
+      "runtimeMins": 110
+    },
+    {
+      "id": "dendy:936449",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Boxtrolls",
+      "startsAt": "2026-09-18T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-boxtrolls/936449",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:950285",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T08:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950285",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:955873",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "startsAt": "2026-09-19T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/shaun-the-sheep-the-beast-of-mossy-bottom/955873",
+      "format": "PREVIEW, Saver",
+      "runtimeMins": 81
+    },
+    {
+      "id": "dendy:952427",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-19T00:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/forgotten-island/952427",
+      "format": "Saver",
+      "runtimeMins": 98
+    },
+    {
+      "id": "dendy:893801",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Once Upon a Time in America - Extended Edition",
+      "startsAt": "2026-09-19T02:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/once-upon-a-time-in-america---extended-edition/893801",
+      "runtimeMins": 250
+    },
+    {
+      "id": "dendy:923837",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "EXHIBITION ON SCREEN: James McNeill Whistler",
+      "startsAt": "2026-09-19T03:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/exhibition-on-screen-james-mcneill-whistler/923837",
+      "format": "DENDY ARTS",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:955872",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "startsAt": "2026-09-19T04:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/shaun-the-sheep-the-beast-of-mossy-bottom/955872",
+      "format": "PREVIEW, Saver",
+      "runtimeMins": 81
+    },
+    {
+      "id": "dendy:909111",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Thief",
+      "startsAt": "2026-09-19T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/thief/909111",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:936450",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Boxtrolls",
+      "startsAt": "2026-09-19T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-boxtrolls/936450",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:955871",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-19T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/heart-of-the-beast/955871",
+      "format": "PREVIEW",
+      "runtimeMins": 101
+    },
+    {
+      "id": "dendy:950286",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950286",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:950287",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T08:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950287",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:936451",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Boxtrolls",
+      "startsAt": "2026-09-20T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-boxtrolls/936451",
+      "runtimeMins": 97
+    },
+    {
+      "id": "dendy:955876",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "startsAt": "2026-09-20T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/shaun-the-sheep-the-beast-of-mossy-bottom/955876",
+      "format": "PREVIEW, Saver",
+      "runtimeMins": 81
+    },
+    {
+      "id": "dendy:952428",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-20T00:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/forgotten-island/952428",
+      "format": "Saver",
+      "runtimeMins": 98
+    },
+    {
+      "id": "dendy:923838",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "EXHIBITION ON SCREEN: James McNeill Whistler",
+      "startsAt": "2026-09-20T01:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/exhibition-on-screen-james-mcneill-whistler/923838",
+      "format": "DENDY ARTS",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:903839",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "NT Live: The Misanthrope",
+      "startsAt": "2026-09-20T03:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/nt-live-the-misanthrope/903839",
+      "format": "DENDY ARTS, PREVIEW",
+      "runtimeMins": 150
+    },
+    {
+      "id": "dendy:909292",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Memories of Murder",
+      "startsAt": "2026-09-20T03:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/memories-of-murder/909292",
+      "runtimeMins": 131
+    },
+    {
+      "id": "dendy:955875",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "startsAt": "2026-09-20T04:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/shaun-the-sheep-the-beast-of-mossy-bottom/955875",
+      "format": "PREVIEW, Saver",
+      "runtimeMins": 81
+    },
+    {
+      "id": "dendy:955874",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-20T06:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/heart-of-the-beast/955874",
+      "format": "PREVIEW",
+      "runtimeMins": 101
+    },
+    {
+      "id": "dendy:950288",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950288",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:950289",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T08:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950289",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:950290",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950290",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:909110",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Thief",
+      "startsAt": "2026-09-21T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/thief/909110",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:950291",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T08:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950291",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:950292",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950292",
+      "format": "$13 Ticket",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:950293",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T08:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950293",
+      "format": "$13 Ticket",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:923839",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "EXHIBITION ON SCREEN: James McNeill Whistler",
+      "startsAt": "2026-09-23T00:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/exhibition-on-screen-james-mcneill-whistler/923839",
+      "format": "DENDY ARTS",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:950294",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T06:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950294",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:909293",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Night of The Hunter",
+      "startsAt": "2026-09-23T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/night-of-the-hunter/909293",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:950295",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T08:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950295",
+      "runtimeMins": 90
+    },
+    {
+      "id": "dendy:947080",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-24T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/coyote-vs-acme/947080",
+      "format": "Baby Daze",
+      "runtimeMins": 103
+    },
+    {
+      "id": "dendy:949722",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-24T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949722",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:909112",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Cape Fear",
+      "startsAt": "2026-09-24T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/cape-fear/909112",
+      "runtimeMins": 128
+    },
+    {
+      "id": "dendy:876476",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Memento",
+      "startsAt": "2026-09-24T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/memento/876476",
+      "format": "35MM",
+      "runtimeMins": 113
+    },
+    {
+      "id": "dendy:949731",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-24T09:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949731",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:947081",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-25T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/coyote-vs-acme/947081",
+      "format": "Baby Daze",
+      "runtimeMins": 103
+    },
+    {
+      "id": "dendy:949723",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-25T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949723",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:936452",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Kubo and the Two Strings",
+      "startsAt": "2026-09-25T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/kubo-and-the-two-strings/936452",
+      "runtimeMins": 102
+    },
+    {
+      "id": "dendy:949724",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-25T09:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949724",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:949725",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-26T04:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949725",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:909114",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Cape Fear",
+      "startsAt": "2026-09-26T05:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/cape-fear/909114",
+      "runtimeMins": 128
+    },
+    {
+      "id": "dendy:936453",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Kubo and the Two Strings",
+      "startsAt": "2026-09-26T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/kubo-and-the-two-strings/936453",
+      "runtimeMins": 102
+    },
+    {
+      "id": "dendy:936454",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Kubo and the Two Strings",
+      "startsAt": "2026-09-27T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/kubo-and-the-two-strings/936454",
+      "runtimeMins": 102
+    },
+    {
+      "id": "dendy:909294",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Night of The Hunter",
+      "startsAt": "2026-09-27T03:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/night-of-the-hunter/909294",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:949726",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-27T04:45:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949726",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:949727",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-28T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949727",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:909113",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Cape Fear",
+      "startsAt": "2026-09-28T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/cape-fear/909113",
+      "runtimeMins": 128
+    },
+    {
+      "id": "dendy:949728",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-28T09:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949728",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:949729",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-29T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949729",
+      "format": "$13 Ticket",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:949730",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-29T09:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/avengers-endgame-encore/949730",
+      "format": "$13 Ticket",
+      "runtimeMins": 181
+    },
+    {
+      "id": "dendy:909295",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Playtime",
+      "startsAt": "2026-09-30T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/playtime/909295",
+      "runtimeMins": 123
+    },
+    {
+      "id": "dendy:946356",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Sukundimi Walks Before Me",
+      "startsAt": "2026-09-30T08:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/sukundimi-walks-before-me/946356",
+      "format": "Q&A",
+      "runtimeMins": 93
+    },
+    {
+      "id": "dendy:947086",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-09-30T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/947086",
+      "format": "PREVIEW, SPECIAL",
+      "runtimeMins": 116
+    }
+  ]
+}
