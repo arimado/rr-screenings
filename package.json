@@ -10,6 +10,7 @@
     "ingest": "tsx src/ingest/run.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "cheerio": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.2.6",

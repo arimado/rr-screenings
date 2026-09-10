@@ -1,6 +1,7 @@
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SITE_DESCRIPTION, SITE_NAME } from "@/domain/share";
 import { siteUrl } from "@/lib/site-url";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col font-sans">
         <TooltipProvider>{children}</TooltipProvider>
+        <Analytics />
       </body>
     </html>
   );
