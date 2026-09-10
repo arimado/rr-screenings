@@ -218,7 +218,11 @@ If the film has no upcoming sessions but we still know the slug from stored list
 
 Listings share the current URL (filters included). Film share is the canonical path.
 
-`generateMetadata` on `/`, `/venue/…`, and `/film/…` sets the tab title and Open Graph/Twitter text (`Film in Syd`, not `rr-movies`). Titles use the same helpers as Share (`src/domain/share.ts`) so they do not drift. There is no custom OG image yet.
+`generateMetadata` on `/`, `/venue/…`, and `/film/…` sets the tab title and Open Graph/Twitter text (`Film in Syd`, not `rr-movies`). Share titles stay date-first (`listingsShareTitle`). Document titles are search-shaped (`Sydney cinema this week · Film in Syd`) and do not follow the share string. Query-param filters are not separate pages: each route sets `alternates.canonical` (and `openGraph.url`) to `/`, `/venue/{id}`, or `/film/{slug}`.
+
+`src/app/robots.ts` allows `/` and points at `/sitemap.xml`. `src/app/sitemap.ts` lists `/`, every venue, and every upcoming film slug (`upcomingFilmSlugs()`). Film pages emit JSON-LD (`Movie` + `ScreeningEvent`). There is no custom OG image yet.
+
+After a production deploy, verify the property in [Google Search Console](https://search.google.com/search-console) as URL prefix `https://www.filminsyd.com/`, submit `https://www.filminsyd.com/sitemap.xml`, then request indexing for `/`, one `/film/…` URL, and one `/venue/…` URL.
 
 ## Stack
 

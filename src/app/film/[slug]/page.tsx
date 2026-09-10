@@ -11,6 +11,7 @@ import {
   filmCanonicalPath,
   filmShareTitle,
   siteTitle,
+  venueCanonicalPath,
 } from "@/domain/share";
 import {
   formatSydneyDayHeading,
@@ -19,8 +20,10 @@ import {
 } from "@/domain/sydney";
 import { getVenue, parseVenueIds } from "@/domain/venue";
 import { resolveListingsWeek } from "@/domain/week";
+import { filmJsonLd } from "@/lib/film-json-ld";
 import type { ListingsSearch } from "@/lib/listings-metadata";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
@@ -35,14 +38,21 @@ export async function generateMetadata({
   const meta = knownFilmMeta(slug);
   const name = screenings[0]?.title ?? meta?.title;
   const year = screenings[0]?.year ?? meta?.year;
-  if (!name) return { title: { absolute: siteTitle() } };
+  const canonical = filmCanonicalPath(slug);
+  if (!name) {
+    return {
+      title: { absolute: siteTitle() },
+      alternates: { canonical },
+    };
+  }
   const label = filmShareTitle(name, year);
   const title = siteTitle(label);
   const description = `Upcoming Sydney screenings of ${label}.`;
   return {
     title: { absolute: title },
     description,
-    openGraph: { title, description },
+    alternates: { canonical },
+    openGraph: { title, description, url: canonical },
     twitter: { card: "summary", title, description },
   };
 }
@@ -96,6 +106,16 @@ export default async function FilmPage({
 
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-6 px-4 py-8">
+      {title ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
+              filmJsonLd({ slug, title, year, screenings }),
+            ).replace(/</g, "\\u003c"),
+          }}
+        />
+      ) : null}
       <p className="text-sm text-muted-foreground">
         <FilmBackLink href={backHref} />
       </p>
@@ -128,30 +148,32 @@ export default async function FilmPage({
                 .map((s) => {
                   const venue = getVenue(s.venueId);
                   const time = (
-                    <span className="flex flex-wrap items-center gap-2">
-                      <span>{formatSydneyTime(s.startsAt)}</span>
-                      <Badge variant="secondary">
-                        {venue?.name ?? s.venueId}
-                      </Badge>
-                      {s.format ? (
-                        <Badge variant="outline">{s.format}</Badge>
-                      ) : null}
-                    </span>
+                    <span>{formatSydneyTime(s.startsAt)}</span>
                   );
                   return (
                     <li key={s.id} className="rounded-lg border p-3 text-sm">
-                      {s.bookingUrl ? (
-                        <a
-                          href={s.bookingUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="hover:underline"
-                        >
-                          {time}
-                        </a>
-                      ) : (
-                        time
-                      )}
+                      <span className="flex flex-wrap items-center gap-2">
+                        {s.bookingUrl ? (
+                          <a
+                            href={s.bookingUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:underline"
+                          >
+                            {time}
+                          </a>
+                        ) : (
+                          time
+                        )}
+                        <Badge variant="secondary" asChild>
+                          <Link href={venueCanonicalPath(s.venueId)}>
+                            {venue?.name ?? s.venueId}
+                          </Link>
+                        </Badge>
+                        {s.format ? (
+                          <Badge variant="outline">{s.format}</Badge>
+                        ) : null}
+                      </span>
                     </li>
                   );
                 })}

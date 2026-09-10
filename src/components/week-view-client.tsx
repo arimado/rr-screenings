@@ -20,7 +20,7 @@ import {
 import { applyFilters } from "@/data/filter-screenings";
 import { groupDayEntries, groupFilmEntries, type DayEntry } from "@/data/group";
 import type { Screening } from "@/domain/screening";
-import { listingsShareTitle, siteTitle } from "@/domain/share";
+import { listingsShareTitle, siteTitle, venueCanonicalPath } from "@/domain/share";
 import { addDays, formatSydneyDayHeading } from "@/domain/sydney";
 import { toggleVenueId, venues } from "@/domain/venue";
 import { nextMonday, type Week } from "@/domain/week";
@@ -200,6 +200,9 @@ export function WeekViewClient({
             />
           ) : null}
         </div>
+        <p className="text-sm text-muted-foreground">
+          A week of Sydney screenings. Book on the cinema’s own site.
+        </p>
         <nav className="mt-2 flex flex-wrap gap-2" aria-label="Cinemas">
           {venues.map((v) => {
             const pressed = query.venueIds.includes(v.id);
@@ -439,6 +442,22 @@ export function WeekViewClient({
           onNavigate={goListings}
         />
       </div>
+      <footer className="border-t pt-4 text-sm text-muted-foreground">
+        <nav aria-label="Cinema pages">
+          <ul className="flex flex-wrap gap-x-3 gap-y-1">
+            {venues.map((v) => (
+              <li key={v.id}>
+                <Link
+                  href={venueCanonicalPath(v.id)}
+                  className="hover:text-foreground hover:underline"
+                >
+                  {v.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </footer>
     </div>
   );
 }

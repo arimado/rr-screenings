@@ -157,6 +157,14 @@ export function getUpcomingBySlug(
   );
 }
 
+export function upcomingFilmSlugs(now: Date = new Date()): string[] {
+  const slugs = new Set<string>();
+  for (const s of upcoming(allScreenings(), now)) {
+    slugs.add(filmSlug(s.title, s.year));
+  }
+  return [...slugs].sort();
+}
+
 export function filmIsKnown(slug: string): boolean {
   return allScreenings().some((s) => filmSlug(s.title, s.year) === slug);
 }
