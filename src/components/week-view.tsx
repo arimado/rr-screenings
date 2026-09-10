@@ -1,34 +1,43 @@
-import { WeekGrid, WeekNav } from "@/components/week-grid";
-import { getScreeningsForDays, loadSnapshot, snapshotIsStale } from "@/data/get-screenings";
+import { VenueDot } from "@/components/venue-dot";
+import { WeekGrid, WeekNav, weekHref } from "@/components/week-grid";
+import {
+  getScreeningsForDays,
+  loadSnapshots,
+  snapshotIsStale,
+} from "@/data/get-screenings";
 import { groupDayEntries } from "@/data/group";
-import { addDays, formatSydneyDayHeading } from "@/domain/sydney";
+import {
+  addDays,
+  formatSydneyDayHeading,
+  isWeekdayNineToFive,
+} from "@/domain/sydney";
+import { getVenue, venues } from "@/domain/venue";
 import { nextMonday, parseWeekParam } from "@/domain/week";
 import Link from "next/link";
-
-export const dynamic = "force-dynamic";
-
-export default async function HomePage({
-  searchParams,
-}: {
-  searchParams: Promise<{ week?: string }>;
-}) {
-  const { week: weekParam } = await searchParams;
-  return <WeekView weekParam={weekParam} />;
-}
 
 export async function WeekView({
   weekParam,
   venueId,
+  hide9to5 = false,
 }: {
   weekParam?: string;
   venueId?: string;
+  hide9to5?: boolean;
 }) {
   const week = parseWeekParam(weekParam);
-  const snapshot = loadSnapshot("ritz");
-  const stale = snapshotIsStale(snapshot);
+  const snapshots = loadSnapshots();
+  const stale = snapshots.some(({ snapshot }) => snapshotIsStale(snapshot));
+  const staleFetchedAt = snapshots
+    .filter(({ snapshot }) => snapshotIsStale(snapshot))
+    .map(({ snapshot }) => snapshot.fetchedAt)
+    .sort()[0];
+  const venue = venueId ? getVenue(venueId) : undefined;
   let screenings = getScreeningsForDays(week.days);
   if (venueId) {
     screenings = screenings.filter((s) => s.venueId === venueId);
+  }
+  if (hide9to5) {
+    screenings = screenings.filter((s) => !isWeekdayNineToFive(s.startsAt));
   }
   const byDay = groupDayEntries(screenings);
   const hasAny = screenings.length > 0;
@@ -39,6 +48,11 @@ export async function WeekView({
   let nextScreenings = getScreeningsForDays(nextWeekDays);
   if (venueId) {
     nextScreenings = nextScreenings.filter((s) => s.venueId === venueId);
+  }
+  if (hide9to5) {
+    nextScreenings = nextScreenings.filter(
+      (s) => !isWeekdayNineToFive(s.startsAt),
+    );
   }
 
   return (
@@ -51,19 +65,56 @@ export async function WeekView({
         </p>
         <h1 className="text-2xl font-semibold tracking-tight">This week</h1>
         <p className="text-sm text-muted-foreground">
-          Screenings at the Ritz, Randwick.
+          {venue
+            ? `Screenings at ${venue.name}${venue.suburb ? `, ${venue.suburb}` : ""}.`
+            : "Screenings at the Ritz and Golden Age."}
         </p>
-        {stale && snapshot ? (
+        <nav className="flex flex-wrap items-center gap-3 text-sm" aria-label="Cinemas">
+          <Link
+            href={weekHref(week.monday, undefined, hide9to5)}
+            className={`underline-offset-4 hover:underline ${
+              venueId ? "text-muted-foreground" : "font-medium"
+            }`}
+            aria-current={!venueId ? "page" : undefined}
+          >
+            All
+          </Link>
+          {venues.map((v) => (
+            <Link
+              key={v.id}
+              href={weekHref(week.monday, v.id, hide9to5)}
+              className={`inline-flex items-center gap-1.5 underline-offset-4 hover:underline ${
+                venueId === v.id ? "font-medium" : "text-muted-foreground"
+              }`}
+              aria-current={venueId === v.id ? "page" : undefined}
+            >
+              <VenueDot venueId={v.id} />
+              {v.name}
+            </Link>
+          ))}
+        </nav>
+        <p className="text-sm">
+          <Link
+            href={weekHref(week.monday, venueId, !hide9to5)}
+            className={`underline-offset-4 hover:underline ${
+              hide9to5 ? "font-medium" : "text-muted-foreground"
+            }`}
+            aria-pressed={hide9to5}
+          >
+            {hide9to5 ? "Showing after 5pm weekdays" : "Hide weekday 9–5"}
+          </Link>
+        </p>
+        {stale && staleFetchedAt ? (
           <p className="text-sm text-amber-700 dark:text-amber-400">
             Listings may be stale (last fetched{" "}
-            {new Date(snapshot.fetchedAt).toLocaleString("en-AU", {
+            {new Date(staleFetchedAt).toLocaleString("en-AU", {
               timeZone: "Australia/Sydney",
             })}
             ).
           </p>
         ) : null}
       </header>
-      <WeekNav week={week} venueId={venueId} />
+      <WeekNav week={week} venueId={venueId} hide9to5={hide9to5} />
       {!hasAny ? (
         <div className="rounded-lg border p-6 text-sm">
           <p>Nothing on this week.</p>
@@ -71,11 +122,7 @@ export async function WeekView({
             <p className="mt-2">
               <Link
                 className="underline"
-                href={
-                  venueId
-                    ? `/venue/${venueId}?week=${nextMonday(week.monday)}`
-                    : `/?week=${nextMonday(week.monday)}`
-                }
+                href={weekHref(nextMonday(week.monday), venueId, hide9to5)}
               >
                 See {formatSydneyDayHeading(nextMonday(week.monday))} week
               </Link>

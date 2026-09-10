@@ -13,7 +13,7 @@ The job is not “what’s on in Sydney”. It is: the parts of Sydney film cult
 - Sessions still reachable by film and by venue (drill-down from the calendar)
 - Outbound links to the cinema’s own booking page
 
-First ship is **Ritz only**: week grid + live Ritz listings. No other cinemas, no RR picks, no derived taste tags.
+First ship is **Ritz + Golden Age**: week grid + live listings. No RR picks, no derived taste tags.
 
 ## Out
 
@@ -34,8 +34,8 @@ Ship with a short list. Add more as sources, not as a new product.
 
 **Now**
 
-- Ritz (Randwick) — first live source, first ship
-- Golden Age (Surry Hills)
+- Ritz (Randwick) — first live source
+- Golden Age (Surry Hills) — second live source
 - Dendy Newtown
 - Palace in Sydney (Moore Park / Norton Street, not Chauvel)
 

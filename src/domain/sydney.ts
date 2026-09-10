@@ -81,6 +81,26 @@ export function sydneyLocalToIso(
   return instant.toISOString();
 }
 
+export function sydneyMinutesPastMidnight(iso: string): number {
+  const parts = new Intl.DateTimeFormat("en-AU", {
+    timeZone: SYDNEY,
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(new Date(iso));
+  const hour = Number(parts.find((p) => p.type === "hour")?.value);
+  const minute = Number(parts.find((p) => p.type === "minute")?.value);
+  return hour * 60 + minute;
+}
+
+/** Mon–Fri, 9:00 inclusive to 17:00 exclusive (Sydney). */
+export function isWeekdayNineToFive(iso: string): boolean {
+  const dow = sydneyWeekdayMon0(instantToSydneyYmd(iso));
+  if (dow > 4) return false;
+  const mins = sydneyMinutesPastMidnight(iso);
+  return mins >= 9 * 60 && mins < 17 * 60;
+}
+
 function tzOffsetMs(date: Date, timeZone: string): number {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone,

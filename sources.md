@@ -54,7 +54,7 @@ If it cannot become a `Screening` without lying (a three-month exhibition, a boo
 4. **Palace** — one source, several venues (`palace-moore-park`, Norton Street if we include it). Not Chauvel (closed January 2026).
 5. **MCA / AGNSW** film programmes, then **manual** for festivals and one-nighters.
 
-Do not add the second source until Ritz round-trips: fetch → snapshot → week grid.
+Do not add the next source until Golden Age round-trips: fetch → snapshot → week grid.
 
 ## How to add a cinema
 

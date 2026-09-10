@@ -39,7 +39,7 @@ Days are columns (on a phone: a vertical stack of days, or swipe; do not shrink 
 Each day is a stack of **entries**. Default entry is a film at a venue that day:
 
 - Title
-- Cinema (badge / colour — stable per `venueId`)
+- Cinema as a coloured circle (stable per `venueId`; legend in the header)
 - Times for that film+venue+day (the two 10:20 / 20:10 screenings collapse here)
 
 Click: the times can go straight to `bookingUrl` if there is one session; otherwise open the film. The cell must not look like a Google Calendar block with duration unless we have `runtimeMins` and even then it is optional — this is a listings grid, not a timetable.
@@ -52,8 +52,8 @@ Empty day: leave the column, do not hide the date.
 
 On the week, not in a settings page:
 
-- Cinema (multi) — wait until a second source exists; with Ritz only, `/` and `/venue/ritz-randwick` are enough
-- Format when we actually have `format` on rows (hide the control until then)
+- Cinema links (All / each venue) stay on the week; they are a filter, not a one-way drill-down
+- Hide weekday 9–5 (`?hide9to5=1`): drops Mon–Fri sessions from 9:00 up to but not including 17:00 Sydney. Weekend daytime stays. 5:00pm and later stay.
 
 Filters narrow the grid. They do not change the week.
 

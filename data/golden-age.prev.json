@@ -1,0 +1,582 @@
+{
+  "fetchedAt": "2026-09-10T09:04:25.782Z",
+  "screenings": [
+    {
+      "id": "golden-age:150141deb8e14abaa5923a01757c2e19",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Taste of Tea",
+      "startsAt": "2026-09-10T05:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Taste-of-Tea/Thu-Sep-10-2026-15-00",
+      "runtimeMins": 143
+    },
+    {
+      "id": "golden-age:32457e1d428c428bab4318e010299356",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-10T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/I-Want-Your-Sex/Thu-Sep-10-2026-18-00",
+      "runtimeMins": 90
+    },
+    {
+      "id": "golden-age:4d952f80fc5e4431841987270f61d6d8",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Doom Generation",
+      "startsAt": "2026-09-10T10:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Doom-Generation",
+      "runtimeMins": 85
+    },
+    {
+      "id": "golden-age:345cfdfb1f0746b4a009a902d7307dc5",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Tony",
+      "startsAt": "2026-09-11T05:30:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Tony/Fri-Sep-11-2026-15-30",
+      "runtimeMins": 106
+    },
+    {
+      "id": "golden-age:2e47cd331946407aaf55d8b516b94a61",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Romy and Michele's High School Reunion",
+      "startsAt": "2026-09-11T07:50:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Romy-and-Michele-s-High-School-Reunion/Fri-Sep-11-2026-17-50",
+      "runtimeMins": 92
+    },
+    {
+      "id": "golden-age:d56a49d756804cbd88b6e78011ba36d0",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-11T10:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/I-Want-Your-Sex/Fri-Sep-11-2026-20-00",
+      "runtimeMins": 90
+    },
+    {
+      "id": "golden-age:4bbf343d39e349b4990e6e95eb1de944",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Tony",
+      "startsAt": "2026-09-12T04:45:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Tony/Sat-Sep-12-2026-14-45",
+      "runtimeMins": 106
+    },
+    {
+      "id": "golden-age:e2b37909c01b488e8f609e2f4036a719",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Midnight Cowboy",
+      "startsAt": "2026-09-12T07:05:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Midnight-Cowboy/Sat-Sep-12-2026-17-05",
+      "runtimeMins": 114
+    },
+    {
+      "id": "golden-age:032419e085594f65b6db1b8cc03bdc68",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Taxi Driver",
+      "startsAt": "2026-09-12T09:45:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Taxi-Driver/Sat-Sep-12-2026-19-45",
+      "runtimeMins": 119
+    },
+    {
+      "id": "golden-age:5ee5829810ca4a158b66f4e79850aae5",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Colour of Pomegranates",
+      "startsAt": "2026-09-13T01:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Colour-of-Pomegranates/Sun-Sep-13-2026-11-00",
+      "runtimeMins": 79
+    },
+    {
+      "id": "golden-age:3fa607aa8a504cb9ba9d62de51dab181",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Vertigo",
+      "startsAt": "2026-09-13T03:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Vertigo/Sun-Sep-13-2026-13-00",
+      "runtimeMins": 128
+    },
+    {
+      "id": "golden-age:9492e1af24964f7ebbd0a12c406dab2e",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Chronology of Water",
+      "startsAt": "2026-09-13T05:40:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Chronology-of-Water/Sun-Sep-13-2026-15-40",
+      "runtimeMins": 128
+    },
+    {
+      "id": "golden-age:0dbff8e8b7cb4f1884ddca0c2b4008ac",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "California Split",
+      "startsAt": "2026-09-13T08:20:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/California-Split/Sun-Sep-13-2026-18-20",
+      "runtimeMins": 108
+    },
+    {
+      "id": "golden-age:1bd1c33e719b42928d071c0c828d6038",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-13T10:40:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/I-Want-Your-Sex/Sun-Sep-13-2026-20-40",
+      "runtimeMins": 90
+    },
+    {
+      "id": "golden-age:02d460aa91a445ceba4239c093c4a1f1",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Shadows of Forgotten Ancestors",
+      "startsAt": "2026-09-14T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Shadows-of-Forgotten-Ancestors/Mon-Sep-14-2026-18-00",
+      "runtimeMins": 96
+    },
+    {
+      "id": "golden-age:fa986b3663f842359078b2979a728a0b",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Tony",
+      "startsAt": "2026-09-14T10:05:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Tony/Mon-Sep-14-2026-20-05",
+      "runtimeMins": 106
+    },
+    {
+      "id": "golden-age:a2c324b54fe94202862cec0589edea52",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Diary of a Country Priest",
+      "startsAt": "2026-09-15T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Diary-of-a-Country-Priest/Tue-Sep-15-2026-18-00",
+      "format": "Crazy-Eyed Cult",
+      "runtimeMins": 115
+    },
+    {
+      "id": "golden-age:d57e08c3f4ea4ab0a43f1078f9076cc9",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Eraserhead",
+      "startsAt": "2026-09-15T10:25:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Eraserhead/Tue-Sep-15-2026-20-25",
+      "runtimeMins": 89
+    },
+    {
+      "id": "golden-age:797ce8e34dbb4748b90f26a88b349b02",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "I Want Your Sex",
+      "startsAt": "2026-09-16T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/I-Want-Your-Sex/Wed-Sep-16-2026-18-00",
+      "runtimeMins": 90
+    },
+    {
+      "id": "golden-age:294e8bdd3471487ca6129b9a6cd6e69e",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Mysterious Skin",
+      "startsAt": "2026-09-16T10:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Mysterious-Skin",
+      "runtimeMins": 105
+    },
+    {
+      "id": "golden-age:88c50135a9ff42a8b74f5488f5a367cd",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Sex (Dreams, Love)",
+      "startsAt": "2026-09-17T10:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Sex-Dreams-Love-/Thu-Sep-17-2026-20-00",
+      "runtimeMins": 118
+    },
+    {
+      "id": "golden-age:254ab8bafe9e4d18bda094c24bfb019c",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Time and Tide",
+      "startsAt": "2026-09-18T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Time-and-Tide/Fri-Sep-18-2026-18-00",
+      "runtimeMins": 99
+    },
+    {
+      "id": "golden-age:6373b082ee104fb292c909dedf0fd435",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "On the Road",
+      "startsAt": "2026-09-18T10:15:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/On-the-Road/Fri-Sep-18-2026-20-15",
+      "runtimeMins": 94
+    },
+    {
+      "id": "golden-age:73237da5ef71407298e638d117bedd99",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Time and Tide",
+      "startsAt": "2026-09-19T02:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Time-and-Tide/Sat-Sep-19-2026-12-00",
+      "runtimeMins": 99
+    },
+    {
+      "id": "golden-age:fe4f5d08b04a40e088ebea0ffe7db7e5",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "North by Northwest",
+      "startsAt": "2026-09-19T04:15:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/North-by-Northwest/Sat-Sep-19-2026-14-15",
+      "runtimeMins": 136
+    },
+    {
+      "id": "golden-age:9dde227f6c0f491da0fe13ff80864ef8",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Colour of Pomegranates",
+      "startsAt": "2026-09-20T01:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Colour-of-Pomegranates/Sun-Sep-20-2026-11-00",
+      "runtimeMins": 79
+    },
+    {
+      "id": "golden-age:10a27da7b83a44389c23c2b3c6c903bd",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Dry Leaf",
+      "startsAt": "2026-09-20T03:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Dry-Leaf/Sun-Sep-20-2026-13-00",
+      "runtimeMins": 186
+    },
+    {
+      "id": "golden-age:3abd3de7c18c4a05bf19e5368e493b7e",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Time and Tide",
+      "startsAt": "2026-09-20T06:35:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Time-and-Tide/Sun-Sep-20-2026-16-35",
+      "runtimeMins": 99
+    },
+    {
+      "id": "golden-age:651d426574dd4386ad2ba5134669b478",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Trainspotting",
+      "startsAt": "2026-09-20T08:40:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Trainspotting/Sun-Sep-20-2026-18-40",
+      "runtimeMins": 94
+    },
+    {
+      "id": "golden-age:bc3f5270113a41c8b8335c7a340ea9e6",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "On the Road",
+      "startsAt": "2026-09-20T10:45:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/On-the-Road/Sun-Sep-20-2026-20-45",
+      "runtimeMins": 94
+    },
+    {
+      "id": "golden-age:e9d0a058105c453b81fce1b70c9b1ee2",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Time and Tide",
+      "startsAt": "2026-09-21T07:50:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Time-and-Tide/Mon-Sep-21-2026-17-50",
+      "runtimeMins": 99
+    },
+    {
+      "id": "golden-age:b375993bc7dd4af2a8ad2c121f06f27d",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Taste of Tea",
+      "startsAt": "2026-09-21T10:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Taste-of-Tea/Mon-Sep-21-2026-20-00",
+      "runtimeMins": 143
+    },
+    {
+      "id": "golden-age:97f9efec3ea9419bb8bca07356ea8849",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Tony",
+      "startsAt": "2026-09-22T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Tony/Tue-Sep-22-2026-18-00",
+      "runtimeMins": 106
+    },
+    {
+      "id": "golden-age:3e4a1efebb574e28a95f56e45c8d918b",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Time and Tide",
+      "startsAt": "2026-09-22T10:20:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Time-and-Tide/Tue-Sep-22-2026-20-20",
+      "runtimeMins": 99
+    },
+    {
+      "id": "golden-age:8ecf52c238034d82acb4444c9ef73d68",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Time and Tide",
+      "startsAt": "2026-09-23T06:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Time-and-Tide/Wed-Sep-23-2026-16-00",
+      "runtimeMins": 99
+    },
+    {
+      "id": "golden-age:f20ac66c3c4c4cf29f1185b9c36574aa",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Sex (Dreams, Love)",
+      "startsAt": "2026-09-23T08:10:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Sex-Dreams-Love-/Wed-Sep-23-2026-18-10",
+      "runtimeMins": 118
+    },
+    {
+      "id": "golden-age:746333f909154aa8b1823ff3c98b828d",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Totally F***ed Up",
+      "startsAt": "2026-09-23T10:40:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Totally-F-ed-Up",
+      "runtimeMins": 78
+    },
+    {
+      "id": "golden-age:18ffd713d9514fa2b7c59e71c434efaf",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Time and Tide",
+      "startsAt": "2026-09-24T05:45:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Time-and-Tide/Thu-Sep-24-2026-15-45",
+      "runtimeMins": 99
+    },
+    {
+      "id": "golden-age:8d5c9e2b7520446b9a12266f45265f2e",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "On the Road",
+      "startsAt": "2026-09-24T07:55:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/On-the-Road/Thu-Sep-24-2026-17-55",
+      "runtimeMins": 94
+    },
+    {
+      "id": "golden-age:28de5375f88a4682b0004445fac81997",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Broken English",
+      "startsAt": "2026-09-25T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Broken-English",
+      "runtimeMins": 98
+    },
+    {
+      "id": "golden-age:aee0db7f1ca946ddad047649dcae635a",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Hope",
+      "startsAt": "2026-09-25T09:40:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Hope/Fri-Sep-25-2026-19-40",
+      "runtimeMins": 160
+    },
+    {
+      "id": "golden-age:ff4d07b9fe544757be24e5f2b5ca11c1",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-25T10:10:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Resident-Evil",
+      "runtimeMins": 95
+    },
+    {
+      "id": "golden-age:d256b9df8a4b4bb1a08f4ae393f00472",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Céline and Julie Go Boating",
+      "startsAt": "2026-09-26T02:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Celine-and-Julie-Go-Boating/Sat-Sep-26-2026-12-00",
+      "runtimeMins": 193
+    },
+    {
+      "id": "golden-age:a8981a64ff1c45cb861fceca04347cc7",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-26T07:45:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Oasis-Don-t-Look-Back-in-Anger",
+      "runtimeMins": 122
+    },
+    {
+      "id": "golden-age:327c6ad0c1f2479ca11180131c9590dd",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Tony",
+      "startsAt": "2026-09-26T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Tony/Sat-Sep-26-2026-18-00",
+      "runtimeMins": 106
+    },
+    {
+      "id": "golden-age:1f3f737d4edf4109a2f38175ed92d86a",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Invite",
+      "startsAt": "2026-09-27T03:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Invite/Sun-Sep-27-2026-13-00",
+      "runtimeMins": 107
+    },
+    {
+      "id": "golden-age:af8a7976bd7c4ae493ac507387f882b8",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Frances Ha",
+      "startsAt": "2026-09-27T05:20:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Frances-Ha/Sun-Sep-27-2026-15-20",
+      "runtimeMins": 86
+    },
+    {
+      "id": "golden-age:a4c783b522bd469fbfd9813ce57596f5",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Children of Men",
+      "startsAt": "2026-09-27T10:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Children-of-Men/Sun-Sep-27-2026-20-00",
+      "runtimeMins": 109
+    },
+    {
+      "id": "golden-age:d98b6550bc1b4a80b79e647aedfcc928",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Sex (Dreams, Love)",
+      "startsAt": "2026-09-28T10:10:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Sex-Dreams-Love-/Mon-Sep-28-2026-20-10",
+      "runtimeMins": 118
+    },
+    {
+      "id": "golden-age:cf125a94d09a42a7aa0485188186a471",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Colour of Pomegranates",
+      "startsAt": "2026-09-29T07:45:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Colour-of-Pomegranates/Tue-Sep-29-2026-17-45",
+      "runtimeMins": 79
+    },
+    {
+      "id": "golden-age:a4fea852f6a94d3ca25e8bd5eba91065",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Dry Leaf",
+      "startsAt": "2026-09-29T09:35:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Dry-Leaf/Tue-Sep-29-2026-19-35",
+      "runtimeMins": 186
+    },
+    {
+      "id": "golden-age:50495dcc8c114b758154143209ea25aa",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Do You Love Me",
+      "startsAt": "2026-09-30T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Do-You-Love-Me",
+      "runtimeMins": 75
+    },
+    {
+      "id": "golden-age:bf388f4a56d74a9e9438a1070c046b0f",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Pulp Fiction",
+      "startsAt": "2026-09-30T09:45:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Pulp-Fiction/Wed-Sep-30-2026-19-45",
+      "runtimeMins": 154
+    },
+    {
+      "id": "golden-age:6f027860d57b4731b610950bd8989a3f",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Love (Sex, Dreams)",
+      "startsAt": "2026-10-01T10:20:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Love-Sex-Dreams-",
+      "runtimeMins": 119
+    },
+    {
+      "id": "golden-age:90e388b1e3c24e98a2dad603429b4c4c",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Living End",
+      "startsAt": "2026-10-02T10:10:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Living-End",
+      "runtimeMins": 84
+    },
+    {
+      "id": "golden-age:beed7c3d3762465fb5e0e4e82209a352",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Invite",
+      "startsAt": "2026-10-03T03:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Invite/Sat-Oct-3-2026-13-00",
+      "runtimeMins": 107
+    },
+    {
+      "id": "golden-age:9ed3dd50b4c74d9cb26f325125f9c342",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Hope",
+      "startsAt": "2026-10-03T06:50:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Hope/Sat-Oct-3-2026-16-50",
+      "runtimeMins": 160
+    },
+    {
+      "id": "golden-age:ffef8c101dff483b8220fcc36c1d8f89",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Mystery Screening",
+      "startsAt": "2026-10-06T09:20:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Mystery-Screening/Tue-Oct-6-2026-20-20",
+      "runtimeMins": 106
+    },
+    {
+      "id": "golden-age:4531b71f766a4478a3154526f0589235",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Nowhere",
+      "startsAt": "2026-10-09T07:15:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Nowhere",
+      "runtimeMins": 84
+    },
+    {
+      "id": "golden-age:7c584ea6c1e34644a07b13da6c8f9cdf",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Vertigo",
+      "startsAt": "2026-10-10T01:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Vertigo/Sat-Oct-10-2026-12-00",
+      "runtimeMins": 128
+    },
+    {
+      "id": "golden-age:6311d671fecc4c36a65d638d83c7a8f9",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Four Adventures of Reinette and Mirabelle",
+      "startsAt": "2026-10-11T01:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Four-Adventures-of-Reinette-and-Mirabelle/Sun-Oct-11-2026-12-00",
+      "runtimeMins": 99
+    },
+    {
+      "id": "golden-age:ffd356106e674c2f84d0ba0a5cb07a24",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Dry Leaf",
+      "startsAt": "2026-10-11T02:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Dry-Leaf/Sun-Oct-11-2026-13-00",
+      "runtimeMins": 186
+    },
+    {
+      "id": "golden-age:2059fbb74c0242c6a5ca7ee915596b6b",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Hope",
+      "startsAt": "2026-10-13T08:45:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Hope/Tue-Oct-13-2026-19-45",
+      "runtimeMins": 160
+    },
+    {
+      "id": "golden-age:6dd2ce03982848febeac4691c98339a3",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Fiume o morte!",
+      "startsAt": "2026-10-15T07:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Fiume-o-morte-",
+      "runtimeMins": 113
+    }
+  ]
+}

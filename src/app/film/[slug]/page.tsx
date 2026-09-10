@@ -1,6 +1,9 @@
 import { Badge } from "@/components/ui/badge";
-import { getUpcomingBySlug, loadSnapshot } from "@/data/get-screenings";
-import { filmSlug } from "@/domain/film";
+import {
+  filmIsKnown,
+  getUpcomingBySlug,
+  knownFilmMeta,
+} from "@/data/get-screenings";
 import {
   formatSydneyDayHeading,
   formatSydneyTime,
@@ -19,17 +22,13 @@ export default async function FilmPage({
 }) {
   const { slug } = await params;
   const screenings = getUpcomingBySlug(slug);
-  const snapshot = loadSnapshot("ritz");
-  const known =
-    snapshot?.screenings.some((s) => filmSlug(s.title, s.year) === slug) ??
-    false;
+  const known = filmIsKnown(slug);
+  const meta = knownFilmMeta(slug);
 
   if (screenings.length === 0 && !known) notFound();
 
-  const title = screenings[0]?.title ??
-    snapshot?.screenings.find((s) => filmSlug(s.title, s.year) === slug)?.title;
-  const year = screenings[0]?.year ??
-    snapshot?.screenings.find((s) => filmSlug(s.title, s.year) === slug)?.year;
+  const title = screenings[0]?.title ?? meta?.title;
+  const year = screenings[0]?.year ?? meta?.year;
 
   const byDay = new Map<string, typeof screenings>();
   for (const s of screenings) {
