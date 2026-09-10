@@ -1,15 +1,21 @@
 # rr-movies
 
-Reading Room week calendar of Sydney screenings. First ship: the Ritz, Randwick.
+Reading Room week calendar of Sydney screenings.
 
-Specs: [product.md](product.md), [domain.md](domain.md), [sources.md](sources.md), [app.md](app.md).
+Specs and how it was built live in [`docs/`](docs/):
+
+- [product.md](docs/product.md) — what this is for
+- [domain.md](docs/domain.md) — Screening, film, venue, source
+- [sources.md](docs/sources.md) — ingest and adapters
+- [app.md](docs/app.md) — routes, grid, filters
+- [how-it-was-built.md](docs/how-it-was-built.md) — how the repo implements those
 
 ```bash
 npm install
 npm run dev
 ```
 
-Refresh listings from the Ritz (writes `data/ritz.json`):
+Refresh listings (writes `data/{source}.json`):
 
 ```bash
 npm run ingest
