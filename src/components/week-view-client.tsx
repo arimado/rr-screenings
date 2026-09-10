@@ -6,7 +6,8 @@ import { Hint } from "@/components/hint";
 import { ListingsFade } from "@/components/listings-fade";
 import { ShareButton } from "@/components/share-button";
 import { UpdatedBadge } from "@/components/updated-badge";
-import { Toggle } from "@/components/ui/toggle";
+import { Empty, EmptyHeader, EmptyMedia, EmptyTitle } from "@/components/ui/empty";
+import { Toggle, toggleVariants } from "@/components/ui/toggle";
 import { VenueDot } from "@/components/venue-dot";
 import { WeekGrid, WeekNav } from "@/components/week-grid";
 import { applyFilters } from "@/data/filter-screenings";
@@ -28,6 +29,7 @@ import {
 } from "@/domain/venue";
 import { nextMonday, weekFromMonday, type Week } from "@/domain/week";
 import { weekHref, type WeekQuery } from "@/lib/week-url";
+import { ClapperboardIcon } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
@@ -294,20 +296,19 @@ export function WeekViewClient({
                 : "Select every cinema."
             }
           >
-            <Toggle
-              pressed={allOn}
-              variant="outline"
-              size="sm"
-              aria-label="All cinemas"
-              onPressedChange={() =>
+            <button
+              type="button"
+              className={toggleVariants({ variant: "outline", size: "sm" })}
+              aria-label={allOn ? "Clear all cinemas" : "All cinemas"}
+              onClick={() =>
                 commit({
                   ...query,
                   venueIds: toggleAllVenueIds(query.venueIds),
                 })
               }
             >
-              All
-            </Toggle>
+              {allOn ? "Clear" : "All"}
+            </button>
           </Hint>
           {venues.map((v) => {
             const pressed = query.venueIds.includes(v.id);
@@ -331,11 +332,6 @@ export function WeekViewClient({
             );
           })}
         </nav>
-        {query.venueIds.length === 0 ? (
-          <p className="mt-2 text-sm text-muted-foreground">
-            Select a cinema to see listings.
-          </p>
-        ) : null}
         <nav className="mt-2 flex flex-wrap gap-2" aria-label="Filters">
           <Hint content="Weekends, plus weekdays from 5pm.">
             <Toggle
@@ -448,7 +444,18 @@ export function WeekViewClient({
             : "motion-safe:transition-opacity motion-safe:duration-150"
         }
       >
-        {query.venueIds.length === 0 ? null : (
+        {query.venueIds.length === 0 ? (
+          <ListingsFade id="no-cinemas">
+            <Empty className="border py-12">
+              <EmptyHeader>
+                <EmptyMedia variant="icon">
+                  <ClapperboardIcon />
+                </EmptyMedia>
+                <EmptyTitle>Select a cinema to see listings.</EmptyTitle>
+              </EmptyHeader>
+            </Empty>
+          </ListingsFade>
+        ) : (
           <ListingsFade
             id={listingsKey}
             className={
