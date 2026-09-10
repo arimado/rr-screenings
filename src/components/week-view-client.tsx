@@ -379,7 +379,7 @@ export function WeekViewClient({
           </Toggle>
         </nav>
         <div className="flex items-center gap-1">
-          <div className="min-w-0 flex-1">
+          <div id="week-nav" className="min-w-0 flex-1 scroll-mt-3">
             <WeekNav
               week={week}
               query={weekQuery}

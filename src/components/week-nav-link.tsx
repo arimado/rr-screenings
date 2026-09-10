@@ -10,6 +10,18 @@ function isModifiedClick(e: React.MouseEvent) {
   );
 }
 
+function scrollToFirstWeekNav() {
+  const el = document.getElementById("week-nav");
+  if (!el) return;
+  const reduced = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
+  el.scrollIntoView({
+    behavior: reduced ? "auto" : "smooth",
+    block: "start",
+  });
+}
+
 export function WeekNavLink({
   href,
   label,
@@ -45,6 +57,7 @@ export function WeekNavLink({
           if (!onNavigate || isModifiedClick(e)) return;
           e.preventDefault();
           onNavigate(href);
+          scrollToFirstWeekNav();
         }}
       >
         {pending ? (
