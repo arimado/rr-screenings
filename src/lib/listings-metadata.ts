@@ -5,7 +5,7 @@ import {
   venueCanonicalPath,
 } from "@/domain/share";
 import { getVenue } from "@/domain/venue";
-import { currentWeek, resolveListingsWeek } from "@/domain/week";
+import { currentWeek, resolveListingsWeek, type Week } from "@/domain/week";
 import type { Metadata } from "next";
 
 export type ListingsSearch = {
@@ -23,7 +23,7 @@ function listingsDocumentTitle({
   day,
   venueName,
 }: {
-  week: { monday: string; sunday: string };
+  week: Week;
   view?: "day" | "film";
   day?: string;
   venueName?: string;
