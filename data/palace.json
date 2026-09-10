@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T10:28:09.436Z",
+  "fetchedAt": "2026-09-10T20:06:42.460Z",
   "screenings": [
     {
       "id": "palace:357756",
@@ -872,16 +872,6 @@
       "runtimeMins": 160
     },
     {
-      "id": "palace:357819",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Tony",
-      "startsAt": "2026-09-10T20:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357819",
-      "year": 2026,
-      "runtimeMins": 106
-    },
-    {
       "id": "palace:357761",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -1480,16 +1470,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357972",
       "year": 2026,
       "runtimeMins": 172
-    },
-    {
-      "id": "palace:357983",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Spider-Man: Brand New Day",
-      "startsAt": "2026-09-10T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357983",
-      "year": 2026,
-      "runtimeMins": 150
     },
     {
       "id": "palace:357762",
@@ -6284,16 +6264,6 @@
       "runtimeMins": 116
     },
     {
-      "id": "palace:177336",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-10T20:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177336",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
       "id": "palace:177393",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -7152,16 +7122,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=176534",
       "year": 2026,
       "runtimeMins": 160
-    },
-    {
-      "id": "palace:177325",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Tony",
-      "startsAt": "2026-09-10T20:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177325",
-      "year": 2026,
-      "runtimeMins": 106
     },
     {
       "id": "palace:177364",
@@ -8244,16 +8204,6 @@
       "runtimeMins": 107
     },
     {
-      "id": "palace:177333",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "& Sons",
-      "startsAt": "2026-09-10T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177333",
-      "year": 2026,
-      "runtimeMins": 119
-    },
-    {
       "id": "palace:177363",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -8362,16 +8312,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177497",
       "year": 2026,
       "runtimeMins": 119
-    },
-    {
-      "id": "palace:177334",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Runner",
-      "startsAt": "2026-09-10T20:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177334",
-      "year": 2026,
-      "runtimeMins": 98
     },
     {
       "id": "palace:177398",
@@ -8722,16 +8662,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177488",
       "year": 2026,
       "runtimeMins": 97
-    },
-    {
-      "id": "palace:177335",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Dear You",
-      "startsAt": "2026-09-10T20:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177335",
-      "year": 2026,
-      "runtimeMins": 118
     },
     {
       "id": "palace:177397",

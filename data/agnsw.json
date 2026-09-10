@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T10:28:09.330Z",
+  "fetchedAt": "2026-09-10T20:06:38.728Z",
   "screenings": [
     {
       "id": "agnsw:019fbb95-6e25-7f09-6259-9611a20ddb63:2026-09-12T04:30:00.000Z",
@@ -357,15 +357,6 @@
       "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/01a05bce-70cb-30dd-afda-606db78ab5e3",
       "format": "Q&A",
       "runtimeMins": 144
-    },
-    {
-      "id": "agnsw:01a0844f-2007-2cee-a6ee-068cbc6a05be:2026-11-28T03:00:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "Sisters with transistors Q&A with musician Suzanne Ciani",
-      "startsAt": "2026-11-28T03:00:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/01a0844f-2007-2cee-a6ee-068cbc6a05be",
-      "format": "Q&A"
     }
   ]
 }

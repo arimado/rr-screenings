@@ -1,56 +1,6 @@
 {
-  "fetchedAt": "2026-09-10T10:28:04.576Z",
+  "fetchedAt": "2026-09-10T20:06:27.060Z",
   "screenings": [
-    {
-      "id": "ritz:90823",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-10T10:50:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90823",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:90824",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Tony",
-      "startsAt": "2026-09-10T11:20:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90824"
-    },
-    {
-      "id": "ritz:90827",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Oasis: Don't Look Back In Anger",
-      "startsAt": "2026-09-10T11:20:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90827",
-      "format": "NFT, OCaptions"
-    },
-    {
-      "id": "ritz:90981",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The End of Oak Street",
-      "startsAt": "2026-09-10T11:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90981"
-    },
-    {
-      "id": "ritz:90825",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "startsAt": "2026-09-10T11:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90825"
-    },
-    {
-      "id": "ritz:90980",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-10T11:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90980"
-    },
     {
       "id": "ritz:91010",
       "sourceId": "ritz",
@@ -302,22 +252,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90786"
     },
     {
-      "id": "ritz:90801",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-11T05:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90801"
-    },
-    {
-      "id": "ritz:91005",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-11T11:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91005"
-    },
-    {
       "id": "ritz:90802",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -340,6 +274,22 @@
       "title": "& Sons",
       "startsAt": "2026-09-11T03:20:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91130"
+    },
+    {
+      "id": "ritz:90801",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-11T05:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90801"
+    },
+    {
+      "id": "ritz:91005",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-11T11:15:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91005"
     },
     {
       "id": "ritz:90811",
@@ -635,6 +585,14 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90750"
     },
     {
+      "id": "ritz:90766",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "& Sons",
+      "startsAt": "2026-09-12T03:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90766"
+    },
+    {
       "id": "ritz:91014",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -649,14 +607,6 @@
       "title": "It Ends",
       "startsAt": "2026-09-12T11:15:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90771"
-    },
-    {
-      "id": "ritz:90766",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "& Sons",
-      "startsAt": "2026-09-12T03:10:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90766"
     },
     {
       "id": "ritz:90780",
@@ -1650,22 +1600,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90866"
     },
     {
-      "id": "ritz:90885",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-15T06:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90885"
-    },
-    {
-      "id": "ritz:90996",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-15T11:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90996"
-    },
-    {
       "id": "ritz:91003",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -1689,6 +1623,22 @@
       "title": "& Sons",
       "startsAt": "2026-09-15T00:50:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90891"
+    },
+    {
+      "id": "ritz:90885",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-15T06:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90885"
+    },
+    {
+      "id": "ritz:90996",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-15T11:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90996"
     },
     {
       "id": "ritz:90897",
@@ -1993,14 +1943,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90920"
     },
     {
-      "id": "ritz:90994",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-16T06:10:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90994"
-    },
-    {
       "id": "ritz:90930",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -2031,6 +1973,14 @@
       "title": "& Sons",
       "startsAt": "2026-09-16T03:40:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90995"
+    },
+    {
+      "id": "ritz:90994",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-16T06:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90994"
     },
     {
       "id": "ritz:90906",

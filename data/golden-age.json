@@ -1,33 +1,6 @@
 {
-  "fetchedAt": "2026-09-10T10:28:05.628Z",
+  "fetchedAt": "2026-09-10T20:06:28.381Z",
   "screenings": [
-    {
-      "id": "golden-age:150141deb8e14abaa5923a01757c2e19",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "The Taste of Tea",
-      "startsAt": "2026-09-10T05:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Taste-of-Tea/Thu-Sep-10-2026-15-00",
-      "runtimeMins": 143
-    },
-    {
-      "id": "golden-age:32457e1d428c428bab4318e010299356",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "I Want Your Sex",
-      "startsAt": "2026-09-10T08:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/I-Want-Your-Sex/Thu-Sep-10-2026-18-00",
-      "runtimeMins": 90
-    },
-    {
-      "id": "golden-age:4d952f80fc5e4431841987270f61d6d8",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "The Doom Generation",
-      "startsAt": "2026-09-10T10:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Doom-Generation",
-      "runtimeMins": 85
-    },
     {
       "id": "golden-age:345cfdfb1f0746b4a009a902d7307dc5",
       "sourceId": "golden-age",
