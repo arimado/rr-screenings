@@ -309,28 +309,30 @@ export function WeekViewClient({
           </p>
         ) : null}
         <nav className="mt-2 flex flex-wrap gap-2" aria-label="Filters">
-          <Toggle
-            pressed={query.hide9to5}
-            variant="outline"
-            size="sm"
-            title="Weekends, plus weekdays from 5pm."
-            onPressedChange={() =>
-              commit({ ...query, hide9to5: !query.hide9to5 })
-            }
-          >
-            Evenings & weekends
-          </Toggle>
-          <Toggle
-            pressed={query.oneLeft}
-            variant="outline"
-            size="sm"
-            title="Films with only one session left to see."
-            onPressedChange={() =>
-              commit({ ...query, oneLeft: !query.oneLeft })
-            }
-          >
-            One screening left
-          </Toggle>
+          <Hint content="Weekends, plus weekdays from 5pm.">
+            <Toggle
+              pressed={query.hide9to5}
+              variant="outline"
+              size="sm"
+              onPressedChange={() =>
+                commit({ ...query, hide9to5: !query.hide9to5 })
+              }
+            >
+              Evenings & weekends
+            </Toggle>
+          </Hint>
+          <Hint content="Films with only one session left to see.">
+            <Toggle
+              pressed={query.oneLeft}
+              variant="outline"
+              size="sm"
+              onPressedChange={() =>
+                commit({ ...query, oneLeft: !query.oneLeft })
+              }
+            >
+              One screening left
+            </Toggle>
+          </Hint>
         </nav>
       </header>
       <div className="flex flex-col gap-2">
