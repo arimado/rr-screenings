@@ -1,16 +1,22 @@
 "use client";
 
+import { Hint } from "@/components/hint";
 import { Button } from "@/components/ui/button";
 import { Share2Icon } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
+const LISTINGS_HINT =
+  "Shares this view, filters and all, so your mate sees the same listings.";
+
 export function ShareButton({
   title,
   url,
+  hint = LISTINGS_HINT,
 }: {
   title: string;
   /** Absolute or root-relative. Omit to share the current address bar. */
   url?: string;
+  hint?: string;
 }) {
   const [copied, setCopied] = useState(false);
   const copiedTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -44,13 +50,14 @@ export function ShareButton({
   }
 
   return (
-    <Button
-      type="button"
-      variant="ghost"
-      size="sm"
-      onClick={onShare}
-      aria-label={copied ? "Copied" : "Share"}
-    >
+    <Hint content={copied ? "Copied" : hint}>
+      <Button
+        type="button"
+        variant="ghost"
+        size="sm"
+        onClick={onShare}
+        aria-label={copied ? "Copied" : hint}
+      >
         {copied ? (
           <span className="motion-safe:animate-in motion-safe:fade-in-0 motion-safe:duration-150 motion-safe:ease-out motion-safe:fill-mode-both">
             Copied
@@ -58,6 +65,7 @@ export function ShareButton({
         ) : (
           <Share2Icon />
         )}
-    </Button>
+      </Button>
+    </Hint>
   );
 }

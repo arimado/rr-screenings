@@ -2,6 +2,7 @@
 
 import { FilmWeekList } from "@/components/film-week-list";
 import { GoToToday } from "@/components/go-to-today";
+import { Hint } from "@/components/hint";
 import { ListingsFade } from "@/components/listings-fade";
 import { ShareButton } from "@/components/share-button";
 import { UpdatedBadge } from "@/components/updated-badge";
@@ -334,55 +335,58 @@ export function WeekViewClient({
       </header>
       <div className="flex flex-col gap-2">
         <nav className="flex flex-wrap gap-2" aria-label="View">
-          <Toggle
-            pressed={!isDay && !isFilm}
-            variant="outline"
-            size="sm"
-            title="Monday to Sunday in columns."
-            onPressedChange={(pressed) => {
-              if (!pressed) return;
-              commit({
-                venueIds: query.venueIds,
-                hide9to5: query.hide9to5,
-                oneLeft: query.oneLeft,
-              });
-            }}
-          >
-            Week
-          </Toggle>
-          <Toggle
-            pressed={isDay}
-            variant="outline"
-            size="sm"
-            title="One Sydney date at a time."
-            onPressedChange={(pressed) => {
-              if (!pressed) return;
-              commit({
-                ...query,
-                view: "day",
-                day: week.days.includes(today) ? today : week.monday,
-              });
-            }}
-          >
-            Day
-          </Toggle>
-          <Toggle
-            pressed={isFilm}
-            variant="outline"
-            size="sm"
-            title="Titles first, then cinema and times."
-            onPressedChange={(pressed) => {
-              if (!pressed) return;
-              commit({
-                venueIds: query.venueIds,
-                hide9to5: query.hide9to5,
-                oneLeft: query.oneLeft,
-                view: "film",
-              });
-            }}
-          >
-            Film
-          </Toggle>
+          <Hint content="Monday to Sunday in columns.">
+            <Toggle
+              pressed={!isDay && !isFilm}
+              variant="outline"
+              size="sm"
+              onPressedChange={(pressed) => {
+                if (!pressed) return;
+                commit({
+                  venueIds: query.venueIds,
+                  hide9to5: query.hide9to5,
+                  oneLeft: query.oneLeft,
+                });
+              }}
+            >
+              Week
+            </Toggle>
+          </Hint>
+          <Hint content="One Sydney date at a time.">
+            <Toggle
+              pressed={isDay}
+              variant="outline"
+              size="sm"
+              onPressedChange={(pressed) => {
+                if (!pressed) return;
+                commit({
+                  ...query,
+                  view: "day",
+                  day: week.days.includes(today) ? today : week.monday,
+                });
+              }}
+            >
+              Day
+            </Toggle>
+          </Hint>
+          <Hint content="Titles first, then cinema and times.">
+            <Toggle
+              pressed={isFilm}
+              variant="outline"
+              size="sm"
+              onPressedChange={(pressed) => {
+                if (!pressed) return;
+                commit({
+                  venueIds: query.venueIds,
+                  hide9to5: query.hide9to5,
+                  oneLeft: query.oneLeft,
+                  view: "film",
+                });
+              }}
+            >
+              Film
+            </Toggle>
+          </Hint>
         </nav>
         <div className="flex items-center gap-1">
           <div id="week-nav" className="min-w-0 flex-1 scroll-mt-3">

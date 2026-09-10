@@ -94,7 +94,7 @@ export function WeekNav({
 }
 
 const cardClassName =
-  "block rounded-lg bg-card p-2 text-left motion-safe:transition-[background-color,transform] motion-safe:duration-150 motion-safe:ease-out hover:bg-accent/50 motion-safe:hover:-translate-y-px";
+  "block cursor-pointer rounded-lg bg-card p-2 text-left motion-safe:transition-[background-color,transform] motion-safe:duration-150 motion-safe:ease-out hover:bg-accent/50 motion-safe:hover:-translate-y-px";
 
 function EntryCard({ entry, href }: { entry: DayEntry; href: string }) {
   const single = entry.times.length === 1 ? entry.times[0] : null;

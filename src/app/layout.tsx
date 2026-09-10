@@ -1,3 +1,4 @@
+import { TooltipProvider } from "@/components/ui/tooltip";
 import { SITE_DESCRIPTION, SITE_NAME } from "@/domain/share";
 import { siteUrl } from "@/lib/site-url";
 import { Analytics } from "@vercel/analytics/next";
@@ -32,7 +33,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${instrumentSerif.variable} h-full font-sans antialiased`}
     >
       <body className="flex min-h-full flex-col font-sans">
-        {children}
+        <TooltipProvider delayDuration={200}>
+          {children}
+        </TooltipProvider>
         <Analytics />
       </body>
     </html>

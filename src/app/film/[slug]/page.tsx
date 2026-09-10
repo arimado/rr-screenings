@@ -130,6 +130,7 @@ export default async function FilmPage({
           <ShareButton
             title={siteTitle(shareLabel)}
             url={filmCanonicalPath(slug)}
+            hint="Share a link to this film."
           />
         ) : null}
       </header>

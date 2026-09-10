@@ -62,7 +62,13 @@ export function WeekView({
         updatedAt
           ? new Date(updatedAt).toLocaleString("en-AU", {
               timeZone: "Australia/Sydney",
-            })
+              weekday: "short",
+              day: "numeric",
+              month: "short",
+              year: "numeric",
+              hour: "numeric",
+              minute: "2-digit",
+            }) + " Sydney"
           : undefined
       }
       stale={stale}
