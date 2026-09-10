@@ -32,6 +32,17 @@ export function formatSydneyDayHeading(ymd: string): string {
   }).format(utcNoon);
 }
 
+/** Compact end of coverage, e.g. `12 Mar` or `12 Mar 2027`. */
+export function formatSydneyThrough(ymd: string, today: string): string {
+  const includeYear = ymd.slice(0, 4) !== today.slice(0, 4);
+  return new Intl.DateTimeFormat("en-AU", {
+    timeZone: SYDNEY,
+    day: "numeric",
+    month: "short",
+    ...(includeYear ? { year: "numeric" as const } : {}),
+  }).format(ymdToUtcNoon(ymd));
+}
+
 /** Weekday only, e.g. `Fri`. */
 export function formatSydneyWeekday(ymd: string): string {
   return new Intl.DateTimeFormat("en-AU", {

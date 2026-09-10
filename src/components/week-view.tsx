@@ -6,6 +6,7 @@ import {
   oldestFetchedAt,
   slugsWithOneUpcoming,
   snapshotIsStale,
+  venueListingStats,
 } from "@/data/get-screenings";
 import { toListingsRows } from "@/data/listings-row";
 import { addDays, sydneyYmd } from "@/domain/sydney";
@@ -49,6 +50,7 @@ export function WeekView({
       screenings={toListingsRows(getScreeningsForDays(week.days))}
       nextScreenings={toListingsRows(getScreeningsForDays(nextWeekDays))}
       oneLeftSlugs={[...slugsWithOneUpcoming()]}
+      venueStats={venueListingStats()}
       initialQuery={{
         venueIds,
         hide9to5,

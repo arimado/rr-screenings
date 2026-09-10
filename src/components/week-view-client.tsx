@@ -11,6 +11,7 @@ import { Toggle, toggleVariants } from "@/components/ui/toggle";
 import { VenueDot } from "@/components/venue-dot";
 import { WeekGrid, WeekNav } from "@/components/week-grid";
 import { applyFilters } from "@/data/filter-screenings";
+import type { VenueListingStats } from "@/data/get-screenings";
 import { groupDayEntries, groupFilmEntries, type DayEntry } from "@/data/group";
 import type { ListingsRow } from "@/data/listings-row";
 import {
@@ -20,12 +21,18 @@ import {
   siteTitle,
   venueCanonicalPath,
 } from "@/domain/share";
-import { addDays, formatSydneyDayHeading, mondayOf } from "@/domain/sydney";
+import {
+  addDays,
+  formatSydneyDayHeading,
+  formatSydneyThrough,
+  mondayOf,
+} from "@/domain/sydney";
 import {
   isAllVenueIds,
   toggleAllVenueIds,
   toggleVenueId,
   venues,
+  type Venue,
 } from "@/domain/venue";
 import { nextMonday, weekFromMonday, type Week } from "@/domain/week";
 import { weekHref, type WeekQuery } from "@/lib/week-url";
@@ -105,6 +112,23 @@ function isModifiedClick(e: React.MouseEvent) {
   return e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0;
 }
 
+function venueChipHint(
+  venue: Venue,
+  stats: VenueListingStats | undefined,
+  today: string,
+): string {
+  const where = venue.suburb ? `${venue.suburb}. ` : "";
+  if (!stats || stats.sessions === 0) {
+    return `${where}No upcoming sessions.`;
+  }
+  const n =
+    stats.sessions === 1 ? "1 session" : `${stats.sessions} sessions`;
+  const through = stats.lastDay
+    ? ` through ${formatSydneyThrough(stats.lastDay, today)}`
+    : "";
+  return `${where}${n}${through}.`;
+}
+
 function syncListingsUrl(href: string) {
   window.history.replaceState(window.history.state, "", href);
 }
@@ -116,6 +140,7 @@ export function WeekViewClient({
   screenings: serverScreenings,
   nextScreenings: serverNextScreenings,
   oneLeftSlugs,
+  venueStats,
   initialQuery,
   updatedAt,
   updatedLabel,
@@ -128,6 +153,7 @@ export function WeekViewClient({
   screenings: ListingsRow[];
   nextScreenings: ListingsRow[];
   oneLeftSlugs: string[];
+  venueStats: Record<string, VenueListingStats>;
   initialQuery: WeekViewQuery;
   updatedAt?: string;
   updatedLabel?: string;
@@ -313,22 +339,22 @@ export function WeekViewClient({
           {venues.map((v) => {
             const pressed = query.venueIds.includes(v.id);
             return (
-              <Toggle
-                key={v.id}
-                pressed={pressed}
-                variant="outline"
-                size="sm"
-                title={v.suburb ? `${v.name}, ${v.suburb}` : v.name}
-                onPressedChange={() =>
-                  commit({
-                    ...query,
-                    venueIds: toggleVenueId(query.venueIds, v.id),
-                  })
-                }
-              >
-                <VenueDot venueId={v.id} />
-                {v.name}
-              </Toggle>
+              <Hint key={v.id} content={venueChipHint(v, venueStats[v.id], today)}>
+                <Toggle
+                  pressed={pressed}
+                  variant="outline"
+                  size="sm"
+                  onPressedChange={() =>
+                    commit({
+                      ...query,
+                      venueIds: toggleVenueId(query.venueIds, v.id),
+                    })
+                  }
+                >
+                  <VenueDot venueId={v.id} />
+                  {v.name}
+                </Toggle>
+              </Hint>
             );
           })}
         </nav>

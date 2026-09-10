@@ -135,6 +135,29 @@ export function getScreeningsForDays(
   );
 }
 
+export type VenueListingStats = {
+  sessions: number;
+  lastDay?: string;
+};
+
+/** Upcoming session counts and last Sydney date, per venue. */
+export function venueListingStats(
+  now: Date = new Date(),
+): Record<string, VenueListingStats> {
+  const out: Record<string, VenueListingStats> = {};
+  for (const s of upcoming(allScreenings(), now)) {
+    const day = instantToSydneyYmd(s.startsAt);
+    const cur = out[s.venueId];
+    if (!cur) {
+      out[s.venueId] = { sessions: 1, lastDay: day };
+      continue;
+    }
+    cur.sessions += 1;
+    if (!cur.lastDay || day > cur.lastDay) cur.lastDay = day;
+  }
+  return out;
+}
+
 export function slugsWithOneUpcoming(now: Date = new Date()): Set<string> {
   const counts = new Map<string, number>();
   for (const s of upcoming(allScreenings(), now)) {
