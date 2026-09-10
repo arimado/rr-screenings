@@ -231,7 +231,7 @@ After a production deploy, verify the property in [Google Search Console](https:
 
 - **Next.js App Router** (v16) + React 19. Routes are folders under `src/app/`.
 - **TypeScript** everywhere.
-- **Tailwind** + **shadcn** for chips, badges, tooltips, buttons. We did **not** use shadcn’s Calendar (that is a date picker) or a scheduling library (that is “my appointments”). The week grid is custom.
+- **Tailwind** + **shadcn** for chips, badges, tooltips, buttons, and the date-picker popover (`Calendar` beside week/month nav). A scheduling library is “my appointments.” The week grid is custom.
 - **cheerio** only inside HTML adapters.
 - **tsx** to run ingest with TypeScript (`npm run ingest`).
 
@@ -263,7 +263,7 @@ Follow [sources.md](sources.md). In code terms:
 
 **“Share sent a huge film URL.”** In-app film links carry query for Back. Share must use `filmCanonicalPath(slug)`.
 
-**“I used shadcn Calendar for the week.”** Wrong component. Build on `WeekGrid`.
+**“I used shadcn Calendar for the week.”** Wrong component. Calendar is the jump-to-day picker. Build the listings on `WeekGrid`.
 
 **“I want to merge a half-finished scrape into `data/ritz.json`.”** Don’t. Replace the file only after a full successful `fetch()`. Last-good is the `.prev.json` copy.
 

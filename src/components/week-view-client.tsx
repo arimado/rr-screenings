@@ -1,5 +1,6 @@
 "use client";
 
+import { DayPickerButton } from "@/components/day-picker-button";
 import { FilmWeekList } from "@/components/film-week-list";
 import { GoToToday } from "@/components/go-to-today";
 import { Hint } from "@/components/hint";
@@ -301,6 +302,23 @@ export function WeekViewClient({
       )
     : null;
   const nextMonthYear = month ? nextMonth(month.yearMonth) : undefined;
+  const shareTitle = siteTitle(
+    listingsShareTitle({
+      week,
+      view: isDay ? "day" : isMonth ? "month" : undefined,
+      day: isDay ? selectedDay : undefined,
+      month: isMonth ? query.month : undefined,
+    }),
+  );
+  const pickerYmd = isDay
+    ? selectedDay
+    : isMonth && query.month
+      ? today.startsWith(query.month)
+        ? today
+        : `${query.month}-01`
+      : week.days.includes(today)
+        ? today
+        : week.monday;
 
   function weekAnchorMonday() {
     if (isDay && query.day) return mondayOf(query.day);
@@ -612,19 +630,16 @@ export function WeekViewClient({
           </Hint>
         </nav>
         <div className="flex items-center gap-1">
+          <DayPickerButton
+            selectedYmd={pickerYmd}
+            today={today}
+            query={weekQuery}
+            onNavigate={goListings}
+          />
           <div id="week-nav" className="min-w-0 flex-1 scroll-mt-3">
             {rangeNav}
           </div>
-          <ShareButton
-            title={siteTitle(
-              listingsShareTitle({
-                week,
-                view: isDay ? "day" : isMonth ? "month" : undefined,
-                day: isDay ? selectedDay : undefined,
-                month: isMonth ? query.month : undefined,
-              }),
-            )}
-          />
+          <ShareButton title={shareTitle} />
         </div>
       </div>
       <div
@@ -773,7 +788,18 @@ export function WeekViewClient({
           onNavigate={goListings}
         />
       ) : null}
-      <div className={isMonth ? "mb-16" : "mb-16 md:hidden"}>{rangeNav}</div>
+      <div
+        className={`flex items-center gap-1 ${isMonth ? "mb-16" : "mb-16 md:hidden"}`}
+      >
+        <DayPickerButton
+          selectedYmd={pickerYmd}
+          today={today}
+          query={weekQuery}
+          onNavigate={goListings}
+        />
+        <div className="min-w-0 flex-1">{rangeNav}</div>
+        <ShareButton title={shareTitle} />
+      </div>
       <footer className="border-t pt-4 text-sm text-muted-foreground">
         <nav aria-label="Cinema pages">
           <ul className="flex flex-wrap gap-x-3 gap-y-1">

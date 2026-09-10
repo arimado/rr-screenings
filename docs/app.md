@@ -5,7 +5,7 @@ What people see. Next.js + shadcn. Reads `getScreenings()`; never imports a sour
 ## Stack
 
 - App Router, TypeScript, Tailwind, shadcn for chrome: filters, badges, sheets, empty states, the film page body.
-- The week **grid is ours**. Do not use shadcn’s `Calendar` (that is a date picker). Do not use a scheduling library meant for “my appointments.”
+- The week **grid is ours**. shadcn’s `Calendar` is the date-picker button beside the week/month nav (`?day=`), not the listings grid. Do not use a scheduling library meant for “my appointments.”
 
 Public, no accounts. Book means an outbound link (`bookingUrl`), marked as leaving the site.
 
@@ -36,7 +36,7 @@ No map, no search page, no “my list.” Query params on `/` for filters are en
 
 ## Week grid
 
-Days are columns (on a phone: a vertical stack of days, or swipe; do not shrink seven columns until they are unreadable). On a phone, a Today control jumps to the current Sydney day, or back to this week if you have paged away. Desktop already shows the whole week, so it stays off.
+Days are columns (on a phone: a vertical stack of days, or swipe; do not shrink seven columns until they are unreadable). On a phone, a Today control jumps to the current Sydney day, or back to this week if you have paged away. Desktop already shows the whole week, so it stays off. A calendar button beside prev/next opens a date picker; choosing a day is `?day=YYYY-MM-DD`.
 
 Each day is a stack of **entries**. Default entry is a film at a venue that day:
 

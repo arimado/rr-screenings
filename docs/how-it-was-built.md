@@ -58,7 +58,7 @@ The UI must not import an adapter. A cinema is a new file in `sources/`, a venue
 
 **Book means leave.** One remaining session on a cell goes straight to the cinema. Several sessions go to the film page, then out. This app does not sell tickets.
 
-**shadcn for chrome, not the calendar.** Toggles, badges, tooltips. The week grid is ours. shadcn’s Calendar is a date picker; a scheduling library is “my appointments.” Neither is a listings grid.
+**shadcn for chrome, not the listings grid.** Toggles, badges, tooltips, and the date-picker button. The week grid is ours. shadcn’s Calendar jumps to `?day=`; a scheduling library is “my appointments.” Neither is a listings grid.
 
 ## How it grew
 
