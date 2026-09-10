@@ -266,52 +266,69 @@ export function WeekViewClient({
       </header>
       <div className="flex flex-col gap-2">
         <nav className="flex flex-wrap gap-2" aria-label="View">
-          <Toggle
-            pressed={!isDay && !isFilm}
-            variant="outline"
-            size="sm"
-            onPressedChange={(pressed) => {
-              if (!pressed) return;
-              commit({
-                venueIds: query.venueIds,
-                hide9to5: query.hide9to5,
-                oneLeft: query.oneLeft,
-              });
-            }}
-          >
-            Week
-          </Toggle>
-          <Toggle
-            pressed={isDay}
-            variant="outline"
-            size="sm"
-            onPressedChange={(pressed) => {
-              if (!pressed) return;
-              commit({
-                ...query,
-                view: "day",
-                day: week.days.includes(today) ? today : week.monday,
-              });
-            }}
-          >
-            Day
-          </Toggle>
-          <Toggle
-            pressed={isFilm}
-            variant="outline"
-            size="sm"
-            onPressedChange={(pressed) => {
-              if (!pressed) return;
-              commit({
-                venueIds: query.venueIds,
-                hide9to5: query.hide9to5,
-                oneLeft: query.oneLeft,
-                view: "film",
-              });
-            }}
-          >
-            Film
-          </Toggle>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Toggle
+                pressed={!isDay && !isFilm}
+                variant="outline"
+                size="sm"
+                onPressedChange={(pressed) => {
+                  if (!pressed) return;
+                  commit({
+                    venueIds: query.venueIds,
+                    hide9to5: query.hide9to5,
+                    oneLeft: query.oneLeft,
+                  });
+                }}
+              >
+                Week
+              </Toggle>
+            </TooltipTrigger>
+            <TooltipContent>Monday to Sunday in columns.</TooltipContent>
+          </Tooltip>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Toggle
+                pressed={isDay}
+                variant="outline"
+                size="sm"
+                onPressedChange={(pressed) => {
+                  if (!pressed) return;
+                  commit({
+                    ...query,
+                    view: "day",
+                    day: week.days.includes(today) ? today : week.monday,
+                  });
+                }}
+              >
+                Day
+              </Toggle>
+            </TooltipTrigger>
+            <TooltipContent>One Sydney date at a time.</TooltipContent>
+          </Tooltip>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Toggle
+                pressed={isFilm}
+                variant="outline"
+                size="sm"
+                onPressedChange={(pressed) => {
+                  if (!pressed) return;
+                  commit({
+                    venueIds: query.venueIds,
+                    hide9to5: query.hide9to5,
+                    oneLeft: query.oneLeft,
+                    view: "film",
+                  });
+                }}
+              >
+                Film
+              </Toggle>
+            </TooltipTrigger>
+            <TooltipContent>
+              Titles first, then cinema and times.
+            </TooltipContent>
+          </Tooltip>
         </nav>
         <div className="flex items-center gap-1">
           <div className="min-w-0 flex-1">
