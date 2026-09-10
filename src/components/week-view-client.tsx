@@ -11,7 +11,13 @@ import { WeekGrid, WeekNav } from "@/components/week-grid";
 import { applyFilters } from "@/data/filter-screenings";
 import { groupDayEntries, groupFilmEntries, type DayEntry } from "@/data/group";
 import type { ListingsRow } from "@/data/listings-row";
-import { listingsShareTitle, siteTitle, venueCanonicalPath } from "@/domain/share";
+import {
+  listingsShareTitle,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  siteTitle,
+  venueCanonicalPath,
+} from "@/domain/share";
 import { addDays, formatSydneyDayHeading, mondayOf } from "@/domain/sydney";
 import { toggleVenueId, venues } from "@/domain/venue";
 import { nextMonday, weekFromMonday, type Week } from "@/domain/week";
@@ -256,9 +262,9 @@ export function WeekViewClient({
     <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 px-4 py-8">
       <header className="flex flex-col gap-1">
         <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-2">
-          <h1 className="text-2xl font-semibold tracking-tight">
+          <h1 className="font-heading text-2xl tracking-tight">
             <Link href="/" className="hover:underline">
-              Film in Syd
+              {SITE_NAME}
             </Link>
           </h1>
           {updatedAt && updatedLabel && updatedExact ? (
@@ -271,7 +277,7 @@ export function WeekViewClient({
           ) : null}
         </div>
         <p className="text-sm text-muted-foreground">
-          A week of Sydney screenings. Book on the cinema’s own site.
+          {SITE_DESCRIPTION}
         </p>
         <nav className="mt-2 flex flex-wrap gap-2" aria-label="Cinemas">
           {venues.map((v) => {

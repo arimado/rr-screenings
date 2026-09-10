@@ -1,10 +1,10 @@
 import { formatSydneyDayHeading, formatSydneyWeekRange } from "./sydney";
 import type { Week } from "./week";
 
-export const SITE_NAME = "Film in Syd";
+export const SITE_NAME = "Film In Syd";
 
 export const SITE_DESCRIPTION =
-  "This week at the Ritz, Golden Age, Dendy, the Orpheum, AGNSW, MCA, Palace Norton St, Palace Central, and Palace Moore Park.";
+  "Full weekly schedule of screenings happening at good cinemas.";
 
 export function siteTitle(label?: string) {
   return label ? `${label} · ${SITE_NAME}` : SITE_NAME;
