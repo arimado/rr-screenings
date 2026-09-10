@@ -32,6 +32,14 @@ export function formatSydneyDayHeading(ymd: string): string {
   }).format(utcNoon);
 }
 
+/** Weekday only, e.g. `Fri`. */
+export function formatSydneyWeekday(ymd: string): string {
+  return new Intl.DateTimeFormat("en-AU", {
+    timeZone: SYDNEY,
+    weekday: "short",
+  }).format(ymdToUtcNoon(ymd));
+}
+
 /** Compact Mon–Sun range, e.g. `7–13 Sep` or `28 Sep–4 Oct`. */
 export function formatSydneyWeekRange(monday: string, sunday: string): string {
   const start = ymdToUtcNoon(monday);

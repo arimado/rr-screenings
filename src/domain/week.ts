@@ -32,7 +32,8 @@ export function parseDayParam(day: string | undefined | null): string | undefine
 /**
  * A valid `day` implies day view (even without `view=day`).
  * `view=day` without a date falls back to today or that week's Monday.
- * Day wins over `week` when they disagree. Old `view=day&week=&day=` links still work.
+ * Day wins over `week` and `view=film` when they disagree.
+ * Old `view=day&week=&day=` links still work.
  */
 export function resolveListingsWeek({
   weekParam,
@@ -44,7 +45,7 @@ export function resolveListingsWeek({
   view?: string;
   dayParam?: string;
   today?: string;
-}): { week: Week; view?: "day"; day?: string } {
+}): { week: Week; view?: "day" | "film"; day?: string } {
   const parsed = parseDayParam(dayParam);
   if (parsed) {
     return {
@@ -60,6 +61,9 @@ export function resolveListingsWeek({
       view: "day",
       day: week.days.includes(today) ? today : week.monday,
     };
+  }
+  if (view === "film") {
+    return { week: parseWeekParam(weekParam), view: "film" };
   }
   return { week: parseWeekParam(weekParam) };
 }

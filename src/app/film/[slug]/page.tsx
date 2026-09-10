@@ -73,6 +73,7 @@ export default async function FilmPage({
     hide9to5: hide9to5 === "1",
     oneLeft: oneLeft === "1",
     ...(listingsView === "day" && day ? { view: "day" as const, day } : {}),
+    ...(listingsView === "film" ? { view: "film" as const } : {}),
   });
   const screenings = getUpcomingBySlug(slug);
   const known = filmIsKnown(slug);

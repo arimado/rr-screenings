@@ -53,6 +53,7 @@ export function WeekView({
         hide9to5,
         oneLeft,
         ...(view === "day" && day ? { view, day } : {}),
+        ...(view === "film" ? { view } : {}),
       }}
       updatedAt={updatedAt}
       updatedLabel={updatedAt ? formatUpdatedAgo(updatedAt) : undefined}

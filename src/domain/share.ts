@@ -17,7 +17,7 @@ export function listingsShareTitle({
   venueName,
 }: {
   week: Week;
-  view?: "day";
+  view?: "day" | "film";
   day?: string;
   venueName?: string;
 }) {

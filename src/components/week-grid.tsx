@@ -12,7 +12,7 @@ export type WeekQuery = {
   venueIds?: string[];
   hide9to5?: boolean;
   oneLeft?: boolean;
-  view?: "day";
+  view?: "day" | "film";
   day?: string;
 };
 
@@ -23,6 +23,7 @@ export function weekSearchParams(monday: string, q: WeekQuery = {}) {
   } else {
     params.set("week", monday);
     if (q.view === "day") params.set("view", "day");
+    if (q.view === "film") params.set("view", "film");
   }
   if (
     q.venueIds &&

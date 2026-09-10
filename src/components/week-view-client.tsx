@@ -1,5 +1,6 @@
 "use client";
 
+import { FilmWeekList } from "@/components/film-week-list";
 import { GoToToday } from "@/components/go-to-today";
 import { ShareButton } from "@/components/share-button";
 import { UpdatedBadge } from "@/components/updated-badge";
@@ -17,7 +18,7 @@ import {
   type WeekQuery,
 } from "@/components/week-grid";
 import { applyFilters } from "@/data/filter-screenings";
-import { groupDayEntries, type DayEntry } from "@/data/group";
+import { groupDayEntries, groupFilmEntries, type DayEntry } from "@/data/group";
 import type { Screening } from "@/domain/screening";
 import { listingsShareTitle, siteTitle } from "@/domain/share";
 import { addDays, formatSydneyDayHeading } from "@/domain/sydney";
@@ -31,7 +32,7 @@ export type WeekViewQuery = {
   venueIds: string[];
   hide9to5: boolean;
   oneLeft: boolean;
-  view?: "day";
+  view?: "day" | "film";
   day?: string;
 };
 
@@ -41,6 +42,7 @@ function toWeekQuery(q: WeekViewQuery): WeekQuery {
     hide9to5: q.hide9to5,
     oneLeft: q.oneLeft,
     ...(q.view === "day" && q.day ? { view: "day" as const, day: q.day } : {}),
+    ...(q.view === "film" ? { view: "film" as const } : {}),
   };
 }
 
@@ -120,6 +122,7 @@ export function WeekViewClient({
   );
   const byDay = useMemo(() => groupDayEntries(shownRows), [shownRows]);
   const nextByDay = useMemo(() => groupDayEntries(shownNext), [shownNext]);
+  const byFilm = useMemo(() => groupFilmEntries(shownRows), [shownRows]);
   const nextWeekMonday = nextMonday(week.monday);
   const nextWeekDays = useMemo(
     () => Array.from({ length: 7 }, (_, i) => addDays(nextWeekMonday, i)),
@@ -127,6 +130,7 @@ export function WeekViewClient({
   );
 
   const isDay = query.view === "day";
+  const isFilm = query.view === "film";
   const selectedDay = query.day ?? week.monday;
   const hasAny = shownRows.length > 0;
   const hasDayAny = (byDay.get(selectedDay)?.length ?? 0) > 0;
@@ -134,9 +138,11 @@ export function WeekViewClient({
   const weekQuery = toWeekQuery(query);
   const todayHref = isDay
     ? weekHref(currentMonday, { ...weekQuery, view: "day", day: today })
-    : todayOnPage
-      ? "#today"
-      : `${weekHref(currentMonday, weekQuery)}#today`;
+    : isFilm
+      ? weekHref(currentMonday, weekQuery)
+      : todayOnPage
+        ? "#today"
+        : `${weekHref(currentMonday, weekQuery)}#today`;
   const laterDay =
     isDay
       ? (firstDayWithEntries(week.days, byDay, selectedDay) ??
@@ -261,7 +267,7 @@ export function WeekViewClient({
       <div className="flex flex-col gap-2">
         <nav className="flex flex-wrap gap-2" aria-label="View">
           <Toggle
-            pressed={!isDay}
+            pressed={!isDay && !isFilm}
             variant="outline"
             size="sm"
             onPressedChange={(pressed) => {
@@ -289,6 +295,22 @@ export function WeekViewClient({
             }}
           >
             Day
+          </Toggle>
+          <Toggle
+            pressed={isFilm}
+            variant="outline"
+            size="sm"
+            onPressedChange={(pressed) => {
+              if (!pressed) return;
+              commit({
+                venueIds: query.venueIds,
+                hide9to5: query.hide9to5,
+                oneLeft: query.oneLeft,
+                view: "film",
+              });
+            }}
+          >
+            Film
           </Toggle>
         </nav>
         <div className="flex items-center gap-1">
@@ -341,7 +363,7 @@ export function WeekViewClient({
               </p>
             ) : null}
           </div>
-        ) : !isDay && !hasAny ? (
+        ) : !hasAny ? (
           <div className="rounded-lg border p-6 text-sm">
             <p>Nothing on this week.</p>
             {shownNext.length > 0 ? (
@@ -364,6 +386,12 @@ export function WeekViewClient({
               <GoToToday href={todayHref} todayOnPage={false} />
             ) : null}
           </div>
+        ) : isFilm ? (
+          <FilmWeekList
+            entries={byFilm}
+            monday={week.monday}
+            query={weekQuery}
+          />
         ) : (
           <WeekGrid
             days={isDay ? [selectedDay] : week.days}

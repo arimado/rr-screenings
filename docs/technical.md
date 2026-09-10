@@ -34,7 +34,7 @@ src/sources/          one file per cinema website; fetch() → Screening[]
 src/ingest/run.ts     the only code that writes data/
 src/data/             read snapshots, drop past sessions, filter, group into grid cells
 src/app/              three routes: /  /film/[slug]  /venue/[venueId]
-src/components/       week grid, filters, share
+src/components/       week grid, film list, filters, share
 ```
 
 A rule you will break if you are not careful: **UI code must not import a source adapter.** Pages call `getScreenings()` (and friends). They never `fetch()` a cinema site. If Ritz’s HTML changes, only `src/sources/ritz.ts` should care.
@@ -131,15 +131,16 @@ src/app/page.tsx          (Server Component)
         │
         ▼
 src/components/week-view.tsx   (still server)
-  resolveListingsWeek()   → which Mon–Sun, day vs week
+  resolveListingsWeek()   → which Mon–Sun, day vs week vs film
   getScreeningsForDays()  → rows for this week (and next, for empty-state links)
   parseVenueIds()         → which cinema chips are on
         │
         ▼
 src/components/week-view-client.tsx   ("use client")
   applyFilters()          → chips / evenings / one-left
-  groupDayEntries()       → cells
-  WeekGrid / WeekNav / ShareButton
+  groupDayEntries()       → week/day cells
+  groupFilmEntries()      → film cards when view=film
+  WeekGrid / FilmWeekList / WeekNav / ShareButton
 ```
 
 `export const dynamic = "force-dynamic"` on the pages means we do not statically bake “this week” at build time. “Today” is Sydney today when the request runs.
@@ -167,7 +168,9 @@ So:
 - *The Odyssey* at Dendy 10:20 and 20:10 Friday → **one cell**, two times.
 - *The Odyssey* at Dendy and at Golden Age the same day → **two cells**.
 
-Click behaviour (`WeekGrid` → `EntryCard`):
+`groupFilmEntries()` groups the same week by slug, then venue, then time. The UI prints compact weekday+time on each cinema line. Two Friday times at one cinema stay two screenings in the data; they share a line in the card.
+
+Click behaviour (`WeekGrid` → `EntryCard`, and `FilmWeekList` → `FilmCard`):
 
 - **One time** with a `bookingUrl` → `<a target="_blank">` to the cinema.
 - **Several times** → `/film/{slug}?…` so you can pick a session.
@@ -180,13 +183,15 @@ Filters and view are query params, not React-only state. `weekSearchParams()` / 
 |---|---|
 | Current week, default cinemas | `/` (after paging: `/?week=2026-09-08`) |
 | Saturday | `/?day=2026-09-12` |
+| This week, grouped by film | `/?week=2026-09-08&view=film` |
 | Evenings only | `/?week=…&hide9to5=1` |
 | Just Golden Age | `/?venues=golden-age-surry-hills` |
 | No cinemas | `/?venues=none` |
 
 Rules worth memorising:
 
-- A valid `day=` **is** day view. We omit `week` and `view` from new links. Old `?view=day&week=&day=` still works (`resolveListingsWeek`).
+- A valid `day=` **is** day view. We omit `week` and `view` from new links. Old `?view=day&week=&day=` still works (`resolveListingsWeek`). Day wins over `view=film`.
+- Film grouping is `view=film` next to `week=`. It never writes `day`.
 - Missing `venues` means the **default set**: every cinema except Palace. Palace chips are off until you turn one on. That is `defaultOn: false` on those venue rows.
 - `hide9to5=1` keeps weekends and weekday sessions from 17:00 Sydney. It drops Mon–Fri from 9:00 up to (not including) 17:00.
 - `oneLeft=1` keeps films that have exactly one remaining session **anywhere**, not just this week.
@@ -199,7 +204,7 @@ Toggles call `router.replace` (not `push`) so the back button is not a graveyard
 
 `/film/the-taste-of-tea` lists remaining sessions by day, then venue, then time. Each time with a `bookingUrl` is outbound.
 
-In-app links from the grid **keep** the week/day/filter query so “Back / This week” can return to the same grid. **Share** on the film page sends `/film/{slug}` only — a mate should not inherit your “evenings & weekends” filter.
+In-app links from the grid **keep** the week/day/`view=film`/filter query so “Back / This week” can return to the same listings. **Share** on the film page sends `/film/{slug}` only — a mate should not inherit your “evenings & weekends” filter.
 
 If the film has no upcoming sessions but we still know the slug from stored listings, we do not 404; we say it has finished.
 

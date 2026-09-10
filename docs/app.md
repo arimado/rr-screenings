@@ -24,13 +24,13 @@ Sydney calendar dates only, as in `domain.md`.
 1. **`/` — Week**  
    Front door. Current week, Monday–Sunday. Prev/next week, not a month jump. After navigation the week is pinned as `?week=YYYY-MM-DD`. Bare `/` is whatever this week is.
 
-   Day view is `?day=YYYY-MM-DD` (no `week`, no `view`). A valid `day` is enough; old `view=day&week=&day=` links still open that day. Share copies the current listings URL, filters included (`venues`, `hide9to5`, `oneLeft`).
+   Day view is `?day=YYYY-MM-DD` (no `week`, no `view`). A valid `day` is enough; old `view=day&week=&day=` links still open that day. Film grouping is `?week=YYYY-MM-DD&view=film` — same week, titles first, then cinema and times. It is not `/film/[slug]`. Share copies the current listings URL, filters included (`venues`, `hide9to5`, `oneLeft`).
 
 2. **`/film/[slug]` — Film**  
-   Title, optional year, remaining sessions grouped by day then venue, book on each time. Slug is the derived film id (`the-odyssey-2026`). The listings query (`week` or `day`, plus `venues`, `hide9to5`, `oneLeft`) rides on in-app film links so Back can return to the same grid. Share sends `/film/[slug]` only.
+   Title, optional year, remaining sessions grouped by day then venue, book on each time. Slug is the derived film id (`the-odyssey-2026`). The listings query (`week` or `day` or `view=film`, plus `venues`, `hide9to5`, `oneLeft`) rides on in-app film links so Back can return to the same grid. Share sends `/film/[slug]` only.
 
 3. **`/venue/[venueId]` — Venue**  
-   Same week grid, that cinema only. No separate layout language. Same day/week query and Share as `/`.
+   Same week grid (or day / film grouping), that cinema only. No separate layout language. Same day/week/film query and Share as `/`.
 
 No map, no search page, no “my list.” Query params on `/` for filters are enough (`venues`) once there is more than one cinema.
 
@@ -49,6 +49,12 @@ Click: the times can go straight to `bookingUrl` if there is one session; otherw
 Same film at two cinemas the same day = two entries. Same film two times at one cinema = one entry, two times.
 
 Empty day: leave the column, do not hide the date.
+
+## Film grouping
+
+Same week and filters as the grid, `?view=film`. Title cards, sorted by earliest remaining session this week. Phone is one column; desktop is two then three (do not shrink like the seven-day grid). Each card is the film, then a line per cinema with compact times (`Fri 10:20 am, 8:50 pm · Sat 2:00 pm`). Prev/next still moves the week.
+
+Click: one remaining session this week with a `bookingUrl` goes outbound; otherwise `/film/[slug]` with the listings query. This list is an index of *this week*. The film page is still all remaining sessions.
 
 ## Filters
 
