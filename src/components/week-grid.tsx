@@ -55,7 +55,7 @@ export function WeekNav({
   const range = formatSydneyWeekRange(week.monday, week.sunday);
   return (
     <div
-      className={`sticky top-0 z-20 -mx-4 bg-background px-4 py-2 md:static md:mx-0 md:px-0 md:py-0${pendingHref ? " pointer-events-none" : ""}`}
+      className={`flex items-center${pendingHref ? " pointer-events-none" : ""}`}
       aria-busy={Boolean(pendingHref)}
     >
       <div className="flex w-full items-center justify-between rounded-lg border border-input bg-background">
@@ -157,10 +157,10 @@ export function WeekGrid({
             <section
               key={day}
               id={isToday ? "today" : undefined}
-              className="min-w-0 scroll-mt-14 md:scroll-mt-3"
+              className="min-w-0 scroll-mt-3"
             >
               <h2
-                className={`sticky top-12 z-10 mb-1.5 bg-background py-1 text-xs font-medium md:top-0 ${
+                className={`sticky top-0 mb-1.5 bg-background py-1 text-xs font-medium ${
                   isToday ? "text-foreground" : "text-muted-foreground"
                 }`}
               >

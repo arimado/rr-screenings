@@ -223,6 +223,15 @@ export function WeekViewClient({
           />
         )}
       </div>
+      <div className="mb-16 md:hidden">
+        <WeekNav
+          week={week}
+          query={weekQuery}
+          currentMonday={currentMonday}
+          pendingHref={weekBusy ? pendingHref : null}
+          onNavigate={goWeek}
+        />
+      </div>
     </div>
   );
 }
