@@ -13,6 +13,7 @@ export const venues: Venue[] = [
     name: "Ritz",
     suburb: "Randwick",
     color: "#c45c26",
+    defaultOn: false,
   },
   {
     id: "golden-age-surry-hills",
@@ -25,12 +26,14 @@ export const venues: Venue[] = [
     name: "Dendy",
     suburb: "Newtown",
     color: "#ed1164",
+    defaultOn: false,
   },
   {
     id: "orpheum-cremorne",
     name: "Orpheum",
     suburb: "Cremorne",
     color: "#801025",
+    defaultOn: false,
   },
   {
     id: "agnsw-domain",
@@ -71,9 +74,21 @@ export function defaultVenueIds(): string[] {
   return venues.filter((v) => v.defaultOn !== false).map((v) => v.id);
 }
 
+export function allVenueIds(): string[] {
+  return venues.map((v) => v.id);
+}
+
 export function isDefaultVenueIds(ids: string[]): boolean {
   const def = defaultVenueIds();
   return ids.length === def.length && ids.every((id, i) => id === def[i]);
+}
+
+export function isAllVenueIds(ids: string[]): boolean {
+  return ids.length === venues.length && venues.every((v, i) => v.id === ids[i]);
+}
+
+export function toggleAllVenueIds(selected: string[]): string[] {
+  return isAllVenueIds(selected) ? [] : allVenueIds();
 }
 
 export function getVenue(id: string): Venue | undefined {

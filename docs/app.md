@@ -60,7 +60,7 @@ Click: one remaining session this week with a `bookingUrl` goes outbound; otherw
 
 On the week, not in a settings page:
 
-- Cinemas (`?venues=id,id`): each cinema is a toggle, including the three Palace sites (Norton St, Central, Moore Park) as their own chips — not one Palace group. Missing `venues` is the default set: every cinema except Palace. Palace is off until you turn a site on. An explicit list keeps those cinemas only. `/venue/[venueId]` is still that cinema on its own.
+- Cinemas (`?venues=id,id`): each cinema is a toggle, including the three Palace sites (Norton St, Central, Moore Park) as their own chips — not one Palace group. Missing `venues` is the default set: Golden Age, AGNSW, and MCA. Ritz, Dendy, Orpheum, and Palace are off until you turn a chip on. An explicit list keeps those cinemas only. `/venue/[venueId]` is still that cinema on its own.
 - Evenings & weekends (`?hide9to5=1`): keeps weekend sessions and weekday sessions from 17:00 Sydney. Drops Mon–Fri 9:00 up to but not including 17:00. When the filter is on, the label includes how many sessions it is showing this week.
 - One screening left (`?oneLeft=1`): keeps films whose upcoming listings have exactly one remaining session (title+year, all venues). When the filter is on, the label includes how many sessions it is showing this week.
 

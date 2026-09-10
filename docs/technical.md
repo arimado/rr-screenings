@@ -192,7 +192,7 @@ Rules worth memorising:
 
 - A valid `day=` **is** day view. We omit `week` and `view` from new links. Old `?view=day&week=&day=` still works (`resolveListingsWeek`). Day wins over `view=film`.
 - Film grouping is `view=film` next to `week=`. It never writes `day`.
-- Missing `venues` means the **default set**: every cinema except Palace. Palace chips are off until you turn one on. That is `defaultOn: false` on those venue rows.
+- Missing `venues` means the **default set**: Golden Age, AGNSW, and MCA. Ritz, Dendy, Orpheum, and Palace chips are off until you turn one on. That is `defaultOn: false` on those venue rows.
 - `hide9to5=1` keeps weekends and weekday sessions from 17:00 Sydney. It drops Mon–Fri from 9:00 up to (not including) 17:00.
 - `oneLeft=1` keeps films that have exactly one remaining session **anywhere**, not just this week.
 

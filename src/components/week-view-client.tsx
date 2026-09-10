@@ -20,7 +20,12 @@ import {
   venueCanonicalPath,
 } from "@/domain/share";
 import { addDays, formatSydneyDayHeading, mondayOf } from "@/domain/sydney";
-import { toggleVenueId, venues } from "@/domain/venue";
+import {
+  isAllVenueIds,
+  toggleAllVenueIds,
+  toggleVenueId,
+  venues,
+} from "@/domain/venue";
 import { nextMonday, weekFromMonday, type Week } from "@/domain/week";
 import { weekHref, type WeekQuery } from "@/lib/week-url";
 import Link from "next/link";
@@ -180,6 +185,7 @@ export function WeekViewClient({
 
   const isDay = query.view === "day";
   const isFilm = query.view === "film";
+  const allOn = isAllVenueIds(query.venueIds);
   const selectedDay = query.day ?? week.monday;
   const hasAny = shownRows.length > 0;
   const hasDayAny = (byDay.get(selectedDay)?.length ?? 0) > 0;
@@ -281,6 +287,28 @@ export function WeekViewClient({
           {SITE_DESCRIPTION}
         </p>
         <nav className="mt-2 flex flex-wrap gap-2" aria-label="Cinemas">
+          <Hint
+            content={
+              allOn
+                ? "Deselect all cinemas."
+                : "Select every cinema."
+            }
+          >
+            <Toggle
+              pressed={allOn}
+              variant="outline"
+              size="sm"
+              aria-label="All cinemas"
+              onPressedChange={() =>
+                commit({
+                  ...query,
+                  venueIds: toggleAllVenueIds(query.venueIds),
+                })
+              }
+            >
+              All
+            </Toggle>
+          </Hint>
           {venues.map((v) => {
             const pressed = query.venueIds.includes(v.id);
             return (
