@@ -180,14 +180,11 @@ export function WeekViewClient({
     <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 px-4 py-8">
       <header className="flex flex-col gap-1">
         <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-2">
-          <div>
-            <h1 className="text-2xl font-semibold tracking-tight">
-              <Link href="/" className="hover:underline">
-                Film in Syd
-              </Link>
-            </h1>
-            <p className="text-xs text-muted-foreground">by Reading Room</p>
-          </div>
+          <h1 className="text-2xl font-semibold tracking-tight">
+            <Link href="/" className="hover:underline">
+              Film in Syd
+            </Link>
+          </h1>
           {updatedAt && updatedLabel && updatedExact ? (
             <UpdatedBadge
               dateTime={updatedAt}
