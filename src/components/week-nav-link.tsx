@@ -15,16 +15,27 @@ export function WeekNavLink({
   label,
   pending = false,
   onNavigate,
+  side,
   children,
 }: {
   href: string;
   label: string;
   pending?: boolean;
   onNavigate?: (href: string) => void;
+  side: "prev" | "next";
   children: React.ReactNode;
 }) {
   return (
-    <Button variant="ghost" size="icon-sm" asChild>
+    <Button
+      variant="ghost"
+      size="sm"
+      asChild
+      className={
+        side === "prev"
+          ? "min-w-0 flex-1 justify-start rounded-r-none"
+          : "min-w-0 flex-1 justify-end rounded-l-none"
+      }
+    >
       <Link
         href={href}
         scroll={false}

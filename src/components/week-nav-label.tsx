@@ -32,7 +32,7 @@ export function WeekNavLabel({
   return (
     <p
       key={label}
-      className={`min-w-0 flex-1 px-1 text-center text-sm font-medium ${enter}`}
+      className={`flex shrink-0 items-center px-1 text-center text-sm font-medium ${enter}`}
       aria-label={ariaLabel}
     >
       {label}

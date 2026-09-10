@@ -60,12 +60,13 @@ export function WeekNav({
       className={`flex items-center${pendingHref ? " pointer-events-none" : ""}`}
       aria-busy={Boolean(pendingHref)}
     >
-      <div className="flex w-full items-center justify-between rounded-lg border border-input bg-background">
+      <div className="flex w-full items-stretch rounded-lg border border-input bg-background">
         <WeekNavLink
           href={prevHref}
           label={isDay ? "Previous day" : "Previous week"}
           pending={pendingHref === prevHref}
           onNavigate={onNavigate}
+          side="prev"
         >
           <span className="inline-flex motion-safe:transition-transform motion-safe:duration-150 motion-safe:ease-out motion-safe:group-hover/button:-translate-x-px">
             <ChevronLeftIcon />
@@ -81,6 +82,7 @@ export function WeekNav({
           label={isDay ? "Next day" : "Next week"}
           pending={pendingHref === nextHref}
           onNavigate={onNavigate}
+          side="next"
         >
           <span className="inline-flex motion-safe:transition-transform motion-safe:duration-150 motion-safe:ease-out motion-safe:group-hover/button:translate-x-px">
             <ChevronRightIcon />
