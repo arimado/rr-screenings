@@ -4,46 +4,13 @@ import { WeekNavLabel } from "@/components/week-nav-label";
 import { WeekNavLink } from "@/components/week-nav-link";
 import type { DayEntry } from "@/data/group";
 import { addDays, formatSydneyDayHeading, formatSydneyWeekRange, mondayOf } from "@/domain/sydney";
-import { isDefaultVenueIds } from "@/domain/venue";
 import { nextMonday, prevMonday, type Week } from "@/domain/week";
+import { filmHref, weekHref, type WeekQuery } from "@/lib/week-url";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 
-export type WeekQuery = {
-  venueIds?: string[];
-  hide9to5?: boolean;
-  oneLeft?: boolean;
-  view?: "day" | "film";
-  day?: string;
-};
-
-export function weekSearchParams(monday: string, q: WeekQuery = {}) {
-  const params = new URLSearchParams();
-  if (q.view === "day" && q.day) {
-    params.set("day", q.day);
-  } else {
-    params.set("week", monday);
-    if (q.view === "day") params.set("view", "day");
-    if (q.view === "film") params.set("view", "film");
-  }
-  if (
-    q.venueIds &&
-    !isDefaultVenueIds(q.venueIds)
-  ) {
-    params.set("venues", q.venueIds.length > 0 ? q.venueIds.join(",") : "none");
-  }
-  if (q.hide9to5) params.set("hide9to5", "1");
-  if (q.oneLeft) params.set("oneLeft", "1");
-  return params;
-}
-
-export function weekHref(monday: string, q: WeekQuery = {}) {
-  return `/?${weekSearchParams(monday, q).toString()}`;
-}
-
-export function filmHref(slug: string, monday: string, q: WeekQuery = {}) {
-  return `/film/${slug}?${weekSearchParams(monday, q).toString()}`;
-}
+export type { WeekQuery } from "@/lib/week-url";
+export { filmHref, weekHref, weekSearchParams } from "@/lib/week-url";
 
 export function WeekNav({
   week,
@@ -124,6 +91,9 @@ export function WeekNav({
   );
 }
 
+const cardClassName =
+  "block rounded-lg bg-card p-2 text-left motion-safe:transition-[background-color,transform] motion-safe:duration-150 motion-safe:ease-out hover:bg-accent/50 motion-safe:hover:-translate-y-px";
+
 function EntryCard({ entry, href }: { entry: DayEntry; href: string }) {
   const single = entry.times.length === 1 ? entry.times[0] : null;
   const outbound = single?.bookingUrl;
@@ -147,16 +117,13 @@ function EntryCard({ entry, href }: { entry: DayEntry; href: string }) {
     </div>
   );
 
-  const className =
-    "block rounded-lg bg-card p-2 text-left motion-safe:transition-[background-color,transform] motion-safe:duration-150 motion-safe:ease-out hover:bg-accent/50 motion-safe:hover:-translate-y-px";
-
   if (outbound) {
     return (
       <a
         href={outbound}
         target="_blank"
         rel="noopener noreferrer"
-        className={className}
+        className={cardClassName}
       >
         {body}
       </a>
@@ -164,7 +131,7 @@ function EntryCard({ entry, href }: { entry: DayEntry; href: string }) {
   }
 
   return (
-    <Link href={href} className={className}>
+    <Link href={href} prefetch={false} className={cardClassName}>
       {body}
     </Link>
   );
@@ -208,13 +175,18 @@ export function WeekGrid({
           <section
             key={day}
             id={isToday ? "today" : undefined}
-            className="min-w-0 scroll-mt-3"
+            className={
+              dayLayout
+                ? "min-w-0 scroll-mt-3"
+                : "min-w-0 scroll-mt-3 [content-visibility:auto] [contain-intrinsic-size:auto_12rem] md:[content-visibility:visible]"
+            }
           >
             {dayLayout ? null : (
               <StickyDayHeading isToday={isToday}>
                 <Link
                   href={href}
                   scroll={false}
+                  prefetch={false}
                   className="hover:text-foreground hover:underline"
                   onClick={(e) => {
                     if (!onNavigate || isModifiedClick(e)) return;

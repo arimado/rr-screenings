@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { FilmBackLink } from "@/components/film-back-link";
 import { ShareButton } from "@/components/share-button";
-import { weekHref } from "@/components/week-grid";
+import { weekHref } from "@/lib/week-url";
 import {
   filmIsKnown,
   getUpcomingBySlug,
@@ -26,7 +26,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 60;
 
 export async function generateMetadata({
   params,

@@ -8,7 +8,7 @@ import { venues } from "@/domain/venue";
 import { siteUrl } from "@/lib/site-url";
 import type { MetadataRoute } from "next";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const origin = siteUrl();

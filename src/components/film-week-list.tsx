@@ -1,6 +1,6 @@
 import { VenueDot } from "@/components/venue-dot";
-import { filmHref, type WeekQuery } from "@/components/week-grid";
 import type { FilmWeekEntry, FilmWeekTime } from "@/data/group";
+import { filmHref, type WeekQuery } from "@/lib/week-url";
 import { formatSydneyWeekday } from "@/domain/sydney";
 import Link from "next/link";
 
@@ -75,7 +75,7 @@ function FilmCard({
   }
 
   return (
-    <Link href={href} className={className}>
+    <Link href={href} prefetch={false} className={className}>
       {body}
     </Link>
   );

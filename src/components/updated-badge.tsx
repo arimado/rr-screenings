@@ -1,11 +1,6 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 import { AlertCircleIcon, ClockIcon } from "lucide-react";
 
 export function UpdatedBadge({
@@ -21,16 +16,11 @@ export function UpdatedBadge({
 }) {
   const Icon = stale ? AlertCircleIcon : ClockIcon;
   return (
-    <Tooltip>
-      <TooltipTrigger asChild>
-        <Badge variant={stale ? "destructive" : "secondary"} asChild>
-          <button type="button">
-            <Icon data-icon="inline-start" />
-            <time dateTime={dateTime}>{label}</time>
-          </button>
-        </Badge>
-      </TooltipTrigger>
-      <TooltipContent>{exact}</TooltipContent>
-    </Tooltip>
+    <Badge variant={stale ? "destructive" : "secondary"} asChild>
+      <button type="button" title={exact}>
+        <Icon data-icon="inline-start" />
+        <time dateTime={dateTime}>{label}</time>
+      </button>
+    </Badge>
   );
 }

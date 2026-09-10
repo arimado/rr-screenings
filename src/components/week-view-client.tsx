@@ -6,28 +6,25 @@ import { ListingsFade } from "@/components/listings-fade";
 import { ShareButton } from "@/components/share-button";
 import { UpdatedBadge } from "@/components/updated-badge";
 import { Toggle } from "@/components/ui/toggle";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 import { VenueDot } from "@/components/venue-dot";
-import {
-  WeekGrid,
-  WeekNav,
-  weekHref,
-  type WeekQuery,
-} from "@/components/week-grid";
+import { WeekGrid, WeekNav } from "@/components/week-grid";
 import { applyFilters } from "@/data/filter-screenings";
 import { groupDayEntries, groupFilmEntries, type DayEntry } from "@/data/group";
-import type { Screening } from "@/domain/screening";
+import type { ListingsRow } from "@/data/listings-row";
 import { listingsShareTitle, siteTitle, venueCanonicalPath } from "@/domain/share";
-import { addDays, formatSydneyDayHeading } from "@/domain/sydney";
+import { addDays, formatSydneyDayHeading, mondayOf } from "@/domain/sydney";
 import { toggleVenueId, venues } from "@/domain/venue";
-import { nextMonday, type Week } from "@/domain/week";
+import { nextMonday, weekFromMonday, type Week } from "@/domain/week";
+import { weekHref, type WeekQuery } from "@/lib/week-url";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { startTransition, useEffect, useMemo, useOptimistic, useRef, useState, useTransition } from "react";
+import {
+  startTransition,
+  useMemo,
+  useRef,
+  useState,
+  useTransition,
+} from "react";
 
 export type WeekViewQuery = {
   venueIds: string[];
@@ -51,9 +48,31 @@ function parseListingsHref(href: string) {
   const url = new URL(href, "https://example.invalid");
   const day = url.searchParams.get("day");
   const view = url.searchParams.get("view");
+  const weekParam = url.searchParams.get("week");
   return {
     view: day || view === "day" ? "day" : view,
     day,
+    monday: day ? mondayOf(day) : weekParam ? mondayOf(weekParam) : undefined,
+  };
+}
+
+function queryFromHref(query: WeekViewQuery, href: string): WeekViewQuery {
+  const parsed = parseListingsHref(href);
+  if (parsed.view === "day" && parsed.day) {
+    return { ...query, view: "day", day: parsed.day };
+  }
+  if (parsed.view === "film") {
+    return {
+      venueIds: query.venueIds,
+      hide9to5: query.hide9to5,
+      oneLeft: query.oneLeft,
+      view: "film",
+    };
+  }
+  return {
+    venueIds: query.venueIds,
+    hide9to5: query.hide9to5,
+    oneLeft: query.oneLeft,
   };
 }
 
@@ -72,47 +91,16 @@ function isModifiedClick(e: React.MouseEvent) {
   return e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0;
 }
 
-function CinemaDot({ venueId, pressed }: { venueId: string; pressed: boolean }) {
-  const seen = useRef(false);
-  useEffect(() => {
-    seen.current = true;
-  }, []);
-  return (
-    <CinemaDotMark
-      key={pressed ? "on" : "off"}
-      venueId={venueId}
-      animate={seen.current && pressed}
-    />
-  );
-}
-
-function CinemaDotMark({
-  venueId,
-  animate,
-}: {
-  venueId: string;
-  animate: boolean;
-}) {
-  const [play] = useState(animate);
-  return (
-    <span
-      className={
-        play
-          ? "inline-flex motion-safe:animate-in motion-safe:zoom-in-95 motion-safe:duration-150 motion-safe:ease-out motion-safe:fill-mode-both"
-          : "inline-flex"
-      }
-    >
-      <VenueDot venueId={venueId} />
-    </span>
-  );
+function syncListingsUrl(href: string) {
+  window.history.replaceState(window.history.state, "", href);
 }
 
 export function WeekViewClient({
-  week,
+  week: serverWeek,
   today,
   currentMonday,
-  screenings,
-  nextScreenings,
+  screenings: serverScreenings,
+  nextScreenings: serverNextScreenings,
   oneLeftSlugs,
   initialQuery,
   updatedAt,
@@ -123,8 +111,8 @@ export function WeekViewClient({
   week: Week;
   today: string;
   currentMonday: string;
-  screenings: Screening[];
-  nextScreenings: Screening[];
+  screenings: ListingsRow[];
+  nextScreenings: ListingsRow[];
   oneLeftSlugs: string[];
   initialQuery: WeekViewQuery;
   updatedAt?: string;
@@ -133,9 +121,27 @@ export function WeekViewClient({
   stale: boolean;
 }) {
   const router = useRouter();
-  const [query, setQuery] = useOptimistic(initialQuery);
+  const serverListings = useMemo(
+    () => ({
+      week: serverWeek,
+      screenings: serverScreenings,
+      nextScreenings: serverNextScreenings,
+    }),
+    [serverWeek, serverScreenings, serverNextScreenings],
+  );
+  const [query, setQuery] = useState(initialQuery);
+  const [listings, setListings] = useState(serverListings);
+  const [appliedMonday, setAppliedMonday] = useState(serverWeek.monday);
   const [weekPending, startWeekTransition] = useTransition();
   const [pendingHref, setPendingHref] = useState<string | null>(null);
+  const weekCache = useRef(new Map<string, ListingsRow[]>());
+  if (serverWeek.monday !== appliedMonday) {
+    setAppliedMonday(serverWeek.monday);
+    setQuery(initialQuery);
+    setListings(serverListings);
+  }
+
+  const { week, screenings, nextScreenings } = listings;
   const oneLeftSet = useMemo(() => new Set(oneLeftSlugs), [oneLeftSlugs]);
 
   const shownRows = useMemo(
@@ -192,15 +198,34 @@ export function WeekViewClient({
     : null;
 
   function commit(next: WeekViewQuery) {
-    startTransition(() => {
-      setQuery(next);
-      router.replace(weekHref(week.monday, toWeekQuery(next)), {
-        scroll: false,
-      });
-    });
+    syncListingsUrl(weekHref(week.monday, toWeekQuery(next)));
+    setQuery(next);
   }
 
   function goWeek(href: string) {
+    const parsed = parseListingsHref(href);
+    const monday = parsed.monday;
+    weekCache.current.set(serverWeek.monday, serverScreenings);
+    weekCache.current.set(
+      nextMonday(serverWeek.monday),
+      serverNextScreenings,
+    );
+    weekCache.current.set(week.monday, screenings);
+    if (monday != null && weekCache.current.has(monday)) {
+      const cached = weekCache.current.get(monday)!;
+      setPendingHref(null);
+      const nextRows = weekCache.current.get(nextMonday(monday));
+      setQuery(queryFromHref(query, href));
+      setListings({
+        week: weekFromMonday(monday),
+        screenings: cached,
+        nextScreenings: nextRows ?? [],
+      });
+      startTransition(() => {
+        router.push(href, { scroll: false });
+      });
+      return;
+    }
     setPendingHref(href);
     startWeekTransition(() => {
       router.push(href, { scroll: false });
@@ -221,9 +246,6 @@ export function WeekViewClient({
     week.monday,
     query.view ?? "week",
     query.day ?? "",
-    query.venueIds.join(","),
-    query.hide9to5 ? "1" : "0",
-    query.oneLeft ? "1" : "0",
   ].join("|");
   const showTodayFab =
     query.venueIds.length > 0 &&
@@ -260,6 +282,7 @@ export function WeekViewClient({
                 pressed={pressed}
                 variant="outline"
                 size="sm"
+                title={v.suburb ? `${v.name}, ${v.suburb}` : v.name}
                 onPressedChange={() =>
                   commit({
                     ...query,
@@ -267,7 +290,7 @@ export function WeekViewClient({
                   })
                 }
               >
-                <CinemaDot venueId={v.id} pressed={pressed} />
+                <VenueDot venueId={v.id} />
                 {v.name}
               </Toggle>
             );
@@ -279,107 +302,81 @@ export function WeekViewClient({
           </p>
         ) : null}
         <nav className="mt-2 flex flex-wrap gap-2" aria-label="Filters">
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <Toggle
-                pressed={query.hide9to5}
-                variant="outline"
-                size="sm"
-                onPressedChange={() =>
-                  commit({ ...query, hide9to5: !query.hide9to5 })
-                }
-              >
-                Evenings & weekends
-              </Toggle>
-            </TooltipTrigger>
-            <TooltipContent>
-              Weekends, plus weekdays from 5pm.
-            </TooltipContent>
-          </Tooltip>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <Toggle
-                pressed={query.oneLeft}
-                variant="outline"
-                size="sm"
-                onPressedChange={() =>
-                  commit({ ...query, oneLeft: !query.oneLeft })
-                }
-              >
-                One screening left
-              </Toggle>
-            </TooltipTrigger>
-            <TooltipContent>
-              Films with only one session left to see.
-            </TooltipContent>
-          </Tooltip>
+          <Toggle
+            pressed={query.hide9to5}
+            variant="outline"
+            size="sm"
+            title="Weekends, plus weekdays from 5pm."
+            onPressedChange={() =>
+              commit({ ...query, hide9to5: !query.hide9to5 })
+            }
+          >
+            Evenings & weekends
+          </Toggle>
+          <Toggle
+            pressed={query.oneLeft}
+            variant="outline"
+            size="sm"
+            title="Films with only one session left to see."
+            onPressedChange={() =>
+              commit({ ...query, oneLeft: !query.oneLeft })
+            }
+          >
+            One screening left
+          </Toggle>
         </nav>
       </header>
       <div className="flex flex-col gap-2">
         <nav className="flex flex-wrap gap-2" aria-label="View">
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <Toggle
-                pressed={!isDay && !isFilm}
-                variant="outline"
-                size="sm"
-                onPressedChange={(pressed) => {
-                  if (!pressed) return;
-                  commit({
-                    venueIds: query.venueIds,
-                    hide9to5: query.hide9to5,
-                    oneLeft: query.oneLeft,
-                  });
-                }}
-              >
-                Week
-              </Toggle>
-            </TooltipTrigger>
-            <TooltipContent>Monday to Sunday in columns.</TooltipContent>
-          </Tooltip>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <Toggle
-                pressed={isDay}
-                variant="outline"
-                size="sm"
-                onPressedChange={(pressed) => {
-                  if (!pressed) return;
-                  commit({
-                    ...query,
-                    view: "day",
-                    day: week.days.includes(today) ? today : week.monday,
-                  });
-                }}
-              >
-                Day
-              </Toggle>
-            </TooltipTrigger>
-            <TooltipContent>One Sydney date at a time.</TooltipContent>
-          </Tooltip>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <Toggle
-                pressed={isFilm}
-                variant="outline"
-                size="sm"
-                onPressedChange={(pressed) => {
-                  if (!pressed) return;
-                  commit({
-                    venueIds: query.venueIds,
-                    hide9to5: query.hide9to5,
-                    oneLeft: query.oneLeft,
-                    view: "film",
-                  });
-                }}
-              >
-                Film
-              </Toggle>
-            </TooltipTrigger>
-            <TooltipContent>
-              Titles first, then cinema and times.
-            </TooltipContent>
-          </Tooltip>
+          <Toggle
+            pressed={!isDay && !isFilm}
+            variant="outline"
+            size="sm"
+            title="Monday to Sunday in columns."
+            onPressedChange={(pressed) => {
+              if (!pressed) return;
+              commit({
+                venueIds: query.venueIds,
+                hide9to5: query.hide9to5,
+                oneLeft: query.oneLeft,
+              });
+            }}
+          >
+            Week
+          </Toggle>
+          <Toggle
+            pressed={isDay}
+            variant="outline"
+            size="sm"
+            title="One Sydney date at a time."
+            onPressedChange={(pressed) => {
+              if (!pressed) return;
+              commit({
+                ...query,
+                view: "day",
+                day: week.days.includes(today) ? today : week.monday,
+              });
+            }}
+          >
+            Day
+          </Toggle>
+          <Toggle
+            pressed={isFilm}
+            variant="outline"
+            size="sm"
+            title="Titles first, then cinema and times."
+            onPressedChange={(pressed) => {
+              if (!pressed) return;
+              commit({
+                venueIds: query.venueIds,
+                hide9to5: query.hide9to5,
+                oneLeft: query.oneLeft,
+                view: "film",
+              });
+            }}
+          >
+            Film
+          </Toggle>
         </nav>
         <div className="flex items-center gap-1">
           <div className="min-w-0 flex-1">
@@ -431,6 +428,7 @@ export function WeekViewClient({
                       className="underline"
                       href={laterDayHref}
                       scroll={false}
+                      prefetch={false}
                       onClick={(e) => {
                         if (isModifiedClick(e)) return;
                         e.preventDefault();
@@ -451,6 +449,7 @@ export function WeekViewClient({
                       className="underline"
                       href={weekHref(nextWeekMonday, weekQuery)}
                       scroll={false}
+                      prefetch={false}
                       onClick={(e) => {
                         if (isModifiedClick(e)) return;
                         e.preventDefault();

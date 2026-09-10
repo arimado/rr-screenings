@@ -7,6 +7,7 @@ import {
   slugsWithOneUpcoming,
   snapshotIsStale,
 } from "@/data/get-screenings";
+import { toListingsRows } from "@/data/listings-row";
 import { addDays, sydneyYmd } from "@/domain/sydney";
 import { parseVenueIds } from "@/domain/venue";
 import { currentWeek, nextMonday, resolveListingsWeek } from "@/domain/week";
@@ -45,8 +46,8 @@ export function WeekView({
       week={week}
       today={today}
       currentMonday={currentWeek().monday}
-      screenings={getScreeningsForDays(week.days)}
-      nextScreenings={getScreeningsForDays(nextWeekDays)}
+      screenings={toListingsRows(getScreeningsForDays(week.days))}
+      nextScreenings={toListingsRows(getScreeningsForDays(nextWeekDays))}
       oneLeftSlugs={[...slugsWithOneUpcoming()]}
       initialQuery={{
         venueIds,

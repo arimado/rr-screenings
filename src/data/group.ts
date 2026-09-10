@@ -1,6 +1,4 @@
-import { filmSlug } from "@/domain/film";
-import type { Screening } from "@/domain/screening";
-import { formatSydneyTime, instantToSydneyYmd } from "@/domain/sydney";
+import type { ListingsRow } from "@/data/listings-row";
 import { getVenue } from "@/domain/venue";
 
 export type DayEntry = {
@@ -34,7 +32,7 @@ export type FilmWeekEntry = {
   venues: FilmWeekVenue[];
 };
 
-export function groupFilmEntries(screenings: Screening[]): FilmWeekEntry[] {
+export function groupFilmEntries(rows: ListingsRow[]): FilmWeekEntry[] {
   const films = new Map<
     string,
     {
@@ -45,13 +43,11 @@ export function groupFilmEntries(screenings: Screening[]): FilmWeekEntry[] {
     }
   >();
 
-  for (const s of screenings) {
-    const slug = filmSlug(s.title, s.year);
-    const day = instantToSydneyYmd(s.startsAt);
-    let film = films.get(slug);
+  for (const s of rows) {
+    let film = films.get(s.slug);
     if (!film) {
-      film = { slug, title: s.title, year: s.year, venues: new Map() };
-      films.set(slug, film);
+      film = { slug: s.slug, title: s.title, year: s.year, venues: new Map() };
+      films.set(s.slug, film);
     }
     let venue = film.venues.get(s.venueId);
     if (!venue) {
@@ -65,8 +61,8 @@ export function groupFilmEntries(screenings: Screening[]): FilmWeekEntry[] {
     venue.times.push({
       id: s.id,
       startsAt: s.startsAt,
-      day,
-      label: formatSydneyTime(s.startsAt),
+      day: s.day,
+      label: s.label,
       bookingUrl: s.bookingUrl,
     });
   }
@@ -85,20 +81,18 @@ export function groupFilmEntries(screenings: Screening[]): FilmWeekEntry[] {
   return list;
 }
 
-export function groupDayEntries(screenings: Screening[]): Map<string, DayEntry[]> {
+export function groupDayEntries(rows: ListingsRow[]): Map<string, DayEntry[]> {
   const byDay = new Map<string, Map<string, DayEntry>>();
 
-  for (const s of screenings) {
-    const day = instantToSydneyYmd(s.startsAt);
-    const slug = filmSlug(s.title, s.year);
-    const groupKey = `${slug}|${s.venueId}`;
-    if (!byDay.has(day)) byDay.set(day, new Map());
-    const dayMap = byDay.get(day)!;
+  for (const s of rows) {
+    const groupKey = `${s.slug}|${s.venueId}`;
+    if (!byDay.has(s.day)) byDay.set(s.day, new Map());
+    const dayMap = byDay.get(s.day)!;
     let entry = dayMap.get(groupKey);
     if (!entry) {
       entry = {
         key: groupKey,
-        slug,
+        slug: s.slug,
         title: s.title,
         year: s.year,
         venueId: s.venueId,
@@ -110,7 +104,7 @@ export function groupDayEntries(screenings: Screening[]): Map<string, DayEntry[]
     entry.times.push({
       id: s.id,
       startsAt: s.startsAt,
-      label: formatSydneyTime(s.startsAt),
+      label: s.label,
       bookingUrl: s.bookingUrl,
     });
   }
