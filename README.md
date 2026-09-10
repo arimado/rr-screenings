@@ -9,6 +9,7 @@ Specs and how it was built live in [`docs/`](docs/):
 - [sources.md](docs/sources.md) — ingest and adapters
 - [app.md](docs/app.md) — routes, grid, filters
 - [how-it-was-built.md](docs/how-it-was-built.md) — how the repo implements those
+- [technical.md](docs/technical.md) — the same system, explained for someone new to the repo
 
 ```bash
 npm install

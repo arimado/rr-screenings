@@ -1,6 +1,6 @@
 # How this was built
 
-Reading Room needed a public week of Sydney screenings, not a cinema, not a diary, not “what’s on.” The four specs in this folder are the brief. This note is how the repo actually implements them.
+Reading Room needed a public week of Sydney screenings, not a cinema, not a diary, not “what’s on.” The four specs in this folder are the brief. This note is how the repo actually implements them. For a junior-friendly walkthrough of the same system, see [technical.md](technical.md).
 
 ## Specs first
 
