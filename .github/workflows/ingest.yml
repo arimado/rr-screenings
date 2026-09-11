@@ -2,7 +2,9 @@ name: Ingest
 
 on:
   schedule:
-    - cron: "0 20,2,8 * * *"
+    # Off :00 — GitHub delays or drops jobs at the start of the hour.
+    - cron: "23 6,12,18 * * *"
+      timezone: Australia/Sydney
   workflow_dispatch:
 
 permissions:
