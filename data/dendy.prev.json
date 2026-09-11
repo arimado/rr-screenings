@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T22:14:25.146Z",
+  "fetchedAt": "2026-09-11T12:35:15.140Z",
   "screenings": [
     {
       "id": "dendy:922822",
@@ -487,7 +487,7 @@
       "title": "The Last Whale Singer",
       "startsAt": "2026-09-12T00:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-last-whale-singer/946364",
-      "format": "PREVIEW, Saver",
+      "format": "Kids Films, PREVIEW, Saver",
       "runtimeMins": 99
     },
     {
@@ -975,7 +975,7 @@
       "title": "The Last Whale Singer",
       "startsAt": "2026-09-13T00:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-last-whale-singer/946374",
-      "format": "PREVIEW, Saver",
+      "format": "Kids Films, PREVIEW, Saver",
       "runtimeMins": 99
     },
     {
@@ -2487,15 +2487,6 @@
       "runtimeMins": 93
     },
     {
-      "id": "dendy:953942",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Palestine 36",
-      "startsAt": "2026-09-16T00:00:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953942",
-      "runtimeMins": 120
-    },
-    {
       "id": "dendy:953945",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -2532,6 +2523,15 @@
       "runtimeMins": 172
     },
     {
+      "id": "dendy:953944",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Tony",
+      "startsAt": "2026-09-16T00:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953944",
+      "runtimeMins": 106
+    },
+    {
       "id": "dendy:954125",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -2541,13 +2541,13 @@
       "runtimeMins": 123
     },
     {
-      "id": "dendy:953944",
+      "id": "dendy:953942",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
-      "title": "Tony",
-      "startsAt": "2026-09-16T00:30:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953944",
-      "runtimeMins": 106
+      "title": "Palestine 36",
+      "startsAt": "2026-09-16T00:20:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953942",
+      "runtimeMins": 120
     },
     {
       "id": "dendy:953947",
@@ -2577,13 +2577,13 @@
       "runtimeMins": 107
     },
     {
-      "id": "dendy:953950",
+      "id": "dendy:953952",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
-      "title": "Hope",
+      "title": "Tony",
       "startsAt": "2026-09-16T02:30:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953950",
-      "runtimeMins": 160
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953952",
+      "runtimeMins": 106
     },
     {
       "id": "dendy:953954",
@@ -2604,6 +2604,15 @@
       "runtimeMins": 142
     },
     {
+      "id": "dendy:953950",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Hope",
+      "startsAt": "2026-09-16T02:50:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953950",
+      "runtimeMins": 160
+    },
+    {
       "id": "dendy:953951",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -2611,15 +2620,6 @@
       "startsAt": "2026-09-16T02:50:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/953951",
       "runtimeMins": 130
-    },
-    {
-      "id": "dendy:953952",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Tony",
-      "startsAt": "2026-09-16T02:50:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953952",
-      "runtimeMins": 106
     },
     {
       "id": "dendy:953953",
@@ -2671,7 +2671,7 @@
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
       "title": "Hope",
-      "startsAt": "2026-09-16T05:10:00Z",
+      "startsAt": "2026-09-16T04:50:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/hope/953959",
       "runtimeMins": 160
     },
@@ -2703,15 +2703,6 @@
       "runtimeMins": 120
     },
     {
-      "id": "dendy:953963",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "startsAt": "2026-09-16T05:45:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953963",
-      "runtimeMins": 112
-    },
-    {
       "id": "dendy:953966",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -2719,6 +2710,15 @@
       "startsAt": "2026-09-16T05:50:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/spider-man-brand-new-day/953966",
       "runtimeMins": 142
+    },
+    {
+      "id": "dendy:953963",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-16T06:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953963",
+      "runtimeMins": 112
     },
     {
       "id": "dendy:953964",
@@ -2757,22 +2757,22 @@
       "runtimeMins": 108
     },
     {
-      "id": "dendy:953974",
+      "id": "dendy:953971",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
-      "title": "The Odyssey",
+      "title": "Tony",
       "startsAt": "2026-09-16T08:00:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953974",
-      "runtimeMins": 172
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953971",
+      "runtimeMins": 106
     },
     {
-      "id": "dendy:945664",
+      "id": "dendy:953975",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-16T08:10:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945664",
-      "runtimeMins": 130
+      "title": "Palestine 36",
+      "startsAt": "2026-09-16T08:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953975",
+      "runtimeMins": 120
     },
     {
       "id": "dendy:909291",
@@ -2793,22 +2793,13 @@
       "runtimeMins": 160
     },
     {
-      "id": "dendy:953971",
+      "id": "dendy:945664",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
-      "title": "Tony",
-      "startsAt": "2026-09-16T08:15:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953971",
-      "runtimeMins": 106
-    },
-    {
-      "id": "dendy:953975",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Palestine 36",
+      "title": "Practical Magic 2",
       "startsAt": "2026-09-16T08:20:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953975",
-      "runtimeMins": 120
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/945664",
+      "runtimeMins": 130
     },
     {
       "id": "dendy:943346",
@@ -2821,13 +2812,23 @@
       "runtimeMins": 112
     },
     {
+      "id": "dendy:957462",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-16T08:30:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/coyote-vs-acme/957462",
+      "format": "Kids Films, PREVIEW",
+      "runtimeMins": 103
+    },
+    {
       "id": "dendy:951830",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
       "title": "Coyote vs. Acme",
       "startsAt": "2026-09-16T08:45:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/coyote-vs-acme/951830",
-      "format": "PREVIEW",
+      "format": "Kids Films, PREVIEW",
       "runtimeMins": 103
     },
     {
@@ -2838,6 +2839,15 @@
       "startsAt": "2026-09-16T09:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953972",
       "runtimeMins": 112
+    },
+    {
+      "id": "dendy:953974",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-16T10:15:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-odyssey/953974",
+      "runtimeMins": 172
     },
     {
       "id": "dendy:953979",
@@ -2858,15 +2868,6 @@
       "runtimeMins": 130
     },
     {
-      "id": "dendy:953985",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "startsAt": "2026-09-16T10:50:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953985",
-      "runtimeMins": 112
-    },
-    {
       "id": "dendy:954726",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -2876,13 +2877,13 @@
       "runtimeMins": 142
     },
     {
-      "id": "dendy:953981",
+      "id": "dendy:953980",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
-      "title": "Palestine 36",
+      "title": "Tony",
       "startsAt": "2026-09-16T11:00:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/palestine-36/953981",
-      "runtimeMins": 120
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953980",
+      "runtimeMins": 106
     },
     {
       "id": "dendy:953984",
@@ -2894,6 +2895,15 @@
       "runtimeMins": 108
     },
     {
+      "id": "dendy:953985",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "startsAt": "2026-09-16T11:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/teenage-sex-and-death-at-camp-miasma/953985",
+      "runtimeMins": 112
+    },
+    {
       "id": "dendy:954126",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -2901,15 +2911,6 @@
       "startsAt": "2026-09-16T11:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/oasis-dont-look-back-in-anger/954126",
       "runtimeMins": 123
-    },
-    {
-      "id": "dendy:953980",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Tony",
-      "startsAt": "2026-09-16T11:20:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/953980",
-      "runtimeMins": 106
     },
     {
       "id": "dendy:954725",
@@ -2931,35 +2932,6 @@
       "runtimeMins": 130
     },
     {
-      "id": "dendy:955993",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Forgotten Island",
-      "startsAt": "2026-09-17T00:00:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/forgotten-island/955993",
-      "format": "Saver",
-      "runtimeMins": 98
-    },
-    {
-      "id": "dendy:955999",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Forgotten Island",
-      "startsAt": "2026-09-17T02:10:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/forgotten-island/955999",
-      "format": "Saver",
-      "runtimeMins": 98
-    },
-    {
-      "id": "dendy:956010",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "The Invite",
-      "startsAt": "2026-09-17T04:15:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/956010",
-      "runtimeMins": 107
-    },
-    {
       "id": "dendy:950282",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -2967,15 +2939,6 @@
       "startsAt": "2026-09-17T06:30:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950282",
       "runtimeMins": 90
-    },
-    {
-      "id": "dendy:956019",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "It Ends",
-      "startsAt": "2026-09-17T06:30:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/956019",
-      "runtimeMins": 89
     },
     {
       "id": "dendy:909109",
@@ -2987,15 +2950,6 @@
       "runtimeMins": 123
     },
     {
-      "id": "dendy:956024",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Tony",
-      "startsAt": "2026-09-17T08:30:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/tony/956024",
-      "runtimeMins": 106
-    },
-    {
       "id": "dendy:950283",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -3003,15 +2957,6 @@
       "startsAt": "2026-09-17T08:40:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/resident-evil/950283",
       "runtimeMins": 90
-    },
-    {
-      "id": "dendy:956036",
-      "sourceId": "dendy",
-      "venueId": "dendy-newtown",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-17T10:50:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/practical-magic-2/956036",
-      "runtimeMins": 130
     },
     {
       "id": "dendy:922824",
@@ -3066,7 +3011,7 @@
       "title": "Shaun the Sheep: The Beast of Mossy Bottom",
       "startsAt": "2026-09-19T00:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/shaun-the-sheep-the-beast-of-mossy-bottom/955873",
-      "format": "PREVIEW, Saver",
+      "format": "Kids Films, PREVIEW, Saver",
       "runtimeMins": 81
     },
     {
@@ -3076,7 +3021,7 @@
       "title": "Forgotten Island",
       "startsAt": "2026-09-19T00:15:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/forgotten-island/952427",
-      "format": "Saver",
+      "format": "Kids Films, Saver",
       "runtimeMins": 98
     },
     {
@@ -3105,7 +3050,7 @@
       "title": "Shaun the Sheep: The Beast of Mossy Bottom",
       "startsAt": "2026-09-19T04:20:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/shaun-the-sheep-the-beast-of-mossy-bottom/955872",
-      "format": "PREVIEW, Saver",
+      "format": "Kids Films, PREVIEW, Saver",
       "runtimeMins": 81
     },
     {
@@ -3170,7 +3115,7 @@
       "title": "Shaun the Sheep: The Beast of Mossy Bottom",
       "startsAt": "2026-09-20T00:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/shaun-the-sheep-the-beast-of-mossy-bottom/955876",
-      "format": "PREVIEW, Saver",
+      "format": "Kids Films, PREVIEW, Saver",
       "runtimeMins": 81
     },
     {
@@ -3180,7 +3125,7 @@
       "title": "Forgotten Island",
       "startsAt": "2026-09-20T00:15:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/forgotten-island/952428",
-      "format": "Saver",
+      "format": "Kids Films, Saver",
       "runtimeMins": 98
     },
     {
@@ -3219,7 +3164,7 @@
       "title": "Shaun the Sheep: The Beast of Mossy Bottom",
       "startsAt": "2026-09-20T04:20:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/shaun-the-sheep-the-beast-of-mossy-bottom/955875",
-      "format": "PREVIEW, Saver",
+      "format": "Kids Films, PREVIEW, Saver",
       "runtimeMins": 81
     },
     {
@@ -3341,7 +3286,7 @@
       "title": "Coyote vs. Acme",
       "startsAt": "2026-09-24T00:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/coyote-vs-acme/947080",
-      "format": "Baby Daze",
+      "format": "Baby Daze, Kids Films",
       "runtimeMins": 103
     },
     {
@@ -3388,7 +3333,7 @@
       "title": "Coyote vs. Acme",
       "startsAt": "2026-09-25T00:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/coyote-vs-acme/947081",
-      "format": "Baby Daze",
+      "format": "Baby Daze, Kids Films",
       "runtimeMins": 103
     },
     {

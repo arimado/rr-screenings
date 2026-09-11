@@ -1,5 +1,5 @@
 {
-  "cursor": 2,
+  "cursor": 27,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -443,7 +443,6 @@
       "ritz:90742",
       "ritz:90864"
     ],
-    "35mm-the-conformist-1970": [],
     "tina-arena-unravel-me": [
       "ritz:90966",
       "ritz:91004",
@@ -681,10 +680,6 @@
       "ritz:80026"
     ],
     "the-angry-birds-3": [],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "the-santa-clause-1994": [
       "ritz:80333",
       "ritz:80334"
@@ -735,6 +730,68 @@
     "wicker": [],
     "wild-horse-nine": [],
     "wildwood": [],
-    "zac-power": []
+    "zac-power": [],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ],
+    "bob-carol-ted-alice-1969": [
+      "ritz:81880"
+    ],
+    "boss-cat": [],
+    "bonegilla-the-migrants-journey": [],
+    "cars-2006": [
+      "ritz:80329",
+      "ritz:80330"
+    ],
+    "casper-1995": [
+      "ritz:80323",
+      "ritz:80324"
+    ],
+    "chili-finger": [],
+    "cinderella-1950": [
+      "ritz:77452",
+      "ritz:77453"
+    ],
+    "citizen-kane-1941": [
+      "ritz:77073",
+      "ritz:77074"
+    ],
+    "clayface": [],
+    "coco-2017": [
+      "ritz:80325",
+      "ritz:80326"
+    ],
+    "common-wealth": [],
+    "de-gaulle-liberte": [
+      "ritz:88472"
+    ],
+    "dracula-1931": [
+      "ritz:78146",
+      "ritz:78147"
+    ],
+    "disneys-hexed": [],
+    "duck-soup-1933": [
+      "ritz:77067",
+      "ritz:77068"
+    ],
+    "dune-part-three": [],
+    "exhibition-on-screen-monet": [
+      "ritz:90273",
+      "ritz:90274",
+      "ritz:90275"
+    ],
+    "fallen-angels-by-noel-coward": [
+      "ritz:89062",
+      "ritz:89063",
+      "ritz:89064",
+      "ritz:89065"
+    ],
+    "exhibition-on-screen-renoir-love": [
+      "ritz:90270",
+      "ritz:90271",
+      "ritz:90272"
+    ],
+    "fatherland": []
   }
 }
