@@ -1,5 +1,5 @@
 {
-  "cursor": 75,
+  "cursor": 2,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -62,7 +62,29 @@
     "collateral-2004": [
       "ritz:89956"
     ],
-    "coyote-vs-acme": [],
+    "coyote-vs-acme": [
+      "ritz:91133",
+      "ritz:91134",
+      "ritz:91135",
+      "ritz:91136",
+      "ritz:91137",
+      "ritz:91138",
+      "ritz:91139",
+      "ritz:91140",
+      "ritz:91141",
+      "ritz:91142",
+      "ritz:91143",
+      "ritz:91144",
+      "ritz:91145",
+      "ritz:91146",
+      "ritz:91147",
+      "ritz:91148",
+      "ritz:91149",
+      "ritz:91150",
+      "ritz:91151",
+      "ritz:91152",
+      "ritz:91153"
+    ],
     "dekalog-7-10-1988": [
       "ritz:88155"
     ],
@@ -145,7 +167,6 @@
       "ritz:89998",
       "ritz:89999",
       "ritz:89984",
-      "ritz:89985",
       "ritz:89986",
       "ritz:89987",
       "ritz:89988",
@@ -176,8 +197,7 @@
       "ritz:77137"
     ],
     "the-last-whale-singer": [
-      "ritz:90313",
-      "ritz:90314"
+      "ritz:90313"
     ],
     "the-many-adventures-of-winnie-the-pooh-1977": [
       "ritz:77444",
@@ -203,11 +223,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:91010",
-      "ritz:90805",
-      "ritz:90798",
-      "ritz:90785",
-      "ritz:90783",
       "ritz:90777",
       "ritz:90768",
       "ritz:90761",
@@ -235,10 +250,6 @@
       "ritz:90912"
     ],
     "tony": [
-      "ritz:91007",
-      "ritz:91006",
-      "ritz:90782",
-      "ritz:90790",
       "ritz:90769",
       "ritz:90762",
       "ritz:90745",
@@ -260,9 +271,6 @@
       "ritz:90910"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:89949",
-      "ritz:89938",
-      "ritz:90795",
       "ritz:89948",
       "ritz:89939",
       "ritz:90757",
@@ -281,9 +289,6 @@
       "ritz:90915"
     ],
     "de-gaulle-resistance": [
-      "ritz:90808",
-      "ritz:90815",
-      "ritz:90791",
       "ritz:90779",
       "ritz:90764",
       "ritz:90748",
@@ -301,9 +306,6 @@
       "ritz:90923"
     ],
     "spider-man-brand-new-day": [
-      "ritz:91009",
-      "ritz:90807",
-      "ritz:90789",
       "ritz:90774",
       "ritz:90767",
       "ritz:90760",
@@ -322,9 +324,6 @@
       "ritz:90909"
     ],
     "silenced": [
-      "ritz:90816",
-      "ritz:91008",
-      "ritz:90784",
       "ritz:90765",
       "ritz:91013",
       "ritz:90751",
@@ -340,10 +339,6 @@
       "ritz:90934"
     ],
     "the-invite": [
-      "ritz:91129",
-      "ritz:90803",
-      "ritz:91125",
-      "ritz:90787",
       "ritz:91012",
       "ritz:90763",
       "ritz:90746",
@@ -358,8 +353,6 @@
       "ritz:90927"
     ],
     "hope": [
-      "ritz:89960",
-      "ritz:89961",
       "ritz:89962",
       "ritz:89963",
       "ritz:89965",
@@ -373,7 +366,6 @@
       "ritz:89971"
     ],
     "the-end-of-oak-street": [
-      "ritz:90796",
       "ritz:91011",
       "ritz:91040",
       "ritz:91027",
@@ -386,8 +378,6 @@
       "ritz:90990"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:90797",
-      "ritz:90786",
       "ritz:90750",
       "ritz:91018",
       "ritz:90975",
@@ -398,8 +388,6 @@
       "ritz:90920"
     ],
     "it-ends": [
-      "ritz:90801",
-      "ritz:91005",
       "ritz:91014",
       "ritz:90771",
       "ritz:90885",
@@ -407,8 +395,6 @@
       "ritz:90994"
     ],
     "and-sons": [
-      "ritz:90812",
-      "ritz:91130",
       "ritz:90766",
       "ritz:91039",
       "ritz:90891",
@@ -416,7 +402,6 @@
       "ritz:90995"
     ],
     "by-any-means": [
-      "ritz:90811",
       "ritz:90780",
       "ritz:91048",
       "ritz:90971",
@@ -424,7 +409,6 @@
       "ritz:90906"
     ],
     "the-odyssey-digital": [
-      "ritz:90802",
       "ritz:91031",
       "ritz:91024",
       "ritz:90967",
@@ -434,7 +418,6 @@
       "ritz:90938"
     ],
     "the-rivals-of-amziah-king": [
-      "ritz:90813",
       "ritz:90770",
       "ritz:91046",
       "ritz:90984",
@@ -442,7 +425,6 @@
       "ritz:90931"
     ],
     "the-dog-stars": [
-      "ritz:90814",
       "ritz:90778",
       "ritz:91047",
       "ritz:90970",
@@ -450,7 +432,6 @@
       "ritz:90903"
     ],
     "holy-days": [
-      "ritz:90810",
       "ritz:90776",
       "ritz:91034",
       "ritz:90957",
@@ -458,14 +439,11 @@
       "ritz:90929"
     ],
     "70mm-the-odyssey": [
-      "ritz:90781",
       "ritz:90759",
       "ritz:90742",
       "ritz:90864"
     ],
-    "35mm-the-conformist-1970": [
-      "ritz:77463"
-    ],
+    "35mm-the-conformist-1970": [],
     "tina-arena-unravel-me": [
       "ritz:90966",
       "ritz:91004",
@@ -523,9 +501,7 @@
     "35mm-ringu-1998": [
       "ritz:76724"
     ],
-    "35mm-pans-labyrinth-2006": [
-      "ritz:76728"
-    ],
+    "35mm-pans-labyrinth-2006": [],
     "35mm-synecdoche-new-york-2008": [
       "ritz:77466"
     ],
@@ -640,10 +616,6 @@
       "ritz:77156",
       "ritz:77157"
     ],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "my-fair-lady-1964": [
       "ritz:77154",
       "ritz:77155"
@@ -708,6 +680,61 @@
       "ritz:80025",
       "ritz:80026"
     ],
-    "the-angry-birds-3": []
+    "the-angry-birds-3": [],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ],
+    "the-santa-clause-1994": [
+      "ritz:80333",
+      "ritz:80334"
+    ],
+    "the-social-reckoning": [],
+    "the-sunny-side-of-the-street-2022": [
+      "ritz:80343"
+    ],
+    "the-sound-of-music-1965": [
+      "ritz:77140",
+      "ritz:77141"
+    ],
+    "the-uprising": [],
+    "the-thing-1982": [
+      "ritz:86020",
+      "ritz:86021"
+    ],
+    "the-thomas-crown-affair": [],
+    "the-wailing-2016": [
+      "ritz:86018",
+      "ritz:86019"
+    ],
+    "three-colours-blue-1993": [
+      "ritz:88159"
+    ],
+    "three-colours-red-1994": [
+      "ritz:88161"
+    ],
+    "tokyo-godfathers-2003": [
+      "ritz:86032",
+      "ritz:86033"
+    ],
+    "three-colours-white-1994": [
+      "ritz:88160"
+    ],
+    "trainspotting-1996": [],
+    "tuner": [],
+    "victorian-psycho": [],
+    "werwulf": [],
+    "whalefall": [],
+    "when-harry-met-sally-1989": [
+      "ritz:80997"
+    ],
+    "whos-afraid-of-virginia-woolf-1966": [
+      "ritz:77079",
+      "ritz:77080"
+    ],
+    "wicker": [],
+    "wild-horse-nine": [],
+    "wildwood": [],
+    "zac-power": []
   }
 }

@@ -1,347 +1,6 @@
 {
-  "fetchedAt": "2026-09-10T22:14:15.241Z",
+  "fetchedAt": "2026-09-11T12:35:03.154Z",
   "screenings": [
-    {
-      "id": "ritz:91010",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-11T00:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91010",
-      "format": "NFT, OCaptions"
-    },
-    {
-      "id": "ritz:90805",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-11T03:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90805",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:90798",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-11T06:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90798",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:90785",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-11T08:45:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90785",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:90783",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-11T10:50:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90783",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:91007",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Tony",
-      "startsAt": "2026-09-11T03:20:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91007"
-    },
-    {
-      "id": "ritz:91006",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Tony",
-      "startsAt": "2026-09-11T05:40:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91006"
-    },
-    {
-      "id": "ritz:90782",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Tony",
-      "startsAt": "2026-09-11T08:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90782"
-    },
-    {
-      "id": "ritz:90790",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Tony",
-      "startsAt": "2026-09-11T11:20:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90790"
-    },
-    {
-      "id": "ritz:89949",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Oasis: Don't Look Back In Anger",
-      "startsAt": "2026-09-11T06:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89949",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:89938",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Oasis: Don't Look Back In Anger",
-      "startsAt": "2026-09-11T08:45:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89938",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:90795",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Oasis: Don't Look Back In Anger",
-      "startsAt": "2026-09-11T11:20:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90795",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:91009",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Spider-Man: Brand New Day",
-      "startsAt": "2026-09-11T03:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91009"
-    },
-    {
-      "id": "ritz:90807",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Spider-Man: Brand New Day",
-      "startsAt": "2026-09-11T06:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90807"
-    },
-    {
-      "id": "ritz:90789",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Spider-Man: Brand New Day",
-      "startsAt": "2026-09-11T09:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90789"
-    },
-    {
-      "id": "ritz:90808",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-11T00:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90808"
-    },
-    {
-      "id": "ritz:90815",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-11T03:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90815"
-    },
-    {
-      "id": "ritz:90791",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-11T08:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90791"
-    },
-    {
-      "id": "ritz:90816",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Silenced",
-      "startsAt": "2026-09-11T00:50:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90816"
-    },
-    {
-      "id": "ritz:91008",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Silenced",
-      "startsAt": "2026-09-11T03:45:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91008"
-    },
-    {
-      "id": "ritz:90784",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Silenced",
-      "startsAt": "2026-09-11T07:40:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90784"
-    },
-    {
-      "id": "ritz:91129",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-11T00:50:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91129"
-    },
-    {
-      "id": "ritz:90803",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-11T03:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90803"
-    },
-    {
-      "id": "ritz:91125",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-11T06:20:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91125"
-    },
-    {
-      "id": "ritz:90787",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Invite",
-      "startsAt": "2026-09-11T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90787"
-    },
-    {
-      "id": "ritz:89960",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Hope",
-      "startsAt": "2026-09-11T06:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89960",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:89961",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Hope",
-      "startsAt": "2026-09-11T09:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89961",
-      "format": "NFT"
-    },
-    {
-      "id": "ritz:90796",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The End of Oak Street",
-      "startsAt": "2026-09-11T06:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90796"
-    },
-    {
-      "id": "ritz:90797",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "startsAt": "2026-09-11T06:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90797"
-    },
-    {
-      "id": "ritz:90786",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "startsAt": "2026-09-11T11:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90786"
-    },
-    {
-      "id": "ritz:90802",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Odyssey - Digital",
-      "startsAt": "2026-09-11T03:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90802"
-    },
-    {
-      "id": "ritz:90812",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "& Sons",
-      "startsAt": "2026-09-11T00:20:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90812"
-    },
-    {
-      "id": "ritz:91130",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "& Sons",
-      "startsAt": "2026-09-11T03:20:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91130"
-    },
-    {
-      "id": "ritz:90801",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-11T05:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90801"
-    },
-    {
-      "id": "ritz:91005",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-11T11:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91005"
-    },
-    {
-      "id": "ritz:90811",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "By Any Means",
-      "startsAt": "2026-09-11T01:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90811"
-    },
-    {
-      "id": "ritz:90810",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Holy Days",
-      "startsAt": "2026-09-11T00:40:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90810"
-    },
-    {
-      "id": "ritz:90814",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Dog Stars",
-      "startsAt": "2026-09-11T00:45:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90814"
-    },
-    {
-      "id": "ritz:90813",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Rivals of Amziah King",
-      "startsAt": "2026-09-11T03:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90813"
-    },
-    {
-      "id": "ritz:90781",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "70mm The Odyssey",
-      "startsAt": "2026-09-11T09:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90781",
-      "format": "70MM"
-    },
-    {
-      "id": "ritz:77463",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "35mm The Conformist",
-      "startsAt": "2026-09-11T10:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77463",
-      "format": "35MM, RETRO",
-      "year": 1970
-    },
     {
       "id": "ritz:90777",
       "sourceId": "ritz",
@@ -593,22 +252,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90766"
     },
     {
-      "id": "ritz:91014",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-12T03:40:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91014"
-    },
-    {
-      "id": "ritz:90771",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-12T11:15:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90771"
-    },
-    {
       "id": "ritz:90780",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -623,6 +266,22 @@
       "title": "Holy Days",
       "startsAt": "2026-09-12T00:30:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90776"
+    },
+    {
+      "id": "ritz:91014",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-12T03:40:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91014"
+    },
+    {
+      "id": "ritz:90771",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-12T11:15:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90771"
     },
     {
       "id": "ritz:90778",
@@ -1287,22 +946,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90891"
     },
     {
-      "id": "ritz:90885",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-15T06:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90885"
-    },
-    {
-      "id": "ritz:90996",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-15T11:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90996"
-    },
-    {
       "id": "ritz:90897",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -1317,6 +960,22 @@
       "title": "Holy Days",
       "startsAt": "2026-09-15T00:40:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90899"
+    },
+    {
+      "id": "ritz:90885",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-15T06:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90885"
+    },
+    {
+      "id": "ritz:90996",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-15T11:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90996"
     },
     {
       "id": "ritz:90894",
@@ -1637,14 +1296,6 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90995"
     },
     {
-      "id": "ritz:90994",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "It Ends",
-      "startsAt": "2026-09-16T06:10:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90994"
-    },
-    {
       "id": "ritz:90906",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -1659,6 +1310,14 @@
       "title": "Holy Days",
       "startsAt": "2026-09-16T00:40:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90929"
+    },
+    {
+      "id": "ritz:90994",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "It Ends",
+      "startsAt": "2026-09-16T06:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90994"
     },
     {
       "id": "ritz:90903",
@@ -1745,6 +1404,33 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-17T10:45:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89996",
+      "format": "NFT"
+    },
+    {
+      "id": "ritz:91133",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-17T04:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91133",
+      "format": "NFT"
+    },
+    {
+      "id": "ritz:91134",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-17T06:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91134",
+      "format": "NFT"
+    },
+    {
+      "id": "ritz:91135",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-17T08:50:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91135",
       "format": "NFT"
     },
     {
@@ -2118,15 +1804,15 @@
       "runtimeMins": 99
     },
     {
-      "id": "ritz:76727",
+      "id": "ritz:76725",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
-      "title": "35mm Crouching Tiger, Hidden Dragon",
-      "startsAt": "2026-11-27T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=76727",
+      "title": "35mm Casablanca",
+      "startsAt": "2026-11-13T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=76725",
       "format": "35MM, RETRO",
-      "year": 2000,
-      "runtimeMins": 120
+      "year": 1942,
+      "runtimeMins": 102
     },
     {
       "id": "ritz:89631",
@@ -2151,15 +1837,15 @@
       "runtimeMins": 159
     },
     {
-      "id": "ritz:76725",
+      "id": "ritz:76727",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
-      "title": "35mm Casablanca",
-      "startsAt": "2026-11-13T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=76725",
+      "title": "35mm Crouching Tiger, Hidden Dragon",
+      "startsAt": "2026-11-27T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=76727",
       "format": "35MM, RETRO",
-      "year": 1942,
-      "runtimeMins": 102
+      "year": 2000,
+      "runtimeMins": 120
     },
     {
       "id": "ritz:78094",
@@ -2173,17 +1859,6 @@
       "runtimeMins": 119
     },
     {
-      "id": "ritz:77464",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "35mm Jackie Brown",
-      "startsAt": "2026-09-25T10:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77464",
-      "format": "35MM, RETRO",
-      "year": 1997,
-      "runtimeMins": 154
-    },
-    {
       "id": "ritz:78345",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -2195,26 +1870,15 @@
       "runtimeMins": 110
     },
     {
-      "id": "ritz:76728",
+      "id": "ritz:77464",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
-      "title": "35mm Pan's Labyrinth",
-      "startsAt": "2026-12-11T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=76728",
+      "title": "35mm Jackie Brown",
+      "startsAt": "2026-09-25T10:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77464",
       "format": "35MM, RETRO",
-      "year": 2006,
-      "runtimeMins": 119
-    },
-    {
-      "id": "ritz:89957",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "35mm Minority Report",
-      "startsAt": "2026-09-28T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89957",
-      "format": "35MM, CRUISE, RETRO",
-      "year": 2002,
-      "runtimeMins": 145
+      "year": 1997,
+      "runtimeMins": 154
     },
     {
       "id": "ritz:77465",
@@ -2228,6 +1892,17 @@
       "runtimeMins": 106
     },
     {
+      "id": "ritz:89957",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "35mm Minority Report",
+      "startsAt": "2026-09-28T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89957",
+      "format": "35MM, CRUISE, RETRO",
+      "year": 2002,
+      "runtimeMins": 145
+    },
+    {
       "id": "ritz:76724",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -2239,17 +1914,6 @@
       "runtimeMins": 96
     },
     {
-      "id": "ritz:78095",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "35mm Taxi Driver",
-      "startsAt": "2026-12-04T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=78095",
-      "format": "35MM, RETRO",
-      "year": 1976,
-      "runtimeMins": 114
-    },
-    {
       "id": "ritz:77466",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -2259,6 +1923,17 @@
       "format": "35MM, RETRO",
       "year": 2008,
       "runtimeMins": 127
+    },
+    {
+      "id": "ritz:78095",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "35mm Taxi Driver",
+      "startsAt": "2026-12-04T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=78095",
+      "format": "35MM, RETRO",
+      "year": 1976,
+      "runtimeMins": 114
     },
     {
       "id": "ritz:76723",
@@ -2404,6 +2079,16 @@
       "runtimeMins": 87
     },
     {
+      "id": "ritz:71651",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Adventure Reels Tour 2026",
+      "startsAt": "2026-10-14T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=71651",
+      "format": "ADVENTURE",
+      "runtimeMins": 180
+    },
+    {
       "id": "ritz:77075",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -2426,16 +2111,6 @@
       "runtimeMins": 122
     },
     {
-      "id": "ritz:71651",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Adventure Reels Tour 2026",
-      "startsAt": "2026-10-14T08:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=71651",
-      "format": "ADVENTURE",
-      "runtimeMins": 180
-    },
-    {
       "id": "ritz:86016",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -2456,17 +2131,6 @@
       "format": "RETRO",
       "year": 1988,
       "runtimeMins": 124
-    },
-    {
-      "id": "ritz:81882",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Amelie",
-      "startsAt": "2026-11-24T08:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=81882",
-      "format": "RETRO, RomCom",
-      "year": 2001,
-      "runtimeMins": 122
     },
     {
       "id": "ritz:90328",
@@ -2537,6 +2201,17 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90334",
       "format": "NFT",
       "runtimeMins": 185
+    },
+    {
+      "id": "ritz:81882",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Amelie",
+      "startsAt": "2026-11-24T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=81882",
+      "format": "RETRO, RomCom",
+      "year": 2001,
+      "runtimeMins": 122
     },
     {
       "id": "ritz:86022",
@@ -2627,6 +2302,186 @@
       "runtimeMins": 120
     },
     {
+      "id": "ritz:91136",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-18T04:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91136",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91137",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-18T06:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91137",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91138",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-18T08:50:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91138",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91139",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-19T04:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91139",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91140",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-19T06:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91140",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91141",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-19T08:50:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91141",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91142",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-20T01:20:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91142",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91143",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-20T06:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91143",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91144",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-20T08:50:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91144",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91145",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-21T04:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91145",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91146",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-21T06:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91146",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91147",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-21T08:50:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91147",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91148",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-22T04:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91148",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91149",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-22T06:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91149",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91150",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-22T08:50:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91150",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91151",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-23T04:10:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91151",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91152",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-23T06:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91152",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
+      "id": "ritz:91153",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-23T08:50:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=91153",
+      "format": "NFT",
+      "runtimeMins": 103
+    },
+    {
       "id": "ritz:88205",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -2635,6 +2490,39 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=88205",
       "format": "LiveMusic",
       "runtimeMins": 135
+    },
+    {
+      "id": "ritz:86008",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Drop Dead Gorgeous",
+      "startsAt": "2026-09-19T10:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86008",
+      "format": "RETRO",
+      "year": 1999,
+      "runtimeMins": 98
+    },
+    {
+      "id": "ritz:86009",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Drop Dead Gorgeous",
+      "startsAt": "2026-09-21T09:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86009",
+      "format": "RETRO",
+      "year": 1999,
+      "runtimeMins": 98
+    },
+    {
+      "id": "ritz:89955",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Edge of Tomorrow",
+      "startsAt": "2026-09-30T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89955",
+      "format": "CRUISE, RETRO",
+      "year": 2014,
+      "runtimeMins": 113
     },
     {
       "id": "ritz:90267",
@@ -2667,50 +2555,6 @@
       "runtimeMins": 90
     },
     {
-      "id": "ritz:89955",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Edge of Tomorrow",
-      "startsAt": "2026-09-30T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89955",
-      "format": "CRUISE, RETRO",
-      "year": 2014,
-      "runtimeMins": 113
-    },
-    {
-      "id": "ritz:86008",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Drop Dead Gorgeous",
-      "startsAt": "2026-09-19T10:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86008",
-      "format": "RETRO",
-      "year": 1999,
-      "runtimeMins": 98
-    },
-    {
-      "id": "ritz:86009",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Drop Dead Gorgeous",
-      "startsAt": "2026-09-21T09:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86009",
-      "format": "RETRO",
-      "year": 1999,
-      "runtimeMins": 98
-    },
-    {
-      "id": "ritz:80998",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Four Weddings and a Funeral",
-      "startsAt": "2026-12-01T08:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80998",
-      "format": "RETRO, RomCom",
-      "year": 1994,
-      "runtimeMins": 117
-    },
-    {
       "id": "ritz:86028",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -2731,6 +2575,17 @@
       "format": "RETRO",
       "year": 1969,
       "runtimeMins": 105
+    },
+    {
+      "id": "ritz:80998",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Four Weddings and a Funeral",
+      "startsAt": "2026-12-01T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80998",
+      "format": "RETRO, RomCom",
+      "year": 1994,
+      "runtimeMins": 117
     },
     {
       "id": "ritz:77069",
@@ -2790,6 +2645,28 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90338",
       "format": "ADVENTURE, NFT",
       "runtimeMins": 83
+    },
+    {
+      "id": "ritz:86030",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Hard Boiled",
+      "startsAt": "2026-12-05T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86030",
+      "format": "RETRO",
+      "year": 1992,
+      "runtimeMins": 128
+    },
+    {
+      "id": "ritz:86031",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Hard Boiled",
+      "startsAt": "2026-12-07T08:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86031",
+      "format": "RETRO",
+      "year": 1992,
+      "runtimeMins": 128
     },
     {
       "id": "ritz:89636",
@@ -2872,28 +2749,6 @@
       "format": "MUSICALS, RETRO",
       "year": 2020,
       "runtimeMins": 179
-    },
-    {
-      "id": "ritz:86030",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Hard Boiled",
-      "startsAt": "2026-12-05T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86030",
-      "format": "RETRO",
-      "year": 1992,
-      "runtimeMins": 128
-    },
-    {
-      "id": "ritz:86031",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Hard Boiled",
-      "startsAt": "2026-12-07T08:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86031",
-      "format": "RETRO",
-      "year": 1992,
-      "runtimeMins": 128
     },
     {
       "id": "ritz:90660",
@@ -3186,6 +3041,58 @@
       "runtimeMins": 110
     },
     {
+      "id": "ritz:77154",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "My Fair Lady",
+      "startsAt": "2026-12-06T05:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77154",
+      "format": "MUSICALS, RETRO",
+      "year": 1964,
+      "runtimeMins": 170
+    },
+    {
+      "id": "ritz:77155",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "My Fair Lady",
+      "startsAt": "2026-12-09T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77155",
+      "format": "MUSICALS, RETRO",
+      "year": 1964,
+      "runtimeMins": 170
+    },
+    {
+      "id": "ritz:90003",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "NT Live: Golden Boy",
+      "startsAt": "2026-11-07T02:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90003",
+      "format": "NT Live",
+      "runtimeMins": 180
+    },
+    {
+      "id": "ritz:90004",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "NT Live: Golden Boy",
+      "startsAt": "2026-11-08T02:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90004",
+      "format": "NT Live",
+      "runtimeMins": 180
+    },
+    {
+      "id": "ritz:90005",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "NT Live: Golden Boy",
+      "startsAt": "2026-11-09T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90005",
+      "format": "NT Live",
+      "runtimeMins": 180
+    },
+    {
       "id": "ritz:88147",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -3214,6 +3121,92 @@
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=88149",
       "format": "NT Live",
       "runtimeMins": 150
+    },
+    {
+      "id": "ritz:81881",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Practical Magic",
+      "startsAt": "2026-10-27T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=81881",
+      "format": "HALLOWEEN, RETRO, RomCom",
+      "year": 1998,
+      "runtimeMins": 104
+    },
+    {
+      "id": "ritz:80992",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Pride and Prejudice",
+      "startsAt": "2026-09-22T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80992",
+      "format": "RETRO, RomCom",
+      "year": 2005,
+      "runtimeMins": 127
+    },
+    {
+      "id": "ritz:77071",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Psycho",
+      "startsAt": "2026-10-24T03:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77071",
+      "format": "HALLOWEEN, MATINEES, RETRO",
+      "year": 1960,
+      "runtimeMins": 99
+    },
+    {
+      "id": "ritz:77072",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Psycho",
+      "startsAt": "2026-10-26T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77072",
+      "format": "HALLOWEEN, MATINEES, RETRO",
+      "year": 1960,
+      "runtimeMins": 99
+    },
+    {
+      "id": "ritz:86026",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Pulp Fiction",
+      "startsAt": "2026-11-21T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86026",
+      "format": "RETRO",
+      "year": 1994,
+      "runtimeMins": 154
+    },
+    {
+      "id": "ritz:86027",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Pulp Fiction",
+      "startsAt": "2026-11-23T08:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86027",
+      "format": "RETRO",
+      "year": 1994,
+      "runtimeMins": 154
+    },
+    {
+      "id": "ritz:90662",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Queen Budapest",
+      "startsAt": "2026-10-07T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90662",
+      "format": "MUSIC, NFT",
+      "runtimeMins": 97
+    },
+    {
+      "id": "ritz:90663",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Queen Budapest",
+      "startsAt": "2026-10-10T05:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90663",
+      "format": "MUSIC, NFT",
+      "runtimeMins": 97
     },
     {
       "id": "ritz:89978",
@@ -3312,16 +3305,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-20T06:00:00.000Z",
       "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89984",
-      "format": "NFT",
-      "runtimeMins": 90
-    },
-    {
-      "id": "ritz:89985",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-20T07:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=89985",
       "format": "NFT",
       "runtimeMins": 90
     },
@@ -3456,17 +3439,6 @@
       "runtimeMins": 90
     },
     {
-      "id": "ritz:80992",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Pride and Prejudice",
-      "startsAt": "2026-09-22T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80992",
-      "format": "RETRO, RomCom",
-      "year": 2005,
-      "runtimeMins": 127
-    },
-    {
       "id": "ritz:88204",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -3476,26 +3448,180 @@
       "runtimeMins": 150
     },
     {
-      "id": "ritz:86026",
+      "id": "ritz:77148",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
-      "title": "Pulp Fiction",
-      "startsAt": "2026-11-21T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86026",
-      "format": "RETRO",
-      "year": 1994,
-      "runtimeMins": 154
+      "title": "Saturday Night Fever",
+      "startsAt": "2026-11-15T05:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77148",
+      "format": "MUSICALS, RETRO",
+      "year": 1977,
+      "runtimeMins": 118
     },
     {
-      "id": "ritz:86027",
+      "id": "ritz:77149",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
-      "title": "Pulp Fiction",
-      "startsAt": "2026-11-23T08:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86027",
+      "title": "Saturday Night Fever",
+      "startsAt": "2026-11-18T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77149",
+      "format": "MUSICALS, RETRO",
+      "year": 1977,
+      "runtimeMins": 118
+    },
+    {
+      "id": "ritz:79439",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "School of Rock",
+      "startsAt": "2026-10-11T05:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=79439",
+      "format": "MUSICALS, RETRO",
+      "year": 2003,
+      "runtimeMins": 108
+    },
+    {
+      "id": "ritz:79440",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "School of Rock",
+      "startsAt": "2026-10-14T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=79440",
+      "format": "MUSICALS, RETRO",
+      "year": 2003,
+      "runtimeMins": 108
+    },
+    {
+      "id": "ritz:81883",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Shakespeare in Love",
+      "startsAt": "2026-12-08T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=81883",
+      "format": "RETRO, RomCom",
+      "year": 1998,
+      "runtimeMins": 124
+    },
+    {
+      "id": "ritz:80319",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Space Jam",
+      "startsAt": "2026-10-10T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80319",
+      "format": "JUNIOR, RETRO",
+      "year": 1996,
+      "runtimeMins": 87
+    },
+    {
+      "id": "ritz:80320",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Space Jam",
+      "startsAt": "2026-10-11T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80320",
+      "format": "JUNIOR, RETRO",
+      "year": 1996,
+      "runtimeMins": 87
+    },
+    {
+      "id": "ritz:86014",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Speed Racer",
+      "startsAt": "2026-10-10T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86014",
       "format": "RETRO",
-      "year": 1994,
-      "runtimeMins": 154
+      "year": 2008,
+      "runtimeMins": 135
+    },
+    {
+      "id": "ritz:86015",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Speed Racer",
+      "startsAt": "2026-10-12T08:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86015",
+      "format": "RETRO",
+      "year": 2008,
+      "runtimeMins": 135
+    },
+    {
+      "id": "ritz:86012",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Stalker",
+      "startsAt": "2026-10-03T10:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86012",
+      "format": "RETRO",
+      "year": 1979,
+      "runtimeMins": 162
+    },
+    {
+      "id": "ritz:86013",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Stalker",
+      "startsAt": "2026-10-05T08:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86013",
+      "format": "RETRO",
+      "year": 1979,
+      "runtimeMins": 162
+    },
+    {
+      "id": "ritz:80996",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Suddenly 30",
+      "startsAt": "2026-11-10T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80996",
+      "format": "RETRO, RomCom",
+      "year": 2004,
+      "runtimeMins": 97
+    },
+    {
+      "id": "ritz:80025",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Addams Family",
+      "startsAt": "2026-10-24T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80025",
+      "format": "HALLOWEEN, JUNIOR, RETRO",
+      "year": 1991,
+      "runtimeMins": 99
+    },
+    {
+      "id": "ritz:80026",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Addams Family",
+      "startsAt": "2026-10-25T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80026",
+      "format": "HALLOWEEN, JUNIOR, RETRO",
+      "year": 1991,
+      "runtimeMins": 99
+    },
+    {
+      "id": "ritz:79441",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "startsAt": "2026-10-18T05:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=79441",
+      "format": "MUSICALS, RETRO",
+      "year": 2007,
+      "runtimeMins": 116
+    },
+    {
+      "id": "ritz:79442",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "startsAt": "2026-10-21T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=79442",
+      "format": "MUSICALS, RETRO",
+      "year": 2007,
+      "runtimeMins": 116
     },
     {
       "id": "ritz:80993",
@@ -3531,6 +3657,16 @@
       "runtimeMins": 83
     },
     {
+      "id": "ritz:90313",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Last Whale Singer",
+      "startsAt": "2026-09-19T00:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90313",
+      "format": "NFT",
+      "runtimeMins": 99
+    },
+    {
       "id": "ritz:77136",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
@@ -3551,26 +3687,6 @@
       "format": "MUSICALS, RETRO",
       "year": 1956,
       "runtimeMins": 133
-    },
-    {
-      "id": "ritz:90313",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Last Whale Singer",
-      "startsAt": "2026-09-19T00:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90313",
-      "format": "NFT",
-      "runtimeMins": 99
-    },
-    {
-      "id": "ritz:90314",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "The Last Whale Singer",
-      "startsAt": "2026-09-20T00:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90314",
-      "format": "NFT",
-      "runtimeMins": 99
     },
     {
       "id": "ritz:77063",
@@ -3675,285 +3791,191 @@
       "year": 1953
     },
     {
-      "id": "ritz:77154",
+      "id": "ritz:80333",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
-      "title": "My Fair Lady",
-      "startsAt": "2026-12-06T05:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77154",
-      "format": "MUSICALS, RETRO",
-      "year": 1964,
-      "runtimeMins": 170
-    },
-    {
-      "id": "ritz:77155",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "My Fair Lady",
-      "startsAt": "2026-12-09T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77155",
-      "format": "MUSICALS, RETRO",
-      "year": 1964,
-      "runtimeMins": 170
-    },
-    {
-      "id": "ritz:90003",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "NT Live: Golden Boy",
-      "startsAt": "2026-11-07T02:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90003",
-      "format": "NT Live",
-      "runtimeMins": 180
-    },
-    {
-      "id": "ritz:90004",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "NT Live: Golden Boy",
-      "startsAt": "2026-11-08T02:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90004",
-      "format": "NT Live",
-      "runtimeMins": 180
-    },
-    {
-      "id": "ritz:90005",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "NT Live: Golden Boy",
-      "startsAt": "2026-11-09T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90005",
-      "format": "NT Live",
-      "runtimeMins": 180
-    },
-    {
-      "id": "ritz:81881",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Practical Magic",
-      "startsAt": "2026-10-27T08:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=81881",
-      "format": "HALLOWEEN, RETRO, RomCom",
-      "year": 1998,
-      "runtimeMins": 104
-    },
-    {
-      "id": "ritz:77071",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Psycho",
-      "startsAt": "2026-10-24T03:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77071",
-      "format": "HALLOWEEN, MATINEES, RETRO",
-      "year": 1960,
-      "runtimeMins": 99
-    },
-    {
-      "id": "ritz:77072",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Psycho",
-      "startsAt": "2026-10-26T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77072",
-      "format": "HALLOWEEN, MATINEES, RETRO",
-      "year": 1960,
-      "runtimeMins": 99
-    },
-    {
-      "id": "ritz:90662",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Queen Budapest",
-      "startsAt": "2026-10-07T08:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90662",
-      "format": "MUSIC, NFT",
-      "runtimeMins": 97
-    },
-    {
-      "id": "ritz:90663",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Queen Budapest",
-      "startsAt": "2026-10-10T05:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=90663",
-      "format": "MUSIC, NFT",
-      "runtimeMins": 97
-    },
-    {
-      "id": "ritz:77148",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Saturday Night Fever",
-      "startsAt": "2026-11-15T05:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77148",
-      "format": "MUSICALS, RETRO",
-      "year": 1977,
-      "runtimeMins": 118
-    },
-    {
-      "id": "ritz:77149",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Saturday Night Fever",
-      "startsAt": "2026-11-18T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77149",
-      "format": "MUSICALS, RETRO",
-      "year": 1977,
-      "runtimeMins": 118
-    },
-    {
-      "id": "ritz:79439",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "School of Rock",
-      "startsAt": "2026-10-11T05:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=79439",
-      "format": "MUSICALS, RETRO",
-      "year": 2003,
-      "runtimeMins": 108
-    },
-    {
-      "id": "ritz:79440",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "School of Rock",
-      "startsAt": "2026-10-14T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=79440",
-      "format": "MUSICALS, RETRO",
-      "year": 2003,
-      "runtimeMins": 108
-    },
-    {
-      "id": "ritz:80319",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Space Jam",
-      "startsAt": "2026-10-10T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80319",
+      "title": "The Santa Clause",
+      "startsAt": "2026-12-19T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80333",
       "format": "JUNIOR, RETRO",
-      "year": 1996,
-      "runtimeMins": 87
-    },
-    {
-      "id": "ritz:80320",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Space Jam",
-      "startsAt": "2026-10-11T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80320",
-      "format": "JUNIOR, RETRO",
-      "year": 1996,
-      "runtimeMins": 87
-    },
-    {
-      "id": "ritz:81883",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Shakespeare in Love",
-      "startsAt": "2026-12-08T08:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=81883",
-      "format": "RETRO, RomCom",
-      "year": 1998,
-      "runtimeMins": 124
-    },
-    {
-      "id": "ritz:86014",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Speed Racer",
-      "startsAt": "2026-10-10T09:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86014",
-      "format": "RETRO",
-      "year": 2008,
-      "runtimeMins": 135
-    },
-    {
-      "id": "ritz:86015",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Speed Racer",
-      "startsAt": "2026-10-12T08:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86015",
-      "format": "RETRO",
-      "year": 2008,
-      "runtimeMins": 135
-    },
-    {
-      "id": "ritz:86012",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Stalker",
-      "startsAt": "2026-10-03T10:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86012",
-      "format": "RETRO",
-      "year": 1979,
-      "runtimeMins": 162
-    },
-    {
-      "id": "ritz:86013",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Stalker",
-      "startsAt": "2026-10-05T08:30:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86013",
-      "format": "RETRO",
-      "year": 1979,
-      "runtimeMins": 162
-    },
-    {
-      "id": "ritz:79441",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
-      "startsAt": "2026-10-18T05:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=79441",
-      "format": "MUSICALS, RETRO",
-      "year": 2007,
-      "runtimeMins": 116
-    },
-    {
-      "id": "ritz:79442",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
-      "startsAt": "2026-10-21T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=79442",
-      "format": "MUSICALS, RETRO",
-      "year": 2007,
-      "runtimeMins": 116
-    },
-    {
-      "id": "ritz:80996",
-      "sourceId": "ritz",
-      "venueId": "ritz-randwick",
-      "title": "Suddenly 30",
-      "startsAt": "2026-11-10T08:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80996",
-      "format": "RETRO, RomCom",
-      "year": 2004,
+      "year": 1994,
       "runtimeMins": 97
     },
     {
-      "id": "ritz:80025",
+      "id": "ritz:80334",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
-      "title": "The Addams Family",
-      "startsAt": "2026-10-24T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80025",
-      "format": "HALLOWEEN, JUNIOR, RETRO",
-      "year": 1991,
-      "runtimeMins": 99
+      "title": "The Santa Clause",
+      "startsAt": "2026-12-20T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80334",
+      "format": "JUNIOR, RETRO",
+      "year": 1994,
+      "runtimeMins": 97
     },
     {
-      "id": "ritz:80026",
+      "id": "ritz:80343",
       "sourceId": "ritz",
       "venueId": "ritz-randwick",
-      "title": "The Addams Family",
-      "startsAt": "2026-10-25T00:00:00.000Z",
-      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80026",
-      "format": "HALLOWEEN, JUNIOR, RETRO",
-      "year": 1991,
-      "runtimeMins": 99
+      "title": "The Sunny Side of the Street",
+      "startsAt": "2026-10-18T03:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80343",
+      "format": "RETRO",
+      "year": 2022,
+      "runtimeMins": 111
+    },
+    {
+      "id": "ritz:77140",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Sound of Music",
+      "startsAt": "2026-10-04T05:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77140",
+      "format": "MUSICALS, RETRO",
+      "year": 1965,
+      "runtimeMins": 175
+    },
+    {
+      "id": "ritz:77141",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Sound of Music",
+      "startsAt": "2026-10-07T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77141",
+      "format": "MUSICALS, RETRO",
+      "year": 1965,
+      "runtimeMins": 175
+    },
+    {
+      "id": "ritz:86020",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Thing",
+      "startsAt": "2026-10-31T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86020",
+      "format": "RETRO",
+      "year": 1982,
+      "runtimeMins": 109
+    },
+    {
+      "id": "ritz:86021",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Thing",
+      "startsAt": "2026-11-02T08:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86021",
+      "format": "HALLOWEEN, RETRO",
+      "year": 1982,
+      "runtimeMins": 109
+    },
+    {
+      "id": "ritz:86018",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Wailing",
+      "startsAt": "2026-10-24T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86018",
+      "format": "HALLOWEEN, RETRO",
+      "year": 2016,
+      "runtimeMins": 156
+    },
+    {
+      "id": "ritz:86019",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "The Wailing",
+      "startsAt": "2026-10-26T08:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86019",
+      "format": "HALLOWEEN, RETRO",
+      "year": 2016,
+      "runtimeMins": 156
+    },
+    {
+      "id": "ritz:88159",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Three Colours: Blue",
+      "startsAt": "2026-10-15T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=88159",
+      "format": "Kieslowski, RETRO",
+      "year": 1993,
+      "runtimeMins": 94
+    },
+    {
+      "id": "ritz:88161",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Three Colours: Red",
+      "startsAt": "2026-10-29T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=88161",
+      "format": "Kieslowski, RETRO",
+      "year": 1994,
+      "runtimeMins": 95
+    },
+    {
+      "id": "ritz:86032",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Tokyo Godfathers",
+      "startsAt": "2026-12-19T09:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86032",
+      "format": "RETRO",
+      "year": 2003,
+      "runtimeMins": 88
+    },
+    {
+      "id": "ritz:86033",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Tokyo Godfathers",
+      "startsAt": "2026-12-21T08:30:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=86033",
+      "format": "RETRO",
+      "year": 2003,
+      "runtimeMins": 88
+    },
+    {
+      "id": "ritz:88160",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Three Colours: White",
+      "startsAt": "2026-10-22T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=88160",
+      "format": "Kieslowski, RETRO",
+      "year": 1994,
+      "runtimeMins": 88
+    },
+    {
+      "id": "ritz:80997",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "When Harry Met Sally",
+      "startsAt": "2026-11-17T08:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=80997",
+      "format": "RETRO, RomCom",
+      "year": 1989,
+      "runtimeMins": 95
+    },
+    {
+      "id": "ritz:77079",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Who's Afraid of Virginia Woolf?",
+      "startsAt": "2026-11-28T03:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77079",
+      "format": "MATINEES, RETRO",
+      "year": 1966,
+      "runtimeMins": 131
+    },
+    {
+      "id": "ritz:77080",
+      "sourceId": "ritz",
+      "venueId": "ritz-randwick",
+      "title": "Who's Afraid of Virginia Woolf?",
+      "startsAt": "2026-11-30T00:00:00.000Z",
+      "bookingUrl": "https://www.ritzcinemas.com.au/tickets?c=0000000004&s=77080",
+      "format": "MATINEES, RETRO",
+      "year": 1966,
+      "runtimeMins": 131
     }
   ]
 }

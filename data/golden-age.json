@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T22:14:16.769Z",
+  "fetchedAt": "2026-09-11T12:35:06.973Z",
   "screenings": [
     {
       "id": "golden-age:345cfdfb1f0746b4a009a902d7307dc5",
@@ -327,6 +327,15 @@
       "runtimeMins": 94
     },
     {
+      "id": "golden-age:55f7b45b630840eaaa306bf841a8a27c",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Tony",
+      "startsAt": "2026-09-25T05:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Tony/Fri-Sep-25-2026-15-00",
+      "runtimeMins": 106
+    },
+    {
       "id": "golden-age:28de5375f88a4682b0004445fac81997",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -368,7 +377,7 @@
       "venueId": "golden-age-surry-hills",
       "title": "Oasis: Don't Look Back in Anger",
       "startsAt": "2026-09-26T07:45:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Oasis-Don-t-Look-Back-in-Anger",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Oasis-Don-t-Look-Back-in-Anger/Sat-Sep-26-2026-17-45",
       "runtimeMins": 122
     },
     {
@@ -399,6 +408,15 @@
       "runtimeMins": 86
     },
     {
+      "id": "golden-age:92e4e2a80a874afab59980a3306f80fc",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-09-27T07:15:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Oasis-Don-t-Look-Back-in-Anger/Sun-Sep-27-2026-17-15",
+      "runtimeMins": 122
+    },
+    {
       "id": "golden-age:a4c783b522bd469fbfd9813ce57596f5",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -406,6 +424,15 @@
       "startsAt": "2026-09-27T10:00:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Children-of-Men/Sun-Sep-27-2026-20-00",
       "runtimeMins": 109
+    },
+    {
+      "id": "golden-age:8048f7897b264aac9494c84944716b92",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Film Trivia",
+      "startsAt": "2026-09-28T08:30:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Film-Trivia/Mon-Sep-28-2026-18-30",
+      "format": "Special Event"
     },
     {
       "id": "golden-age:d98b6550bc1b4a80b79e647aedfcc928",
@@ -487,6 +514,24 @@
       "startsAt": "2026-10-03T06:50:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Hope/Sat-Oct-3-2026-16-50",
       "runtimeMins": 160
+    },
+    {
+      "id": "golden-age:b85fe28e713d48bbb4a0901257dfeb73",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-10-04T02:10:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Oasis-Don-t-Look-Back-in-Anger/Sun-Oct-4-2026-13-10",
+      "runtimeMins": 122
+    },
+    {
+      "id": "golden-age:ec9e85668afc494cbab79488ee800a9c",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Oasis: Don't Look Back in Anger",
+      "startsAt": "2026-10-05T09:10:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Oasis-Don-t-Look-Back-in-Anger/Mon-Oct-5-2026-20-10",
+      "runtimeMins": 122
     },
     {
       "id": "golden-age:ffef8c101dff483b8220fcc36c1d8f89",
