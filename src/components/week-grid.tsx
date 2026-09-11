@@ -83,6 +83,11 @@ export function WeekNav({
           label={label}
           ariaLabel={ariaLabel}
           dirKey={isDay ? day : week.monday}
+          pending={
+            pendingHref != null &&
+            pendingHref !== prevHref &&
+            pendingHref !== nextHref
+          }
         />
         <WeekNavLink
           href={nextHref}
@@ -143,6 +148,11 @@ export function MonthNav({
           label={label}
           ariaLabel={ariaLabel}
           dirKey={month.yearMonth}
+          pending={
+            pendingHref != null &&
+            pendingHref !== prevHref &&
+            pendingHref !== nextHref
+          }
         />
         <WeekNavLink
           href={nextHref}

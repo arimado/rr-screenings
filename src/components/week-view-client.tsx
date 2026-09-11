@@ -45,7 +45,7 @@ import {
 } from "@/domain/venue";
 import { nextMonday, weekFromMonday, type Week } from "@/domain/week";
 import { weekHref, type WeekQuery } from "@/lib/week-url";
-import { ClapperboardIcon } from "lucide-react";
+import { ClapperboardIcon, Loader2Icon } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
@@ -232,6 +232,7 @@ export function WeekViewClient({
     setAppliedKey(serverKey);
     setQuery(initialQuery);
     setListings(serverListings);
+    setPendingHref(null);
   }
 
   const { week, month, screenings, nextScreenings } = listings;
@@ -417,7 +418,11 @@ export function WeekViewClient({
     goWeek(href);
   }
 
-  const weekBusy = weekPending && pendingHref != null;
+  const pending = pendingHref ? parseListingsHref(pendingHref) : null;
+  const pendingToMonth = pending?.view === "month";
+  const monthSwitchPending = pendingToMonth && !isMonth;
+  const weekBusy =
+    (weekPending && pendingHref != null) || monthSwitchPending;
   const listingsKey = [
     isMonth ? (query.month ?? month?.yearMonth ?? "") : week.monday,
     query.view ?? "week",
@@ -427,13 +432,24 @@ export function WeekViewClient({
     query.venueIds.length > 0 &&
     !isFilm &&
     (isDay ? selectedDay !== today : hasAny || !todayOnPage);
+  const navMonth =
+    isMonth && month
+      ? month
+      : monthSwitchPending && pending?.month
+        ? monthFromYyyyMm(pending.month)
+        : undefined;
+  const navPendingHref = weekBusy ? pendingHref : null;
 
-  const rangeNav = isMonth && month ? (
+  const rangeNav = navMonth ? (
     <MonthNav
-      month={month}
-      query={weekQuery}
+      month={navMonth}
+      query={
+        isMonth
+          ? weekQuery
+          : { ...weekQuery, view: "month", month: navMonth.yearMonth }
+      }
       currentYearMonth={currentYearMonth}
-      pendingHref={weekBusy ? pendingHref : null}
+      pendingHref={navPendingHref}
       onNavigate={goListings}
     />
   ) : (
@@ -442,7 +458,7 @@ export function WeekViewClient({
       query={weekQuery}
       currentMonday={currentMonday}
       today={today}
-      pendingHref={weekBusy ? pendingHref : null}
+      pendingHref={navPendingHref}
       onNavigate={goListings}
     />
   );
@@ -543,7 +559,7 @@ export function WeekViewClient({
         <nav className="flex flex-wrap gap-2" aria-label="View">
           <Hint content="Monday to Sunday in columns.">
             <Toggle
-              pressed={!isDay && !isFilm && !isMonth}
+              pressed={!isDay && !isFilm && !isMonth && !monthSwitchPending}
               variant="outline"
               size="sm"
               onPressedChange={(pressed) => {
@@ -560,7 +576,7 @@ export function WeekViewClient({
           </Hint>
           <Hint content="One Sydney date at a time.">
             <Toggle
-              pressed={isDay}
+              pressed={isDay && !monthSwitchPending}
               variant="outline"
               size="sm"
               onPressedChange={(pressed) => {
@@ -585,7 +601,7 @@ export function WeekViewClient({
           </Hint>
           <Hint content="Titles first, then cinema and times.">
             <Toggle
-              pressed={isFilm}
+              pressed={isFilm && !monthSwitchPending}
               variant="outline"
               size="sm"
               onPressedChange={(pressed) => {
@@ -610,9 +626,10 @@ export function WeekViewClient({
           </Hint>
           <Hint content="Every week that overlaps this month.">
             <Toggle
-              pressed={isMonth}
+              pressed={isMonth || pendingToMonth}
               variant="outline"
               size="sm"
+              aria-busy={monthSwitchPending}
               onPressedChange={(pressed) => {
                 if (!pressed) return;
                 const ymd = isDay && query.day ? query.day : week.monday;
@@ -625,6 +642,9 @@ export function WeekViewClient({
                 );
               }}
             >
+              {monthSwitchPending ? (
+                <Loader2Icon aria-hidden className="animate-spin" />
+              ) : null}
               Month
             </Toggle>
           </Hint>
@@ -645,7 +665,7 @@ export function WeekViewClient({
       <div
         aria-busy={weekBusy}
         className={
-          weekBusy
+          weekBusy && !monthSwitchPending
             ? "pointer-events-none opacity-50 motion-safe:transition-opacity motion-safe:duration-150"
             : "motion-safe:transition-opacity motion-safe:duration-150"
         }
@@ -658,6 +678,17 @@ export function WeekViewClient({
                   <ClapperboardIcon />
                 </EmptyMedia>
                 <EmptyTitle>Select a cinema to see listings.</EmptyTitle>
+              </EmptyHeader>
+            </Empty>
+          </ListingsFade>
+        ) : monthSwitchPending ? (
+          <ListingsFade id="month-loading">
+            <Empty className="border py-12" role="status">
+              <EmptyHeader>
+                <EmptyMedia variant="icon">
+                  <Loader2Icon className="animate-spin" />
+                </EmptyMedia>
+                <EmptyTitle>Loading this month.</EmptyTitle>
               </EmptyHeader>
             </Empty>
           </ListingsFade>
