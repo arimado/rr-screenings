@@ -1,33 +1,6 @@
 {
-  "fetchedAt": "2026-09-11T12:52:56.202Z",
+  "fetchedAt": "2026-09-11T22:39:54.681Z",
   "screenings": [
-    {
-      "id": "golden-age:345cfdfb1f0746b4a009a902d7307dc5",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Tony",
-      "startsAt": "2026-09-11T05:30:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Tony/Fri-Sep-11-2026-15-30",
-      "runtimeMins": 106
-    },
-    {
-      "id": "golden-age:2e47cd331946407aaf55d8b516b94a61",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Romy and Michele's High School Reunion",
-      "startsAt": "2026-09-11T07:50:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Romy-and-Michele-s-High-School-Reunion/Fri-Sep-11-2026-17-50",
-      "runtimeMins": 92
-    },
-    {
-      "id": "golden-age:d56a49d756804cbd88b6e78011ba36d0",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "I Want Your Sex",
-      "startsAt": "2026-09-11T10:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/I-Want-Your-Sex/Fri-Sep-11-2026-20-00",
-      "runtimeMins": 90
-    },
     {
       "id": "golden-age:4bbf343d39e349b4990e6e95eb1de944",
       "sourceId": "golden-age",

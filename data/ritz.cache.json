@@ -1,5 +1,5 @@
 {
-  "cursor": 27,
+  "cursor": 52,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -731,10 +731,6 @@
     "wild-horse-nine": [],
     "wildwood": [],
     "zac-power": [],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "bob-carol-ted-alice-1969": [
       "ritz:81880"
     ],
@@ -792,6 +788,67 @@
       "ritz:90271",
       "ritz:90272"
     ],
-    "fatherland": []
+    "fatherland": [],
+    "mulan-1998": [
+      "ritz:77446",
+      "ritz:77447"
+    ],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ],
+    "met-opera-la-fanciulla-del-west": [
+      "ritz:91103",
+      "ritz:91117",
+      "ritz:91104"
+    ],
+    "met-opera-macbeth": [
+      "ritz:91099",
+      "ritz:91119",
+      "ritz:91100"
+    ],
+    "met-opera-manon": [
+      "ritz:91107",
+      "ritz:91115",
+      "ritz:91108"
+    ],
+    "met-opera-otello": [
+      "ritz:91109",
+      "ritz:91111",
+      "ritz:91110"
+    ],
+    "met-opera-samson-et-dalila": [
+      "ritz:91101",
+      "ritz:91118",
+      "ritz:91102"
+    ],
+    "met-opera-silent-night": [
+      "ritz:91105",
+      "ritz:91116",
+      "ritz:91106"
+    ],
+    "met-opera-parsifal": [
+      "ritz:91112",
+      "ritz:91113",
+      "ritz:91114"
+    ],
+    "mildred-pierce-1945": [
+      "ritz:77081",
+      "ritz:77082"
+    ],
+    "moulin-rouge-2001": [
+      "ritz:77146",
+      "ritz:77147"
+    ],
+    "mommie-dearest-1981": [
+      "ritz:86024",
+      "ritz:86025"
+    ],
+    "mr-irrelevant": [],
+    "the-assassin-2015": [
+      "ritz:80344"
+    ],
+    "the-cat-in-the-hat": [],
+    "the-craft-1996-2020": []
   }
 }
