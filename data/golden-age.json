@@ -1,33 +1,6 @@
 {
-  "fetchedAt": "2026-09-12T12:14:10.249Z",
+  "fetchedAt": "2026-09-12T22:23:45.980Z",
   "screenings": [
-    {
-      "id": "golden-age:4bbf343d39e349b4990e6e95eb1de944",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Tony",
-      "startsAt": "2026-09-12T04:45:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Tony/Sat-Sep-12-2026-14-45",
-      "runtimeMins": 106
-    },
-    {
-      "id": "golden-age:e2b37909c01b488e8f609e2f4036a719",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Midnight Cowboy",
-      "startsAt": "2026-09-12T07:05:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Midnight-Cowboy/Sat-Sep-12-2026-17-05",
-      "runtimeMins": 114
-    },
-    {
-      "id": "golden-age:032419e085594f65b6db1b8cc03bdc68",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Taxi Driver",
-      "startsAt": "2026-09-12T09:45:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Taxi-Driver/Sat-Sep-12-2026-19-45",
-      "runtimeMins": 119
-    },
     {
       "id": "golden-age:5ee5829810ca4a158b66f4e79850aae5",
       "sourceId": "golden-age",

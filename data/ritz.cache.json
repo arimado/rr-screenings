@@ -1,5 +1,5 @@
 {
-  "cursor": 38,
+  "cursor": 0,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -804,14 +804,46 @@
     ],
     "the-cat-in-the-hat": [],
     "the-craft-1996-2020": [],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "met-opera-cosi-fan-tutte": [
       "ritz:91097",
       "ritz:91120",
       "ritz:91098"
+    ],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ],
+    "the-double-life-of-veronique-1991": [
+      "ritz:88158"
+    ],
+    "the-fox": [],
+    "the-history-of-concrete": [
+      "ritz:90664",
+      "ritz:90665"
+    ],
+    "the-debut": [],
+    "the-holiday-2006": [
+      "ritz:80999"
+    ],
+    "the-hunger-games-sunrise-on-the-reaping": [],
+    "the-little-rascals-1994": [
+      "ritz:80331",
+      "ritz:80332"
+    ],
+    "the-muppet-christmas-carol-1992": [
+      "ritz:79443",
+      "ritz:79444"
+    ],
+    "the-rugrats-movie-1998": [
+      "ritz:80327",
+      "ritz:80328"
+    ],
+    "the-night-of-the-hunter-1955": [
+      "ritz:77077",
+      "ritz:77078"
+    ],
+    "the-proposal-2009": [
+      "ritz:81879"
     ]
   }
 }

@@ -1,92 +1,6 @@
 {
-  "fetchedAt": "2026-09-12T12:14:19.020Z",
+  "fetchedAt": "2026-09-12T22:23:56.555Z",
   "screenings": [
-    {
-      "id": "agnsw:019fbb95-6e25-7f09-6259-9611a20ddb63:2026-09-12T04:30:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "Il posto",
-      "startsAt": "2026-09-12T04:30:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbb95-6e25-7f09-6259-9611a20ddb63",
-      "format": "35mm",
-      "year": 1961,
-      "runtimeMins": 93
-    },
-    {
-      "id": "agnsw:019fbb9a-b63a-52a9-43c2-0f9c2c353d13:2026-09-19T04:30:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "The lizards (I basilischi)",
-      "startsAt": "2026-09-19T04:30:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbb9a-b63a-52a9-43c2-0f9c2c353d13",
-      "format": "35mm",
-      "year": 1963
-    },
-    {
-      "id": "agnsw:019fbb9f-3bf1-96e6-2ac2-7872fad87275:2026-09-26T03:00:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "They’re a weird mob: Restoration premiere (60th anniversary) Introduced by Concetta Caristo",
-      "startsAt": "2026-09-26T03:00:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbb9f-3bf1-96e6-2ac2-7872fad87275",
-      "format": "35mm",
-      "year": 1966
-    },
-    {
-      "id": "agnsw:019fbba4-2a02-6e1b-9d32-ae86410b8cac:2026-09-26T05:00:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "Clay [35mm] Introduced by Jason Di Rosso",
-      "startsAt": "2026-09-26T05:00:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbba4-2a02-6e1b-9d32-ae86410b8cac",
-      "format": "35mm",
-      "year": 1965,
-      "runtimeMins": 85
-    },
-    {
-      "id": "agnsw:019fbbab-818a-cfc8-9202-e1ca7cb77b89:2026-10-10T03:30:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "Blow-up [35mm]",
-      "startsAt": "2026-10-10T03:30:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbab-818a-cfc8-9202-e1ca7cb77b89",
-      "format": "35mm",
-      "year": 1966,
-      "runtimeMins": 111
-    },
-    {
-      "id": "agnsw:019fbbb2-a9c2-4b29-9d06-190d2ebfad57:2026-10-17T03:30:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "Teorema",
-      "startsAt": "2026-10-17T03:30:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbb2-a9c2-4b29-9d06-190d2ebfad57",
-      "format": "35mm",
-      "year": 1968,
-      "runtimeMins": 98
-    },
-    {
-      "id": "agnsw:019fbbb8-0964-a019-7530-b1300af11d34:2026-10-24T02:00:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "8½",
-      "startsAt": "2026-10-24T02:00:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbb8-0964-a019-7530-b1300af11d34",
-      "format": "35mm",
-      "year": 1963,
-      "runtimeMins": 138
-    },
-    {
-      "id": "agnsw:019fbbc6-54b8-b262-8e30-4e2a42f41e4c:2026-10-24T04:30:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "Nine [35mm] Introduced by Andrew Fraser",
-      "startsAt": "2026-10-24T04:30:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbc6-54b8-b262-8e30-4e2a42f41e4c",
-      "format": "35mm",
-      "year": 2009,
-      "runtimeMins": 118
-    },
     {
       "id": "agnsw:019fb647-47a5-e73e-b109-35d67cc3837d:2026-09-13T03:00:00.000Z",
       "sourceId": "agnsw",
@@ -338,6 +252,81 @@
       "bookingUrl": "https://www.artgallery.nsw.gov.au/whats-on/events/cinema-burnout#dry-ground-burning",
       "year": 2022,
       "runtimeMins": 153
+    },
+    {
+      "id": "agnsw:019fbb9a-b63a-52a9-43c2-0f9c2c353d13:2026-09-19T04:30:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "The lizards (I basilischi)",
+      "startsAt": "2026-09-19T04:30:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbb9a-b63a-52a9-43c2-0f9c2c353d13",
+      "format": "35mm",
+      "year": 1963
+    },
+    {
+      "id": "agnsw:019fbb9f-3bf1-96e6-2ac2-7872fad87275:2026-09-26T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "They’re a weird mob: Restoration premiere (60th anniversary) Introduced by Concetta Caristo",
+      "startsAt": "2026-09-26T03:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbb9f-3bf1-96e6-2ac2-7872fad87275",
+      "format": "35mm",
+      "year": 1966
+    },
+    {
+      "id": "agnsw:019fbba4-2a02-6e1b-9d32-ae86410b8cac:2026-09-26T05:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Clay [35mm] Introduced by Jason Di Rosso",
+      "startsAt": "2026-09-26T05:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbba4-2a02-6e1b-9d32-ae86410b8cac",
+      "format": "35mm",
+      "year": 1965,
+      "runtimeMins": 85
+    },
+    {
+      "id": "agnsw:019fbbab-818a-cfc8-9202-e1ca7cb77b89:2026-10-10T03:30:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Blow-up [35mm]",
+      "startsAt": "2026-10-10T03:30:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbab-818a-cfc8-9202-e1ca7cb77b89",
+      "format": "35mm",
+      "year": 1966,
+      "runtimeMins": 111
+    },
+    {
+      "id": "agnsw:019fbbb2-a9c2-4b29-9d06-190d2ebfad57:2026-10-17T03:30:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Teorema",
+      "startsAt": "2026-10-17T03:30:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbb2-a9c2-4b29-9d06-190d2ebfad57",
+      "format": "35mm",
+      "year": 1968,
+      "runtimeMins": 98
+    },
+    {
+      "id": "agnsw:019fbbb8-0964-a019-7530-b1300af11d34:2026-10-24T02:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "8½",
+      "startsAt": "2026-10-24T02:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbb8-0964-a019-7530-b1300af11d34",
+      "format": "35mm",
+      "year": 1963,
+      "runtimeMins": 138
+    },
+    {
+      "id": "agnsw:019fbbc6-54b8-b262-8e30-4e2a42f41e4c:2026-10-24T04:30:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Nine [35mm] Introduced by Andrew Fraser",
+      "startsAt": "2026-10-24T04:30:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fbbc6-54b8-b262-8e30-4e2a42f41e4c",
+      "format": "35mm",
+      "year": 2009,
+      "runtimeMins": 118
     },
     {
       "id": "agnsw:019fcb0e-e526-6b77-e5ba-5ab931b0962c:2026-09-20T04:00:00.000Z",
