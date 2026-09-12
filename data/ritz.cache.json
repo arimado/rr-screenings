@@ -1,5 +1,5 @@
 {
-  "cursor": 13,
+  "cursor": 38,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -143,7 +143,6 @@
       "ritz:89628"
     ],
     "mulholland-drive-2001": [
-      "ritz:86006",
       "ritz:86007"
     ],
     "nt-live-the-misanthrope": [
@@ -221,8 +220,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:90744",
-      "ritz:90754",
       "ritz:91052",
       "ritz:91029",
       "ritz:91028",
@@ -245,8 +242,6 @@
       "ritz:90912"
     ],
     "tony": [
-      "ritz:90745",
-      "ritz:90756",
       "ritz:91033",
       "ritz:91032",
       "ritz:91015",
@@ -264,8 +259,6 @@
       "ritz:90910"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:89939",
-      "ritz:90757",
       "ritz:91053",
       "ritz:89947",
       "ritz:89940",
@@ -281,7 +274,6 @@
       "ritz:90915"
     ],
     "de-gaulle-resistance": [
-      "ritz:90748",
       "ritz:91036",
       "ritz:91035",
       "ritz:91022",
@@ -296,8 +288,6 @@
       "ritz:90923"
     ],
     "spider-man-brand-new-day": [
-      "ritz:90760",
-      "ritz:90743",
       "ritz:91038",
       "ritz:91037",
       "ritz:91021",
@@ -312,7 +302,6 @@
       "ritz:90909"
     ],
     "silenced": [
-      "ritz:90751",
       "ritz:91041",
       "ritz:91042",
       "ritz:90955",
@@ -325,7 +314,6 @@
       "ritz:90934"
     ],
     "the-invite": [
-      "ritz:90746",
       "ritz:91044",
       "ritz:91043",
       "ritz:91019",
@@ -337,7 +325,6 @@
       "ritz:90927"
     ],
     "hope": [
-      "ritz:89963",
       "ritz:89965",
       "ritz:89964",
       "ritz:89966",
@@ -360,7 +347,6 @@
       "ritz:90990"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:90750",
       "ritz:91018",
       "ritz:90975",
       "ritz:90948",
@@ -370,7 +356,6 @@
       "ritz:90920"
     ],
     "it-ends": [
-      "ritz:90771",
       "ritz:90885",
       "ritz:90996",
       "ritz:90994"
@@ -415,7 +400,6 @@
       "ritz:90929"
     ],
     "70mm-the-odyssey": [
-      "ritz:90742",
       "ritz:90864"
     ],
     "tina-arena-unravel-me": [
@@ -823,6 +807,11 @@
     "roman-holiday-1953": [
       "ritz:77083",
       "ritz:77084"
+    ],
+    "met-opera-cosi-fan-tutte": [
+      "ritz:91097",
+      "ritz:91120",
+      "ritz:91098"
     ]
   }
 }
