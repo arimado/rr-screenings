@@ -1,5 +1,5 @@
 {
-  "cursor": 52,
+  "cursor": 13,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -48,7 +48,6 @@
       "ritz:80342"
     ],
     "cat-on-a-hot-tin-roof-1958": [
-      "ritz:77059",
       "ritz:77060"
     ],
     "chicago-2002": [
@@ -200,7 +199,6 @@
       "ritz:90313"
     ],
     "the-many-adventures-of-winnie-the-pooh-1977": [
-      "ritz:77444",
       "ritz:77445"
     ],
     "the-searchers-1956": [
@@ -223,9 +221,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:90777",
-      "ritz:90768",
-      "ritz:90761",
       "ritz:90744",
       "ritz:90754",
       "ritz:91052",
@@ -250,8 +245,6 @@
       "ritz:90912"
     ],
     "tony": [
-      "ritz:90769",
-      "ritz:90762",
       "ritz:90745",
       "ritz:90756",
       "ritz:91033",
@@ -271,7 +264,6 @@
       "ritz:90910"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:89948",
       "ritz:89939",
       "ritz:90757",
       "ritz:91053",
@@ -289,8 +281,6 @@
       "ritz:90915"
     ],
     "de-gaulle-resistance": [
-      "ritz:90779",
-      "ritz:90764",
       "ritz:90748",
       "ritz:91036",
       "ritz:91035",
@@ -306,8 +296,6 @@
       "ritz:90923"
     ],
     "spider-man-brand-new-day": [
-      "ritz:90774",
-      "ritz:90767",
       "ritz:90760",
       "ritz:90743",
       "ritz:91038",
@@ -324,8 +312,6 @@
       "ritz:90909"
     ],
     "silenced": [
-      "ritz:90765",
-      "ritz:91013",
       "ritz:90751",
       "ritz:91041",
       "ritz:91042",
@@ -339,8 +325,6 @@
       "ritz:90934"
     ],
     "the-invite": [
-      "ritz:91012",
-      "ritz:90763",
       "ritz:90746",
       "ritz:91044",
       "ritz:91043",
@@ -353,7 +337,6 @@
       "ritz:90927"
     ],
     "hope": [
-      "ritz:89962",
       "ritz:89963",
       "ritz:89965",
       "ritz:89964",
@@ -366,7 +349,6 @@
       "ritz:89971"
     ],
     "the-end-of-oak-street": [
-      "ritz:91011",
       "ritz:91040",
       "ritz:91027",
       "ritz:90986",
@@ -388,21 +370,18 @@
       "ritz:90920"
     ],
     "it-ends": [
-      "ritz:91014",
       "ritz:90771",
       "ritz:90885",
       "ritz:90996",
       "ritz:90994"
     ],
     "and-sons": [
-      "ritz:90766",
       "ritz:91039",
       "ritz:90891",
       "ritz:90936",
       "ritz:90995"
     ],
     "by-any-means": [
-      "ritz:90780",
       "ritz:91048",
       "ritz:90971",
       "ritz:90897",
@@ -418,28 +397,24 @@
       "ritz:90938"
     ],
     "the-rivals-of-amziah-king": [
-      "ritz:90770",
       "ritz:91046",
       "ritz:90984",
       "ritz:90896",
       "ritz:90931"
     ],
     "the-dog-stars": [
-      "ritz:90778",
       "ritz:91047",
       "ritz:90970",
       "ritz:90894",
       "ritz:90903"
     ],
     "holy-days": [
-      "ritz:90776",
       "ritz:91034",
       "ritz:90957",
       "ritz:90899",
       "ritz:90929"
     ],
     "70mm-the-odyssey": [
-      "ritz:90759",
       "ritz:90742",
       "ritz:90864"
     ],
@@ -449,7 +424,6 @@
       "ritz:90939"
     ],
     "paw-patrol-the-dino-movie": [
-      "ritz:90773",
       "ritz:91051"
     ],
     "hedwig-and-the-angry-inch-2001": [
@@ -793,10 +767,6 @@
       "ritz:77446",
       "ritz:77447"
     ],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "met-opera-la-fanciulla-del-west": [
       "ritz:91103",
       "ritz:91117",
@@ -849,6 +819,10 @@
       "ritz:80344"
     ],
     "the-cat-in-the-hat": [],
-    "the-craft-1996-2020": []
+    "the-craft-1996-2020": [],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ]
   }
 }
