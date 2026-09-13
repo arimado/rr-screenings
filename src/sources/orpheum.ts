@@ -56,8 +56,26 @@ async function fetchJson<T>(path: string): Promise<T> {
   return (await res.json()) as T;
 }
 
-function moviesToScreenings(movies: Movie[], seen: Set<string>): Screening[] {
-  const out: Screening[] = [];
+function showtimeId(session: SessionTime): string | undefined {
+  return session.bookingLink?.match(/showtimes\/([^/]+)/)?.[1]?.trim();
+}
+
+function mergeScreening(existing: Screening, next: Screening) {
+  if (existing.year == null && next.year != null) existing.year = next.year;
+  if (!existing.format && next.format) existing.format = next.format;
+  if (existing.runtimeMins == null && next.runtimeMins != null) {
+    existing.runtimeMins = next.runtimeMins;
+  }
+  if (!existing.bookingUrl && next.bookingUrl) {
+    existing.bookingUrl = next.bookingUrl;
+  }
+}
+
+function moviesToScreenings(
+  movies: Movie[],
+  byId: Map<string, Screening>,
+  slots: Set<string>,
+) {
   for (const movie of movies) {
     const title = movie.title?.trim();
     if (!title) continue;
@@ -74,28 +92,36 @@ function moviesToScreenings(movies: Movie[], seen: Set<string>): Screening[] {
       const parsed = session.time ? parseTime(session.time) : null;
       if (!ymd || !parsed) continue;
       const startsAt = sydneyLocalToIso(ymd, parsed.hour, parsed.minute);
-      const externalId =
-        session._id?.trim() ||
-        session.bookingLink?.match(/showtimes\/([^/]+)/)?.[1];
+      // Booking showtime ids are stable across playing-now and coming-soon.
+      // Session `_id` is not — the two endpoints mint different Mongo ids
+      // for the same showing, which used to land twice on the week grid.
+      const externalId = showtimeId(session) || session._id?.trim();
       const id = externalId
         ? `${SOURCE_ID}:${externalId}`
         : `${SOURCE_ID}:${VENUE_ID}|${title}|${startsAt}`;
-      if (seen.has(id)) continue;
-      seen.add(id);
-      out.push({
+      const slot = `${VENUE_ID}|${title}|${startsAt}`;
+      const screening: Screening = {
         id,
         sourceId: SOURCE_ID,
         venueId: VENUE_ID,
         title,
         startsAt,
-        bookingUrl: session.bookingLink?.trim() || `${BASE}/movie/${movie.url ?? ""}`,
+        bookingUrl:
+          session.bookingLink?.trim() || `${BASE}/movie/${movie.url ?? ""}`,
         format: formatFromAttrs(session.attributes),
         year,
         runtimeMins,
-      });
+      };
+      const existing = byId.get(id);
+      if (existing) {
+        mergeScreening(existing, screening);
+        continue;
+      }
+      if (slots.has(slot)) continue;
+      byId.set(id, screening);
+      slots.add(slot);
     }
   }
-  return out;
 }
 
 export const orpheum: SourceAdapter = {
@@ -106,11 +132,11 @@ export const orpheum: SourceAdapter = {
       fetchJson<Movie[]>("/api/movie/playing-now"),
       fetchJson<Movie[]>("/api/movie/coming-soon"),
     ]);
-    const seen = new Set<string>();
-    const screenings = [
-      ...moviesToScreenings(playing, seen),
-      ...moviesToScreenings(soon, seen),
-    ];
+    const byId = new Map<string, Screening>();
+    const slots = new Set<string>();
+    moviesToScreenings(playing, byId, slots);
+    moviesToScreenings(soon, byId, slots);
+    const screenings = [...byId.values()];
     if (screenings.length === 0) {
       throw new Error("Orpheum returned no screenings");
     }
