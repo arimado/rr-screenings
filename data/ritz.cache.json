@@ -1,5 +1,5 @@
 {
-  "cursor": 25,
+  "cursor": 50,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -124,7 +124,6 @@
     "jerry-maguire-1996": [
       "ritz:89629"
     ],
-    "joy-house-film-festival": [],
     "jumanji-1995": [
       "ritz:80315",
       "ritz:80316"
@@ -214,8 +213,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:91017",
-      "ritz:91016",
       "ritz:90988",
       "ritz:90954",
       "ritz:90953",
@@ -233,8 +230,6 @@
       "ritz:90912"
     ],
     "tony": [
-      "ritz:91015",
-      "ritz:91020",
       "ritz:90965",
       "ritz:90943",
       "ritz:90944",
@@ -248,8 +243,6 @@
       "ritz:90910"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:89940",
-      "ritz:91026",
       "ritz:89946",
       "ritz:89941",
       "ritz:90946",
@@ -261,7 +254,6 @@
       "ritz:90915"
     ],
     "de-gaulle-resistance": [
-      "ritz:91022",
       "ritz:90968",
       "ritz:90974",
       "ritz:90855",
@@ -273,7 +265,6 @@
       "ritz:90923"
     ],
     "spider-man-brand-new-day": [
-      "ritz:91021",
       "ritz:90987",
       "ritz:90959",
       "ritz:90942",
@@ -295,7 +286,6 @@
       "ritz:90934"
     ],
     "the-invite": [
-      "ritz:91019",
       "ritz:91055",
       "ritz:90949",
       "ritz:90884",
@@ -304,7 +294,6 @@
       "ritz:90927"
     ],
     "hope": [
-      "ritz:89964",
       "ritz:89966",
       "ritz:89967",
       "ritz:90895",
@@ -314,7 +303,6 @@
       "ritz:89971"
     ],
     "the-end-of-oak-street": [
-      "ritz:91027",
       "ritz:90986",
       "ritz:90983",
       "ritz:90900",
@@ -324,7 +312,6 @@
       "ritz:90990"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:91018",
       "ritz:90975",
       "ritz:90948",
       "ritz:90889",
@@ -348,7 +335,6 @@
       "ritz:90906"
     ],
     "the-odyssey-digital": [
-      "ritz:91024",
       "ritz:90967",
       "ritz:91003",
       "ritz:90888",
