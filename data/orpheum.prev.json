@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T09:52:16.598Z",
+  "fetchedAt": "2026-09-13T13:21:47.647Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -410,15 +410,6 @@
       "runtimeMins": 120
     },
     {
-      "id": "orpheum:0001-25273",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Spider-Man - Brand New Day",
-      "startsAt": "2026-09-13T10:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25273/tickets",
-      "runtimeMins": 145
-    },
-    {
       "id": "orpheum:0001-25294",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -435,15 +426,6 @@
       "startsAt": "2026-09-15T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25320/tickets",
       "runtimeMins": 145
-    },
-    {
-      "id": "orpheum:0001-25274",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-13T10:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25274/tickets",
-      "runtimeMins": 104
     },
     {
       "id": "orpheum:0001-25286",
@@ -918,15 +900,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23624/tickets",
       "year": 2026,
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25272",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Oasis - Don't Look Back In Anger Limited Shows",
-      "startsAt": "2026-09-13T09:50:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25272/tickets",
-      "runtimeMins": 123
     },
     {
       "id": "orpheum:0001-25293",
