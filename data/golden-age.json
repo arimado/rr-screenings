@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T22:28:57.522Z",
+  "fetchedAt": "2026-09-14T07:58:22.317Z",
   "screenings": [
     {
       "id": "golden-age:02d460aa91a445ceba4239c093c4a1f1",
@@ -300,6 +300,15 @@
       "runtimeMins": 122
     },
     {
+      "id": "golden-age:40157a1c829247f9837196e5e5d33291",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Paths of Glory",
+      "startsAt": "2026-09-27T01:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Paths-of-Glory",
+      "runtimeMins": 88
+    },
+    {
       "id": "golden-age:1f3f737d4edf4109a2f38175ed92d86a",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -381,13 +390,13 @@
       "runtimeMins": 186
     },
     {
-      "id": "golden-age:50495dcc8c114b758154143209ea25aa",
+      "id": "golden-age:0f11bbb065a44f0f89298f60fd184545",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
-      "title": "Do You Love Me",
-      "startsAt": "2026-09-30T08:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Do-You-Love-Me",
-      "runtimeMins": 75
+      "title": "Rashomon",
+      "startsAt": "2026-09-30T07:45:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Rashomon/Wed-Sep-30-2026-17-45",
+      "runtimeMins": 88
     },
     {
       "id": "golden-age:bf388f4a56d74a9e9438a1070c046b0f",
@@ -435,6 +444,15 @@
       "runtimeMins": 160
     },
     {
+      "id": "golden-age:045a6f751e8045a585df467771dd06ef",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "12 Angry Men",
+      "startsAt": "2026-10-04T00:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/12-Angry-Men",
+      "runtimeMins": 96
+    },
+    {
       "id": "golden-age:b85fe28e713d48bbb4a0901257dfeb73",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -462,6 +480,15 @@
       "runtimeMins": 122
     },
     {
+      "id": "golden-age:c63b3b9bea6145b2a97583b8fd63747e",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Shadows of Forgotten Ancestors",
+      "startsAt": "2026-10-06T07:10:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Shadows-of-Forgotten-Ancestors/Tue-Oct-6-2026-18-10",
+      "runtimeMins": 96
+    },
+    {
       "id": "golden-age:ffef8c101dff483b8220fcc36c1d8f89",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -469,6 +496,15 @@
       "startsAt": "2026-10-06T09:20:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Mystery-Screening/Tue-Oct-6-2026-20-20",
       "runtimeMins": 106
+    },
+    {
+      "id": "golden-age:3a2ba0c304de4a1aaaf6e13f2a237326",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Yojimbo",
+      "startsAt": "2026-10-08T04:30:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Yojimbo/Thu-Oct-8-2026-15-30",
+      "runtimeMins": 110
     },
     {
       "id": "golden-age:4531b71f766a4478a3154526f0589235",
@@ -487,6 +523,15 @@
       "startsAt": "2026-10-10T01:00:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Vertigo/Sat-Oct-10-2026-12-00",
       "runtimeMins": 128
+    },
+    {
+      "id": "golden-age:800816d520d1470c95144841adfb374d",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Colour of Pomegranates",
+      "startsAt": "2026-10-11T00:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Colour-of-Pomegranates/Sun-Oct-11-2026-11-00",
+      "runtimeMins": 79
     },
     {
       "id": "golden-age:6311d671fecc4c36a65d638d83c7a8f9",

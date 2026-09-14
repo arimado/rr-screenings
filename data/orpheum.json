@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T22:29:03.969Z",
+  "fetchedAt": "2026-09-14T07:58:31.401Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -53,7 +53,7 @@
       "title": "Transformers the Movie - 40th Anniversary 4K",
       "startsAt": "2026-09-19T08:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24875/tickets",
-      "runtimeMins": 85
+      "runtimeMins": 98
     },
     {
       "id": "orpheum:0001-23824",
@@ -62,7 +62,7 @@
       "title": "Lawrence of Arabia - 70mm",
       "startsAt": "2026-09-20T03:30:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23824/tickets",
-      "runtimeMins": 227
+      "runtimeMins": 241
     },
     {
       "id": "orpheum:0001-23822",
@@ -243,11 +243,11 @@
       "id": "orpheum:0001-24205",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
-      "title": "Solaris – 4K Restoration",
+      "title": "Solaris – Digital Restoration",
       "startsAt": "2026-09-20T08:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24205/tickets",
       "year": 2025,
-      "runtimeMins": 168
+      "runtimeMins": 167
     },
     {
       "id": "orpheum:0001-22858",
@@ -286,7 +286,6 @@
       "title": "The Odyssey - in 70mm Film",
       "startsAt": "2026-09-17T09:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25175/tickets",
-      "format": "70mm",
       "runtimeMins": 173
     },
     {
@@ -296,7 +295,6 @@
       "title": "The Odyssey - in 70mm Film",
       "startsAt": "2026-09-18T09:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25176/tickets",
-      "format": "70mm",
       "runtimeMins": 173
     },
     {
@@ -306,7 +304,6 @@
       "title": "The Odyssey - in 70mm Film",
       "startsAt": "2026-09-19T05:30:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25179/tickets",
-      "format": "70mm",
       "runtimeMins": 173
     },
     {
@@ -316,7 +313,6 @@
       "title": "The Odyssey - in 70mm Film",
       "startsAt": "2026-09-19T09:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25177/tickets",
-      "format": "70mm",
       "runtimeMins": 173
     },
     {
@@ -326,7 +322,6 @@
       "title": "The Odyssey - in 70mm Film",
       "startsAt": "2026-09-20T05:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25180/tickets",
-      "format": "70mm",
       "runtimeMins": 173
     },
     {
@@ -336,7 +331,6 @@
       "title": "The Odyssey - in 70mm Film",
       "startsAt": "2026-09-20T08:30:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25178/tickets",
-      "format": "70mm",
       "runtimeMins": 173
     },
     {
@@ -400,16 +394,6 @@
       "runtimeMins": 173
     },
     {
-      "id": "orpheum:0001-20540",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "California Legends Performed By Wild Things Run",
-      "startsAt": "2026-09-18T10:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-20540/tickets",
-      "year": 2026,
-      "runtimeMins": 120
-    },
-    {
       "id": "orpheum:0001-25294",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -426,24 +410,6 @@
       "startsAt": "2026-09-15T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25320/tickets",
       "runtimeMins": 145
-    },
-    {
-      "id": "orpheum:0001-25286",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-14T05:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25286/tickets",
-      "runtimeMins": 104
-    },
-    {
-      "id": "orpheum:0001-25297",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-14T07:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25297/tickets",
-      "runtimeMins": 104
     },
     {
       "id": "orpheum:0001-25298",
@@ -508,33 +474,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-21528/tickets",
       "year": 2026,
       "runtimeMins": 180
-    },
-    {
-      "id": "orpheum:0001-25278",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-14T02:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25278/tickets",
-      "runtimeMins": 130
-    },
-    {
-      "id": "orpheum:0001-25283",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-14T04:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25283/tickets",
-      "runtimeMins": 130
-    },
-    {
-      "id": "orpheum:0001-25288",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-14T07:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25288/tickets",
-      "runtimeMins": 130
     },
     {
       "id": "orpheum:0001-25295",
@@ -688,36 +627,6 @@
       "runtimeMins": 150
     },
     {
-      "id": "orpheum:0001-25281",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-14T03:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25281/tickets",
-      "format": "Sub",
-      "runtimeMins": 80
-    },
-    {
-      "id": "orpheum:0001-25285",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-14T05:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25285/tickets",
-      "format": "Sub",
-      "runtimeMins": 80
-    },
-    {
-      "id": "orpheum:0001-25287",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-14T07:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25287/tickets",
-      "format": "Sub",
-      "runtimeMins": 80
-    },
-    {
       "id": "orpheum:0001-25304",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -836,15 +745,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23394/tickets",
       "year": 2027,
       "runtimeMins": 90
-    },
-    {
-      "id": "orpheum:0001-25296",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Tony",
-      "startsAt": "2026-09-14T05:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25296/tickets",
-      "runtimeMins": 107
     },
     {
       "id": "orpheum:0001-25291",
@@ -989,15 +889,6 @@
       "runtimeMins": 136
     },
     {
-      "id": "orpheum:0001-25276",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "& Sons",
-      "startsAt": "2026-09-14T02:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25276/tickets",
-      "runtimeMins": 120
-    },
-    {
       "id": "orpheum:0001-25299",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1014,24 +905,6 @@
       "startsAt": "2026-09-16T02:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25321/tickets",
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25277",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 4K Digital",
-      "startsAt": "2026-09-14T02:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25277/tickets",
-      "runtimeMins": 173
-    },
-    {
-      "id": "orpheum:0001-25284",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 4K Digital",
-      "startsAt": "2026-09-14T05:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25284/tickets",
-      "runtimeMins": 173
     },
     {
       "id": "orpheum:0001-25292",
@@ -1125,15 +998,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24007/tickets",
       "year": 2026,
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25280",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Silenced",
-      "startsAt": "2026-09-14T03:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25280/tickets",
-      "runtimeMins": 98
     },
     {
       "id": "orpheum:0001-25303",
@@ -1604,36 +1468,6 @@
       "runtimeMins": 108
     },
     {
-      "id": "orpheum:0001-25279",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "De Gaulle - Resistance",
-      "startsAt": "2026-09-14T02:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25279/tickets",
-      "format": "Sub",
-      "runtimeMins": 159
-    },
-    {
-      "id": "orpheum:0001-25282",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "De Gaulle - Resistance",
-      "startsAt": "2026-09-14T04:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25282/tickets",
-      "format": "Sub",
-      "runtimeMins": 159
-    },
-    {
-      "id": "orpheum:0001-25289",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "De Gaulle - Resistance",
-      "startsAt": "2026-09-14T07:50:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25289/tickets",
-      "format": "Sub",
-      "runtimeMins": 159
-    },
-    {
       "id": "orpheum:0001-25302",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1804,16 +1638,6 @@
       "runtimeMins": 185
     },
     {
-      "id": "orpheum:0001-25015",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Avengers - Endgame Encore",
-      "startsAt": "2026-09-27T04:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25015/tickets",
-      "year": 2026,
-      "runtimeMins": 185
-    },
-    {
       "id": "orpheum:0001-25013",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1831,7 +1655,7 @@
       "startsAt": "2026-09-20T05:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25019/tickets",
       "year": 2026,
-      "runtimeMins": 117
+      "runtimeMins": 118
     },
     {
       "id": "orpheum:0001-25020",
@@ -1841,7 +1665,7 @@
       "startsAt": "2026-09-19T10:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25020/tickets",
       "year": 2026,
-      "runtimeMins": 109
+      "runtimeMins": 110
     },
     {
       "id": "orpheum:0001-25026",

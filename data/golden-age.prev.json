@@ -1,51 +1,6 @@
 {
-  "fetchedAt": "2026-09-13T13:21:38.790Z",
+  "fetchedAt": "2026-09-13T22:28:57.522Z",
   "screenings": [
-    {
-      "id": "golden-age:5ee5829810ca4a158b66f4e79850aae5",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "The Colour of Pomegranates",
-      "startsAt": "2026-09-13T01:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Colour-of-Pomegranates/Sun-Sep-13-2026-11-00",
-      "runtimeMins": 79
-    },
-    {
-      "id": "golden-age:3fa607aa8a504cb9ba9d62de51dab181",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Vertigo",
-      "startsAt": "2026-09-13T03:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Vertigo/Sun-Sep-13-2026-13-00",
-      "runtimeMins": 128
-    },
-    {
-      "id": "golden-age:9492e1af24964f7ebbd0a12c406dab2e",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "The Chronology of Water",
-      "startsAt": "2026-09-13T05:40:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Chronology-of-Water/Sun-Sep-13-2026-15-40",
-      "runtimeMins": 128
-    },
-    {
-      "id": "golden-age:0dbff8e8b7cb4f1884ddca0c2b4008ac",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "California Split",
-      "startsAt": "2026-09-13T08:20:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/California-Split/Sun-Sep-13-2026-18-20",
-      "runtimeMins": 108
-    },
-    {
-      "id": "golden-age:1bd1c33e719b42928d071c0c828d6038",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "I Want Your Sex",
-      "startsAt": "2026-09-13T10:40:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/I-Want-Your-Sex/Sun-Sep-13-2026-20-40",
-      "runtimeMins": 90
-    },
     {
       "id": "golden-age:02d460aa91a445ceba4239c093c4a1f1",
       "sourceId": "golden-age",

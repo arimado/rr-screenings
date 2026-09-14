@@ -1,17 +1,6 @@
 {
-  "fetchedAt": "2026-09-13T13:21:48.147Z",
+  "fetchedAt": "2026-09-13T22:29:05.981Z",
   "screenings": [
-    {
-      "id": "agnsw:019fb647-47a5-e73e-b109-35d67cc3837d:2026-09-13T03:00:00.000Z",
-      "sourceId": "agnsw",
-      "venueId": "agnsw-domain",
-      "title": "Giant [35mm]",
-      "startsAt": "2026-09-13T03:00:00.000Z",
-      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fb647-47a5-e73e-b109-35d67cc3837d",
-      "format": "35mm",
-      "year": 1956,
-      "runtimeMins": 201
-    },
     {
       "id": "agnsw:019fb64b-7d6a-9afd-6364-06e1bf15c6fa:2026-09-16T04:00:00.000Z",
       "sourceId": "agnsw",

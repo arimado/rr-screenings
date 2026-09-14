@@ -1,5 +1,5 @@
 {
-  "cursor": 20,
+  "cursor": 45,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -47,9 +47,6 @@
     "center-stage-1991": [
       "ritz:80342"
     ],
-    "cat-on-a-hot-tin-roof-1958": [
-      "ritz:77060"
-    ],
     "chicago-2002": [
       "ritz:77135"
     ],
@@ -70,9 +67,6 @@
       "ritz:91139",
       "ritz:91140",
       "ritz:91141",
-      "ritz:91142",
-      "ritz:91143",
-      "ritz:91144",
       "ritz:91145",
       "ritz:91146",
       "ritz:91147",
@@ -169,7 +163,6 @@
       "ritz:89990",
       "ritz:89991",
       "ritz:89992",
-      "ritz:90001",
       "ritz:89993",
       "ritz:89994",
       "ritz:89995",
@@ -191,7 +184,8 @@
       "ritz:77137"
     ],
     "the-last-whale-singer": [
-      "ritz:90313"
+      "ritz:90313",
+      "ritz:90314"
     ],
     "the-searchers-1956": [
       "ritz:77063",
@@ -213,9 +207,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:90988",
-      "ritz:90954",
-      "ritz:90953",
       "ritz:90947",
       "ritz:90945",
       "ritz:90999",
@@ -230,7 +221,6 @@
       "ritz:90912"
     ],
     "tony": [
-      "ritz:90965",
       "ritz:90943",
       "ritz:90944",
       "ritz:90901",
@@ -243,7 +233,6 @@
       "ritz:90910"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:89946",
       "ritz:89941",
       "ritz:90946",
       "ritz:89945",
@@ -254,8 +243,6 @@
       "ritz:90915"
     ],
     "de-gaulle-resistance": [
-      "ritz:90968",
-      "ritz:90974",
       "ritz:90855",
       "ritz:90886",
       "ritz:90887",
@@ -265,8 +252,6 @@
       "ritz:90923"
     ],
     "spider-man-brand-new-day": [
-      "ritz:90987",
-      "ritz:90959",
       "ritz:90942",
       "ritz:91002",
       "ritz:90879",
@@ -276,9 +261,6 @@
       "ritz:90909"
     ],
     "silenced": [
-      "ritz:90955",
-      "ritz:90985",
-      "ritz:90951",
       "ritz:90892",
       "ritz:90893",
       "ritz:90993",
@@ -286,7 +268,6 @@
       "ritz:90934"
     ],
     "the-invite": [
-      "ritz:91055",
       "ritz:90949",
       "ritz:90884",
       "ritz:90873",
@@ -294,7 +275,6 @@
       "ritz:90927"
     ],
     "hope": [
-      "ritz:89966",
       "ritz:89967",
       "ritz:90895",
       "ritz:89969",
@@ -303,7 +283,6 @@
       "ritz:89971"
     ],
     "the-end-of-oak-street": [
-      "ritz:90986",
       "ritz:90983",
       "ritz:90900",
       "ritz:91000",
@@ -312,7 +291,6 @@
       "ritz:90990"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:90975",
       "ritz:90948",
       "ritz:90889",
       "ritz:90866",
@@ -330,37 +308,34 @@
       "ritz:90995"
     ],
     "by-any-means": [
-      "ritz:90971",
       "ritz:90897",
       "ritz:90906"
     ],
     "the-odyssey-digital": [
-      "ritz:90967",
       "ritz:91003",
       "ritz:90888",
       "ritz:90930",
       "ritz:90938"
     ],
     "the-rivals-of-amziah-king": [
-      "ritz:90984",
       "ritz:90896",
       "ritz:90931"
     ],
     "the-dog-stars": [
-      "ritz:90970",
       "ritz:90894",
       "ritz:90903"
     ],
     "holy-days": [
-      "ritz:90957",
       "ritz:90899",
       "ritz:90929"
     ],
     "70mm-the-odyssey": [
-      "ritz:90864"
+      "ritz:90864",
+      "ritz:91404",
+      "ritz:91170",
+      "ritz:91319"
     ],
     "tina-arena-unravel-me": [
-      "ritz:90966",
       "ritz:91004",
       "ritz:90939"
     ],
@@ -371,7 +346,13 @@
       "ritz:90941"
     ],
     "jiff-cancelled": [
-      "ritz:89635"
+      "ritz:89635",
+      "ritz:89102",
+      "ritz:89178",
+      "ritz:89220",
+      "ritz:89248",
+      "ritz:89259",
+      "ritz:89262"
     ],
     "hard-boiled-1992": [
       "ritz:86030",
@@ -631,7 +612,6 @@
     "tuner": [],
     "victorian-psycho": [],
     "werwulf": [],
-    "whalefall": [],
     "when-harry-met-sally-1989": [
       "ritz:80997"
     ],
@@ -795,9 +775,152 @@
     "the-proposal-2009": [
       "ritz:81879"
     ],
+    "charlie-harper": [],
     "roman-holiday-1953": [
       "ritz:77083",
       "ritz:77084"
+    ],
+    "jiff-blazing-saddles-1974": [
+      "ritz:89199",
+      "ritz:89217"
+    ],
+    "ink": [],
+    "jiff-a-man-of-his-time": [
+      "ritz:89089",
+      "ritz:89109",
+      "ritz:89152",
+      "ritz:89227",
+      "ritz:89277",
+      "ritz:89335",
+      "ritz:89362"
+    ],
+    "jiff-block-10": [
+      "ritz:89146",
+      "ritz:89229",
+      "ritz:89250",
+      "ritz:89256",
+      "ritz:89290",
+      "ritz:89322",
+      "ritz:89355"
+    ],
+    "jiff-dust-bowls-and-jewish-souls": [
+      "ritz:89118",
+      "ritz:89159",
+      "ritz:89180",
+      "ritz:89222",
+      "ritz:89270",
+      "ritz:89328"
+    ],
+    "jiff-elenas-war": [
+      "ritz:89121",
+      "ritz:89131",
+      "ritz:89157",
+      "ritz:89191",
+      "ritz:89238",
+      "ritz:89286",
+      "ritz:89296"
+    ],
+    "jiff-ethan-bloom": [
+      "ritz:89103",
+      "ritz:89133",
+      "ritz:89153",
+      "ritz:89169",
+      "ritz:89211",
+      "ritz:89295",
+      "ritz:89317",
+      "ritz:89358"
+    ],
+    "jiff-etty-part-1": [
+      "ritz:89174",
+      "ritz:89225"
+    ],
+    "jiff-for-the-love-of-a-woman": [
+      "ritz:89086",
+      "ritz:89114",
+      "ritz:89167",
+      "ritz:89212",
+      "ritz:89284"
+    ],
+    "jiff-etty-part-2": [
+      "ritz:89175",
+      "ritz:89226"
+    ],
+    "jiff-freedom-rides": [
+      "ritz:87890"
+    ],
+    "jiff-find-me-okay": [
+      "ritz:89119",
+      "ritz:89137",
+      "ritz:89189",
+      "ritz:89244",
+      "ritz:89258"
+    ],
+    "jiff-frontier": [
+      "ritz:89206",
+      "ritz:89253",
+      "ritz:89309",
+      "ritz:89343"
+    ],
+    "jiff-hannah-arendt-facing-tyranny": [
+      "ritz:89130",
+      "ritz:89188",
+      "ritz:89202",
+      "ritz:89232",
+      "ritz:89272",
+      "ritz:89312",
+      "ritz:89340"
+    ],
+    "jiff-history-of-the-world-part-i-1981": [
+      "ritz:89303",
+      "ritz:89320"
+    ],
+    "jiff-holofiction": [
+      "ritz:89138",
+      "ritz:89162",
+      "ritz:89186",
+      "ritz:89205",
+      "ritz:89242",
+      "ritz:89251",
+      "ritz:89287",
+      "ritz:89350"
+    ],
+    "jiff-influenced": [
+      "ritz:89126",
+      "ritz:89237",
+      "ritz:89283",
+      "ritz:89308"
+    ],
+    "jiff-just-an-illusion": [
+      "ritz:89082",
+      "ritz:89123",
+      "ritz:89134",
+      "ritz:89160",
+      "ritz:89193",
+      "ritz:89219",
+      "ritz:89230",
+      "ritz:89249",
+      "ritz:89273",
+      "ritz:89291",
+      "ritz:89306",
+      "ritz:89315",
+      "ritz:89338",
+      "ritz:89356"
+    ],
+    "jiff-labors-of-love-the-life-and-legacy-of-henrietta-szold": [
+      "ritz:89094",
+      "ritz:89147",
+      "ritz:89168",
+      "ritz:89255",
+      "ritz:89301",
+      "ritz:89318",
+      "ritz:89357"
+    ],
+    "jiff-lansky-the-jewish-godfather": [
+      "ritz:89106",
+      "ritz:89177",
+      "ritz:89192",
+      "ritz:89235",
+      "ritz:89324"
     ]
   }
 }
