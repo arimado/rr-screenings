@@ -1,24 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T07:58:22.317Z",
+  "fetchedAt": "2026-09-14T15:05:14.277Z",
   "screenings": [
-    {
-      "id": "golden-age:02d460aa91a445ceba4239c093c4a1f1",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Shadows of Forgotten Ancestors",
-      "startsAt": "2026-09-14T08:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Shadows-of-Forgotten-Ancestors/Mon-Sep-14-2026-18-00",
-      "runtimeMins": 96
-    },
-    {
-      "id": "golden-age:fa986b3663f842359078b2979a728a0b",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Tony",
-      "startsAt": "2026-09-14T10:05:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Tony/Mon-Sep-14-2026-20-05",
-      "runtimeMins": 106
-    },
     {
       "id": "golden-age:a2c324b54fe94202862cec0589edea52",
       "sourceId": "golden-age",

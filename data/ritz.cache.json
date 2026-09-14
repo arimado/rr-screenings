@@ -1,5 +1,5 @@
 {
-  "cursor": 70,
+  "cursor": 9,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -67,6 +67,9 @@
       "ritz:91139",
       "ritz:91140",
       "ritz:91141",
+      "ritz:91452",
+      "ritz:91441",
+      "ritz:91430",
       "ritz:91145",
       "ritz:91146",
       "ritz:91147",
@@ -93,7 +96,37 @@
       "ritz:90268",
       "ritz:90269"
     ],
-    "forgotten-island": [],
+    "forgotten-island": [
+      "ritz:91276",
+      "ritz:91251",
+      "ritz:91273",
+      "ritz:91272",
+      "ritz:91474",
+      "ritz:91463",
+      "ritz:91464",
+      "ritz:91219",
+      "ritz:91410",
+      "ritz:91421",
+      "ritz:91412",
+      "ritz:91406",
+      "ritz:91445",
+      "ritz:91444",
+      "ritz:91443",
+      "ritz:91162",
+      "ritz:91433",
+      "ritz:91562",
+      "ritz:91563",
+      "ritz:91564",
+      "ritz:91565",
+      "ritz:91595",
+      "ritz:91594",
+      "ritz:91593",
+      "ritz:91592",
+      "ritz:91544",
+      "ritz:91527",
+      "ritz:91528",
+      "ritz:91529"
+    ],
     "frances-ha-2012": [
       "ritz:80991"
     ],
@@ -146,25 +179,38 @@
       "ritz:89979",
       "ritz:89980",
       "ritz:89997",
+      "ritz:91622",
       "ritz:89981",
       "ritz:89982",
       "ritz:89983",
       "ritz:89998",
       "ritz:89999",
       "ritz:89984",
+      "ritz:89985",
       "ritz:89986",
+      "ritz:91579",
       "ritz:89987",
       "ritz:89988",
       "ritz:89989",
+      "ritz:91590",
+      "ritz:91607",
       "ritz:89990",
       "ritz:89991",
       "ritz:89992",
+      "ritz:90001",
+      "ritz:91555",
+      "ritz:89994",
+      "ritz:89993",
+      "ritz:89995",
       "ritz:90002"
     ],
     "pride-and-prejudice-2005": [
       "ritz:80992"
     ],
-    "shaun-the-sheep-the-beast-of-mossy-bottom": [],
+    "shaun-the-sheep-the-beast-of-mossy-bottom": [
+      "ritz:91411",
+      "ritz:91448"
+    ],
     "the-apartment-1960": [
       "ritz:80993"
     ],
@@ -192,7 +238,24 @@
       "ritz:89038",
       "ritz:89974"
     ],
-    "the-weight": [],
+    "the-weight": [
+      "ritz:91454",
+      "ritz:91252",
+      "ritz:91473",
+      "ritz:91461",
+      "ritz:91420",
+      "ritz:91401",
+      "ritz:91437",
+      "ritz:91578",
+      "ritz:91567",
+      "ritz:91586",
+      "ritz:91606",
+      "ritz:91602",
+      "ritz:91617",
+      "ritz:91557",
+      "ritz:91551",
+      "ritz:91531"
+    ],
     "top-gun-1986": [
       "ritz:89627"
     ],
@@ -209,7 +272,36 @@
       "ritz:90904",
       "ritz:90905",
       "ritz:90919",
-      "ritz:90912"
+      "ritz:90912",
+      "ritz:91271",
+      "ritz:91275",
+      "ritz:91258",
+      "ritz:91259",
+      "ritz:91485",
+      "ritz:91467",
+      "ritz:91468",
+      "ritz:91218",
+      "ritz:91488",
+      "ritz:91423",
+      "ritz:91419",
+      "ritz:91399",
+      "ritz:91408",
+      "ritz:91451",
+      "ritz:91446",
+      "ritz:91432",
+      "ritz:91438",
+      "ritz:91571",
+      "ritz:91577",
+      "ritz:91573",
+      "ritz:91574",
+      "ritz:91599",
+      "ritz:91616",
+      "ritz:91321",
+      "ritz:91618",
+      "ritz:91532",
+      "ritz:91361",
+      "ritz:91357",
+      "ritz:91354"
     ],
     "tony": [
       "ritz:90901",
@@ -219,7 +311,30 @@
       "ritz:90992",
       "ritz:90914",
       "ritz:90911",
-      "ritz:90910"
+      "ritz:90910",
+      "ritz:91457",
+      "ritz:91261",
+      "ritz:91268",
+      "ritz:91460",
+      "ritz:91462",
+      "ritz:91484",
+      "ritz:91465",
+      "ritz:91214",
+      "ritz:91490",
+      "ritz:91418",
+      "ritz:91403",
+      "ritz:91442",
+      "ritz:91435",
+      "ritz:91584",
+      "ritz:91568",
+      "ritz:91621",
+      "ritz:91612",
+      "ritz:91603",
+      "ritz:91605",
+      "ritz:91526",
+      "ritz:91540",
+      "ritz:91535",
+      "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
       "ritz:89945",
@@ -227,7 +342,26 @@
       "ritz:90876",
       "ritz:89944",
       "ritz:89943",
-      "ritz:90915"
+      "ritz:90915",
+      "ritz:91277",
+      "ritz:91267",
+      "ritz:91456",
+      "ritz:91470",
+      "ritz:91476",
+      "ritz:91207",
+      "ritz:91489",
+      "ritz:91417",
+      "ritz:91400",
+      "ritz:91431",
+      "ritz:91559",
+      "ritz:91582",
+      "ritz:91587",
+      "ritz:91597",
+      "ritz:91610",
+      "ritz:91619",
+      "ritz:91556",
+      "ritz:91546",
+      "ritz:91534"
     ],
     "de-gaulle-resistance": [
       "ritz:90886",
@@ -235,7 +369,27 @@
       "ritz:90869",
       "ritz:90913",
       "ritz:90917",
-      "ritz:90923"
+      "ritz:90923",
+      "ritz:91245",
+      "ritz:91266",
+      "ritz:91204",
+      "ritz:91477",
+      "ritz:91479",
+      "ritz:91220",
+      "ritz:91422",
+      "ritz:91413",
+      "ritz:91398",
+      "ritz:91440",
+      "ritz:91165",
+      "ritz:91561",
+      "ritz:91576",
+      "ritz:91307",
+      "ritz:91604",
+      "ritz:91615",
+      "ritz:91322",
+      "ritz:91536",
+      "ritz:91538",
+      "ritz:91356"
     ],
     "spider-man-brand-new-day": [
       "ritz:91002",
@@ -243,40 +397,96 @@
       "ritz:90871",
       "ritz:90926",
       "ritz:90925",
-      "ritz:90909"
+      "ritz:90909",
+      "ritz:91455",
+      "ritz:91257",
+      "ritz:91475",
+      "ritz:91483",
+      "ritz:91491",
+      "ritz:91624",
+      "ritz:91580",
+      "ritz:91608",
+      "ritz:91549"
     ],
     "silenced": [
       "ritz:90892",
       "ritz:90893",
       "ritz:90993",
       "ritz:90991",
-      "ritz:90934"
+      "ritz:90934",
+      "ritz:91260",
+      "ritz:91469",
+      "ritz:91558",
+      "ritz:91596",
+      "ritz:91541"
     ],
     "the-invite": [
       "ritz:90884",
       "ritz:90873",
       "ritz:90921",
-      "ritz:90927"
+      "ritz:90927",
+      "ritz:91458",
+      "ritz:91248",
+      "ritz:91264",
+      "ritz:91481",
+      "ritz:91482",
+      "ritz:91212",
+      "ritz:91487",
+      "ritz:91428",
+      "ritz:91402",
+      "ritz:91623",
+      "ritz:91439",
+      "ritz:91575",
+      "ritz:91581",
+      "ritz:91614",
+      "ritz:91609",
+      "ritz:91547",
+      "ritz:91548",
+      "ritz:91554"
     ],
     "hope": [
       "ritz:90895",
       "ritz:89969",
       "ritz:89968",
       "ritz:89970",
-      "ritz:89971"
+      "ritz:89971",
+      "ritz:91278",
+      "ritz:91253",
+      "ritz:91480",
+      "ritz:91486",
+      "ritz:91425",
+      "ritz:91407",
+      "ritz:91453",
+      "ritz:91436",
+      "ritz:91572",
+      "ritz:91566",
+      "ritz:91600",
+      "ritz:91591",
+      "ritz:91539",
+      "ritz:91530"
     ],
     "the-end-of-oak-street": [
       "ritz:90900",
       "ritz:91000",
       "ritz:90997",
       "ritz:90922",
-      "ritz:90990"
+      "ritz:90990",
+      "ritz:91249",
+      "ritz:91472",
+      "ritz:91583",
+      "ritz:91611",
+      "ritz:91550"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
       "ritz:90889",
       "ritz:90866",
       "ritz:90918",
-      "ritz:90920"
+      "ritz:90920",
+      "ritz:91279",
+      "ritz:91492",
+      "ritz:91409",
+      "ritz:91620",
+      "ritz:91553"
     ],
     "it-ends": [
       "ritz:90885",
@@ -286,7 +496,11 @@
     "and-sons": [
       "ritz:90891",
       "ritz:90936",
-      "ritz:90995"
+      "ritz:90995",
+      "ritz:91459",
+      "ritz:91466",
+      "ritz:91601",
+      "ritz:91533"
     ],
     "by-any-means": [
       "ritz:90897",
@@ -296,7 +510,13 @@
       "ritz:91003",
       "ritz:90888",
       "ritz:90930",
-      "ritz:90938"
+      "ritz:90938",
+      "ritz:91262",
+      "ritz:91471",
+      "ritz:91625",
+      "ritz:91585",
+      "ritz:91613",
+      "ritz:91543"
     ],
     "the-rivals-of-amziah-king": [
       "ritz:90896",
@@ -308,7 +528,12 @@
     ],
     "holy-days": [
       "ritz:90899",
-      "ritz:90929"
+      "ritz:90929",
+      "ritz:91247",
+      "ritz:91478",
+      "ritz:91570",
+      "ritz:91598",
+      "ritz:91537"
     ],
     "70mm-the-odyssey": [
       "ritz:90864",
@@ -896,10 +1121,6 @@
       "ritz:89235",
       "ritz:89324"
     ],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "jiff-think-good": [
       "ritz:89087",
       "ritz:89110",
@@ -987,8 +1208,22 @@
       "ritz:89254",
       "ritz:89269"
     ],
-    "paw-patrol-the-dino-movie": [],
+    "paw-patrol-the-dino-movie": [
+      "ritz:91424",
+      "ritz:91414",
+      "ritz:91447",
+      "ritz:91450"
+    ],
     "possible-love": [],
-    "remain": []
+    "remain": [],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ],
+    "the-echo-chamber": [],
+    "the-incomer": [],
+    "yellow-letters": [],
+    "500-miles": [],
+    "bitter-christmas": []
   }
 }
