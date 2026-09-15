@@ -1,5 +1,5 @@
 {
-  "cursor": 9,
+  "cursor": 34,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -236,7 +236,34 @@
     "verity": [
       "ritz:89973",
       "ritz:89038",
-      "ritz:89974"
+      "ritz:90277",
+      "ritz:90278",
+      "ritz:90279",
+      "ritz:90301",
+      "ritz:90280",
+      "ritz:90281",
+      "ritz:90282",
+      "ritz:90302",
+      "ritz:90283",
+      "ritz:90284",
+      "ritz:90285",
+      "ritz:90303",
+      "ritz:90286",
+      "ritz:90287",
+      "ritz:90288",
+      "ritz:90304",
+      "ritz:90289",
+      "ritz:90290",
+      "ritz:90291",
+      "ritz:90300",
+      "ritz:90292",
+      "ritz:90293",
+      "ritz:90294",
+      "ritz:90299",
+      "ritz:90295",
+      "ritz:90296",
+      "ritz:90297",
+      "ritz:90298"
     ],
     "the-weight": [
       "ritz:91454",
@@ -245,6 +272,7 @@
       "ritz:91461",
       "ritz:91420",
       "ritz:91401",
+      "ritz:91626",
       "ritz:91437",
       "ritz:91578",
       "ritz:91567",
@@ -263,9 +291,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:90999",
-      "ritz:90998",
-      "ritz:90877",
       "ritz:90865",
       "ritz:90868",
       "ritz:90940",
@@ -304,8 +329,6 @@
       "ritz:91354"
     ],
     "tony": [
-      "ritz:90901",
-      "ritz:91001",
       "ritz:90867",
       "ritz:90872",
       "ritz:90992",
@@ -337,7 +360,6 @@
       "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:89945",
       "ritz:89942",
       "ritz:90876",
       "ritz:89944",
@@ -364,8 +386,6 @@
       "ritz:91534"
     ],
     "de-gaulle-resistance": [
-      "ritz:90886",
-      "ritz:90887",
       "ritz:90869",
       "ritz:90913",
       "ritz:90917",
@@ -392,8 +412,6 @@
       "ritz:91356"
     ],
     "spider-man-brand-new-day": [
-      "ritz:91002",
-      "ritz:90879",
       "ritz:90871",
       "ritz:90926",
       "ritz:90925",
@@ -409,8 +427,6 @@
       "ritz:91549"
     ],
     "silenced": [
-      "ritz:90892",
-      "ritz:90893",
       "ritz:90993",
       "ritz:90991",
       "ritz:90934",
@@ -421,7 +437,6 @@
       "ritz:91541"
     ],
     "the-invite": [
-      "ritz:90884",
       "ritz:90873",
       "ritz:90921",
       "ritz:90927",
@@ -434,7 +449,6 @@
       "ritz:91487",
       "ritz:91428",
       "ritz:91402",
-      "ritz:91623",
       "ritz:91439",
       "ritz:91575",
       "ritz:91581",
@@ -445,8 +459,6 @@
       "ritz:91554"
     ],
     "hope": [
-      "ritz:90895",
-      "ritz:89969",
       "ritz:89968",
       "ritz:89970",
       "ritz:89971",
@@ -466,8 +478,6 @@
       "ritz:91530"
     ],
     "the-end-of-oak-street": [
-      "ritz:90900",
-      "ritz:91000",
       "ritz:90997",
       "ritz:90922",
       "ritz:90990",
@@ -478,7 +488,6 @@
       "ritz:91550"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:90889",
       "ritz:90866",
       "ritz:90918",
       "ritz:90920",
@@ -489,12 +498,10 @@
       "ritz:91553"
     ],
     "it-ends": [
-      "ritz:90885",
       "ritz:90996",
       "ritz:90994"
     ],
     "and-sons": [
-      "ritz:90891",
       "ritz:90936",
       "ritz:90995",
       "ritz:91459",
@@ -503,12 +510,9 @@
       "ritz:91533"
     ],
     "by-any-means": [
-      "ritz:90897",
       "ritz:90906"
     ],
     "the-odyssey-digital": [
-      "ritz:91003",
-      "ritz:90888",
       "ritz:90930",
       "ritz:90938",
       "ritz:91262",
@@ -519,15 +523,12 @@
       "ritz:91543"
     ],
     "the-rivals-of-amziah-king": [
-      "ritz:90896",
       "ritz:90931"
     ],
     "the-dog-stars": [
-      "ritz:90894",
       "ritz:90903"
     ],
     "holy-days": [
-      "ritz:90899",
       "ritz:90929",
       "ritz:91247",
       "ritz:91478",
@@ -542,7 +543,6 @@
       "ritz:91319"
     ],
     "tina-arena-unravel-me": [
-      "ritz:91004",
       "ritz:90939"
     ],
     "i-want-your-sex": [
@@ -573,7 +573,9 @@
       "ritz:88205"
     ],
     "ritz-movie-trivia": [
-      "ritz:88204"
+      "ritz:88204",
+      "ritz:91627",
+      "ritz:91628"
     ],
     "girl-climber": [
       "ritz:90338"
@@ -1192,6 +1194,7 @@
       "ritz:89341"
     ],
     "jiff-women-on-trial": [
+      "ritz:89090",
       "ritz:89125",
       "ritz:89161",
       "ritz:89195",
@@ -1216,14 +1219,65 @@
     ],
     "possible-love": [],
     "remain": [],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "the-echo-chamber": [],
     "the-incomer": [],
     "yellow-letters": [],
     "500-miles": [],
-    "bitter-christmas": []
+    "bitter-christmas": [],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ],
+    "cocomelon-the-movie": [],
+    "elsinore": [],
+    "house-1977": [
+      "ritz:90674"
+    ],
+    "jiff-mahler-in-new-york": [
+      "ritz:89111",
+      "ritz:89142",
+      "ritz:89171",
+      "ritz:89304"
+    ],
+    "jiff-marianas-room": [
+      "ritz:89083",
+      "ritz:89105",
+      "ritz:89247",
+      "ritz:89266",
+      "ritz:89327"
+    ],
+    "jiff-my-underground-mother": [
+      "ritz:89099",
+      "ritz:89128",
+      "ritz:89239",
+      "ritz:89285",
+      "ritz:89310",
+      "ritz:89342"
+    ],
+    "jiff-noga": [
+      "ritz:89120",
+      "ritz:89223",
+      "ritz:89260",
+      "ritz:89275",
+      "ritz:89351"
+    ],
+    "jiff-nuremberg-45": [
+      "ritz:89141",
+      "ritz:89203",
+      "ritz:89215",
+      "ritz:89326"
+    ],
+    "jiff-paper-tiger": [
+      "ritz:89363"
+    ],
+    "jiff-proud-jewish-boy": [
+      "ritz:89088",
+      "ritz:89172",
+      "ritz:89196",
+      "ritz:89274",
+      "ritz:89294",
+      "ritz:89339",
+      "ritz:89344"
+    ]
   }
 }

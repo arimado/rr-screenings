@@ -1,46 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T23:13:02.551Z",
+  "fetchedAt": "2026-09-15T07:52:12.692Z",
   "screenings": [
-    {
-      "id": "palace:357914",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357914",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
-      "id": "palace:357921",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T12:50:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357921",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
-      "id": "palace:357934",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T15:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357934",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
-      "id": "palace:357929",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357929",
-      "year": 2026,
-      "runtimeMins": 130
-    },
     {
       "id": "palace:357394",
       "sourceId": "palace",
@@ -86,7 +46,7 @@
       "sourceId": "palace",
       "venueId": "palace-norton-street",
       "title": "Practical Magic 2",
-      "startsAt": "2026-09-16T12:50:00.000Z",
+      "startsAt": "2026-09-16T13:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357955",
       "year": 2026,
       "runtimeMins": 130
@@ -412,36 +372,6 @@
       "runtimeMins": 130
     },
     {
-      "id": "palace:357915",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T10:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357915",
-      "year": 2026,
-      "runtimeMins": 80
-    },
-    {
-      "id": "palace:357919",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T13:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357919",
-      "year": 2026,
-      "runtimeMins": 80
-    },
-    {
-      "id": "palace:357931",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T15:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357931",
-      "year": 2026,
-      "runtimeMins": 80
-    },
-    {
       "id": "palace:357928",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -712,26 +642,6 @@
       "runtimeMins": 80
     },
     {
-      "id": "palace:357923",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Hope",
-      "startsAt": "2026-09-15T12:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357923",
-      "year": 2026,
-      "runtimeMins": 160
-    },
-    {
-      "id": "palace:357933",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Hope",
-      "startsAt": "2026-09-15T15:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357933",
-      "year": 2026,
-      "runtimeMins": 160
-    },
-    {
       "id": "palace:357085",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -770,26 +680,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357086",
       "year": 2026,
       "runtimeMins": 160
-    },
-    {
-      "id": "palace:357917",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Tony",
-      "startsAt": "2026-09-15T10:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357917",
-      "year": 2026,
-      "runtimeMins": 106
-    },
-    {
-      "id": "palace:357918",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Tony",
-      "startsAt": "2026-09-15T14:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357918",
-      "year": 2026,
-      "runtimeMins": 106
     },
     {
       "id": "palace:357942",
@@ -1002,26 +892,6 @@
       "runtimeMins": 106
     },
     {
-      "id": "palace:357920",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Oasis: Don't Look Back In Anger",
-      "startsAt": "2026-09-15T13:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357920",
-      "year": 2026,
-      "runtimeMins": 123
-    },
-    {
-      "id": "palace:357932",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Oasis: Don't Look Back In Anger",
-      "startsAt": "2026-09-15T15:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357932",
-      "year": 2026,
-      "runtimeMins": 123
-    },
-    {
       "id": "palace:357092",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -1060,26 +930,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357093",
       "year": 2026,
       "runtimeMins": 123
-    },
-    {
-      "id": "palace:357916",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "The Odyssey",
-      "startsAt": "2026-09-15T10:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357916",
-      "year": 2026,
-      "runtimeMins": 172
-    },
-    {
-      "id": "palace:357935",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "The Odyssey",
-      "startsAt": "2026-09-15T14:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357935",
-      "year": 2026,
-      "runtimeMins": 172
     },
     {
       "id": "palace:357939",
@@ -1262,16 +1112,6 @@
       "runtimeMins": 172
     },
     {
-      "id": "palace:357922",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Spider-Man: Brand New Day",
-      "startsAt": "2026-09-15T12:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357922",
-      "year": 2026,
-      "runtimeMins": 150
-    },
-    {
       "id": "palace:357937",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -1300,16 +1140,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357971",
       "year": 2026,
       "runtimeMins": 150
-    },
-    {
-      "id": "palace:357930",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "The Invite",
-      "startsAt": "2026-09-15T15:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357930",
-      "year": 2026,
-      "runtimeMins": 107
     },
     {
       "id": "palace:357943",
@@ -1342,41 +1172,71 @@
       "runtimeMins": 107
     },
     {
-      "id": "palace:357925",
+      "id": "palace:358206",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
-      "title": "Paw Patrol - The Dino Movie",
-      "startsAt": "2026-09-15T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357925",
+      "title": "The Invite",
+      "startsAt": "2026-09-18T20:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358206",
       "year": 2026,
-      "runtimeMins": 88
+      "runtimeMins": 107
     },
     {
-      "id": "palace:357946",
+      "id": "palace:358207",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
-      "title": "Paw Patrol - The Dino Movie",
-      "startsAt": "2026-09-15T13:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357946",
+      "title": "The Invite",
+      "startsAt": "2026-09-19T20:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358207",
       "year": 2026,
-      "runtimeMins": 88
+      "runtimeMins": 107
     },
     {
-      "id": "palace:357947",
+      "id": "palace:358208",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
-      "title": "Paw Patrol - The Dino Movie",
-      "startsAt": "2026-09-15T15:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357947",
+      "title": "The Invite",
+      "startsAt": "2026-09-20T20:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358208",
       "year": 2026,
-      "runtimeMins": 88
+      "runtimeMins": 107
+    },
+    {
+      "id": "palace:358209",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Invite",
+      "startsAt": "2026-09-21T20:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358209",
+      "year": 2026,
+      "runtimeMins": 107
+    },
+    {
+      "id": "palace:358210",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Invite",
+      "startsAt": "2026-09-22T20:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358210",
+      "year": 2026,
+      "runtimeMins": 107
+    },
+    {
+      "id": "palace:358211",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Invite",
+      "startsAt": "2026-09-23T20:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358211",
+      "year": 2026,
+      "runtimeMins": 107
     },
     {
       "id": "palace:357959",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
       "title": "Paw Patrol - The Dino Movie",
-      "startsAt": "2026-09-16T10:45:00.000Z",
+      "startsAt": "2026-09-16T11:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357959",
       "year": 2026,
       "runtimeMins": 88
@@ -1542,16 +1402,6 @@
       "runtimeMins": 88
     },
     {
-      "id": "palace:357924",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "& Sons",
-      "startsAt": "2026-09-15T11:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357924",
-      "year": 2026,
-      "runtimeMins": 119
-    },
-    {
       "id": "palace:357927",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -1692,52 +1542,12 @@
       "runtimeMins": 158
     },
     {
-      "id": "palace:358004",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-18T20:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358004",
-      "year": 2026,
-      "runtimeMins": 158
-    },
-    {
-      "id": "palace:358052",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-19T20:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358052",
-      "year": 2026,
-      "runtimeMins": 158
-    },
-    {
-      "id": "palace:358075",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-20T19:50:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358075",
-      "year": 2026,
-      "runtimeMins": 158
-    },
-    {
       "id": "palace:358203",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
       "title": "De Gaulle: Resistance",
       "startsAt": "2026-09-21T12:30:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358203",
-      "year": 2026,
-      "runtimeMins": 158
-    },
-    {
-      "id": "palace:358094",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-21T20:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358094",
       "year": 2026,
       "runtimeMins": 158
     },
@@ -1752,32 +1562,12 @@
       "runtimeMins": 158
     },
     {
-      "id": "palace:358126",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-22T20:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358126",
-      "year": 2026,
-      "runtimeMins": 158
-    },
-    {
       "id": "palace:358140",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
       "title": "De Gaulle: Resistance",
       "startsAt": "2026-09-23T12:45:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358140",
-      "year": 2026,
-      "runtimeMins": 158
-    },
-    {
-      "id": "palace:358153",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-23T20:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358153",
       "year": 2026,
       "runtimeMins": 158
     },
@@ -1932,16 +1722,6 @@
       "runtimeMins": 119
     },
     {
-      "id": "palace:357945",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Silenced",
-      "startsAt": "2026-09-15T10:50:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357945",
-      "year": 2026,
-      "runtimeMins": 97
-    },
-    {
       "id": "palace:357978",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -1950,16 +1730,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357978",
       "year": 2026,
       "runtimeMins": 97
-    },
-    {
-      "id": "palace:357926",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Colours Of Time",
-      "startsAt": "2026-09-15T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357926",
-      "year": 2026,
-      "runtimeMins": 126
     },
     {
       "id": "palace:357960",
@@ -3941,6 +3711,16 @@
       "runtimeMins": 117
     },
     {
+      "id": "palace:358212",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "IFF26 Holy Cannoli",
+      "startsAt": "2026-09-26T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358212",
+      "year": 2026,
+      "runtimeMins": 117
+    },
+    {
       "id": "palace:356411",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -4257,6 +4037,16 @@
       "title": "IFF26 Life is Life",
       "startsAt": "2026-09-25T20:30:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=356400",
+      "year": 2026,
+      "runtimeMins": 118
+    },
+    {
+      "id": "palace:358215",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "IFF26 Life is Life",
+      "startsAt": "2026-09-27T15:50:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358215",
       "year": 2026,
       "runtimeMins": 118
     },
@@ -5638,6 +5428,26 @@
       "runtimeMins": 117
     },
     {
+      "id": "palace:358217",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "La Bola Negra",
+      "startsAt": "2026-10-15T15:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358217",
+      "year": 2026,
+      "runtimeMins": 155
+    },
+    {
+      "id": "palace:358216",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "La Bola Negra",
+      "startsAt": "2026-10-15T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358216",
+      "year": 2026,
+      "runtimeMins": 155
+    },
+    {
       "id": "palace:357713",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -5795,7 +5605,7 @@
       "startsAt": "2026-10-01T18:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=355672",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:355673",
@@ -5805,7 +5615,7 @@
       "startsAt": "2026-10-02T18:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=355673",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:355674",
@@ -5815,7 +5625,7 @@
       "startsAt": "2026-10-03T15:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=355674",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:355675",
@@ -5825,7 +5635,7 @@
       "startsAt": "2026-10-04T15:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=355675",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:355933",
@@ -6701,56 +6511,6 @@
       "runtimeMins": 116
     },
     {
-      "id": "palace:177475",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T10:50:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177475",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
-      "id": "palace:177467",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T11:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177467",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
-      "id": "palace:177460",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T12:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177460",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
-      "id": "palace:177461",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T15:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177461",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
-      "id": "palace:177483",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177483",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
       "id": "palace:176910",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -7151,36 +6911,6 @@
       "runtimeMins": 130
     },
     {
-      "id": "palace:177468",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T10:50:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177468",
-      "year": 2026,
-      "runtimeMins": 80
-    },
-    {
-      "id": "palace:177465",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T14:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177465",
-      "year": 2026,
-      "runtimeMins": 80
-    },
-    {
-      "id": "palace:177466",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T16:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177466",
-      "year": 2026,
-      "runtimeMins": 80
-    },
-    {
       "id": "palace:177443",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -7381,16 +7111,6 @@
       "runtimeMins": 80
     },
     {
-      "id": "palace:177476",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Hope",
-      "startsAt": "2026-09-15T13:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177476",
-      "year": 2026,
-      "runtimeMins": 160
-    },
-    {
       "id": "palace:176533",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -7559,26 +7279,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177626",
       "year": 2026,
       "runtimeMins": 160
-    },
-    {
-      "id": "palace:177446",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Tony",
-      "startsAt": "2026-09-15T11:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177446",
-      "year": 2026,
-      "runtimeMins": 106
-    },
-    {
-      "id": "palace:177464",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Tony",
-      "startsAt": "2026-09-15T16:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177464",
-      "year": 2026,
-      "runtimeMins": 106
     },
     {
       "id": "palace:177454",
@@ -7881,26 +7581,6 @@
       "runtimeMins": 106
     },
     {
-      "id": "palace:177469",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Oasis: Don't Look Back In Anger",
-      "startsAt": "2026-09-15T10:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177469",
-      "year": 2026,
-      "runtimeMins": 123
-    },
-    {
-      "id": "palace:177470",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Oasis: Don't Look Back In Anger",
-      "startsAt": "2026-09-15T15:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177470",
-      "year": 2026,
-      "runtimeMins": 123
-    },
-    {
       "id": "palace:176540",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -8091,26 +7771,6 @@
       "runtimeMins": 123
     },
     {
-      "id": "palace:177472",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Odyssey",
-      "startsAt": "2026-09-15T12:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177472",
-      "year": 2026,
-      "runtimeMins": 172
-    },
-    {
-      "id": "palace:177473",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Odyssey",
-      "startsAt": "2026-09-15T15:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177473",
-      "year": 2026,
-      "runtimeMins": 172
-    },
-    {
       "id": "palace:177452",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -8279,26 +7939,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177628",
       "year": 2026,
       "runtimeMins": 172
-    },
-    {
-      "id": "palace:177462",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Spider-Man: Brand New Day",
-      "startsAt": "2026-09-15T12:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177462",
-      "year": 2026,
-      "runtimeMins": 150
-    },
-    {
-      "id": "palace:177463",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Spider-Man: Brand New Day",
-      "startsAt": "2026-09-15T15:50:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177463",
-      "year": 2026,
-      "runtimeMins": 150
     },
     {
       "id": "palace:177453",
@@ -8479,36 +8119,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177630",
       "year": 2026,
       "runtimeMins": 150
-    },
-    {
-      "id": "palace:177474",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Invite",
-      "startsAt": "2026-09-15T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177474",
-      "year": 2026,
-      "runtimeMins": 107
-    },
-    {
-      "id": "palace:177471",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Invite",
-      "startsAt": "2026-09-15T13:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177471",
-      "year": 2026,
-      "runtimeMins": 107
-    },
-    {
-      "id": "palace:177482",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Invite",
-      "startsAt": "2026-09-15T15:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177482",
-      "year": 2026,
-      "runtimeMins": 107
     },
     {
       "id": "palace:177455",
@@ -8761,26 +8371,6 @@
       "runtimeMins": 107
     },
     {
-      "id": "palace:177445",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "& Sons",
-      "startsAt": "2026-09-15T12:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177445",
-      "year": 2026,
-      "runtimeMins": 119
-    },
-    {
-      "id": "palace:177456",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "& Sons",
-      "startsAt": "2026-09-15T17:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177456",
-      "year": 2026,
-      "runtimeMins": 119
-    },
-    {
       "id": "palace:177486",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -8879,26 +8469,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177627",
       "year": 2026,
       "runtimeMins": 119
-    },
-    {
-      "id": "palace:177480",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Runner",
-      "startsAt": "2026-09-15T10:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177480",
-      "year": 2026,
-      "runtimeMins": 98
-    },
-    {
-      "id": "palace:177481",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Runner",
-      "startsAt": "2026-09-15T13:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177481",
-      "year": 2026,
-      "runtimeMins": 98
     },
     {
       "id": "palace:177457",
@@ -9009,16 +8579,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177625",
       "year": 2026,
       "runtimeMins": 98
-    },
-    {
-      "id": "palace:177478",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-15T11:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177478",
-      "year": 2026,
-      "runtimeMins": 158
     },
     {
       "id": "palace:177451",
@@ -9191,16 +8751,6 @@
       "runtimeMins": 158
     },
     {
-      "id": "palace:177447",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Silenced",
-      "startsAt": "2026-09-15T13:50:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177447",
-      "year": 2026,
-      "runtimeMins": 97
-    },
-    {
       "id": "palace:177488",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -9209,16 +8759,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177488",
       "year": 2026,
       "runtimeMins": 97
-    },
-    {
-      "id": "palace:177479",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Dear You",
-      "startsAt": "2026-09-15T15:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177479",
-      "year": 2026,
-      "runtimeMins": 118
     },
     {
       "id": "palace:177458",
@@ -9319,16 +8859,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177622",
       "year": 2026,
       "runtimeMins": 118
-    },
-    {
-      "id": "palace:177477",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Spider-Man: Brand New Day [Chinese Subtitled]",
-      "startsAt": "2026-09-15T14:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177477",
-      "year": 2026,
-      "runtimeMins": 150
     },
     {
       "id": "palace:177444",
@@ -11689,6 +11219,26 @@
       "runtimeMins": 117
     },
     {
+      "id": "palace:177864",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "La Bola Negra",
+      "startsAt": "2026-10-15T15:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177864",
+      "year": 2026,
+      "runtimeMins": 155
+    },
+    {
+      "id": "palace:177865",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "La Bola Negra",
+      "startsAt": "2026-10-15T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177865",
+      "year": 2026,
+      "runtimeMins": 155
+    },
+    {
       "id": "palace:177215",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -11956,7 +11506,7 @@
       "startsAt": "2026-10-01T18:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=174950",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:174951",
@@ -11966,7 +11516,7 @@
       "startsAt": "2026-10-02T18:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=174951",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:174952",
@@ -11976,7 +11526,7 @@
       "startsAt": "2026-10-03T15:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=174952",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:174953",
@@ -11986,7 +11536,7 @@
       "startsAt": "2026-10-04T15:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=174953",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:175231",
@@ -13184,36 +12734,6 @@
       "runtimeMins": 116
     },
     {
-      "id": "palace:18623",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T12:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18623",
-      "year": 2026,
-      "runtimeMins": 80
-    },
-    {
-      "id": "palace:18633",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T14:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18633",
-      "year": 2026,
-      "runtimeMins": 80
-    },
-    {
-      "id": "palace:18634",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T16:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18634",
-      "year": 2026,
-      "runtimeMins": 80
-    },
-    {
       "id": "palace:18622",
       "sourceId": "palace",
       "venueId": "palace-moore-park",
@@ -13524,26 +13044,6 @@
       "runtimeMins": 80
     },
     {
-      "id": "palace:18628",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-15T12:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18628",
-      "year": 2026,
-      "runtimeMins": 158
-    },
-    {
-      "id": "palace:18629",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "De Gaulle: Resistance",
-      "startsAt": "2026-09-15T14:50:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18629",
-      "year": 2026,
-      "runtimeMins": 158
-    },
-    {
       "id": "palace:18646",
       "sourceId": "palace",
       "venueId": "palace-moore-park",
@@ -13774,16 +13274,6 @@
       "runtimeMins": 97
     },
     {
-      "id": "palace:18632",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "The Rivals of Amziah King",
-      "startsAt": "2026-09-15T15:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18632",
-      "year": 2026,
-      "runtimeMins": 130
-    },
-    {
       "id": "palace:18642",
       "sourceId": "palace",
       "venueId": "palace-moore-park",
@@ -13892,26 +13382,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18765",
       "year": 2026,
       "runtimeMins": 130
-    },
-    {
-      "id": "palace:18625",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "Colours Of Time",
-      "startsAt": "2026-09-15T12:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18625",
-      "year": 2026,
-      "runtimeMins": 126
-    },
-    {
-      "id": "palace:18626",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "Colours Of Time",
-      "startsAt": "2026-09-15T14:50:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18626",
-      "year": 2026,
-      "runtimeMins": 126
     },
     {
       "id": "palace:18627",
@@ -16849,6 +16319,26 @@
       "runtimeMins": 117
     },
     {
+      "id": "palace:18771",
+      "sourceId": "palace",
+      "venueId": "palace-moore-park",
+      "title": "La Bola Negra",
+      "startsAt": "2026-10-15T15:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18771",
+      "year": 2026,
+      "runtimeMins": 155
+    },
+    {
+      "id": "palace:18772",
+      "sourceId": "palace",
+      "venueId": "palace-moore-park",
+      "title": "La Bola Negra",
+      "startsAt": "2026-10-15T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18772",
+      "year": 2026,
+      "runtimeMins": 155
+    },
+    {
       "id": "palace:17266",
       "sourceId": "palace",
       "venueId": "palace-moore-park",
@@ -17069,16 +16559,6 @@
       "runtimeMins": 180
     },
     {
-      "id": "palace:18630",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "NOR26 The Last Viking",
-      "startsAt": "2026-09-15T12:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18630",
-      "year": 2026,
-      "runtimeMins": 116
-    },
-    {
       "id": "palace:18644",
       "sourceId": "palace",
       "venueId": "palace-moore-park",
@@ -17127,7 +16607,7 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=17483",
       "format": "SPECIAL EVENT",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:17484",
@@ -17138,7 +16618,7 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=17484",
       "format": "SPECIAL EVENT",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:17485",
@@ -17149,7 +16629,7 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=17485",
       "format": "SPECIAL EVENT",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:17486",
@@ -17160,7 +16640,7 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=17486",
       "format": "SPECIAL EVENT",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "palace:17595",

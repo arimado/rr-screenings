@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T15:05:32.159Z",
+  "fetchedAt": "2026-09-14T23:13:02.551Z",
   "screenings": [
     {
       "id": "palace:357914",
@@ -152,12 +152,252 @@
       "runtimeMins": 130
     },
     {
+      "id": "palace:358181",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-17T13:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358181",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358196",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-17T15:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358196",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358188",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-17T17:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358188",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358009",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-18T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358009",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358008",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-18T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358008",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:357998",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-18T18:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357998",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:357999",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-18T20:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357999",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358047",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-19T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358047",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358048",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-19T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358048",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358053",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-19T20:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358053",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358080",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-20T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358080",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358079",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-20T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358079",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358074",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-20T18:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358074",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358109",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-21T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358109",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358110",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-21T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358110",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358100",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-21T18:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358100",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358099",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-21T20:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358099",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358131",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-22T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358131",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358130",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-22T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358130",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358120",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-22T18:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358120",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358121",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-22T20:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358121",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
       "id": "palace:357359",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
       "title": "Practical Magic 2",
       "startsAt": "2026-09-23T11:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357359",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358157",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-23T16:35:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358157",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358147",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-23T18:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358147",
+      "year": 2026,
+      "runtimeMins": 130
+    },
+    {
+      "id": "palace:358148",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Practical Magic 2",
+      "startsAt": "2026-09-23T20:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358148",
       "year": 2026,
       "runtimeMins": 130
     },
@@ -248,6 +488,226 @@
       "title": "Maigret and the Dead Lover",
       "startsAt": "2026-09-16T18:15:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357962",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358190",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-17T10:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358190",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358179",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-17T12:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358179",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358180",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-17T15:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358180",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358197",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-17T20:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358197",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358018",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-18T11:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358018",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358019",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-18T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358019",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358003",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-18T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358003",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358034",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-19T10:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358034",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358198",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-19T16:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358198",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358037",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-19T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358037",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358071",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-20T10:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358071",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358056",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-20T16:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358056",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358068",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-20T18:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358068",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358102",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-21T10:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358102",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358101",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-21T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358101",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358095",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-21T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358095",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358138",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-22T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358138",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358119",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-22T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358119",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358125",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-22T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358125",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358165",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-23T13:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358165",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358146",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-23T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358146",
+      "year": 2026,
+      "runtimeMins": 80
+    },
+    {
+      "id": "palace:358152",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Maigret and the Dead Lover",
+      "startsAt": "2026-09-23T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358152",
       "year": 2026,
       "runtimeMins": 80
     },
@@ -392,6 +852,156 @@
       "runtimeMins": 106
     },
     {
+      "id": "palace:358173",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-17T12:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358173",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358192",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-17T15:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358192",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358195",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-17T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358195",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358022",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-18T13:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358022",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358006",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-18T20:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358006",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358031",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-19T13:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358031",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358050",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-19T20:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358050",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358057",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-20T13:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358057",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358077",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-20T20:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358077",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358089",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-21T13:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358089",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358092",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-21T20:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358092",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358114",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-22T13:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358114",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358128",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-22T20:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358128",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358141",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-23T13:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358141",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
+      "id": "palace:358155",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Tony",
+      "startsAt": "2026-09-23T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358155",
+      "year": 2026,
+      "runtimeMins": 106
+    },
+    {
       "id": "palace:357920",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -508,6 +1118,146 @@
       "title": "The Odyssey",
       "startsAt": "2026-09-16T19:00:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357972",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358177",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-17T14:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358177",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358187",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-17T20:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358187",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358014",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-18T12:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358014",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358000",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-18T19:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358000",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358043",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-19T12:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358043",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358040",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-19T19:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358040",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358064",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-20T12:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358064",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358066",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-20T19:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358066",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358105",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-21T12:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358105",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358098",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-21T19:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358098",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358135",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-22T12:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358135",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358122",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-22T19:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358122",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358162",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-23T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358162",
+      "year": 2026,
+      "runtimeMins": 172
+    },
+    {
+      "id": "palace:358149",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Odyssey",
+      "startsAt": "2026-09-23T19:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358149",
       "year": 2026,
       "runtimeMins": 172
     },
@@ -652,6 +1402,146 @@
       "runtimeMins": 88
     },
     {
+      "id": "palace:358167",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-17T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358167",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358176",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-17T12:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358176",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358026",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-18T10:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358026",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358025",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-18T15:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358025",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358027",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-19T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358027",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358028",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-19T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358028",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358061",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-20T10:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358061",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358060",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-20T12:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358060",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358085",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-21T10:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358085",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358086",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-21T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358086",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358118",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-22T10:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358118",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358117",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-22T15:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358117",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358145",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-23T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358145",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
+      "id": "palace:358144",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Paw Patrol - The Dino Movie",
+      "startsAt": "2026-09-23T15:50:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358144",
+      "year": 2026,
+      "runtimeMins": 88
+    },
+    {
       "id": "palace:357924",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -692,12 +1582,202 @@
       "runtimeMins": 119
     },
     {
+      "id": "palace:358193",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "& Sons",
+      "startsAt": "2026-09-17T10:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358193",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358002",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "& Sons",
+      "startsAt": "2026-09-18T20:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358002",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358082",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "& Sons",
+      "startsAt": "2026-09-20T20:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358082",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358111",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "& Sons",
+      "startsAt": "2026-09-21T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358111",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358096",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "& Sons",
+      "startsAt": "2026-09-21T20:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358096",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358129",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "& Sons",
+      "startsAt": "2026-09-22T10:50:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358129",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358124",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "& Sons",
+      "startsAt": "2026-09-22T20:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358124",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358166",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "& Sons",
+      "startsAt": "2026-09-23T11:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358166",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358151",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "& Sons",
+      "startsAt": "2026-09-23T20:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358151",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
       "id": "palace:357938",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
       "title": "De Gaulle: Resistance",
       "startsAt": "2026-09-15T20:10:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357938",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358172",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-17T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358172",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358004",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-18T20:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358004",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358052",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-19T20:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358052",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358075",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-20T19:50:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358075",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358203",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-21T12:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358203",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358094",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-21T20:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358094",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358113",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-22T12:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358113",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358126",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-22T20:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358126",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358140",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-23T12:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358140",
+      "year": 2026,
+      "runtimeMins": 158
+    },
+    {
+      "id": "palace:358153",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "De Gaulle: Resistance",
+      "startsAt": "2026-09-23T20:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358153",
       "year": 2026,
       "runtimeMins": 158
     },
@@ -718,6 +1798,136 @@
       "title": "Palestine 36",
       "startsAt": "2026-09-16T18:15:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357974",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358194",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-17T12:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358194",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358017",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-18T15:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358017",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358001",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-18T17:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358001",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358035",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-19T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358035",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358039",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-19T17:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358039",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358070",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-20T15:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358070",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358067",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-20T17:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358067",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358103",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-21T15:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358103",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358097",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-21T17:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358097",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358137",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-22T15:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358137",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358123",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-22T17:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358123",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358164",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-23T15:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358164",
+      "year": 2026,
+      "runtimeMins": 119
+    },
+    {
+      "id": "palace:358150",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Palestine 36",
+      "startsAt": "2026-09-23T20:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358150",
       "year": 2026,
       "runtimeMins": 119
     },
@@ -771,6 +1981,216 @@
       "format": "SPECIAL EVENT",
       "year": 2026,
       "runtimeMins": 105
+    },
+    {
+      "id": "palace:358178",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-17T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358178",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358191",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-17T15:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358191",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358169",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-17T17:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358169",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358200",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-18T12:50:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358200",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358016",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-18T13:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358016",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358005",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-18T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358005",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358201",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-19T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358201",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358036",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-19T13:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358036",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358051",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-19T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358051",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358069",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-20T13:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358069",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358199",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-20T14:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358199",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358076",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-20T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358076",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358202",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-21T11:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358202",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358205",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-21T13:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358205",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358093",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-21T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358093",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358104",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-22T11:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358104",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358136",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-22T13:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358136",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358127",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-22T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358127",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358204",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-23T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358204",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358163",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-23T14:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358163",
+      "year": 2026,
+      "runtimeMins": 103
+    },
+    {
+      "id": "palace:358154",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Coyote vs. Acme",
+      "startsAt": "2026-09-23T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358154",
+      "year": 2026,
+      "runtimeMins": 103
     },
     {
       "id": "palace:357065",
@@ -835,6 +2255,276 @@
       "format": "SPECIAL EVENT",
       "year": 2027,
       "runtimeMins": 90
+    },
+    {
+      "id": "palace:358182",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-17T10:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358182",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358184",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-17T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358184",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358183",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-17T14:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358183",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358171",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-17T17:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358171",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358010",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-18T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358010",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358012",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-18T13:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358012",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358011",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-18T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358011",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358007",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-18T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358007",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358046",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-19T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358046",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358044",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-19T14:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358044",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358045",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-19T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358045",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358049",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-19T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358049",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358081",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-20T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358081",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358062",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-20T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358062",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358078",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-20T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358078",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358108",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-21T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358108",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358106",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-21T13:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358106",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358107",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-21T15:50:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358107",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358091",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-21T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358091",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358132",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-22T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358132",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358134",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-22T13:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358134",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358133",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-22T15:50:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358133",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358112",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-22T18:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358112",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358139",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-23T10:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358139",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358161",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-23T13:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358161",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358160",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-23T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358160",
+      "year": 2026,
+      "runtimeMins": 109
+    },
+    {
+      "id": "palace:358159",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Forgotten Island",
+      "startsAt": "2026-09-23T18:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358159",
+      "year": 2026,
+      "runtimeMins": 109
     },
     {
       "id": "palace:357436",
@@ -1254,6 +2944,28 @@
       "format": "SPECIAL EVENT",
       "year": 2026,
       "runtimeMins": 142
+    },
+    {
+      "id": "palace:358041",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-19T20:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358041",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:358065",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-20T20:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358065",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 101
     },
     {
       "id": "palace:357985",
@@ -4347,12 +6059,52 @@
       "runtimeMins": 140
     },
     {
+      "id": "palace:358175",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T10:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358175",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358174",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T14:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358174",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
       "id": "palace:357728",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
       "title": "Resident Evil",
       "startsAt": "2026-09-17T20:30:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357728",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358024",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358024",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358023",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358023",
       "year": 2026,
       "runtimeMins": 90
     },
@@ -4367,12 +6119,52 @@
       "runtimeMins": 90
     },
     {
+      "id": "palace:358029",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358029",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358030",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T16:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358030",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
       "id": "palace:357730",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
       "title": "Resident Evil",
       "startsAt": "2026-09-19T20:30:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357730",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358059",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358059",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358058",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358058",
       "year": 2026,
       "runtimeMins": 90
     },
@@ -4387,6 +6179,26 @@
       "runtimeMins": 90
     },
     {
+      "id": "palace:358087",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358087",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358088",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358088",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
       "id": "palace:357732",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -4397,12 +6209,52 @@
       "runtimeMins": 90
     },
     {
+      "id": "palace:358116",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358116",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358115",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358115",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
       "id": "palace:357733",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
       "title": "Resident Evil",
       "startsAt": "2026-09-22T20:30:00.000Z",
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357733",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358143",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358143",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358142",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358142",
       "year": 2026,
       "runtimeMins": 90
     },
@@ -4648,6 +6500,28 @@
       "runtimeMins": 350
     },
     {
+      "id": "palace:358054",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "startsAt": "2026-09-19T12:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358054",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 81
+    },
+    {
+      "id": "palace:358073",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "startsAt": "2026-09-20T12:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358073",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 81
+    },
+    {
       "id": "palace:355936",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -4792,6 +6666,28 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357742",
       "year": 2026,
       "runtimeMins": 107
+    },
+    {
+      "id": "palace:358055",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Last Whale Singer",
+      "startsAt": "2026-09-19T10:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358055",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 99
+    },
+    {
+      "id": "palace:358072",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Last Whale Singer",
+      "startsAt": "2026-09-20T10:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358072",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 99
     },
     {
       "id": "palace:357990",

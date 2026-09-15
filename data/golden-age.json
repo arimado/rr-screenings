@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T23:12:45.429Z",
+  "fetchedAt": "2026-09-15T07:51:55.251Z",
   "screenings": [
     {
       "id": "golden-age:a2c324b54fe94202862cec0589edea52",
@@ -35,7 +35,7 @@
       "venueId": "golden-age-surry-hills",
       "title": "Mysterious Skin",
       "startsAt": "2026-09-16T10:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Mysterious-Skin",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Mysterious-Skin/Wed-Sep-16-2026-20-00",
       "runtimeMins": 105
     },
     {
@@ -399,6 +399,15 @@
       "runtimeMins": 119
     },
     {
+      "id": "golden-age:35190842afe340e28c31d607265818e5",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "He Died With a Felafel in His Hand",
+      "startsAt": "2026-10-02T08:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/He-Died-With-a-Felafel-in-His-Hand",
+      "runtimeMins": 105
+    },
+    {
       "id": "golden-age:90e388b1e3c24e98a2dad603429b4c4c",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -516,15 +525,6 @@
       "runtimeMins": 79
     },
     {
-      "id": "golden-age:6311d671fecc4c36a65d638d83c7a8f9",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Four Adventures of Reinette and Mirabelle",
-      "startsAt": "2026-10-11T01:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Four-Adventures-of-Reinette-and-Mirabelle/Sun-Oct-11-2026-12-00",
-      "runtimeMins": 99
-    },
-    {
       "id": "golden-age:ffd356106e674c2f84d0ba0a5cb07a24",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -532,6 +532,15 @@
       "startsAt": "2026-10-11T02:00:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Dry-Leaf/Sun-Oct-11-2026-13-00",
       "runtimeMins": 186
+    },
+    {
+      "id": "golden-age:6311d671fecc4c36a65d638d83c7a8f9",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Four Adventures of Reinette and Mirabelle",
+      "startsAt": "2026-10-11T07:35:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Four-Adventures-of-Reinette-and-Mirabelle/Sun-Oct-11-2026-18-35",
+      "runtimeMins": 99
     },
     {
       "id": "golden-age:2059fbb74c0242c6a5ca7ee915596b6b",
@@ -550,6 +559,15 @@
       "startsAt": "2026-10-15T07:00:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Fiume-o-morte-",
       "runtimeMins": 113
+    },
+    {
+      "id": "golden-age:4a76c0c463ca431c9cac7d42bfcd5771",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Mysterious Skin",
+      "startsAt": "2026-10-17T09:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Mysterious-Skin/Sat-Oct-17-2026-20-00",
+      "runtimeMins": 105
     }
   ]
 }
