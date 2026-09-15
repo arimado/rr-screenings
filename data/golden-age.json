@@ -1,25 +1,6 @@
 {
-  "fetchedAt": "2026-09-15T13:40:08.879Z",
+  "fetchedAt": "2026-09-15T22:57:48.593Z",
   "screenings": [
-    {
-      "id": "golden-age:a2c324b54fe94202862cec0589edea52",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Diary of a Country Priest",
-      "startsAt": "2026-09-15T08:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Diary-of-a-Country-Priest/Tue-Sep-15-2026-18-00",
-      "format": "Crazy-Eyed Cult",
-      "runtimeMins": 115
-    },
-    {
-      "id": "golden-age:d57e08c3f4ea4ab0a43f1078f9076cc9",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Eraserhead",
-      "startsAt": "2026-09-15T10:25:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Eraserhead/Tue-Sep-15-2026-20-25",
-      "runtimeMins": 89
-    },
     {
       "id": "golden-age:797ce8e34dbb4748b90f26a88b349b02",
       "sourceId": "golden-age",

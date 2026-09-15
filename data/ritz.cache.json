@@ -1,5 +1,5 @@
 {
-  "cursor": 59,
+  "cursor": 9,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -581,7 +581,9 @@
     "35mm-ringu-1998": [
       "ritz:76724"
     ],
-    "35mm-pans-labyrinth-2006": [],
+    "35mm-pans-labyrinth-2006": [
+      "ritz:76728"
+    ],
     "35mm-synecdoche-new-york-2008": [
       "ritz:77466"
     ],
@@ -818,7 +820,29 @@
     ],
     "wicker": [],
     "wild-horse-nine": [],
-    "wildwood": [],
+    "wildwood": [
+      "ritz:91056",
+      "ritz:91057",
+      "ritz:91058",
+      "ritz:91059",
+      "ritz:91060",
+      "ritz:91061",
+      "ritz:91071",
+      "ritz:91072",
+      "ritz:91073",
+      "ritz:91074",
+      "ritz:91075",
+      "ritz:91076",
+      "ritz:91062",
+      "ritz:91063",
+      "ritz:91064",
+      "ritz:91065",
+      "ritz:91066",
+      "ritz:91067",
+      "ritz:91068",
+      "ritz:91069",
+      "ritz:91070"
+    ],
     "zac-power": [],
     "bob-carol-ted-alice-1969": [
       "ritz:81880"
@@ -1215,7 +1239,9 @@
     "the-incomer": [],
     "yellow-letters": [],
     "500-miles": [],
-    "bitter-christmas": [],
+    "bitter-christmas": [
+      "ritz:91629"
+    ],
     "cocomelon-the-movie": [],
     "elsinore": [],
     "house-1977": [
@@ -1267,10 +1293,6 @@
       "ritz:89339",
       "ritz:89344"
     ],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "jiff-the-sea": [
       "ritz:89156",
       "ritz:89173",
@@ -1300,6 +1322,13 @@
     ],
     "perfect-blue-1997": [],
     "savage-house": [],
-    "tangles": []
+    "tangles": [],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ],
+    "the-rocky-horror-picture-show-1975": [
+      "ritz:90698"
+    ]
   }
 }

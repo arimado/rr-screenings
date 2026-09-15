@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T13:40:16.450Z",
+  "fetchedAt": "2026-09-15T22:57:56.564Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -837,7 +837,6 @@
       "title": "National Theatre - The Misanthrope Preview Event",
       "startsAt": "2026-09-16T08:30:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23388/tickets",
-      "year": 2026,
       "runtimeMins": 105
     },
     {
