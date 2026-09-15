@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T23:12:58.857Z",
+  "fetchedAt": "2026-09-15T07:52:07.904Z",
   "screenings": [
     {
       "id": "agnsw:019fb64b-7d6a-9afd-6364-06e1bf15c6fa:2026-09-16T04:00:00.000Z",
@@ -355,6 +355,26 @@
       "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/01a08ee5-7dac-85ce-e55e-ea272a606431",
       "year": 1993,
       "runtimeMins": 96
+    },
+    {
+      "id": "agnsw:01a08f0c-3a2a-9f4e-0fc8-1970e0f0adaf:2026-11-04T00:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "The rescuers down under",
+      "startsAt": "2026-11-04T00:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/01a08f0c-3a2a-9f4e-0fc8-1970e0f0adaf",
+      "year": 1990,
+      "runtimeMins": 77
+    },
+    {
+      "id": "agnsw:01a08f11-0d2a-343d-4850-781a91e242ba:2026-11-18T00:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Porco Rosso",
+      "startsAt": "2026-11-18T00:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/01a08f11-0d2a-343d-4850-781a91e242ba",
+      "year": 1992,
+      "runtimeMins": 94
     },
     {
       "id": "agnsw:01a08f16-f73d-3b62-d2af-1c3c0c725627:2026-12-02T00:00:00.000Z",

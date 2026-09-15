@@ -1,5 +1,5 @@
 {
-  "cursor": 34,
+  "cursor": 59,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -126,9 +126,6 @@
       "ritz:91527",
       "ritz:91528",
       "ritz:91529"
-    ],
-    "frances-ha-2012": [
-      "ritz:80991"
     ],
     "funeral-parade-of-roses-1969": [
       "ritz:86028",
@@ -291,8 +288,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:90865",
-      "ritz:90868",
       "ritz:90940",
       "ritz:90904",
       "ritz:90905",
@@ -329,8 +324,6 @@
       "ritz:91354"
     ],
     "tony": [
-      "ritz:90867",
-      "ritz:90872",
       "ritz:90992",
       "ritz:90914",
       "ritz:90911",
@@ -360,8 +353,6 @@
       "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:89942",
-      "ritz:90876",
       "ritz:89944",
       "ritz:89943",
       "ritz:90915",
@@ -386,7 +377,6 @@
       "ritz:91534"
     ],
     "de-gaulle-resistance": [
-      "ritz:90869",
       "ritz:90913",
       "ritz:90917",
       "ritz:90923",
@@ -412,7 +402,6 @@
       "ritz:91356"
     ],
     "spider-man-brand-new-day": [
-      "ritz:90871",
       "ritz:90926",
       "ritz:90925",
       "ritz:90909",
@@ -437,7 +426,6 @@
       "ritz:91541"
     ],
     "the-invite": [
-      "ritz:90873",
       "ritz:90921",
       "ritz:90927",
       "ritz:91458",
@@ -459,7 +447,6 @@
       "ritz:91554"
     ],
     "hope": [
-      "ritz:89968",
       "ritz:89970",
       "ritz:89971",
       "ritz:91278",
@@ -478,7 +465,6 @@
       "ritz:91530"
     ],
     "the-end-of-oak-street": [
-      "ritz:90997",
       "ritz:90922",
       "ritz:90990",
       "ritz:91249",
@@ -488,7 +474,6 @@
       "ritz:91550"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:90866",
       "ritz:90918",
       "ritz:90920",
       "ritz:91279",
@@ -498,7 +483,6 @@
       "ritz:91553"
     ],
     "it-ends": [
-      "ritz:90996",
       "ritz:90994"
     ],
     "and-sons": [
@@ -537,7 +521,6 @@
       "ritz:91537"
     ],
     "70mm-the-odyssey": [
-      "ritz:90864",
       "ritz:91404",
       "ritz:91170",
       "ritz:91319"
@@ -688,7 +671,9 @@
     "i-love-boosters": [],
     "ice-age-boiling-point": [],
     "jumanji-open-world": [],
-    "ken-russells-the-devils-1971": [],
+    "ken-russells-the-devils-1971": [
+      "ritz:90672"
+    ],
     "la-bola-negra": [
       "ritz:90327"
     ],
@@ -703,7 +688,14 @@
     "love-actually-2003": [
       "ritz:81000"
     ],
-    "lomu": [],
+    "lomu": [
+      "ritz:91083",
+      "ritz:91087",
+      "ritz:91084",
+      "ritz:91085",
+      "ritz:91088",
+      "ritz:91086"
+    ],
     "maserati-the-brothers": [],
     "mary-poppins-1964": [
       "ritz:77144",
@@ -1224,10 +1216,6 @@
     "yellow-letters": [],
     "500-miles": [],
     "bitter-christmas": [],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "cocomelon-the-movie": [],
     "elsinore": [],
     "house-1977": [
@@ -1278,6 +1266,40 @@
       "ritz:89294",
       "ritz:89339",
       "ritz:89344"
-    ]
+    ],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ],
+    "jiff-the-sea": [
+      "ritz:89156",
+      "ritz:89173",
+      "ritz:89209",
+      "ritz:89231",
+      "ritz:89276",
+      "ritz:89298",
+      "ritz:89330",
+      "ritz:89345"
+    ],
+    "jiff-the-soundman": [
+      "ritz:89095",
+      "ritz:89100",
+      "ritz:89107",
+      "ritz:89184",
+      "ritz:89228",
+      "ritz:89265",
+      "ritz:89323",
+      "ritz:89361"
+    ],
+    "jiff-the-tin-drum-1979": [
+      "ritz:89288"
+    ],
+    "jiff-the-twelve-chairs-1970": [
+      "ritz:89148",
+      "ritz:89164"
+    ],
+    "perfect-blue-1997": [],
+    "savage-house": [],
+    "tangles": []
   }
 }

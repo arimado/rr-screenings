@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T23:12:53.294Z",
+  "fetchedAt": "2026-09-15T07:52:04.056Z",
   "screenings": [
     {
       "id": "dendy:951959",
@@ -462,14 +462,14 @@
       "runtimeMins": 120
     },
     {
-      "id": "dendy:953229",
+      "id": "dendy:961326",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
-      "title": "The Invite",
+      "title": "It Ends",
       "startsAt": "2026-09-15T11:00:00Z",
-      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-invite/953229",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/it-ends/961326",
       "format": "$13 Ticket",
-      "runtimeMins": 107
+      "runtimeMins": 89
     },
     {
       "id": "dendy:951987",
@@ -2651,7 +2651,7 @@
       "startsAt": "2026-09-20T03:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/nt-live-the-misanthrope/903839",
       "format": "DENDY ARTS, PREVIEW",
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "dendy:909292",
@@ -4842,7 +4842,7 @@
       "startsAt": "2026-10-03T03:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/nt-live-the-misanthrope/904359",
       "format": "DENDY ARTS",
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "dendy:909117",
@@ -4888,7 +4888,7 @@
       "startsAt": "2026-10-04T02:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/nt-live-the-misanthrope/904360",
       "format": "DENDY ARTS",
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "dendy:909296",

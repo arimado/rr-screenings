@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T23:12:53.890Z",
+  "fetchedAt": "2026-09-15T07:52:04.653Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -341,36 +341,6 @@
       "runtimeMins": 173
     },
     {
-      "id": "orpheum:0001-25451",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 70mm Film",
-      "startsAt": "2026-09-21T09:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25451/tickets",
-      "format": "70mm",
-      "runtimeMins": 173
-    },
-    {
-      "id": "orpheum:0001-25474",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 70mm Film",
-      "startsAt": "2026-09-22T09:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25474/tickets",
-      "format": "70mm",
-      "runtimeMins": 173
-    },
-    {
-      "id": "orpheum:0001-25497",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 70mm Film",
-      "startsAt": "2026-09-23T09:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25497/tickets",
-      "format": "70mm",
-      "runtimeMins": 173
-    },
-    {
       "id": "orpheum:0001-25183",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -438,24 +408,6 @@
       "startsAt": "2026-09-15T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25320/tickets",
       "runtimeMins": 145
-    },
-    {
-      "id": "orpheum:0001-25310",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-15T05:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25310/tickets",
-      "runtimeMins": 104
-    },
-    {
-      "id": "orpheum:0001-25313",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-15T07:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25313/tickets",
-      "runtimeMins": 104
     },
     {
       "id": "orpheum:0001-25318",
@@ -619,33 +571,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-21528/tickets",
       "year": 2026,
       "runtimeMins": 180
-    },
-    {
-      "id": "orpheum:0001-25300",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T02:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25300/tickets",
-      "runtimeMins": 130
-    },
-    {
-      "id": "orpheum:0001-25306",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T04:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25306/tickets",
-      "runtimeMins": 130
-    },
-    {
-      "id": "orpheum:0001-25312",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-15T07:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25312/tickets",
-      "runtimeMins": 130
     },
     {
       "id": "orpheum:0001-25319",
@@ -900,7 +825,7 @@
       "startsAt": "2026-10-01T08:30:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23386/tickets",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "orpheum:0001-23384",
@@ -910,7 +835,7 @@
       "startsAt": "2026-10-03T03:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23384/tickets",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "orpheum:0001-23385",
@@ -920,7 +845,7 @@
       "startsAt": "2026-10-04T02:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23385/tickets",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "orpheum:0001-23387",
@@ -930,7 +855,7 @@
       "startsAt": "2026-10-05T02:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23387/tickets",
       "year": 2026,
-      "runtimeMins": 150
+      "runtimeMins": 105
     },
     {
       "id": "orpheum:0001-23388",
@@ -940,37 +865,7 @@
       "startsAt": "2026-09-16T08:30:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23388/tickets",
       "year": 2026,
-      "runtimeMins": 150
-    },
-    {
-      "id": "orpheum:0001-25304",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T03:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25304/tickets",
-      "format": "Sub",
-      "runtimeMins": 80
-    },
-    {
-      "id": "orpheum:0001-25309",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T05:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25309/tickets",
-      "format": "Sub",
-      "runtimeMins": 80
-    },
-    {
-      "id": "orpheum:0001-25311",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-15T07:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25311/tickets",
-      "format": "Sub",
-      "runtimeMins": 80
+      "runtimeMins": 105
     },
     {
       "id": "orpheum:0001-25326",
@@ -1193,15 +1088,6 @@
       "runtimeMins": 90
     },
     {
-      "id": "orpheum:0001-25308",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Tony",
-      "startsAt": "2026-09-15T05:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25308/tickets",
-      "runtimeMins": 107
-    },
-    {
       "id": "orpheum:0001-25315",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1343,6 +1229,66 @@
       "title": "Tony",
       "startsAt": "2026-09-23T07:50:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25493/tickets",
+      "runtimeMins": 107
+    },
+    {
+      "id": "orpheum:0001-25507",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "The Great Arch",
+      "startsAt": "2026-09-25T05:30:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25507/tickets",
+      "year": 2026,
+      "runtimeMins": 107
+    },
+    {
+      "id": "orpheum:0001-25504",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "The Great Arch",
+      "startsAt": "2026-09-25T07:40:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25504/tickets",
+      "year": 2026,
+      "runtimeMins": 107
+    },
+    {
+      "id": "orpheum:0001-25508",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "The Great Arch",
+      "startsAt": "2026-09-26T02:50:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25508/tickets",
+      "year": 2026,
+      "runtimeMins": 107
+    },
+    {
+      "id": "orpheum:0001-25505",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "The Great Arch",
+      "startsAt": "2026-09-26T07:00:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25505/tickets",
+      "year": 2026,
+      "runtimeMins": 107
+    },
+    {
+      "id": "orpheum:0001-25509",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "The Great Arch",
+      "startsAt": "2026-09-27T02:50:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25509/tickets",
+      "year": 2026,
+      "runtimeMins": 107
+    },
+    {
+      "id": "orpheum:0001-25506",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "The Great Arch",
+      "startsAt": "2026-09-27T07:00:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25506/tickets",
+      "year": 2026,
       "runtimeMins": 107
     },
     {
@@ -1497,15 +1443,6 @@
       "runtimeMins": 136
     },
     {
-      "id": "orpheum:0001-25299",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "& Sons",
-      "startsAt": "2026-09-15T02:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25299/tickets",
-      "runtimeMins": 120
-    },
-    {
       "id": "orpheum:0001-25321",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1558,24 +1495,6 @@
       "startsAt": "2026-09-23T05:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25489/tickets",
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25301",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 4K Digital",
-      "startsAt": "2026-09-15T02:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25301/tickets",
-      "runtimeMins": 173
-    },
-    {
-      "id": "orpheum:0001-25307",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 4K Digital",
-      "startsAt": "2026-09-15T05:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25307/tickets",
-      "runtimeMins": 173
     },
     {
       "id": "orpheum:0001-25316",
@@ -1641,6 +1560,15 @@
       "runtimeMins": 173
     },
     {
+      "id": "orpheum:0001-25511",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "The Odyssey - in 4K Digital",
+      "startsAt": "2026-09-21T09:00:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25511/tickets",
+      "runtimeMins": 173
+    },
+    {
       "id": "orpheum:0001-25466",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1650,12 +1578,30 @@
       "runtimeMins": 173
     },
     {
+      "id": "orpheum:0001-25512",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "The Odyssey - in 4K Digital",
+      "startsAt": "2026-09-22T09:00:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25512/tickets",
+      "runtimeMins": 173
+    },
+    {
       "id": "orpheum:0001-25490",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
       "title": "The Odyssey - in 4K Digital",
       "startsAt": "2026-09-23T05:30:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25490/tickets",
+      "runtimeMins": 173
+    },
+    {
+      "id": "orpheum:0001-25513",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "The Odyssey - in 4K Digital",
+      "startsAt": "2026-09-23T09:00:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25513/tickets",
       "runtimeMins": 173
     },
     {
@@ -1687,15 +1633,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24007/tickets",
       "year": 2026,
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25303",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Silenced",
-      "startsAt": "2026-09-15T03:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25303/tickets",
-      "runtimeMins": 98
     },
     {
       "id": "orpheum:0001-25325",
@@ -2191,26 +2128,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24697/tickets",
       "year": 2026,
       "runtimeMins": 108
-    },
-    {
-      "id": "orpheum:0001-25302",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "De Gaulle - Resistance",
-      "startsAt": "2026-09-15T02:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25302/tickets",
-      "format": "Sub",
-      "runtimeMins": 159
-    },
-    {
-      "id": "orpheum:0001-25305",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "De Gaulle - Resistance",
-      "startsAt": "2026-09-15T04:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25305/tickets",
-      "format": "Sub",
-      "runtimeMins": 159
     },
     {
       "id": "orpheum:0001-25314",
@@ -2831,16 +2748,6 @@
       "runtimeMins": 120
     },
     {
-      "id": "orpheum:0001-25191",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Bell Shakespeare's The Wonderful World of Will",
-      "startsAt": "2026-09-30T00:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25191/tickets",
-      "year": 2026,
-      "runtimeMins": 70
-    },
-    {
       "id": "orpheum:0001-25193",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -3179,6 +3086,16 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25342/tickets",
       "year": 2026,
       "runtimeMins": 75
+    },
+    {
+      "id": "orpheum:0001-25510",
+      "sourceId": "orpheum",
+      "venueId": "orpheum-cremorne",
+      "title": "Highlander - Christopher Lambert Live Q&A",
+      "startsAt": "2026-11-05T08:00:00.000Z",
+      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25510/tickets",
+      "year": 2026,
+      "runtimeMins": 116
     },
     {
       "id": "orpheum:0001-25343",
