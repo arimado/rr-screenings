@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T07:46:23.660Z",
+  "fetchedAt": "2026-09-16T13:35:06.383Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -401,15 +401,6 @@
       "runtimeMins": 173
     },
     {
-      "id": "orpheum:0001-25339",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-16T10:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25339/tickets",
-      "runtimeMins": 104
-    },
-    {
       "id": "orpheum:0001-25359",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -544,15 +535,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-21528/tickets",
       "year": 2026,
       "runtimeMins": 180
-    },
-    {
-      "id": "orpheum:0001-25340",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-16T10:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25340/tickets",
-      "runtimeMins": 130
     },
     {
       "id": "orpheum:0001-25365",
@@ -795,15 +777,6 @@
       "runtimeMins": 105
     },
     {
-      "id": "orpheum:0001-23388",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "National Theatre - The Misanthrope Preview Event",
-      "startsAt": "2026-09-16T08:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23388/tickets",
-      "runtimeMins": 105
-    },
-    {
       "id": "orpheum:0001-25358",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -994,15 +967,6 @@
       "runtimeMins": 90
     },
     {
-      "id": "orpheum:0001-25337",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Tony",
-      "startsAt": "2026-09-16T08:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25337/tickets",
-      "runtimeMins": 107
-    },
-    {
       "id": "orpheum:0001-25356",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1190,15 +1154,6 @@
       "runtimeMins": 120
     },
     {
-      "id": "orpheum:0001-25338",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Oasis - Don't Look Back In Anger Limited Shows",
-      "startsAt": "2026-09-16T09:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25338/tickets",
-      "runtimeMins": 123
-    },
-    {
       "id": "orpheum:0001-25355",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1365,15 +1320,6 @@
       "startsAt": "2026-09-23T05:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25489/tickets",
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25341",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 4K Digital",
-      "startsAt": "2026-09-16T08:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25341/tickets",
-      "runtimeMins": 173
     },
     {
       "id": "orpheum:0001-25357",
@@ -1962,16 +1908,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24697/tickets",
       "year": 2026,
       "runtimeMins": 108
-    },
-    {
-      "id": "orpheum:0001-25336",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "De Gaulle - Resistance",
-      "startsAt": "2026-09-16T07:50:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25336/tickets",
-      "format": "Sub",
-      "runtimeMins": 159
     },
     {
       "id": "orpheum:0001-25364",

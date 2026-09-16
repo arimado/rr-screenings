@@ -1,24 +1,6 @@
 {
-  "fetchedAt": "2026-09-16T13:34:58.344Z",
+  "fetchedAt": "2026-09-16T23:01:57.909Z",
   "screenings": [
-    {
-      "id": "golden-age:797ce8e34dbb4748b90f26a88b349b02",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "I Want Your Sex",
-      "startsAt": "2026-09-16T08:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/I-Want-Your-Sex/Wed-Sep-16-2026-18-00",
-      "runtimeMins": 90
-    },
-    {
-      "id": "golden-age:294e8bdd3471487ca6129b9a6cd6e69e",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Mysterious Skin",
-      "startsAt": "2026-09-16T10:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Mysterious-Skin/Wed-Sep-16-2026-20-00",
-      "runtimeMins": 105
-    },
     {
       "id": "golden-age:88c50135a9ff42a8b74f5488f5a367cd",
       "sourceId": "golden-age",

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T13:35:12.564Z",
+  "fetchedAt": "2026-09-16T23:02:15.210Z",
   "screenings": [
     {
       "id": "palace:357355",
@@ -1232,17 +1232,6 @@
       "runtimeMins": 119
     },
     {
-      "id": "palace:357991",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "BFF26 Wicker",
-      "startsAt": "2026-10-23T18:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357991",
-      "format": "SPECIAL EVENT",
-      "year": 2026,
-      "runtimeMins": 105
-    },
-    {
       "id": "palace:358178",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -1472,48 +1461,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357066",
       "format": "SPECIAL EVENT",
       "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:357069",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "EXHIBITION ON SCREEN: Monet",
-      "startsAt": "2027-05-14T11:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357069",
-      "format": "SPECIAL EVENT",
-      "year": 2027
-    },
-    {
-      "id": "palace:357070",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "EXHIBITION ON SCREEN: Monet",
-      "startsAt": "2027-05-16T11:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357070",
-      "format": "SPECIAL EVENT",
-      "year": 2027
-    },
-    {
-      "id": "palace:357067",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "EXHIBITION ON SCREEN: Renoir & Love",
-      "startsAt": "2027-01-22T11:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357067",
-      "format": "SPECIAL EVENT",
-      "year": 2027,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:357068",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "EXHIBITION ON SCREEN: Renoir & Love",
-      "startsAt": "2027-01-23T11:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357068",
-      "format": "SPECIAL EVENT",
-      "year": 2027,
       "runtimeMins": 90
     },
     {
@@ -1775,6 +1722,345 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358159",
       "year": 2026,
       "runtimeMins": 109
+    },
+    {
+      "id": "palace:358175",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T10:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358175",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358174",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T14:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358174",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:357728",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357728",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358024",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358024",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358023",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358023",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:357729",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357729",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358029",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358029",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358030",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T16:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358030",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:357730",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357730",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358059",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358059",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358058",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358058",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:357731",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357731",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358087",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358087",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358088",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358088",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:357732",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357732",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358116",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358116",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358115",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358115",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:357733",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357733",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358143",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T10:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358143",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358142",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T16:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358142",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:357734",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T20:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357734",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:358054",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "startsAt": "2026-09-19T12:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358054",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 81
+    },
+    {
+      "id": "palace:358073",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "startsAt": "2026-09-20T12:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358073",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 81
+    },
+    {
+      "id": "palace:358041",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-19T20:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358041",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:358065",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-20T20:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358065",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:357985",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-23T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357985",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:358055",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Last Whale Singer",
+      "startsAt": "2026-09-19T10:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358055",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 99
+    },
+    {
+      "id": "palace:358072",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "The Last Whale Singer",
+      "startsAt": "2026-09-20T10:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358072",
+      "format": "Sneak",
+      "year": 2026,
+      "runtimeMins": 99
+    },
+    {
+      "id": "palace:357991",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "BFF26 Wicker",
+      "startsAt": "2026-10-23T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357991",
+      "format": "SPECIAL EVENT",
+      "year": 2026,
+      "runtimeMins": 105
+    },
+    {
+      "id": "palace:357069",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "EXHIBITION ON SCREEN: Monet",
+      "startsAt": "2027-05-14T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357069",
+      "format": "SPECIAL EVENT",
+      "year": 2027
+    },
+    {
+      "id": "palace:357070",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "EXHIBITION ON SCREEN: Monet",
+      "startsAt": "2027-05-16T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357070",
+      "format": "SPECIAL EVENT",
+      "year": 2027
+    },
+    {
+      "id": "palace:357067",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "EXHIBITION ON SCREEN: Renoir & Love",
+      "startsAt": "2027-01-22T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357067",
+      "format": "SPECIAL EVENT",
+      "year": 2027,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:357068",
+      "sourceId": "palace",
+      "venueId": "palace-norton-street",
+      "title": "EXHIBITION ON SCREEN: Renoir & Love",
+      "startsAt": "2027-01-23T11:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357068",
+      "format": "SPECIAL EVENT",
+      "year": 2027,
+      "runtimeMins": 90
     },
     {
       "id": "palace:357436",
@@ -2194,38 +2480,6 @@
       "format": "SPECIAL EVENT",
       "year": 2026,
       "runtimeMins": 142
-    },
-    {
-      "id": "palace:358041",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Heart of the Beast",
-      "startsAt": "2026-09-19T20:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358041",
-      "format": "Sneak",
-      "year": 2026,
-      "runtimeMins": 101
-    },
-    {
-      "id": "palace:358065",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Heart of the Beast",
-      "startsAt": "2026-09-20T20:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358065",
-      "format": "Sneak",
-      "year": 2026,
-      "runtimeMins": 101
-    },
-    {
-      "id": "palace:357985",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Heart of the Beast",
-      "startsAt": "2026-09-23T18:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357985",
-      "year": 2026,
-      "runtimeMins": 101
     },
     {
       "id": "palace:356495",
@@ -5349,216 +5603,6 @@
       "runtimeMins": 140
     },
     {
-      "id": "palace:358175",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T10:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358175",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358174",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T14:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358174",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:357728",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357728",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358024",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358024",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358023",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T16:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358023",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:357729",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357729",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358029",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358029",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358030",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T16:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358030",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:357730",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357730",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358059",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-20T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358059",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358058",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-20T16:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358058",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:357731",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-20T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357731",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358087",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-21T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358087",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358088",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-21T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358088",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:357732",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-21T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357732",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358116",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-22T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358116",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358115",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-22T16:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358115",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:357733",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-22T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357733",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358143",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-23T10:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358143",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:358142",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-23T16:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358142",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:357734",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-23T20:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357734",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
       "id": "palace:354552",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -5790,28 +5834,6 @@
       "runtimeMins": 350
     },
     {
-      "id": "palace:358054",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-      "startsAt": "2026-09-19T12:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358054",
-      "format": "Sneak",
-      "year": 2026,
-      "runtimeMins": 81
-    },
-    {
-      "id": "palace:358073",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-      "startsAt": "2026-09-20T12:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358073",
-      "format": "Sneak",
-      "year": 2026,
-      "runtimeMins": 81
-    },
-    {
       "id": "palace:355936",
       "sourceId": "palace",
       "venueId": "palace-norton-street",
@@ -5956,28 +5978,6 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=357742",
       "year": 2026,
       "runtimeMins": 107
-    },
-    {
-      "id": "palace:358055",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "The Last Whale Singer",
-      "startsAt": "2026-09-19T10:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358055",
-      "format": "Sneak",
-      "year": 2026,
-      "runtimeMins": 99
-    },
-    {
-      "id": "palace:358072",
-      "sourceId": "palace",
-      "venueId": "palace-norton-street",
-      "title": "The Last Whale Singer",
-      "startsAt": "2026-09-20T10:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=129&session=358072",
-      "format": "Sneak",
-      "year": 2026,
-      "runtimeMins": 99
     },
     {
       "id": "palace:357990",
@@ -7771,80 +7771,6 @@
       "runtimeMins": 118
     },
     {
-      "id": "palace:177535",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "ALWAYS LALISA",
-      "startsAt": "2026-10-12T20:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177535",
-      "format": "SPECIAL EVENT",
-      "year": 2026,
-      "runtimeMins": 100
-    },
-    {
-      "id": "palace:177536",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "ALWAYS LALISA",
-      "startsAt": "2026-10-14T20:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177536",
-      "format": "SPECIAL EVENT",
-      "year": 2026,
-      "runtimeMins": 100
-    },
-    {
-      "id": "palace:177537",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "ALWAYS LALISA",
-      "startsAt": "2026-10-17T20:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177537",
-      "format": "SPECIAL EVENT",
-      "year": 2026,
-      "runtimeMins": 100
-    },
-    {
-      "id": "palace:177560",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Avengers: Endgame Encore",
-      "startsAt": "2026-09-26T15:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177560",
-      "year": 2026,
-      "runtimeMins": 185
-    },
-    {
-      "id": "palace:177561",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Avengers: Endgame Encore",
-      "startsAt": "2026-09-27T15:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177561",
-      "year": 2026,
-      "runtimeMins": 185
-    },
-    {
-      "id": "palace:177559",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "BFF26 Wicker",
-      "startsAt": "2026-10-23T18:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177559",
-      "format": "SPECIAL EVENT",
-      "year": 2026,
-      "runtimeMins": 105
-    },
-    {
-      "id": "palace:177862",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Coraline + Kubo and the Two Strings Double Feature",
-      "startsAt": "2026-09-27T13:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177862",
-      "year": 2026,
-      "runtimeMins": 216
-    },
-    {
       "id": "palace:177741",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -8125,39 +8051,6 @@
       "runtimeMins": 103
     },
     {
-      "id": "palace:176208",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Fallen Angels",
-      "startsAt": "2026-10-22T18:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=176208",
-      "format": "SPECIAL EVENT",
-      "year": 2026,
-      "runtimeMins": 110
-    },
-    {
-      "id": "palace:176209",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Fallen Angels",
-      "startsAt": "2026-10-24T13:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=176209",
-      "format": "SPECIAL EVENT",
-      "year": 2026,
-      "runtimeMins": 110
-    },
-    {
-      "id": "palace:176210",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Fallen Angels",
-      "startsAt": "2026-10-25T13:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=176210",
-      "format": "SPECIAL EVENT",
-      "year": 2026,
-      "runtimeMins": 110
-    },
-    {
       "id": "palace:177755",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -8428,6 +8321,653 @@
       "runtimeMins": 109
     },
     {
+      "id": "palace:177754",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T12:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177754",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177751",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T14:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177751",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177761",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177761",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177758",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T18:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177758",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177216",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-17T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177216",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177714",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T12:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177714",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177711",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T14:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177711",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177721",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177721",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177718",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T18:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177718",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177217",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-18T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177217",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177820",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T11:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177820",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177830",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T14:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177830",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177839",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177839",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177849",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T18:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177849",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177218",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-19T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177218",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177784",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T12:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177784",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177795",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T14:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177795",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177804",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177804",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177814",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T18:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177814",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177219",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-20T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177219",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177674",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T12:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177674",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177671",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T14:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177671",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177681",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177681",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177678",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T18:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177678",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177220",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-21T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177220",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177589",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T12:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177589",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177588",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T14:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177588",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177587",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177587",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177586",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T18:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177586",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177221",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-22T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177221",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177637",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T12:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177637",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177634",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T14:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177634",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177631",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T16:15:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177631",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177639",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T18:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177639",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177222",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Resident Evil",
+      "startsAt": "2026-09-23T20:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177222",
+      "year": 2026,
+      "runtimeMins": 90
+    },
+    {
+      "id": "palace:177763",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-17T15:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177763",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177764",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-17T20:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177764",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177723",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-18T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177723",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177724",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-18T20:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177724",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177841",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-19T15:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177841",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177819",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-19T20:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177819",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177807",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-20T15:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177807",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177808",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-20T20:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177808",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177683",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-21T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177683",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177684",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-21T20:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177684",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177602",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-22T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177602",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177601",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-22T20:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177601",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177644",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-23T15:45:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177644",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177645",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "The Weight",
+      "startsAt": "2026-09-23T20:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177645",
+      "year": 2026,
+      "runtimeMins": 113
+    },
+    {
+      "id": "palace:177855",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-19T13:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177855",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:177856",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-19T20:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177856",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:177854",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-20T13:40:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177854",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:177853",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-20T20:20:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177853",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:177538",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Heart of the Beast",
+      "startsAt": "2026-09-23T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177538",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:177535",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "ALWAYS LALISA",
+      "startsAt": "2026-10-12T20:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177535",
+      "format": "SPECIAL EVENT",
+      "year": 2026,
+      "runtimeMins": 100
+    },
+    {
+      "id": "palace:177536",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "ALWAYS LALISA",
+      "startsAt": "2026-10-14T20:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177536",
+      "format": "SPECIAL EVENT",
+      "year": 2026,
+      "runtimeMins": 100
+    },
+    {
+      "id": "palace:177537",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "ALWAYS LALISA",
+      "startsAt": "2026-10-17T20:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177537",
+      "format": "SPECIAL EVENT",
+      "year": 2026,
+      "runtimeMins": 100
+    },
+    {
+      "id": "palace:177560",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-26T15:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177560",
+      "year": 2026,
+      "runtimeMins": 185
+    },
+    {
+      "id": "palace:177561",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Avengers: Endgame Encore",
+      "startsAt": "2026-09-27T15:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177561",
+      "year": 2026,
+      "runtimeMins": 185
+    },
+    {
+      "id": "palace:177559",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "BFF26 Wicker",
+      "startsAt": "2026-10-23T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177559",
+      "format": "SPECIAL EVENT",
+      "year": 2026,
+      "runtimeMins": 105
+    },
+    {
+      "id": "palace:177862",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Coraline + Kubo and the Two Strings Double Feature",
+      "startsAt": "2026-09-27T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177862",
+      "year": 2026,
+      "runtimeMins": 216
+    },
+    {
+      "id": "palace:176208",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Fallen Angels",
+      "startsAt": "2026-10-22T18:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=176208",
+      "format": "SPECIAL EVENT",
+      "year": 2026,
+      "runtimeMins": 110
+    },
+    {
+      "id": "palace:176209",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Fallen Angels",
+      "startsAt": "2026-10-24T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=176209",
+      "format": "SPECIAL EVENT",
+      "year": 2026,
+      "runtimeMins": 110
+    },
+    {
+      "id": "palace:176210",
+      "sourceId": "palace",
+      "venueId": "palace-central-chippendale",
+      "title": "Fallen Angels",
+      "startsAt": "2026-10-25T13:00:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=176210",
+      "format": "SPECIAL EVENT",
+      "year": 2026,
+      "runtimeMins": 110
+    },
+    {
       "id": "palace:175793",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -8525,56 +9065,6 @@
       "format": "SPECIAL EVENT",
       "year": 2026,
       "runtimeMins": 142
-    },
-    {
-      "id": "palace:177855",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Heart of the Beast",
-      "startsAt": "2026-09-19T13:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177855",
-      "year": 2026,
-      "runtimeMins": 101
-    },
-    {
-      "id": "palace:177856",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Heart of the Beast",
-      "startsAt": "2026-09-19T20:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177856",
-      "year": 2026,
-      "runtimeMins": 101
-    },
-    {
-      "id": "palace:177854",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Heart of the Beast",
-      "startsAt": "2026-09-20T13:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177854",
-      "year": 2026,
-      "runtimeMins": 101
-    },
-    {
-      "id": "palace:177853",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Heart of the Beast",
-      "startsAt": "2026-09-20T20:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177853",
-      "year": 2026,
-      "runtimeMins": 101
-    },
-    {
-      "id": "palace:177538",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Heart of the Beast",
-      "startsAt": "2026-09-23T18:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177538",
-      "year": 2026,
-      "runtimeMins": 101
     },
     {
       "id": "palace:176088",
@@ -10692,356 +11182,6 @@
       "runtimeMins": 97
     },
     {
-      "id": "palace:177754",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T12:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177754",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177751",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T14:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177751",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177761",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177761",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177758",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T18:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177758",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177216",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177216",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177714",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T12:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177714",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177711",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T14:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177711",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177721",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177721",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177718",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T18:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177718",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177217",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177217",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177820",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T11:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177820",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177830",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T14:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177830",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177839",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177839",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177849",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T18:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177849",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177218",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177218",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177784",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-20T12:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177784",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177795",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-20T14:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177795",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177804",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-20T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177804",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177814",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-20T18:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177814",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177219",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-20T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177219",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177674",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-21T12:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177674",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177671",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-21T14:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177671",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177681",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-21T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177681",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177678",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-21T18:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177678",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177220",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-21T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177220",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177589",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-22T12:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177589",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177588",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-22T14:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177588",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177587",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-22T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177587",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177586",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-22T18:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177586",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177221",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-22T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177221",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177637",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-23T12:00:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177637",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177634",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-23T14:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177634",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177631",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-23T16:15:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177631",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177639",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-23T18:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177639",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
-      "id": "palace:177222",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-23T20:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177222",
-      "year": 2026,
-      "runtimeMins": 90
-    },
-    {
       "id": "palace:173756",
       "sourceId": "palace",
       "venueId": "palace-central-chippendale",
@@ -11439,146 +11579,6 @@
       "format": "SPECIAL EVENT",
       "year": 2026,
       "runtimeMins": 137
-    },
-    {
-      "id": "palace:177763",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-17T15:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177763",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177764",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-17T20:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177764",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177723",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-18T15:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177723",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177724",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-18T20:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177724",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177841",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-19T15:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177841",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177819",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-19T20:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177819",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177807",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-20T15:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177807",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177808",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-20T20:40:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177808",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177683",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-21T15:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177683",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177684",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-21T20:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177684",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177602",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-22T15:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177602",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177601",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-22T20:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177601",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177644",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-23T15:45:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177644",
-      "year": 2026,
-      "runtimeMins": 113
-    },
-    {
-      "id": "palace:177645",
-      "sourceId": "palace",
-      "venueId": "palace-central-chippendale",
-      "title": "The Weight",
-      "startsAt": "2026-09-23T20:20:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=200&session=177645",
-      "year": 2026,
-      "runtimeMins": 113
     },
     {
       "id": "palace:177540",
@@ -12352,6 +12352,28 @@
       "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18757",
       "year": 2026,
       "runtimeMins": 126
+    },
+    {
+      "id": "palace:18745",
+      "sourceId": "palace",
+      "venueId": "palace-moore-park",
+      "title": "The Craft",
+      "startsAt": "2026-09-21T13:10:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18745",
+      "format": "RETRO",
+      "year": 2026,
+      "runtimeMins": 101
+    },
+    {
+      "id": "palace:17257",
+      "sourceId": "palace",
+      "venueId": "palace-moore-park",
+      "title": "The Craft",
+      "startsAt": "2026-09-21T18:30:00.000Z",
+      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=17257",
+      "format": "RETRO",
+      "year": 2026,
+      "runtimeMins": 101
     },
     {
       "id": "palace:18690",
@@ -15898,28 +15920,6 @@
       "format": "SPECIAL EVENT",
       "year": 2027,
       "runtimeMins": 165
-    },
-    {
-      "id": "palace:18745",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "The Craft",
-      "startsAt": "2026-09-21T13:10:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=18745",
-      "format": "RETRO",
-      "year": 2026,
-      "runtimeMins": 101
-    },
-    {
-      "id": "palace:17257",
-      "sourceId": "palace",
-      "venueId": "palace-moore-park",
-      "title": "The Craft",
-      "startsAt": "2026-09-21T18:30:00.000Z",
-      "bookingUrl": "https://buy.palacecinemas.com.au/?cinema=210&session=17257",
-      "format": "RETRO",
-      "year": 2026,
-      "runtimeMins": 101
     },
     {
       "id": "palace:14955",
