@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T22:57:56.564Z",
+  "fetchedAt": "2026-09-16T07:46:23.660Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -401,15 +401,6 @@
       "runtimeMins": 173
     },
     {
-      "id": "orpheum:0001-25332",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-16T05:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25332/tickets",
-      "runtimeMins": 104
-    },
-    {
       "id": "orpheum:0001-25339",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -553,33 +544,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-21528/tickets",
       "year": 2026,
       "runtimeMins": 180
-    },
-    {
-      "id": "orpheum:0001-25322",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-16T02:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25322/tickets",
-      "runtimeMins": 130
-    },
-    {
-      "id": "orpheum:0001-25328",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-16T04:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25328/tickets",
-      "runtimeMins": 130
-    },
-    {
-      "id": "orpheum:0001-25334",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-16T07:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25334/tickets",
-      "runtimeMins": 130
     },
     {
       "id": "orpheum:0001-25340",
@@ -840,36 +804,6 @@
       "runtimeMins": 105
     },
     {
-      "id": "orpheum:0001-25326",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-16T03:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25326/tickets",
-      "format": "Sub",
-      "runtimeMins": 80
-    },
-    {
-      "id": "orpheum:0001-25331",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-16T05:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25331/tickets",
-      "format": "Sub",
-      "runtimeMins": 80
-    },
-    {
-      "id": "orpheum:0001-25333",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Maigret and the Dead Lover",
-      "startsAt": "2026-09-16T07:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25333/tickets",
-      "format": "Sub",
-      "runtimeMins": 80
-    },
-    {
       "id": "orpheum:0001-25358",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1058,15 +992,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23394/tickets",
       "year": 2027,
       "runtimeMins": 90
-    },
-    {
-      "id": "orpheum:0001-25330",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Tony",
-      "startsAt": "2026-09-16T05:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25330/tickets",
-      "runtimeMins": 107
     },
     {
       "id": "orpheum:0001-25337",
@@ -1397,15 +1322,6 @@
       "runtimeMins": 136
     },
     {
-      "id": "orpheum:0001-25321",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "& Sons",
-      "startsAt": "2026-09-16T02:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25321/tickets",
-      "runtimeMins": 120
-    },
-    {
       "id": "orpheum:0001-25353",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1449,24 +1365,6 @@
       "startsAt": "2026-09-23T05:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25489/tickets",
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25323",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 4K Digital",
-      "startsAt": "2026-09-16T02:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25323/tickets",
-      "runtimeMins": 173
-    },
-    {
-      "id": "orpheum:0001-25329",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 4K Digital",
-      "startsAt": "2026-09-16T05:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25329/tickets",
-      "runtimeMins": 173
     },
     {
       "id": "orpheum:0001-25341",
@@ -1578,15 +1476,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24007/tickets",
       "year": 2026,
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25325",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Silenced",
-      "startsAt": "2026-09-16T03:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25325/tickets",
-      "runtimeMins": 98
     },
     {
       "id": "orpheum:0001-25369",
@@ -2073,26 +1962,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24697/tickets",
       "year": 2026,
       "runtimeMins": 108
-    },
-    {
-      "id": "orpheum:0001-25324",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "De Gaulle - Resistance",
-      "startsAt": "2026-09-16T02:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25324/tickets",
-      "format": "Sub",
-      "runtimeMins": 159
-    },
-    {
-      "id": "orpheum:0001-25327",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "De Gaulle - Resistance",
-      "startsAt": "2026-09-16T04:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25327/tickets",
-      "format": "Sub",
-      "runtimeMins": 159
     },
     {
       "id": "orpheum:0001-25336",

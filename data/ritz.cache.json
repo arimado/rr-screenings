@@ -1,5 +1,5 @@
 {
-  "cursor": 9,
+  "cursor": 34,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -46,9 +46,6 @@
     ],
     "center-stage-1991": [
       "ritz:80342"
-    ],
-    "chicago-2002": [
-      "ritz:77135"
     ],
     "chitty-chitty-bang-bang-1968": [
       "ritz:80317",
@@ -288,9 +285,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:90940",
-      "ritz:90904",
-      "ritz:90905",
       "ritz:90919",
       "ritz:90912",
       "ritz:91271",
@@ -324,8 +318,6 @@
       "ritz:91354"
     ],
     "tony": [
-      "ritz:90992",
-      "ritz:90914",
       "ritz:90911",
       "ritz:90910",
       "ritz:91457",
@@ -353,7 +345,6 @@
       "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:89944",
       "ritz:89943",
       "ritz:90915",
       "ritz:91277",
@@ -377,8 +368,6 @@
       "ritz:91534"
     ],
     "de-gaulle-resistance": [
-      "ritz:90913",
-      "ritz:90917",
       "ritz:90923",
       "ritz:91245",
       "ritz:91266",
@@ -402,8 +391,6 @@
       "ritz:91356"
     ],
     "spider-man-brand-new-day": [
-      "ritz:90926",
-      "ritz:90925",
       "ritz:90909",
       "ritz:91455",
       "ritz:91257",
@@ -416,8 +403,6 @@
       "ritz:91549"
     ],
     "silenced": [
-      "ritz:90993",
-      "ritz:90991",
       "ritz:90934",
       "ritz:91260",
       "ritz:91469",
@@ -426,9 +411,7 @@
       "ritz:91541"
     ],
     "the-invite": [
-      "ritz:90921",
       "ritz:90927",
-      "ritz:91458",
       "ritz:91248",
       "ritz:91264",
       "ritz:91481",
@@ -447,7 +430,6 @@
       "ritz:91554"
     ],
     "hope": [
-      "ritz:89970",
       "ritz:89971",
       "ritz:91278",
       "ritz:91253",
@@ -465,7 +447,6 @@
       "ritz:91530"
     ],
     "the-end-of-oak-street": [
-      "ritz:90922",
       "ritz:90990",
       "ritz:91249",
       "ritz:91472",
@@ -474,7 +455,6 @@
       "ritz:91550"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:90918",
       "ritz:90920",
       "ritz:91279",
       "ritz:91492",
@@ -482,22 +462,15 @@
       "ritz:91620",
       "ritz:91553"
     ],
-    "it-ends": [
-      "ritz:90994"
-    ],
+    "it-ends": [],
     "and-sons": [
-      "ritz:90936",
-      "ritz:90995",
       "ritz:91459",
       "ritz:91466",
       "ritz:91601",
       "ritz:91533"
     ],
-    "by-any-means": [
-      "ritz:90906"
-    ],
+    "by-any-means": [],
     "the-odyssey-digital": [
-      "ritz:90930",
       "ritz:90938",
       "ritz:91262",
       "ritz:91471",
@@ -506,14 +479,9 @@
       "ritz:91613",
       "ritz:91543"
     ],
-    "the-rivals-of-amziah-king": [
-      "ritz:90931"
-    ],
-    "the-dog-stars": [
-      "ritz:90903"
-    ],
+    "the-rivals-of-amziah-king": [],
+    "the-dog-stars": [],
     "holy-days": [
-      "ritz:90929",
       "ritz:91247",
       "ritz:91478",
       "ritz:91570",
@@ -525,12 +493,7 @@
       "ritz:91170",
       "ritz:91319"
     ],
-    "tina-arena-unravel-me": [
-      "ritz:90939"
-    ],
-    "i-want-your-sex": [
-      "ritz:90941"
-    ],
+    "i-want-your-sex": [],
     "jiff-cancelled": [
       "ritz:89635",
       "ritz:89102",
@@ -748,7 +711,6 @@
     "shakespeare-in-love-1998": [
       "ritz:81883"
     ],
-    "spa-weekend": [],
     "speed-racer-2008": [
       "ritz:86014",
       "ritz:86015"
@@ -1323,12 +1285,74 @@
     "perfect-blue-1997": [],
     "savage-house": [],
     "tangles": [],
+    "the-rocky-horror-picture-show-1975": [
+      "ritz:90698"
+    ],
     "roman-holiday-1953": [
       "ritz:77083",
       "ritz:77084"
     ],
-    "the-rocky-horror-picture-show-1975": [
-      "ritz:90698"
+    "cure-1997": [
+      "ritz:91078"
+    ],
+    "evil-dead-trap-1988": [
+      "ritz:91080"
+    ],
+    "jiff-sheitel-beauty-in-the-hidden": [
+      "ritz:89122",
+      "ritz:89198",
+      "ritz:89241",
+      "ritz:89305"
+    ],
+    "jiff-sapiro-v-ford-the-jew-who-sued-henry-ford": [
+      "ritz:89124",
+      "ritz:89245",
+      "ritz:89313"
+    ],
+    "jiff-spaceballs-1987": [
+      "ritz:89354",
+      "ritz:89364"
+    ],
+    "jiff-the-choice": [
+      "ritz:89135",
+      "ritz:89150",
+      "ritz:89158",
+      "ritz:89346"
+    ],
+    "jiff-tell-me-everything": [
+      "ritz:89104",
+      "ritz:89112",
+      "ritz:89143",
+      "ritz:89182",
+      "ritz:89208",
+      "ritz:89240",
+      "ritz:89246",
+      "ritz:89271",
+      "ritz:89353"
+    ],
+    "jiff-the-heroes-of-the-louvre": [
+      "ritz:89097",
+      "ritz:89115",
+      "ritz:89139",
+      "ritz:89163",
+      "ritz:89187",
+      "ritz:89197",
+      "ritz:89214",
+      "ritz:89252",
+      "ritz:89280",
+      "ritz:89297",
+      "ritz:89316",
+      "ritz:89334",
+      "ritz:89359"
+    ],
+    "jiff-the-mad-dog-of-europe": [
+      "ritz:89093",
+      "ritz:89144",
+      "ritz:89155",
+      "ritz:89281",
+      "ritz:89293",
+      "ritz:89331",
+      "ritz:89348"
     ]
   }
 }
