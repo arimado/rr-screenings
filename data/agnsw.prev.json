@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T22:57:58.573Z",
+  "fetchedAt": "2026-09-16T07:46:26.290Z",
   "screenings": [
     {
       "id": "agnsw:019fb64b-7d6a-9afd-6364-06e1bf15c6fa:2026-09-16T04:00:00.000Z",
@@ -316,6 +316,34 @@
       "format": "35mm",
       "year": 2009,
       "runtimeMins": 118
+    },
+    {
+      "id": "agnsw:019fcb0e-e526-6b77-e5ba-5ab931b0962c:2026-09-20T04:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Morvern Callar Screening and book launch",
+      "startsAt": "2026-09-20T04:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/019fcb0e-e526-6b77-e5ba-5ab931b0962c",
+      "runtimeMins": 130
+    },
+    {
+      "id": "agnsw:01a05bce-70cb-30dd-afda-606db78ab5e3:2026-10-03T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "True history of the Kelly Gang Q&A with director Justin Kurzel",
+      "startsAt": "2026-10-03T03:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/01a05bce-70cb-30dd-afda-606db78ab5e3",
+      "format": "Q&A",
+      "runtimeMins": 144
+    },
+    {
+      "id": "agnsw:01a0844f-2007-2cee-a6ee-068cbc6a05be:2026-11-28T03:00:00.000Z",
+      "sourceId": "agnsw",
+      "venueId": "agnsw-domain",
+      "title": "Sisters with transistors Q&A with musician Suzanne Ciani",
+      "startsAt": "2026-11-28T03:00:00.000Z",
+      "bookingUrl": "https://tickets.artgallery.nsw.gov.au/events/01a0844f-2007-2cee-a6ee-068cbc6a05be",
+      "format": "Q&A"
     }
   ]
 }
