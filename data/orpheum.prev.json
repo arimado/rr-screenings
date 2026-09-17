@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T07:47:48.200Z",
+  "fetchedAt": "2026-09-17T13:35:02.614Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -281,16 +281,6 @@
       "runtimeMins": 91
     },
     {
-      "id": "orpheum:0001-25175",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 70mm Film",
-      "startsAt": "2026-09-17T09:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25175/tickets",
-      "format": "70mm",
-      "runtimeMins": 173
-    },
-    {
       "id": "orpheum:0001-25176",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -399,15 +389,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25186/tickets",
       "format": "70mm",
       "runtimeMins": 173
-    },
-    {
-      "id": "orpheum:0001-25366",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-17T08:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25366/tickets",
-      "runtimeMins": 104
     },
     {
       "id": "orpheum:0001-25386",
@@ -526,15 +507,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-21528/tickets",
       "year": 2026,
       "runtimeMins": 180
-    },
-    {
-      "id": "orpheum:0001-25367",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-17T10:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25367/tickets",
-      "runtimeMins": 130
     },
     {
       "id": "orpheum:0001-25384",
@@ -697,15 +669,6 @@
       "startsAt": "2026-09-23T10:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25498/tickets",
       "runtimeMins": 130
-    },
-    {
-      "id": "orpheum:0001-24363",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Orpheum Jazz Lounge - James Sarno Quintet",
-      "startsAt": "2026-09-17T10:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24363/tickets",
-      "runtimeMins": 100
     },
     {
       "id": "orpheum:0001-23037",
@@ -1114,15 +1077,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23624/tickets",
       "year": 2026,
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25355",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Oasis - Don't Look Back In Anger Limited Shows",
-      "startsAt": "2026-09-17T10:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25355/tickets",
-      "runtimeMins": 123
     },
     {
       "id": "orpheum:0001-25381",
@@ -2172,15 +2126,6 @@
       "runtimeMins": 97
     },
     {
-      "id": "orpheum:0001-25354",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Weight",
-      "startsAt": "2026-09-17T08:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25354/tickets",
-      "runtimeMins": 116
-    },
-    {
       "id": "orpheum:0001-25370",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -2442,24 +2387,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25198/tickets",
       "year": 2026,
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25362",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T08:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25362/tickets",
-      "runtimeMins": 94
-    },
-    {
-      "id": "orpheum:0001-25363",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-17T10:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25363/tickets",
-      "runtimeMins": 94
     },
     {
       "id": "orpheum:0001-25372",

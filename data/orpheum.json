@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T13:35:02.614Z",
+  "fetchedAt": "2026-09-17T22:54:49.642Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -1374,7 +1374,6 @@
       "title": "Boyz N the Hood - 35th Anniversary 4K Restoration",
       "startsAt": "2026-09-18T10:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24204/tickets",
-      "year": 2026,
       "runtimeMins": 112
     },
     {

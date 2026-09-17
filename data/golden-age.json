@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-17T13:34:55.030Z",
+  "fetchedAt": "2026-09-17T22:54:41.403Z",
   "screenings": [
-    {
-      "id": "golden-age:88c50135a9ff42a8b74f5488f5a367cd",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Sex (Dreams, Love)",
-      "startsAt": "2026-09-17T10:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Sex-Dreams-Love-/Thu-Sep-17-2026-20-00",
-      "runtimeMins": 118
-    },
     {
       "id": "golden-age:254ab8bafe9e4d18bda094c24bfb019c",
       "sourceId": "golden-age",
