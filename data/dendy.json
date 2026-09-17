@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T23:02:06.285Z",
+  "fetchedAt": "2026-09-17T07:47:47.969Z",
   "screenings": [
     {
       "id": "dendy:922825",
@@ -3817,6 +3817,52 @@
       "runtimeMins": 116
     },
     {
+      "id": "dendy:947083",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-01T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/947083",
+      "format": "Baby Daze",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962083",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-01T00:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962083",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962084",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-01T03:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962084",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962085",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-01T05:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962085",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962086",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-01T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962086",
+      "runtimeMins": 116
+    },
+    {
       "id": "dendy:909115",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -3835,6 +3881,70 @@
       "runtimeMins": 130
     },
     {
+      "id": "dendy:962665",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Imminence: Axis Mundi Albumovie",
+      "startsAt": "2026-10-01T09:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/imminence-axis-mundi-albumovie/962665",
+      "runtimeMins": 61
+    },
+    {
+      "id": "dendy:962087",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-01T10:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962087",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:947082",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-02T00:00:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/947082",
+      "format": "Baby Daze",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962094",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-02T00:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962094",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962096",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-02T03:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962096",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962098",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-02T05:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962098",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962099",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-02T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962099",
+      "runtimeMins": 116
+    },
+    {
       "id": "dendy:936455",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -3844,6 +3954,15 @@
       "runtimeMins": 100
     },
     {
+      "id": "dendy:962101",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-02T10:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962101",
+      "runtimeMins": 116
+    },
+    {
       "id": "dendy:909087",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -3851,6 +3970,15 @@
       "startsAt": "2026-10-02T11:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-lighthouse/909087",
       "runtimeMins": 109
+    },
+    {
+      "id": "dendy:962104",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-03T00:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962104",
+      "runtimeMins": 116
     },
     {
       "id": "dendy:904359",
@@ -3863,6 +3991,15 @@
       "runtimeMins": 105
     },
     {
+      "id": "dendy:962106",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-03T03:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962106",
+      "runtimeMins": 116
+    },
+    {
       "id": "dendy:909117",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -3870,6 +4007,15 @@
       "startsAt": "2026-10-03T05:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/escape-from-new-york/909117",
       "runtimeMins": 99
+    },
+    {
+      "id": "dendy:962108",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-03T05:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962108",
+      "runtimeMins": 116
     },
     {
       "id": "dendy:936456",
@@ -3890,6 +4036,24 @@
       "runtimeMins": 145
     },
     {
+      "id": "dendy:962109",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-03T08:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962109",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962111",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-03T10:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962111",
+      "runtimeMins": 116
+    },
+    {
       "id": "dendy:936457",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -3897,6 +4061,15 @@
       "startsAt": "2026-10-03T23:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/coraline/936457",
       "runtimeMins": 100
+    },
+    {
+      "id": "dendy:962114",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-03T23:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962114",
+      "runtimeMins": 116
     },
     {
       "id": "dendy:904360",
@@ -3918,6 +4091,15 @@
       "runtimeMins": 123
     },
     {
+      "id": "dendy:962116",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-04T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962116",
+      "runtimeMins": 116
+    },
+    {
       "id": "dendy:951821",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -3925,6 +4107,42 @@
       "startsAt": "2026-10-04T04:40:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/the-hunger-games/951821",
       "runtimeMins": 145
+    },
+    {
+      "id": "dendy:962118",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-04T04:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962118",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962119",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-04T07:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962119",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962121",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-04T09:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962121",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962124",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-04T23:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962124",
+      "runtimeMins": 116
     },
     {
       "id": "dendy:951822",
@@ -3936,6 +4154,33 @@
       "runtimeMins": 145
     },
     {
+      "id": "dendy:962126",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-05T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962126",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962128",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-05T04:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962128",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962129",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-05T07:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962129",
+      "runtimeMins": 116
+    },
+    {
       "id": "dendy:909116",
       "sourceId": "dendy",
       "venueId": "dendy-newtown",
@@ -3943,6 +4188,65 @@
       "startsAt": "2026-10-05T07:15:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/escape-from-new-york/909116",
       "runtimeMins": 99
+    },
+    {
+      "id": "dendy:962131",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-05T09:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962131",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962134",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-05T23:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962134",
+      "format": "$13 Ticket",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962136",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-06T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962136",
+      "format": "$13 Ticket",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962138",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-06T04:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962138",
+      "format": "$13 Ticket",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962139",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-06T07:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962139",
+      "format": "$13 Ticket",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962141",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-06T09:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962141",
+      "format": "$13 Ticket",
+      "runtimeMins": 116
     },
     {
       "id": "dendy:904361",
@@ -3953,6 +4257,42 @@
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/nt-live-the-misanthrope/904361",
       "format": "DENDY ARTS",
       "runtimeMins": 105
+    },
+    {
+      "id": "dendy:962144",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-06T23:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962144",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962146",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-07T02:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962146",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962148",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-07T04:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962148",
+      "runtimeMins": 116
+    },
+    {
+      "id": "dendy:962149",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-07T07:10:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962149",
+      "runtimeMins": 116
     },
     {
       "id": "dendy:945851",
@@ -3971,6 +4311,15 @@
       "startsAt": "2026-10-07T08:00:00Z",
       "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/queen-budapest/941177",
       "runtimeMins": 92
+    },
+    {
+      "id": "dendy:962151",
+      "sourceId": "dendy",
+      "venueId": "dendy-newtown",
+      "title": "Verity",
+      "startsAt": "2026-10-07T09:40:00Z",
+      "bookingUrl": "https://newtown.dendy.com.au/checkout/showing/verity/962151",
+      "runtimeMins": 116
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T13:35:06.383Z",
+  "fetchedAt": "2026-09-16T23:02:06.867Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -723,7 +723,6 @@
       "title": "The Orpheum Jazz Lounge - James Sarno Quintet",
       "startsAt": "2026-09-17T10:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24363/tickets",
-      "year": 2026,
       "runtimeMins": 100
     },
     {
@@ -2244,7 +2243,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-17T02:50:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25352/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2254,7 +2252,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-17T08:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25354/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2264,7 +2261,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-18T02:50:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25370/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2274,7 +2270,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-18T08:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25378/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2284,7 +2279,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-19T00:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25389/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2294,7 +2288,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-19T02:40:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25392/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2304,7 +2297,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-19T07:30:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25401/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2314,7 +2306,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-20T00:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25411/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2324,7 +2315,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-20T02:40:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25415/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2334,7 +2324,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-20T07:30:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25425/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2344,7 +2333,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-21T02:50:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25437/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2354,7 +2342,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-21T08:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25448/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2364,7 +2351,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-21T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25457/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2374,7 +2360,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-22T02:50:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25460/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2384,7 +2369,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-22T08:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25471/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2394,7 +2378,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-22T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25478/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2404,7 +2387,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-23T02:50:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25483/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2414,7 +2396,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-23T08:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25495/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2424,7 +2405,6 @@
       "title": "The Weight",
       "startsAt": "2026-09-23T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25500/tickets",
-      "year": 2026,
       "runtimeMins": 116
     },
     {
@@ -2544,7 +2524,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-17T03:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25360/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2554,7 +2533,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-17T05:40:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25361/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2564,7 +2542,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-17T08:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25362/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2574,7 +2551,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-17T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25363/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2584,7 +2560,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-18T03:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25372/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2594,7 +2569,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-18T05:40:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25377/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2604,7 +2578,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-18T08:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25379/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2614,7 +2587,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-18T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25380/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2624,7 +2596,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-19T01:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25394/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2634,7 +2605,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-19T03:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25390/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2644,7 +2614,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-19T08:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25402/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2654,7 +2623,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-19T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25406/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2664,7 +2632,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-20T01:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25413/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2674,7 +2641,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-20T03:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25419/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2684,7 +2650,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-20T08:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25427/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2694,7 +2659,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-20T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25432/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2704,7 +2668,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-21T03:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25439/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2714,7 +2677,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-21T05:40:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25444/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2724,7 +2686,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-21T08:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25450/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2734,7 +2695,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-21T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25454/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2744,7 +2704,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-22T03:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25462/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2754,7 +2713,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-22T05:40:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25467/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2764,7 +2722,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-22T08:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25473/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2774,7 +2731,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-22T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25477/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2784,7 +2740,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-23T03:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25486/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2794,7 +2749,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-23T05:40:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25491/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2804,7 +2758,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-23T08:10:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25494/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {
@@ -2814,7 +2767,6 @@
       "title": "Resident Evil",
       "startsAt": "2026-09-23T10:20:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25499/tickets",
-      "year": 2026,
       "runtimeMins": 94
     },
     {

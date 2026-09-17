@@ -1,5 +1,5 @@
 {
-  "cursor": 18,
+  "cursor": 43,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -55,8 +55,6 @@
       "ritz:89956"
     ],
     "coyote-vs-acme": [
-      "ritz:91133",
-      "ritz:91134",
       "ritz:91135",
       "ritz:91136",
       "ritz:91137",
@@ -94,9 +92,6 @@
       "ritz:90269"
     ],
     "forgotten-island": [
-      "ritz:91276",
-      "ritz:91251",
-      "ritz:91273",
       "ritz:91272",
       "ritz:91474",
       "ritz:91463",
@@ -165,8 +160,6 @@
       "ritz:88149"
     ],
     "resident-evil": [
-      "ritz:89975",
-      "ritz:89976",
       "ritz:89977",
       "ritz:89996",
       "ritz:89978",
@@ -260,7 +253,6 @@
       "ritz:90298"
     ],
     "the-weight": [
-      "ritz:91454",
       "ritz:91252",
       "ritz:91473",
       "ritz:91461",
@@ -285,8 +277,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:91271",
-      "ritz:91275",
       "ritz:91258",
       "ritz:91259",
       "ritz:91485",
@@ -316,8 +306,6 @@
       "ritz:91354"
     ],
     "tony": [
-      "ritz:91457",
-      "ritz:91261",
       "ritz:91268",
       "ritz:91460",
       "ritz:91462",
@@ -341,8 +329,6 @@
       "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:91277",
-      "ritz:91267",
       "ritz:91456",
       "ritz:91470",
       "ritz:91476",
@@ -362,8 +348,6 @@
       "ritz:91534"
     ],
     "de-gaulle-resistance": [
-      "ritz:91245",
-      "ritz:91266",
       "ritz:91204",
       "ritz:91477",
       "ritz:91479",
@@ -384,8 +368,6 @@
       "ritz:91356"
     ],
     "spider-man-brand-new-day": [
-      "ritz:91455",
-      "ritz:91257",
       "ritz:91475",
       "ritz:91483",
       "ritz:91491",
@@ -395,14 +377,12 @@
       "ritz:91549"
     ],
     "silenced": [
-      "ritz:91260",
       "ritz:91469",
       "ritz:91558",
       "ritz:91596",
       "ritz:91541"
     ],
     "the-invite": [
-      "ritz:91248",
       "ritz:91264",
       "ritz:91481",
       "ritz:91482",
@@ -420,7 +400,6 @@
       "ritz:91554"
     ],
     "hope": [
-      "ritz:91278",
       "ritz:91253",
       "ritz:91480",
       "ritz:91486",
@@ -436,7 +415,6 @@
       "ritz:91530"
     ],
     "the-end-of-oak-street": [
-      "ritz:91249",
       "ritz:91472",
       "ritz:91583",
       "ritz:91611",
@@ -451,13 +429,11 @@
     ],
     "it-ends": [],
     "and-sons": [
-      "ritz:91459",
       "ritz:91466",
       "ritz:91601",
       "ritz:91533"
     ],
     "the-odyssey-digital": [
-      "ritz:91262",
       "ritz:91471",
       "ritz:91625",
       "ritz:91585",
@@ -467,7 +443,6 @@
     "the-rivals-of-amziah-king": [],
     "the-dog-stars": [],
     "holy-days": [
-      "ritz:91247",
       "ritz:91478",
       "ritz:91570",
       "ritz:91598",
@@ -1265,7 +1240,9 @@
       "ritz:89148",
       "ritz:89164"
     ],
-    "perfect-blue-1997": [],
+    "perfect-blue-1997": [
+      "ritz:91077"
+    ],
     "savage-house": [],
     "tangles": [],
     "the-rocky-horror-picture-show-1975": [
@@ -1337,12 +1314,26 @@
     "the-housemaid-1960": [
       "ritz:91081"
     ],
+    "audition-2000": [
+      "ritz:90673"
+    ],
     "roman-holiday-1953": [
       "ritz:77083",
       "ritz:77084"
     ],
-    "audition-2000": [
-      "ritz:90673"
-    ]
+    "jigoku-1960": [
+      "ritz:91079"
+    ],
+    "jiff-the-producers-1967": [
+      "ritz:89096",
+      "ritz:89113"
+    ],
+    "noroi-the-curse-2005": [
+      "ritz:91082"
+    ],
+    "pickpockets": [
+      "ritz:90669"
+    ],
+    "prima-facie": []
   }
 }
