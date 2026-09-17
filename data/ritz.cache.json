@@ -1,5 +1,5 @@
 {
-  "cursor": 43,
+  "cursor": 6,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -55,7 +55,6 @@
       "ritz:89956"
     ],
     "coyote-vs-acme": [
-      "ritz:91135",
       "ritz:91136",
       "ritz:91137",
       "ritz:91138",
@@ -75,9 +74,7 @@
       "ritz:91152",
       "ritz:91153"
     ],
-    "dekalog-7-10-1988": [
-      "ritz:88155"
-    ],
+    "dekalog-7-10-1988": [],
     "digger": [],
     "drop-dead-gorgeous-1999": [
       "ritz:86008",
@@ -92,7 +89,6 @@
       "ritz:90269"
     ],
     "forgotten-island": [
-      "ritz:91272",
       "ritz:91474",
       "ritz:91463",
       "ritz:91464",
@@ -160,8 +156,6 @@
       "ritz:88149"
     ],
     "resident-evil": [
-      "ritz:89977",
-      "ritz:89996",
       "ritz:89978",
       "ritz:89979",
       "ritz:89980",
@@ -253,7 +247,6 @@
       "ritz:90298"
     ],
     "the-weight": [
-      "ritz:91252",
       "ritz:91473",
       "ritz:91461",
       "ritz:91420",
@@ -277,8 +270,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:91258",
-      "ritz:91259",
       "ritz:91485",
       "ritz:91467",
       "ritz:91468",
@@ -306,8 +297,6 @@
       "ritz:91354"
     ],
     "tony": [
-      "ritz:91268",
-      "ritz:91460",
       "ritz:91462",
       "ritz:91484",
       "ritz:91465",
@@ -329,7 +318,6 @@
       "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:91456",
       "ritz:91470",
       "ritz:91476",
       "ritz:91207",
@@ -348,7 +336,6 @@
       "ritz:91534"
     ],
     "de-gaulle-resistance": [
-      "ritz:91204",
       "ritz:91477",
       "ritz:91479",
       "ritz:91220",
@@ -383,7 +370,6 @@
       "ritz:91541"
     ],
     "the-invite": [
-      "ritz:91264",
       "ritz:91481",
       "ritz:91482",
       "ritz:91212",
@@ -400,7 +386,6 @@
       "ritz:91554"
     ],
     "hope": [
-      "ritz:91253",
       "ritz:91480",
       "ritz:91486",
       "ritz:91425",
@@ -421,7 +406,6 @@
       "ritz:91550"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:91279",
       "ritz:91492",
       "ritz:91409",
       "ritz:91620",
@@ -1317,10 +1301,6 @@
     "audition-2000": [
       "ritz:90673"
     ],
-    "roman-holiday-1953": [
-      "ritz:77083",
-      "ritz:77084"
-    ],
     "jigoku-1960": [
       "ritz:91079"
     ],
@@ -1334,6 +1314,10 @@
     "pickpockets": [
       "ritz:90669"
     ],
-    "prima-facie": []
+    "prima-facie": [],
+    "roman-holiday-1953": [
+      "ritz:77083",
+      "ritz:77084"
+    ]
   }
 }
