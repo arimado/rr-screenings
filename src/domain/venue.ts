@@ -48,6 +48,12 @@ export const venues: Venue[] = [
     color: "#c8102e",
   },
   {
+    id: "opera-house-bennelong-point",
+    name: "Opera House",
+    suburb: "Sydney",
+    color: "#2c7873",
+  },
+  {
     id: "palace-norton-street",
     name: "Palace Norton St",
     suburb: "Leichhardt",

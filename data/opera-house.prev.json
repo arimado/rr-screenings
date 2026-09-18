@@ -1,0 +1,117 @@
+{
+  "fetchedAt": "2026-09-18T11:59:33.669Z",
+  "screenings": [
+    {
+      "id": "opera-house:william-shakespeares-romeo-juliet-film-concert:2026-09-29T10:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "William Shakespeare’s Romeo + Juliet Film in Concert",
+      "startsAt": "2026-09-29T10:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/william-shakespeares-romeo-juliet-film-concert"
+    },
+    {
+      "id": "opera-house:facing-numbers:2026-10-27T07:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Facing the Numbers",
+      "startsAt": "2026-10-27T07:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/facing-numbers"
+    },
+    {
+      "id": "opera-house:bitter-christmas:2026-10-29T07:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Bitter Christmas",
+      "startsAt": "2026-10-29T07:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/bitter-christmas"
+    },
+    {
+      "id": "opera-house:blacktown-shorts-film-festival:2026-10-29T09:45:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Blacktown Shorts Film Festival",
+      "startsAt": "2026-10-29T09:45:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/blacktown-shorts-film-festival"
+    },
+    {
+      "id": "opera-house:12th-annual-sf3-kids-gala:2026-10-31T23:15:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "12th Annual SF3 Kids Gala",
+      "startsAt": "2026-10-31T23:15:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/12th-annual-sf3-kids-gala"
+    },
+    {
+      "id": "opera-house:grandmaster-extended-cut:2026-11-01T02:15:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "The Grandmaster (Extended Cut)",
+      "startsAt": "2026-11-01T02:15:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/grandmaster-extended-cut"
+    },
+    {
+      "id": "opera-house:12th-annual-sf3-gala-finals:2026-11-01T05:30:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "12th Annual SF3 Gala Finals",
+      "startsAt": "2026-11-01T05:30:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/12th-annual-sf3-gala-finals"
+    },
+    {
+      "id": "opera-house:frame-shift-2026:2026-12-03T07:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Frame Shift 2026",
+      "startsAt": "2026-12-03T07:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/frame-shift-2026"
+    },
+    {
+      "id": "opera-house:interstellar-live:2027-03-27T04:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Interstellar Live",
+      "startsAt": "2027-03-27T04:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/interstellar-live"
+    },
+    {
+      "id": "opera-house:interstellar-live:2027-03-27T09:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Interstellar Live",
+      "startsAt": "2027-03-27T09:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/interstellar-live"
+    },
+    {
+      "id": "opera-house:interstellar-live:2027-03-28T03:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Interstellar Live",
+      "startsAt": "2027-03-28T03:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/interstellar-live"
+    },
+    {
+      "id": "opera-house:interstellar-live:2027-03-28T08:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Interstellar Live",
+      "startsAt": "2027-03-28T08:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/interstellar-live"
+    },
+    {
+      "id": "opera-house:interstellar-live:2027-03-29T02:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Interstellar Live",
+      "startsAt": "2027-03-29T02:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/interstellar-live"
+    },
+    {
+      "id": "opera-house:interstellar-live:2027-03-29T07:30:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Interstellar Live",
+      "startsAt": "2027-03-29T07:30:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/cinema/interstellar-live"
+    }
+  ]
+}

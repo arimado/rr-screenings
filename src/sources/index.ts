@@ -2,6 +2,7 @@ import { agnsw } from "./agnsw";
 import { dendy } from "./dendy";
 import { goldenAge } from "./golden-age";
 import { mca } from "./mca";
+import { operaHouse } from "./opera-house";
 import { orpheum } from "./orpheum";
 import { palace } from "./palace";
 import { ritz } from "./ritz";
@@ -15,4 +16,5 @@ export const sources: SourceAdapter[] = [
   agnsw,
   mca,
   palace,
+  operaHouse,
 ];
