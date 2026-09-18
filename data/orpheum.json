@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T13:01:55.864Z",
+  "fetchedAt": "2026-09-18T22:39:54.880Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -772,7 +772,6 @@
       "title": "Exhibition on Screen - James McNeill Whistler",
       "startsAt": "2026-09-19T01:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23389/tickets",
-      "year": 2026,
       "runtimeMins": 90
     },
     {
@@ -782,7 +781,6 @@
       "title": "Exhibition on Screen - James McNeill Whistler",
       "startsAt": "2026-09-20T01:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23390/tickets",
-      "year": 2026,
       "runtimeMins": 90
     },
     {
@@ -1875,7 +1873,6 @@
       "title": "9 to 5 - Dolly Parton Tribute Screening",
       "startsAt": "2026-09-19T10:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25020/tickets",
-      "year": 2026,
       "runtimeMins": 110
     },
     {
