@@ -1,5 +1,5 @@
 {
-  "cursor": 56,
+  "cursor": 22,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -15,9 +15,7 @@
       "ritz:89957"
     ],
     "35mm-vanilla-sky-2001": [],
-    "70mm-2001-a-space-odyssey-1968": [
-      "ritz:76719"
-    ],
+    "70mm-2001-a-space-odyssey-1968": [],
     "a-few-good-men-1992": [
       "ritz:89951"
     ],
@@ -55,7 +53,6 @@
       "ritz:89956"
     ],
     "coyote-vs-acme": [
-      "ritz:91138",
       "ritz:91139",
       "ritz:91140",
       "ritz:91141",
@@ -86,7 +83,6 @@
       "ritz:90269"
     ],
     "forgotten-island": [
-      "ritz:91219",
       "ritz:91410",
       "ritz:91421",
       "ritz:91412",
@@ -150,9 +146,6 @@
       "ritz:88149"
     ],
     "resident-evil": [
-      "ritz:89979",
-      "ritz:89980",
-      "ritz:89997",
       "ritz:91622",
       "ritz:89981",
       "ritz:89982",
@@ -240,7 +233,6 @@
       "ritz:90298"
     ],
     "the-weight": [
-      "ritz:91461",
       "ritz:91420",
       "ritz:91401",
       "ritz:91626",
@@ -262,8 +254,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:91218",
-      "ritz:91488",
       "ritz:91423",
       "ritz:91419",
       "ritz:91399",
@@ -286,8 +276,6 @@
       "ritz:91354"
     ],
     "tony": [
-      "ritz:91214",
-      "ritz:91490",
       "ritz:91418",
       "ritz:91403",
       "ritz:91442",
@@ -304,8 +292,6 @@
       "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:91207",
-      "ritz:91489",
       "ritz:91417",
       "ritz:91400",
       "ritz:91431",
@@ -320,7 +306,6 @@
       "ritz:91534"
     ],
     "de-gaulle-resistance": [
-      "ritz:91220",
       "ritz:91422",
       "ritz:91413",
       "ritz:91398",
@@ -337,7 +322,6 @@
       "ritz:91356"
     ],
     "spider-man-brand-new-day": [
-      "ritz:91491",
       "ritz:91624",
       "ritz:91580",
       "ritz:91608",
@@ -349,8 +333,6 @@
       "ritz:91541"
     ],
     "the-invite": [
-      "ritz:91212",
-      "ritz:91487",
       "ritz:91428",
       "ritz:91402",
       "ritz:91439",
@@ -363,7 +345,6 @@
       "ritz:91554"
     ],
     "hope": [
-      "ritz:91486",
       "ritz:91425",
       "ritz:91407",
       "ritz:91453",
@@ -381,7 +362,6 @@
       "ritz:91550"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:91492",
       "ritz:91409",
       "ritz:91620",
       "ritz:91553"

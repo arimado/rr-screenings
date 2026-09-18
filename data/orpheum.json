@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T07:29:04.432Z",
+  "fetchedAt": "2026-09-18T13:01:55.864Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -281,16 +281,6 @@
       "runtimeMins": 91
     },
     {
-      "id": "orpheum:0001-25176",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 70mm Film",
-      "startsAt": "2026-09-18T09:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25176/tickets",
-      "format": "70mm",
-      "runtimeMins": 173
-    },
-    {
       "id": "orpheum:0001-25179",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -391,15 +381,6 @@
       "runtimeMins": 173
     },
     {
-      "id": "orpheum:0001-25387",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-18T08:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25387/tickets",
-      "runtimeMins": 104
-    },
-    {
       "id": "orpheum:0001-25397",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -498,15 +479,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-21528/tickets",
       "year": 2026,
       "runtimeMins": 180
-    },
-    {
-      "id": "orpheum:0001-25388",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-18T10:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25388/tickets",
-      "runtimeMins": 130
     },
     {
       "id": "orpheum:0001-25391",
@@ -854,15 +826,6 @@
       "runtimeMins": 90
     },
     {
-      "id": "orpheum:0001-25385",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Tony",
-      "startsAt": "2026-09-18T07:40:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25385/tickets",
-      "runtimeMins": 107
-    },
-    {
       "id": "orpheum:0001-25393",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1021,15 +984,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-23624/tickets",
       "year": 2026,
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25381",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Oasis - Don't Look Back In Anger Limited Shows",
-      "startsAt": "2026-09-18T10:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25381/tickets",
-      "runtimeMins": 123
     },
     {
       "id": "orpheum:0001-25408",
@@ -1283,15 +1237,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24173/tickets",
       "year": 2026,
       "runtimeMins": 726
-    },
-    {
-      "id": "orpheum:0001-24204",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Boyz N the Hood - 35th Anniversary 4K Restoration",
-      "startsAt": "2026-09-18T10:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24204/tickets",
-      "runtimeMins": 112
     },
     {
       "id": "orpheum:0001-24206",
@@ -1724,16 +1669,6 @@
       "runtimeMins": 108
     },
     {
-      "id": "orpheum:0001-25383",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "De Gaulle - Resistance",
-      "startsAt": "2026-09-18T09:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25383/tickets",
-      "format": "Sub",
-      "runtimeMins": 159
-    },
-    {
       "id": "orpheum:0001-25404",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -2032,15 +1967,6 @@
       "runtimeMins": 97
     },
     {
-      "id": "orpheum:0001-25378",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Weight",
-      "startsAt": "2026-09-18T08:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25378/tickets",
-      "runtimeMins": 116
-    },
-    {
       "id": "orpheum:0001-25389",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -2284,24 +2210,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25198/tickets",
       "year": 2026,
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25379",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T08:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25379/tickets",
-      "runtimeMins": 94
-    },
-    {
-      "id": "orpheum:0001-25380",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-18T10:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25380/tickets",
-      "runtimeMins": 94
     },
     {
       "id": "orpheum:0001-25394",

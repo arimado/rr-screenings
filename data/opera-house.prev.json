@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T11:59:33.669Z",
+  "fetchedAt": "2026-09-18T12:05:03.243Z",
   "screenings": [
     {
       "id": "opera-house:william-shakespeares-romeo-juliet-film-concert:2026-09-29T10:00:00.000Z",
@@ -10,12 +10,68 @@
       "bookingUrl": "https://www.sydneyoperahouse.com/cinema/william-shakespeares-romeo-juliet-film-concert"
     },
     {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert:2026-10-21T08:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Star Wars: The Empire Strikes Back in Concert",
+      "startsAt": "2026-10-21T08:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert"
+    },
+    {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert:2026-10-22T08:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Star Wars: The Empire Strikes Back in Concert",
+      "startsAt": "2026-10-22T08:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert"
+    },
+    {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert:2026-10-23T08:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Star Wars: The Empire Strikes Back in Concert",
+      "startsAt": "2026-10-23T08:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert"
+    },
+    {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert:2026-10-24T03:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Star Wars: The Empire Strikes Back in Concert",
+      "startsAt": "2026-10-24T03:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert"
+    },
+    {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert:2026-10-24T08:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Star Wars: The Empire Strikes Back in Concert",
+      "startsAt": "2026-10-24T08:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/star-wars-empire-strikes-back-concert"
+    },
+    {
       "id": "opera-house:facing-numbers:2026-10-27T07:00:00.000Z",
       "sourceId": "opera-house",
       "venueId": "opera-house-bennelong-point",
       "title": "Facing the Numbers",
       "startsAt": "2026-10-27T07:00:00.000Z",
       "bookingUrl": "https://www.sydneyoperahouse.com/cinema/facing-numbers"
+    },
+    {
+      "id": "opera-house:hellhouse/exhuma:2026-10-27T09:30:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Exhuma",
+      "startsAt": "2026-10-27T09:30:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/hellhouse/exhuma"
+    },
+    {
+      "id": "opera-house:hellhouse/angels-egg:2026-10-28T10:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Angel’s Egg",
+      "startsAt": "2026-10-28T10:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/hellhouse/angels-egg"
     },
     {
       "id": "opera-house:bitter-christmas:2026-10-29T07:00:00.000Z",
@@ -32,6 +88,54 @@
       "title": "Blacktown Shorts Film Festival",
       "startsAt": "2026-10-29T09:45:00.000Z",
       "bookingUrl": "https://www.sydneyoperahouse.com/cinema/blacktown-shorts-film-festival"
+    },
+    {
+      "id": "opera-house:hellhouse/hex:2026-10-30T07:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "HEX",
+      "startsAt": "2026-10-30T07:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/hellhouse/hex"
+    },
+    {
+      "id": "opera-house:hellhouse/little-shop-horrors-qa:2026-10-30T23:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Little Shop of Horrors",
+      "startsAt": "2026-10-30T23:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/hellhouse/little-shop-horrors-qa"
+    },
+    {
+      "id": "opera-house:hellhouse/haxan:2026-10-31T02:15:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Häxan",
+      "startsAt": "2026-10-31T02:15:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/hellhouse/haxan"
+    },
+    {
+      "id": "opera-house:hellhouse/pans-labyrinth:2026-10-31T05:15:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Pan’s Labyrinth",
+      "startsAt": "2026-10-31T05:15:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/hellhouse/pans-labyrinth"
+    },
+    {
+      "id": "opera-house:hellhouse/evil-dead-ii:2026-10-31T08:15:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Evil Dead II",
+      "startsAt": "2026-10-31T08:15:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/hellhouse/evil-dead-ii"
+    },
+    {
+      "id": "opera-house:hellhouse/babadook:2026-10-31T11:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "The Babadook",
+      "startsAt": "2026-10-31T11:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/hellhouse/babadook"
     },
     {
       "id": "opera-house:12th-annual-sf3-kids-gala:2026-10-31T23:15:00.000Z",
@@ -56,6 +160,78 @@
       "title": "12th Annual SF3 Gala Finals",
       "startsAt": "2026-11-01T05:30:00.000Z",
       "bookingUrl": "https://www.sydneyoperahouse.com/cinema/12th-annual-sf3-gala-finals"
+    },
+    {
+      "id": "opera-house:experiences/film-house-exhibition:2026-06-02T23:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Film at the House Exhibition",
+      "startsAt": "2026-06-02T23:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/experiences/film-house-exhibition"
+    },
+    {
+      "id": "opera-house:experiences/film-house-exhibition:2026-12-01T22:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Film at the House Exhibition",
+      "startsAt": "2026-12-01T22:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/experiences/film-house-exhibition"
+    },
+    {
+      "id": "opera-house:experiences/film-house-exhibition:2026-06-03T23:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Film at the House Exhibition",
+      "startsAt": "2026-06-03T23:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/experiences/film-house-exhibition"
+    },
+    {
+      "id": "opera-house:experiences/film-house-exhibition:2026-12-02T22:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Film at the House Exhibition",
+      "startsAt": "2026-12-02T22:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/experiences/film-house-exhibition"
+    },
+    {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone:2026-12-02T08:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Harry Potter and the Philosopher’s Stone",
+      "startsAt": "2026-12-02T08:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone"
+    },
+    {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone:2026-12-03T08:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Harry Potter and the Philosopher’s Stone",
+      "startsAt": "2026-12-03T08:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone"
+    },
+    {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone:2026-12-04T08:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Harry Potter and the Philosopher’s Stone",
+      "startsAt": "2026-12-04T08:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone"
+    },
+    {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone:2026-12-05T03:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Harry Potter and the Philosopher’s Stone",
+      "startsAt": "2026-12-05T03:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone"
+    },
+    {
+      "id": "opera-house:sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone:2026-12-05T08:00:00.000Z",
+      "sourceId": "opera-house",
+      "venueId": "opera-house-bennelong-point",
+      "title": "Harry Potter and the Philosopher’s Stone",
+      "startsAt": "2026-12-05T08:00:00.000Z",
+      "bookingUrl": "https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2026-season/harry-potter-philosophers-stone"
     },
     {
       "id": "opera-house:frame-shift-2026:2026-12-03T07:00:00.000Z",
