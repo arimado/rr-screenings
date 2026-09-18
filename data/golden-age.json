@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T22:54:41.403Z",
+  "fetchedAt": "2026-09-18T07:28:56.956Z",
   "screenings": [
     {
       "id": "golden-age:254ab8bafe9e4d18bda094c24bfb019c",
@@ -344,21 +344,12 @@
       "runtimeMins": 154
     },
     {
-      "id": "golden-age:6f027860d57b4731b610950bd8989a3f",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Love (Sex, Dreams)",
-      "startsAt": "2026-10-01T10:20:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Love-Sex-Dreams-",
-      "runtimeMins": 119
-    },
-    {
       "id": "golden-age:35190842afe340e28c31d607265818e5",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
       "title": "He Died With a Felafel in His Hand",
       "startsAt": "2026-10-02T08:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/He-Died-With-a-Felafel-in-His-Hand",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/He-Died-With-a-Felafel-in-His-Hand/Fri-Oct-2-2026-18-00",
       "runtimeMins": 105
     },
     {
@@ -378,6 +369,15 @@
       "startsAt": "2026-10-03T03:00:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Invite/Sat-Oct-3-2026-13-00",
       "runtimeMins": 107
+    },
+    {
+      "id": "golden-age:6f027860d57b4731b610950bd8989a3f",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Love (Sex, Dreams)",
+      "startsAt": "2026-10-03T04:20:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Love-Sex-Dreams-/Sat-Oct-3-2026-14-20",
+      "runtimeMins": 119
     },
     {
       "id": "golden-age:9ed3dd50b4c74d9cb26f325125f9c342",
@@ -405,6 +405,15 @@
       "startsAt": "2026-10-04T02:10:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Oasis-Don-t-Look-Back-in-Anger/Sun-Oct-4-2026-13-10",
       "runtimeMins": 122
+    },
+    {
+      "id": "golden-age:72aae06ce6ab46a1b5b2a59066e5f55a",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Do You Love Me",
+      "startsAt": "2026-10-04T04:50:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Do-You-Love-Me/Sun-Oct-4-2026-15-50",
+      "runtimeMins": 75
     },
     {
       "id": "golden-age:37b393a9467e4f24ae60caa16f5175ed",
@@ -443,6 +452,15 @@
       "runtimeMins": 106
     },
     {
+      "id": "golden-age:a2a3ba59d0a44986895ba495fe16be65",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Heat",
+      "startsAt": "2026-10-07T09:10:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Heat/Wed-Oct-7-2026-20-10",
+      "runtimeMins": 170
+    },
+    {
       "id": "golden-age:3a2ba0c304de4a1aaaf6e13f2a237326",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -452,6 +470,15 @@
       "runtimeMins": 110
     },
     {
+      "id": "golden-age:0ae8339d3e694081bc38d4cd165b188c",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "The Great Arch",
+      "startsAt": "2026-10-08T07:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/The-Great-Arch",
+      "runtimeMins": 106
+    },
+    {
       "id": "golden-age:4531b71f766a4478a3154526f0589235",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -459,6 +486,15 @@
       "startsAt": "2026-10-09T07:15:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Nowhere",
       "runtimeMins": 84
+    },
+    {
+      "id": "golden-age:1f0e2405bde04bb79d15229e57160f8c",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "He Died With a Felafel in His Hand",
+      "startsAt": "2026-10-09T09:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/He-Died-With-a-Felafel-in-His-Hand/Fri-Oct-9-2026-20-00",
+      "runtimeMins": 105
     },
     {
       "id": "golden-age:7c584ea6c1e34644a07b13da6c8f9cdf",
@@ -488,6 +524,15 @@
       "runtimeMins": 186
     },
     {
+      "id": "golden-age:f868c92d65c24a11b6bd27b209a8cfa8",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Do You Love Me",
+      "startsAt": "2026-10-11T05:35:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Do-You-Love-Me/Sun-Oct-11-2026-16-35",
+      "runtimeMins": 75
+    },
+    {
       "id": "golden-age:6311d671fecc4c36a65d638d83c7a8f9",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -495,6 +540,15 @@
       "startsAt": "2026-10-11T07:35:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Four-Adventures-of-Reinette-and-Mirabelle/Sun-Oct-11-2026-18-35",
       "runtimeMins": 99
+    },
+    {
+      "id": "golden-age:9a63223eaf074251bf6fc32d2451abcb",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Love (Sex, Dreams)",
+      "startsAt": "2026-10-12T09:20:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Love-Sex-Dreams-/Mon-Oct-12-2026-20-20",
+      "runtimeMins": 119
     },
     {
       "id": "golden-age:2059fbb74c0242c6a5ca7ee915596b6b",
@@ -515,6 +569,15 @@
       "runtimeMins": 113
     },
     {
+      "id": "golden-age:8c1fab3c8f1f45c28d2141301a8713e5",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "He Died With a Felafel in His Hand",
+      "startsAt": "2026-10-17T03:25:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/He-Died-With-a-Felafel-in-His-Hand/Sat-Oct-17-2026-14-25",
+      "runtimeMins": 105
+    },
+    {
       "id": "golden-age:4a76c0c463ca431c9cac7d42bfcd5771",
       "sourceId": "golden-age",
       "venueId": "golden-age-surry-hills",
@@ -522,6 +585,33 @@
       "startsAt": "2026-10-17T09:00:00.000Z",
       "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Mysterious-Skin/Sat-Oct-17-2026-20-00",
       "runtimeMins": 105
+    },
+    {
+      "id": "golden-age:ab0a8865acbc43f9904dd76f3535ff85",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Love (Sex, Dreams)",
+      "startsAt": "2026-10-21T07:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Love-Sex-Dreams-/Wed-Oct-21-2026-18-00",
+      "runtimeMins": 119
+    },
+    {
+      "id": "golden-age:e63ec3d3d13f4c05bedaf648287dc099",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "Do You Love Me",
+      "startsAt": "2026-10-24T04:20:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Do-You-Love-Me/Sat-Oct-24-2026-15-20",
+      "runtimeMins": 75
+    },
+    {
+      "id": "golden-age:38bd6516fcc149fd92a04368989c2cd8",
+      "sourceId": "golden-age",
+      "venueId": "golden-age-surry-hills",
+      "title": "I Love Boosters",
+      "startsAt": "2026-11-27T09:00:00.000Z",
+      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/I-Love-Boosters",
+      "runtimeMins": 113
     }
   ]
 }

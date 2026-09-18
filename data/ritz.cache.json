@@ -1,5 +1,5 @@
 {
-  "cursor": 31,
+  "cursor": 56,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -55,8 +55,6 @@
       "ritz:89956"
     ],
     "coyote-vs-acme": [
-      "ritz:91136",
-      "ritz:91137",
       "ritz:91138",
       "ritz:91139",
       "ritz:91140",
@@ -88,9 +86,6 @@
       "ritz:90269"
     ],
     "forgotten-island": [
-      "ritz:91474",
-      "ritz:91463",
-      "ritz:91464",
       "ritz:91219",
       "ritz:91410",
       "ritz:91421",
@@ -155,7 +150,6 @@
       "ritz:88149"
     ],
     "resident-evil": [
-      "ritz:89978",
       "ritz:89979",
       "ritz:89980",
       "ritz:89997",
@@ -246,7 +240,6 @@
       "ritz:90298"
     ],
     "the-weight": [
-      "ritz:91473",
       "ritz:91461",
       "ritz:91420",
       "ritz:91401",
@@ -269,9 +262,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:91485",
-      "ritz:91467",
-      "ritz:91468",
       "ritz:91218",
       "ritz:91488",
       "ritz:91423",
@@ -296,9 +286,6 @@
       "ritz:91354"
     ],
     "tony": [
-      "ritz:91462",
-      "ritz:91484",
-      "ritz:91465",
       "ritz:91214",
       "ritz:91490",
       "ritz:91418",
@@ -317,8 +304,6 @@
       "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:91470",
-      "ritz:91476",
       "ritz:91207",
       "ritz:91489",
       "ritz:91417",
@@ -335,8 +320,6 @@
       "ritz:91534"
     ],
     "de-gaulle-resistance": [
-      "ritz:91477",
-      "ritz:91479",
       "ritz:91220",
       "ritz:91422",
       "ritz:91413",
@@ -354,8 +337,6 @@
       "ritz:91356"
     ],
     "spider-man-brand-new-day": [
-      "ritz:91475",
-      "ritz:91483",
       "ritz:91491",
       "ritz:91624",
       "ritz:91580",
@@ -363,14 +344,11 @@
       "ritz:91549"
     ],
     "silenced": [
-      "ritz:91469",
       "ritz:91558",
       "ritz:91596",
       "ritz:91541"
     ],
     "the-invite": [
-      "ritz:91481",
-      "ritz:91482",
       "ritz:91212",
       "ritz:91487",
       "ritz:91428",
@@ -385,7 +363,6 @@
       "ritz:91554"
     ],
     "hope": [
-      "ritz:91480",
       "ritz:91486",
       "ritz:91425",
       "ritz:91407",
@@ -399,7 +376,6 @@
       "ritz:91530"
     ],
     "the-end-of-oak-street": [
-      "ritz:91472",
       "ritz:91583",
       "ritz:91611",
       "ritz:91550"
@@ -410,23 +386,18 @@
       "ritz:91620",
       "ritz:91553"
     ],
-    "it-ends": [],
     "and-sons": [
-      "ritz:91466",
       "ritz:91601",
       "ritz:91533"
     ],
     "the-odyssey-digital": [
-      "ritz:91471",
       "ritz:91625",
       "ritz:91585",
       "ritz:91613",
       "ritz:91543"
     ],
-    "the-rivals-of-amziah-king": [],
     "the-dog-stars": [],
     "holy-days": [
-      "ritz:91478",
       "ritz:91570",
       "ritz:91598",
       "ritz:91537"
