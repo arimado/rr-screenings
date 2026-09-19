@@ -1,24 +1,6 @@
 {
-  "fetchedAt": "2026-09-18T13:01:48.191Z",
+  "fetchedAt": "2026-09-18T22:39:47.803Z",
   "screenings": [
-    {
-      "id": "golden-age:254ab8bafe9e4d18bda094c24bfb019c",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "Time and Tide",
-      "startsAt": "2026-09-18T08:00:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/Time-and-Tide/Fri-Sep-18-2026-18-00",
-      "runtimeMins": 99
-    },
-    {
-      "id": "golden-age:6373b082ee104fb292c909dedf0fd435",
-      "sourceId": "golden-age",
-      "venueId": "golden-age-surry-hills",
-      "title": "On the Road",
-      "startsAt": "2026-09-18T10:15:00.000Z",
-      "bookingUrl": "https://tix.ourgoldenage.com.au/Events/On-the-Road/Fri-Sep-18-2026-20-15",
-      "runtimeMins": 94
-    },
     {
       "id": "golden-age:73237da5ef71407298e638d117bedd99",
       "sourceId": "golden-age",

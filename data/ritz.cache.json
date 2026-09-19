@@ -1,5 +1,5 @@
 {
-  "cursor": 47,
+  "cursor": 13,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -52,8 +52,6 @@
       "ritz:89956"
     ],
     "coyote-vs-acme": [
-      "ritz:91139",
-      "ritz:91140",
       "ritz:91141",
       "ritz:91452",
       "ritz:91441",
@@ -77,14 +75,10 @@
       "ritz:89955"
     ],
     "exhibition-on-screen-james-mcneill-whistler": [
-      "ritz:90267",
       "ritz:90268",
       "ritz:90269"
     ],
     "forgotten-island": [
-      "ritz:91410",
-      "ritz:91421",
-      "ritz:91412",
       "ritz:91406",
       "ritz:91445",
       "ritz:91444",
@@ -119,14 +113,12 @@
       "ritz:89952"
     ],
     "jezebel-1938": [
-      "ritz:77061",
       "ritz:77062"
     ],
     "jerry-maguire-1996": [
       "ritz:89629"
     ],
     "jumanji-1995": [
-      "ritz:80315",
       "ritz:80316"
     ],
     "la-la-land-2016": [
@@ -145,8 +137,6 @@
       "ritz:88149"
     ],
     "resident-evil": [
-      "ritz:91622",
-      "ritz:89981",
       "ritz:89982",
       "ritz:89983",
       "ritz:89998",
@@ -174,7 +164,6 @@
       "ritz:80992"
     ],
     "shaun-the-sheep-the-beast-of-mossy-bottom": [
-      "ritz:91411",
       "ritz:91448"
     ],
     "the-apartment-1960": [
@@ -189,7 +178,6 @@
       "ritz:77137"
     ],
     "the-last-whale-singer": [
-      "ritz:90313",
       "ritz:90314"
     ],
     "the-searchers-1956": [
@@ -232,7 +220,6 @@
       "ritz:90298"
     ],
     "the-weight": [
-      "ritz:91420",
       "ritz:91401",
       "ritz:91626",
       "ritz:91437",
@@ -253,8 +240,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:91423",
-      "ritz:91419",
       "ritz:91399",
       "ritz:91408",
       "ritz:91451",
@@ -275,7 +260,6 @@
       "ritz:91354"
     ],
     "tony": [
-      "ritz:91418",
       "ritz:91403",
       "ritz:91442",
       "ritz:91435",
@@ -291,7 +275,6 @@
       "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:91417",
       "ritz:91400",
       "ritz:91431",
       "ritz:91559",
@@ -305,8 +288,6 @@
       "ritz:91534"
     ],
     "de-gaulle-resistance": [
-      "ritz:91422",
-      "ritz:91413",
       "ritz:91398",
       "ritz:91440",
       "ritz:91165",
@@ -321,7 +302,6 @@
       "ritz:91356"
     ],
     "spider-man-brand-new-day": [
-      "ritz:91624",
       "ritz:91580",
       "ritz:91608",
       "ritz:91549"
@@ -332,7 +312,6 @@
       "ritz:91541"
     ],
     "the-invite": [
-      "ritz:91428",
       "ritz:91402",
       "ritz:91439",
       "ritz:91575",
@@ -344,7 +323,6 @@
       "ritz:91554"
     ],
     "hope": [
-      "ritz:91425",
       "ritz:91407",
       "ritz:91453",
       "ritz:91436",
@@ -370,7 +348,6 @@
       "ritz:91533"
     ],
     "the-odyssey-digital": [
-      "ritz:91625",
       "ritz:91585",
       "ritz:91613",
       "ritz:91543"
@@ -1083,8 +1060,6 @@
       "ritz:89269"
     ],
     "paw-patrol-the-dino-movie": [
-      "ritz:91424",
-      "ritz:91414",
       "ritz:91447",
       "ritz:91450"
     ],
