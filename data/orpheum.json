@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T07:25:06.574Z",
+  "fetchedAt": "2026-09-19T12:34:29.731Z",
   "screenings": [
     {
       "id": "orpheum:0001-18255",
@@ -45,15 +45,6 @@
       "startsAt": "2026-12-04T10:00:00.000Z",
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-18245/tickets",
       "runtimeMins": 99
-    },
-    {
-      "id": "orpheum:0001-24875",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Transformers the Movie - 40th Anniversary 4K",
-      "startsAt": "2026-09-19T08:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-24875/tickets",
-      "runtimeMins": 98
     },
     {
       "id": "orpheum:0001-23824",
@@ -281,16 +272,6 @@
       "runtimeMins": 91
     },
     {
-      "id": "orpheum:0001-25177",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Odyssey - in 70mm Film",
-      "startsAt": "2026-09-19T09:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25177/tickets",
-      "format": "70mm",
-      "runtimeMins": 173
-    },
-    {
       "id": "orpheum:0001-25180",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -369,15 +350,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25186/tickets",
       "format": "70mm",
       "runtimeMins": 173
-    },
-    {
-      "id": "orpheum:0001-25407",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Invite",
-      "startsAt": "2026-09-19T10:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25407/tickets",
-      "runtimeMins": 104
     },
     {
       "id": "orpheum:0001-25420",
@@ -460,15 +432,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-21528/tickets",
       "year": 2026,
       "runtimeMins": 180
-    },
-    {
-      "id": "orpheum:0001-25400",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Practical Magic 2",
-      "startsAt": "2026-09-19T08:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25400/tickets",
-      "runtimeMins": 130
     },
     {
       "id": "orpheum:0001-25410",
@@ -1755,15 +1718,6 @@
       "runtimeMins": 118
     },
     {
-      "id": "orpheum:0001-25020",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "9 to 5 - Dolly Parton Tribute Screening",
-      "startsAt": "2026-09-19T10:00:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25020/tickets",
-      "runtimeMins": 110
-    },
-    {
       "id": "orpheum:0001-25026",
       "sourceId": "orpheum",
       "venueId": "orpheum-cremorne",
@@ -1850,15 +1804,6 @@
       "format": "Sub",
       "year": 2026,
       "runtimeMins": 97
-    },
-    {
-      "id": "orpheum:0001-25401",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "The Weight",
-      "startsAt": "2026-09-19T07:30:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25401/tickets",
-      "runtimeMins": 116
     },
     {
       "id": "orpheum:0001-25411",
@@ -2077,24 +2022,6 @@
       "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25198/tickets",
       "year": 2026,
       "runtimeMins": 120
-    },
-    {
-      "id": "orpheum:0001-25402",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T08:10:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25402/tickets",
-      "runtimeMins": 94
-    },
-    {
-      "id": "orpheum:0001-25406",
-      "sourceId": "orpheum",
-      "venueId": "orpheum-cremorne",
-      "title": "Resident Evil",
-      "startsAt": "2026-09-19T10:20:00.000Z",
-      "bookingUrl": "https://web.orpheum.com.au/order/showtimes/0001-25406/tickets",
-      "runtimeMins": 94
     },
     {
       "id": "orpheum:0001-25413",

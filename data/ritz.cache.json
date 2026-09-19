@@ -1,5 +1,5 @@
 {
-  "cursor": 13,
+  "cursor": 38,
   "slugs": {
     "35mm-jackie-brown-1997": [
       "ritz:77464"
@@ -52,7 +52,6 @@
       "ritz:89956"
     ],
     "coyote-vs-acme": [
-      "ritz:91141",
       "ritz:91452",
       "ritz:91441",
       "ritz:91430",
@@ -68,7 +67,6 @@
     ],
     "digger": [],
     "drop-dead-gorgeous-1999": [
-      "ritz:86008",
       "ritz:86009"
     ],
     "edge-of-tomorrow-2014": [
@@ -79,7 +77,6 @@
       "ritz:90269"
     ],
     "forgotten-island": [
-      "ritz:91406",
       "ritz:91445",
       "ritz:91444",
       "ritz:91443",
@@ -103,7 +100,6 @@
       "ritz:86029"
     ],
     "heart-of-the-beast": [
-      "ritz:90660",
       "ritz:90661"
     ],
     "hunger-games-marathon": [
@@ -137,9 +133,6 @@
       "ritz:88149"
     ],
     "resident-evil": [
-      "ritz:89982",
-      "ritz:89983",
-      "ritz:89998",
       "ritz:89999",
       "ritz:89984",
       "ritz:89985",
@@ -220,7 +213,6 @@
       "ritz:90298"
     ],
     "the-weight": [
-      "ritz:91401",
       "ritz:91626",
       "ritz:91437",
       "ritz:91578",
@@ -240,8 +232,6 @@
       "ritz:90312"
     ],
     "practical-magic-2": [
-      "ritz:91399",
-      "ritz:91408",
       "ritz:91451",
       "ritz:91446",
       "ritz:91432",
@@ -260,7 +250,6 @@
       "ritz:91354"
     ],
     "tony": [
-      "ritz:91403",
       "ritz:91442",
       "ritz:91435",
       "ritz:91584",
@@ -275,7 +264,6 @@
       "ritz:91552"
     ],
     "oasis-dont-look-back-in-anger": [
-      "ritz:91400",
       "ritz:91431",
       "ritz:91559",
       "ritz:91582",
@@ -288,7 +276,6 @@
       "ritz:91534"
     ],
     "de-gaulle-resistance": [
-      "ritz:91398",
       "ritz:91440",
       "ritz:91165",
       "ritz:91561",
@@ -312,7 +299,6 @@
       "ritz:91541"
     ],
     "the-invite": [
-      "ritz:91402",
       "ritz:91439",
       "ritz:91575",
       "ritz:91581",
@@ -323,7 +309,6 @@
       "ritz:91554"
     ],
     "hope": [
-      "ritz:91407",
       "ritz:91453",
       "ritz:91436",
       "ritz:91572",
@@ -339,7 +324,6 @@
       "ritz:91550"
     ],
     "teenage-sex-and-death-at-camp-miasma": [
-      "ritz:91409",
       "ritz:91620",
       "ritz:91553"
     ],
@@ -359,7 +343,6 @@
       "ritz:91537"
     ],
     "70mm-the-odyssey": [
-      "ritz:91404",
       "ritz:91170",
       "ritz:91319"
     ],
